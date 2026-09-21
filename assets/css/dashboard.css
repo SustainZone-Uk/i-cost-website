@@ -1,0 +1,475 @@
+/* =========================================================
+   iCost hero dashboard
+   Live HTML commercial intelligence preview
+   ========================================================= */
+
+.dashboardScene {
+  position: relative;
+  z-index: 4;
+  width: 100%;
+  perspective: 1500px;
+  transform-style: preserve-3d;
+}
+
+.dashboardScene::before {
+  content: "";
+  position: absolute;
+  inset: 8% -5% -10% 5%;
+  border-radius: 44px;
+  background: radial-gradient(circle at 50% 45%, rgba(35, 111, 183, 0.34), rgba(147, 213, 47, 0.08) 38%, transparent 72%);
+  filter: blur(28px);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.dashboardFloat {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: dashboardFloat 6.8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.commercialDashboard {
+  --dashRotateX: 0deg;
+  --dashRotateY: 0deg;
+  --glareX: 50%;
+  --glareY: 35%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 108px minmax(0, 1fr);
+  min-height: 512px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  border-radius: 28px;
+  overflow: hidden;
+  background: rgba(238, 246, 252, 0.96);
+  box-shadow:
+    0 42px 90px rgba(3, 14, 25, 0.42),
+    0 12px 34px rgba(6, 24, 39, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  transform: rotateX(var(--dashRotateX)) rotateY(var(--dashRotateY));
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  transition: transform 180ms ease-out, box-shadow 300ms ease;
+  will-change: transform;
+}
+
+.dashboardScene.isHovering .commercialDashboard {
+  box-shadow:
+    0 50px 110px rgba(3, 14, 25, 0.50),
+    0 18px 44px rgba(6, 24, 39, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.92);
+}
+
+.dashboardGlare {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(circle at var(--glareX) var(--glareY), rgba(255, 255, 255, 0.24), transparent 28%);
+  transition: opacity 240ms ease;
+}
+
+.dashboardScene.isHovering .dashboardGlare {
+  opacity: 1;
+}
+
+.dashboardSidebar {
+  position: relative;
+  z-index: 2;
+  padding: 18px 12px;
+  color: rgba(255, 255, 255, 0.82);
+  background: linear-gradient(180deg, #0a3556 0%, #071e32 100%);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dashboardBrand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 28px;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.dashboardLogoWrap {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 11px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.dashboardLogoWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.dashboardNav {
+  display: grid;
+  gap: 7px;
+}
+
+.dashboardNavItem {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 37px;
+  padding: 8px 8px;
+  border-radius: 10px;
+  font-size: 0.64rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.dashboardNavItem i {
+  width: 8px;
+  height: 8px;
+  flex: 0 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  border-radius: 3px;
+}
+
+.dashboardNavItem.active {
+  color: #ffffff;
+  background: rgba(35, 111, 183, 0.42);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.dashboardNavItem.active i {
+  background: var(--green);
+  border-color: var(--green);
+  box-shadow: 0 0 0 4px rgba(147, 213, 47, 0.11);
+}
+
+.dashboardContent {
+  position: relative;
+  z-index: 2;
+  min-width: 0;
+  padding: 22px;
+  background:
+    linear-gradient(rgba(12, 60, 96, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(12, 60, 96, 0.035) 1px, transparent 1px),
+    linear-gradient(180deg, #f8fbfe 0%, #eef5fa 100%);
+  background-size: 32px 32px, 32px 32px, auto;
+}
+
+.dashboardHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.dashboardKicker {
+  display: block;
+  margin-bottom: 4px;
+  color: #5d7186;
+  font-size: 0.66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+}
+
+.dashboardHeader h2 {
+  margin: 0;
+  color: #0c2941;
+  font-size: 1.28rem;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+.dashboardPeriod,
+.chartTag {
+  flex: 0 0 auto;
+  padding: 8px 10px;
+  border: 1px solid rgba(12, 60, 96, 0.10);
+  border-radius: 10px;
+  color: #526a80;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 5px 14px rgba(6, 24, 39, 0.05);
+  font-size: 0.63rem;
+  font-weight: 800;
+}
+
+.dashboardMetricGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboardMetricCard,
+.dashboardChartCard,
+.dashboardInsight {
+  border: 1px solid rgba(12, 60, 96, 0.09);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 8px 22px rgba(6, 24, 39, 0.06);
+}
+
+.dashboardMetricCard {
+  min-width: 0;
+  padding: 14px;
+  border-radius: 14px;
+  transform-style: preserve-3d;
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+}
+
+.dashboardMetricCard:hover {
+  transform: translateZ(26px) translateY(-4px);
+  border-color: rgba(35, 111, 183, 0.20);
+  box-shadow: 0 14px 30px rgba(6, 24, 39, 0.10);
+}
+
+.metricLabel {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 8px;
+  color: #5b7083;
+  font-size: 0.61rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.metricValue {
+  display: block;
+  color: #0b2c46;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.18rem;
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.riskValue {
+  color: #d77a13;
+  font-size: 1.05rem;
+}
+
+.metricTrend {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.55rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.metricTrend.positive {
+  color: #3e8d1c;
+}
+
+.metricTrend.warning {
+  color: #b26a18;
+}
+
+.dashboardCharts {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboardChartCard {
+  min-width: 0;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.chartCardHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.chartCardHeader .metricLabel {
+  margin-bottom: 3px;
+}
+
+.chartCardHeader strong {
+  color: #19354c;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.77rem;
+}
+
+.chartTag {
+  padding: 5px 7px;
+  font-size: 0.52rem;
+}
+
+.procurementVisual {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.donutChart {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 104px;
+  height: 104px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: conic-gradient(var(--green) 0 78%, #57afe3 78% 93%, #dbe6ee 93% 100%);
+  box-shadow: inset 0 0 0 1px rgba(12, 60, 96, 0.06);
+}
+
+.donutChart::after {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 5px 18px rgba(6, 24, 39, 0.06);
+}
+
+.donutInner {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  text-align: center;
+}
+
+.donutInner strong {
+  color: #12334e;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.05rem;
+}
+
+.donutInner span {
+  color: #6c7d8d;
+  font-size: 0.52rem;
+  font-weight: 700;
+}
+
+.chartLegend {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+  width: 100%;
+}
+
+.chartLegend span {
+  display: grid;
+  grid-template-columns: 8px 1fr auto;
+  align-items: center;
+  gap: 7px;
+  color: #627588;
+  font-size: 0.55rem;
+  font-weight: 700;
+}
+
+.chartLegend i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.chartLegend strong {
+  color: #153650;
+}
+
+.legendCommitted { background: var(--green); }
+.legendTender { background: #57afe3; }
+.legendNotStarted { background: #dbe6ee; }
+
+.progressTotal {
+  color: #0c3c60;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.12rem;
+  font-weight: 900;
+}
+
+.progressRows {
+  display: grid;
+  gap: 10px;
+}
+
+.progressRow {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr) 30px;
+  align-items: center;
+  gap: 8px;
+  color: #607385;
+  font-size: 0.54rem;
+  font-weight: 700;
+}
+
+.progressRow strong {
+  color: #314e65;
+  font-size: 0.54rem;
+  text-align: right;
+}
+
+.progressTrack {
+  height: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #dfebf2;
+}
+
+.progressFill {
+  display: block;
+  width: var(--progress);
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #7fbe25, var(--green));
+}
+
+.dashboardInsight {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 13px;
+  border-radius: 13px;
+}
+
+.insightPulse {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 0 0 rgba(147, 213, 47, 0.35);
+}
+
+.dashboardInsight div {
+  display: grid;
+  min-width: 0;
+}
+
+.dashboardInsight strong {
+  color: #17364e;
+  font-size: 0.64rem;
+}
+
+.dashboardInsight div span {
+  overflow: hidden;
+  color: #718292;
+  font-size: 0.53rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.insightAction {
+  color: #236fb7;
+  font-size: 0.56rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+@keyframes dashboardFloat {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -10px, 0); }
+}
