@@ -316,58 +316,46 @@ h2 {
 
 .hero {
   position: relative;
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
+  min-height: 700px;
+  height: min(820px, 92svh);
   overflow: hidden;
   color: var(--white);
   background: var(--navy);
 }
 
 .hero-product {
-  position: relative;
-  z-index: 2;
-  order: 2;
-  width: var(--shell);
-  aspect-ratio: 2.15;
-  margin: 0 auto 78px;
+  position: absolute;
+  z-index: 0;
+  inset: var(--header-h) 0 0 auto;
+  width: 60%;
+  height: calc(100% - var(--header-h));
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, .22);
-  background: #edf2f4;
-  box-shadow: 0 34px 80px rgba(0, 0, 0, .34);
+  background: var(--navy);
 }
 
-.hero-product-bar {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-inline: 16px;
-  color: var(--navy);
-  background: var(--white);
-  border-bottom: 1px solid var(--line);
-  font-size: .66rem;
-  font-weight: 800;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-}
-
-.hero-product-bar small {
-  color: var(--muted);
-  font-size: .62rem;
+.hero-product::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--navy) 0%, rgba(4, 29, 44, .92) 18%, rgba(4, 29, 44, .42) 58%, rgba(4, 29, 44, .12) 100%),
+    linear-gradient(180deg, rgba(4, 29, 44, .42) 0%, transparent 38%, rgba(4, 29, 44, .7) 100%);
 }
 
 .hero-product img {
   width: 100%;
-  height: calc(100% - 40px);
+  height: 100%;
   object-fit: cover;
-  object-position: top left;
+  object-position: 24% top;
+  opacity: .72;
+  filter: saturate(.72) contrast(1.04);
 }
 
 .hero-grid {
   position: absolute;
+  z-index: 1;
   inset: 0;
-  opacity: .2;
+  opacity: .12;
   background-image: linear-gradient(rgba(255, 255, 255, .045) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .045) 1px, transparent 1px);
   background-size: 72px 72px;
   mask-image: linear-gradient(90deg, black, transparent 77%);
@@ -376,10 +364,13 @@ h2 {
 .hero-content {
   position: relative;
   z-index: 2;
-  order: 1;
   width: var(--shell);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-inline: auto;
-  padding-block: 150px 68px;
+  padding-block: calc(var(--header-h) + 44px) 58px;
 }
 
 .eyebrow {
@@ -396,9 +387,9 @@ h2 {
 }
 
 .hero h1 {
-  max-width: 960px;
+  max-width: 880px;
   margin-bottom: 28px;
-  font-size: clamp(4rem, 7.6vw, 7.25rem);
+  font-size: clamp(4rem, 6.8vw, 6.5rem);
 }
 
 .hero h1 span,
@@ -1414,7 +1405,7 @@ textarea:focus-visible {
   :root { --shell: min(100% - 48px, 1040px); }
 
   .site-nav { gap: 20px; }
-  .hero-product { width: var(--shell); aspect-ratio: 1.9; }
+  .hero-product { width: 66%; }
   .journey-layout { grid-template-columns: minmax(290px, .68fr) minmax(0, 1.32fr); gap: 38px; }
   .screen-viewport { aspect-ratio: 1.5; }
   .impact-steps { grid-template-columns: repeat(2, 1fr); }
@@ -1453,10 +1444,15 @@ textarea:focus-visible {
   .site-nav a { padding: 14px 4px; border-bottom: 1px solid rgba(255, 255, 255, .1); }
   .site-nav .nav-cta { margin-top: 10px; text-align: center; }
 
-  .hero { min-height: auto; }
-  .hero-content { padding-block: 128px 52px; }
+  .hero { min-height: 680px; height: min(780px, 92svh); }
+  .hero-content { padding-block: calc(var(--header-h) + 44px) 52px; }
   .hero h1 { font-size: clamp(3.8rem, 16vw, 6rem); }
-  .hero-product { width: var(--shell); aspect-ratio: 1.48; margin-bottom: 48px; }
+  .hero-product { inset: 0; width: 100%; height: 100%; }
+  .hero-product::after {
+    background:
+      linear-gradient(90deg, rgba(4, 29, 44, .98) 0%, rgba(4, 29, 44, .9) 52%, rgba(4, 29, 44, .48) 100%),
+      linear-gradient(180deg, rgba(4, 29, 44, .52) 0%, transparent 34%, rgba(4, 29, 44, .82) 100%);
+  }
   .scroll-cue { display: none; }
 
   .problem-band { grid-template-columns: 1fr; }
@@ -1504,12 +1500,13 @@ textarea:focus-visible {
 }
 
 @media (max-width: 560px) {
-  .hero { min-height: auto; }
-  .hero-content { padding-bottom: 44px; }
+  .hero { min-height: 700px; height: auto; }
+  .hero-content { min-height: 700px; padding-block: calc(var(--header-h) + 54px) 44px; }
+  .hero h1 { font-size: clamp(3.2rem, 14vw, 4rem); }
   .hero-actions { display: grid; }
   .hero-actions .button { width: 100%; }
   .hero-proof { gap: 9px; font-size: .56rem; }
-  .hero-product { width: calc(100% - 20px); aspect-ratio: 1.12; }
+  .hero-product { opacity: .46; }
   .band-copy { align-items: flex-start; }
   .band-copy p { font-size: 2.25rem; }
   .journey-intro h2, .section-heading h2, .conversion h2 { font-size: 3.15rem; }
