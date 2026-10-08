@@ -1,23 +1,150 @@
 <!doctype html>
 <html lang="en-GB">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>I-Cost Pricing | Pilot-Led Construction Software</title>
-  <meta name="description" content="I-Cost pricing starts with a focused commercial health check and pilot, then scales according to projects, users and implementation support.">
-  <meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#071c2c">
-  <link rel="canonical" href="https://i-cost.co.uk/pricing/"><link rel="icon" type="image/png" href="../assets/images/icost-logo-transparent.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="../assets/css/icost.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://i-cost.co.uk/"},{"@type":"ListItem","position":2,"name":"Pricing","item":"https://i-cost.co.uk/pricing/"}]}</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I-Cost Pricing | Simple construction cost control</title>
+  <meta name="description" content="Start using I-Cost for £35 per user. Try the full platform free for 7 days with no bank card, or request a one-month free tier.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#071c2c">
+  <link rel="canonical" href="https://i-cost.co.uk/pricing/">
+  <link rel="icon" type="image/png" href="../assets/images/icost-logo-transparent.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/icost.css">
+  <style>
+    .pricing-page { background: #f7f8f4; }
+    .pricing-hero { padding: 112px 0 72px; background: #071c2c; color: #fff; }
+    .pricing-hero-inner { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(340px, .95fr); gap: 72px; align-items: end; }
+    .pricing-hero h1 { max-width: 760px; margin: 18px 0 24px; font-size: clamp(4rem, 8vw, 7.5rem); line-height: .9; }
+    .pricing-hero h1 span { color: #62dce0; }
+    .pricing-hero .page-lead { max-width: 650px; margin: 0; color: rgba(255,255,255,.72); font-size: 1.08rem; line-height: 1.7; }
+    .pricing-trust { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 34px; color: rgba(255,255,255,.72); font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+    .pricing-trust span { display: inline-flex; align-items: center; gap: 8px; }
+    .pricing-trust span::before { content: "✓"; color: #62dce0; font-size: 1rem; }
+    .price-card { position: relative; padding: 34px; color: #071c2c; background: #fff; border: 1px solid rgba(255,255,255,.18); border-radius: 8px; box-shadow: 0 24px 80px rgba(0,0,0,.25); }
+    .price-card::before { content: "Most popular"; position: absolute; top: 0; right: 28px; padding: 8px 12px; color: #071c2c; background: #62dce0; border-radius: 0 0 5px 5px; font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .price-card-label { margin: 0 0 12px; color: #d50667; font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .price-card h2 { margin: 0; font-family: "Barlow Condensed", sans-serif; font-size: 2.3rem; text-transform: uppercase; }
+    .price-amount { display: flex; align-items: baseline; gap: 9px; margin: 20px 0 6px; }
+    .price-amount strong { font-family: "Barlow Condensed", sans-serif; font-size: 5.8rem; line-height: .9; }
+    .price-amount span { color: #667477; font-size: .92rem; font-weight: 700; }
+    .price-card-note { margin: 0 0 24px; color: #667477; font-size: .85rem; }
+    .price-card .button { width: 100%; }
+    .pricing-section { padding: 104px 0; }
+    .pricing-section.alt { background: #e6e9e5; }
+    .pricing-section-heading { max-width: 780px; margin-bottom: 54px; }
+    .pricing-section-heading h2 { margin: 12px 0 18px; font-size: clamp(3rem, 5.2vw, 5.2rem); line-height: .95; }
+    .pricing-section-heading p { max-width: 680px; margin: 0; color: #667477; line-height: 1.7; }
+    .offer-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+    .offer-card { display: flex; flex-direction: column; min-height: 360px; padding: 32px; background: #fff; border: 1px solid #c4ccca; border-radius: 6px; }
+    .offer-card.featured { color: #fff; background: #102e40; border-color: #102e40; }
+    .offer-card .offer-kicker { margin: 0 0 18px; color: #d50667; font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .offer-card.featured .offer-kicker { color: #62dce0; }
+    .offer-card h3 { margin: 0 0 14px; font-family: "Barlow Condensed", sans-serif; font-size: 2.4rem; text-transform: uppercase; }
+    .offer-card p { max-width: 520px; margin: 0; color: #667477; line-height: 1.65; }
+    .offer-card.featured p { color: rgba(255,255,255,.7); }
+    .offer-card ul { display: grid; gap: 13px; margin: 28px 0 32px; padding: 0; list-style: none; }
+    .offer-card li { display: flex; gap: 10px; align-items: flex-start; font-size: .9rem; line-height: 1.45; }
+    .offer-card li::before { content: "✓"; flex: 0 0 auto; color: #d50667; font-weight: 800; }
+    .offer-card.featured li::before { color: #62dce0; }
+    .offer-card .button { align-self: flex-start; margin-top: auto; }
+    .offer-card:not(.featured) .button-ghost { color: #071c2c; border-color: #071c2c; background: transparent; }
+    .offer-card:not(.featured) .button-ghost:hover { color: #fff; background: #071c2c; }
+    .pricing-steps { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid #bcc4c4; }
+    .pricing-step { min-height: 220px; padding: 28px 30px; border-right: 1px solid #bcc4c4; border-bottom: 1px solid #bcc4c4; }
+    .pricing-step:first-child { border-left: 1px solid #bcc4c4; }
+    .pricing-step span { color: #d50667; font-size: .72rem; font-weight: 800; }
+    .pricing-step h3 { margin: 40px 0 12px; font-family: "Barlow Condensed", sans-serif; font-size: 1.8rem; text-transform: uppercase; }
+    .pricing-step p { margin: 0; color: #667477; font-size: .9rem; line-height: 1.6; }
+    .pricing-fine-print { margin: 28px 0 0; color: #667477; font-size: .78rem; line-height: 1.6; }
+    .pricing-cta { padding: 88px 0; color: #fff; background: #071c2c; }
+    .pricing-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 48px; }
+    .pricing-cta h2 { max-width: 760px; margin: 0; font-size: clamp(3rem, 6vw, 5.5rem); line-height: .92; }
+    .pricing-cta p { max-width: 420px; margin: 0; color: rgba(255,255,255,.68); line-height: 1.6; }
+    @media (max-width: 900px) {
+      .pricing-hero-inner, .offer-grid { grid-template-columns: 1fr; }
+      .pricing-hero-inner { gap: 48px; }
+      .pricing-steps { grid-template-columns: 1fr; }
+      .pricing-step, .pricing-step:first-child { border-left: 1px solid #bcc4c4; }
+      .pricing-cta-inner { display: grid; }
+    }
+    @media (max-width: 560px) {
+      .pricing-hero { padding: 82px 0 54px; }
+      .pricing-hero h1 { font-size: 4rem; }
+      .price-card { padding: 26px; }
+      .price-amount strong { font-size: 4.8rem; }
+      .pricing-section { padding: 76px 0; }
+      .offer-card { min-height: 0; padding: 26px; }
+    }
+  </style>
 </head>
-<body class="subpage page-pricing">
+<body class="subpage page-pricing pricing-page">
   <a class="skip-link" href="#main">Skip to main content</a>
-  <header class="site-header" id="siteHeader"><a class="brand" href="../" aria-label="I-Cost home"><span class="brand-mark"><img src="../assets/images/icost-logo-transparent.png" alt=""></span><span class="brand-copy"><strong>I-COST</strong><small>Margin protection platform</small></span></a><button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation"><span></span><span></span><span></span></button><nav class="site-nav" id="siteNav" aria-label="Primary navigation"><a href="../platform/">Platform</a><a href="../benefits/">Benefits</a><a href="../how-it-works/">How it works</a><a href="../pricing/" aria-current="page">Pricing</a><a class="nav-cta" href="../contact/">Book a pilot</a></nav></header>
-  <main class="subpage-main" id="main">
-    <section class="page-hero"><div class="section-shell page-hero-inner"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span>Pricing</span></nav><p class="eyebrow">Commercial approach</p><h1>Pricing built around a proven use case.</h1><p class="page-lead">I-Cost begins with a focused review and pilot. The ongoing proposal then reflects your project portfolio, user requirements and implementation support.</p></div></section>
-    <section class="page-section"><div class="section-shell"><div class="page-heading"><p class="eyebrow dark">Three stages</p><h2>Understand the opportunity before scaling.</h2><p>We do not publish a generic licence figure because the useful starting point depends on the commercial problem and the scope needed to prove value.</p></div><div class="page-grid"><article><span>01</span><h3>Health check</h3><p>A focused review of existing cost, procurement and change-control workflows.</p></article><article><span>02</span><h3>Pilot proposal</h3><p>A defined live-project scope with implementation, support and success measures.</p></article><article><span>03</span><h3>Scale proposal</h3><p>Project, user and support pricing based on the proven operating model.</p></article></div></div></section>
-    <section class="page-section alt"><div class="section-shell"><div class="page-heading"><p class="eyebrow dark">What shapes pricing</p><h2>A clear scope, with no invented savings.</h2></div><div class="process-list"><article class="process-row"><span>01</span><h3>Number of projects</h3><p>The live and pipeline projects included in the commercial view.</p></article><article class="process-row"><span>02</span><h3>Number of users</h3><p>The commercial, project and operational roles that require access.</p></article><article class="process-row"><span>03</span><h3>Implementation support</h3><p>Data setup, workflow design, training and ongoing review requirements.</p></article><article class="process-row"><span>04</span><h3>Required modules</h3><p>Estimating, workflow, procurement, cost tracking, timesheets, carbon and reporting.</p></article></div></div></section>
-    <section class="page-cta"><div class="section-shell page-cta-inner"><h2>Define the right pilot scope.</h2><a class="button button-primary" href="../contact/">Request a pricing discussion <span aria-hidden="true">&#8594;</span></a></div></section>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="../" aria-label="I-Cost home"><span class="brand-mark"><img src="../assets/images/icost-logo-transparent.png" alt=""></span><span class="brand-copy"><strong>I-COST</strong><small>Margin protection platform</small></span></a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation"><a href="../platform/">Platform</a><a href="../benefits/">Benefits</a><a href="../how-it-works/">How it works</a><a href="../pricing/" aria-current="page">Pricing</a><a class="nav-cta" href="https://www.i-cost.co.uk/uat/public/register">Start free trial</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="pricing-hero">
+      <div class="section-shell pricing-hero-inner">
+        <div>
+          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span>Pricing</span></nav>
+          <p class="eyebrow">Simple, transparent pricing</p>
+          <h1>Bring your costs under control <span>from day one.</span></h1>
+          <p class="page-lead">Give your team one connected place for estimates, procurement, project costs, timesheets and reporting—without a complicated buying process.</p>
+          <div class="pricing-trust" aria-label="Pricing benefits"><span>7-day free access</span><span>No bank card</span><span>Full platform trial</span></div>
+        </div>
+        <aside class="price-card" aria-label="I-Cost standard pricing">
+          <p class="price-card-label">One straightforward plan</p>
+          <h2>Full platform access</h2>
+          <div class="price-amount"><strong>£35</strong><span>per user</span></div>
+          <p class="price-card-note">Start with 7 days of free access. No bank card is required.</p>
+          <a class="button button-primary" href="https://www.i-cost.co.uk/uat/public/register">Start your free trial <span aria-hidden="true">&#8594;</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="pricing-section">
+      <div class="section-shell">
+        <div class="pricing-section-heading"><p class="eyebrow dark">Choose your starting point</p><h2>Try it properly. Then decide.</h2><p>Get your team into the platform, test it against a live workflow and see how much clearer your commercial picture becomes.</p></div>
+        <div class="offer-grid">
+          <article class="offer-card featured">
+            <p class="offer-kicker">Start today</p>
+            <h3>7-day free access</h3>
+            <p>Explore the platform with your team before you commit. There is no payment card requirement to get started.</p>
+            <ul><li>Access the platform for 7 days</li><li>No bank card needed</li><li>Start online in minutes</li><li>See the workflow with your own team</li></ul>
+            <a class="button button-primary" href="https://www.i-cost.co.uk/uat/public/register">Register free <span aria-hidden="true">&#8594;</span></a>
+          </article>
+          <article class="offer-card">
+            <p class="offer-kicker">Need more time?</p>
+            <h3>Request a 1-month free tier</h3>
+            <p>If you need longer to evaluate I-Cost, request a one-month free tier and we will arrange it with you directly.</p>
+            <ul><li>More time to test a live project</li><li>Ideal for team or workflow evaluation</li><li>Set up by request</li><li>No obligation to continue</li></ul>
+            <a class="button button-ghost" href="mailto:kevin@i-cost.co.uk?subject=Request%20for%201-month%20free%20tier">Request one month free <span aria-hidden="true">&#8594;</span></a>
+          </article>
+        </div>
+        <p class="pricing-fine-print">Pricing shown is £35 per user. The one-month free tier is available by request and subject to confirmation by the I-Cost team. Please check the applicable subscription terms before starting paid access.</p>
+      </div>
+    </section>
+
+    <section class="pricing-section alt">
+      <div class="section-shell">
+        <div class="pricing-section-heading"><p class="eyebrow dark">How it works</p><h2>From first login to better control.</h2></div>
+        <div class="pricing-steps">
+          <article class="pricing-step"><span>01</span><h3>Register</h3><p>Create your account and start your 7-day free access without entering a bank card.</p></article>
+          <article class="pricing-step"><span>02</span><h3>Evaluate</h3><p>Invite your team, try the workflows and see how I-Cost fits your day-to-day commercial process.</p></article>
+          <article class="pricing-step"><span>03</span><h3>Scale</h3><p>Continue at £35 per user, or contact us if you need a longer one-month evaluation tier.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-cta"><div class="section-shell pricing-cta-inner"><div><p class="eyebrow">Ready when you are</p><h2>Start seeing the cost picture clearly.</h2></div><div><p>Start your free 7-day access now, or ask us for a one-month free tier if your team needs more time.</p><a class="button button-primary" href="https://www.i-cost.co.uk/uat/public/register">Start free access <span aria-hidden="true">&#8594;</span></a></div></div></section>
   </main>
+
   <footer class="site-footer"><div class="footer-brand"><span class="brand-mark"><img src="../assets/images/icost-logo-transparent.png" alt=""></span><div><strong>I-COST</strong><span>Find the leak. Control the cost. Protect the margin.</span></div></div><div class="footer-links"><a href="../platform/">Platform</a><a href="../benefits/">Benefits</a><a href="../how-it-works/">How it works</a><a href="../pricing/">Pricing</a><a href="../contractors/">Contractors</a><a href="../contact/">Contact</a></div><p>&copy; <span id="year"></span> I-Cost.</p></footer>
   <script src="../assets/js/icost.js" defer></script>
 </body>
