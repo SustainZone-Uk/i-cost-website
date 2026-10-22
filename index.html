@@ -3,262 +3,317 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Construction Margin Protection Software UK | I-Cost</title>
-  <meta name="description" content="I-Cost connects estimating, procurement, project costs, timesheets and reporting so UK contractors can find leakage and protect margin.">
+  <title>I-Cost | Construction Commercial &amp; Carbon Management Platform</title>
+  <meta name="description" content="I-Cost helps construction teams manage BOQs, estimating, margins, procurement, purchase orders, timesheets, embodied carbon and reporting in one platform.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#071c2c">
   <link rel="canonical" href="https://i-cost.co.uk/">
   <link rel="icon" type="image/png" href="assets/images/icost-logo-transparent.png">
-
   <meta property="og:type" content="website">
-  <meta property="og:title" content="I-Cost | Construction Margin Protection">
-  <meta property="og:description" content="Find the leak. Control the cost. Protect the margin.">
+  <meta property="og:title" content="I-Cost | Construction Commercial &amp; Carbon Management Platform">
+  <meta property="og:description" content="Manage BOQs, estimating, margins, procurement, purchase orders, timesheets, embodied carbon and reporting in one platform.">
   <meta property="og:url" content="https://i-cost.co.uk/">
   <meta property="og:site_name" content="I-Cost">
   <meta property="og:image" content="https://i-cost.co.uk/assets/images/platform-dashboard.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="I-Cost | Construction Margin Protection">
-  <meta name="twitter:description" content="Commercial control across estimating, procurement, delivery and change.">
+  <meta name="twitter:title" content="I-Cost | Construction Commercial &amp; Carbon Management Platform">
+  <meta name="twitter:description" content="Manage BOQs, estimating, margins, procurement, purchase orders, timesheets, embodied carbon and reporting in one platform.">
   <meta name="twitter:image" content="https://i-cost.co.uk/assets/images/platform-dashboard.png">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/icost.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Inter:wght@400;500;600;650;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <style>
+    /* Keep critical hero media sizing with the video markup. */
+    .hero-visual .product-frame::after { content: none; }
+    .hero-visual .hero-media {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: var(--icost-bg);
+    }
+    .hero-visual .hero-video {
+      position: absolute;
+      inset: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      opacity: 1;
+      filter: none;
+      transform: translateZ(0);
+      will-change: transform;
+      backface-visibility: hidden;
+    }
+    .hero-visual .hero-video-status {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+    .hero-visual .hero-video-play {
+      position: absolute;
+      inset: auto 12px 12px auto;
+      padding: 6px 10px;
+      border: 1px solid var(--icost-border);
+      border-radius: 4px;
+      color: var(--icost-white);
+      background: rgba(4,21,33,.88);
+      font-size: .75rem;
+      line-height: 1.4;
+      cursor: pointer;
+    }
+    /* Targeted additions; reuse the existing homepage theme and breakpoints. */
+    .estimate-workflow { padding-block: 28px; }
+    .estimate-workflow h2 { font-size: 1.5rem; }
+    .estimate-steps { display: flex; flex-wrap: wrap; gap: 12px 20px; list-style: none; padding: 0; margin: 18px 0 0; font-size: .78rem; font-weight: 600; }
+    .estimate-steps li:not(:last-child)::after { content: '\2192'; margin-left: 20px; color: var(--icost-cyan); }
+    .core-capabilities { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .core-capabilities ul { padding-left: 18px; margin-bottom: 0; color: var(--icost-muted); font-size: .82rem; }
+    .carbon-example { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; margin: 0; }
+    .carbon-example div { border-top: 2px solid var(--icost-cyan); padding-top: 18px; }
+    .carbon-example dt { color: var(--icost-cyan); font-weight: 650; }
+    .carbon-example dd { margin: 8px 0 0; font-size: .9rem; }
+    .carbon-note { font-size: .75rem; color: var(--icost-muted); margin-top: 18px; }
+    .report-formats { display: flex; flex-wrap: wrap; gap: 24px; list-style: none; padding: 0; margin: 0; color: var(--icost-cyan); font-weight: 700; }
+    .team-control { border-top: 1px solid var(--icost-border); padding-top: 28px; margin-top: 32px; max-width: 710px; }
+    .team-control p { margin-top: 14px; }
+    @media (max-width: 860px) { .carbon-example { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 480px) {
+      .core-capabilities { grid-template-columns: 1fr; }
+      .estimate-steps { display: grid; grid-template-columns: 1fr; gap: 10px; }
+      .estimate-steps li:not(:last-child)::after { content: '\2193'; }
+    }
+  </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://i-cost.co.uk/#website",
-        "url": "https://i-cost.co.uk/",
-        "name": "I-Cost",
-        "alternateName": "I-Cost Construction Margin Protection"
-      },
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://i-cost.co.uk/#software",
-        "name": "I-Cost",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "url": "https://i-cost.co.uk/",
-        "description": "Construction margin protection and procurement control software for contractors.",
-        "areaServed": "United Kingdom",
-        "featureList": [
-          "Construction estimating",
-          "Procurement control",
-          "Cost tracking",
-          "Supplier management",
-          "Timesheet management",
-          "Carbon estimating",
-          "Commercial reporting"
-        ]
-      }
-    ]
-  }
+  {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://i-cost.co.uk/#website","url":"https://i-cost.co.uk/","name":"I-Cost","alternateName":"I-Cost Construction Commercial & Carbon Management Platform"},{"@type":"SoftwareApplication","@id":"https://i-cost.co.uk/#software","name":"I-Cost","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://i-cost.co.uk/","description":"Construction commercial and embodied carbon management platform for UK contractors.","areaServed":"United Kingdom","featureList":["BOQ import","Construction estimating","Margin control","Supplier procurement","Purchase orders","Labour and timesheets","Embodied carbon","Reporting"]}]}
   </script>
+  <script src="assets/js/homepage.js" defer></script>
 </head>
-
-<body class="is-loading">
-  <div class="intro" id="brandIntro" aria-hidden="true">
-    <div class="intro-symbol">
-      <img class="intro-part intro-part-cyan" src="assets/images/icost-logo-transparent.png" alt="">
-      <img class="intro-part intro-part-pink" src="assets/images/icost-logo-transparent.png" alt="">
-      <img class="intro-part intro-part-full" src="assets/images/icost-logo-transparent.png" alt="">
-    </div>
-    <p class="intro-word">I-COST</p>
-    <span class="intro-tagline">Construction margin protection</span>
-  </div>
-
-  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+<body>
   <a class="skip-link" href="#main">Skip to main content</a>
-
-  <header class="site-header" id="siteHeader">
-    <a class="brand" href="#home" aria-label="I-Cost home">
-      <span class="brand-mark"><img src="assets/images/icost-logo-transparent.png" alt=""></span>
-      <span class="brand-copy"><strong>I-COST</strong><small>Margin protection platform</small></span>
-    </a>
-
-    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation">
-      <span></span><span></span><span></span>
-    </button>
-
-    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
-      <a href="platform/">Platform</a>
-      <a href="benefits/">Benefits</a>
-      <a href="how-it-works/">How it works</a>
-      <a href="pricing/">Pricing</a>
-      <a class="nav-cta" href="contact/">Book a pilot</a>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero" id="home">
-      <div class="hero-product">
-        <img src="assets/images/platform-dashboard.png" alt="I-Cost dashboard showing project estimates, commitments and forecast cost" fetchpriority="high">
-      </div>
-      <div class="hero-grid" aria-hidden="true"></div>
-
-      <div class="hero-content">
-        <p class="eyebrow reveal">Construction margin protection and procurement control</p>
-        <h1 class="reveal">
-          <span>You won the margin.</span>
-          <strong>Now protect it.</strong>
-        </h1>
-        <p class="hero-lead reveal">I-Cost connects estimating, procurement, suppliers, site activity and commercial reporting so you can identify margin leakage before it becomes a loss.</p>
-        <div class="hero-actions reveal">
-          <a class="button button-primary" href="contact/">Book a commercial health check <span aria-hidden="true">&#8594;</span></a>
-          <a class="button button-ghost" href="platform/">Explore the platform</a>
-        </div>
-        <div class="hero-proof reveal" aria-label="I-Cost platform capabilities">
-          <span>Estimating</span><i></i><span>Procurement</span><i></i><span>Delivery</span><i></i><span>Change</span>
-        </div>
-      </div>
-
-    </section>
-
-    <section class="problem-band" aria-label="The I-Cost proposition">
-      <div class="band-copy reveal">
-        <span class="section-number">01</span>
-        <p>Most margin is not lost at tender. It leaks during delivery.</p>
-      </div>
-      <div class="band-stat reveal">
-        <strong data-count="100000" data-prefix="£">£100,000</strong>
-        <span>Potential value of protecting 1% on £10m turnover</span>
-      </div>
-    </section>
-
-    <section class="platform-journey" id="platform">
-      <div class="journey-intro section-shell reveal">
-        <div>
-          <p class="eyebrow dark">The platform in practice</p>
-          <h2>One commercial story.<br>Four connected views.</h2>
-        </div>
-        <p>Scroll through the real I-Cost interface. Each view brings project activity, cost and delivery information into one controlled workflow.</p>
-      </div>
-
-      <div class="journey-layout section-shell">
-        <div class="journey-steps">
-          <article class="journey-step is-active" data-screen="0">
-            <span>01</span>
-            <h3>See the cost position</h3>
-            <p>Compare current estimates, committed value and forecast final cost across active projects.</p>
-            <ul><li>Portfolio-level cost tracking</li><li>Committed coverage</li><li>Forecast movement</li></ul>
-            <img class="mobile-screen" src="assets/images/platform-dashboard.png" alt="I-Cost cost tracking dashboard" loading="lazy">
-          </article>
-
-          <article class="journey-step" data-screen="1">
-            <span>02</span>
-            <h3>Control the workflow</h3>
-            <p>Follow project setup, estimating, procurement, timesheets, carbon and reporting through a visible lifecycle.</p>
-            <ul><li>Stage ownership</li><li>Clear status and progress</li><li>Structured completion</li></ul>
-            <img class="mobile-screen" src="assets/images/platform-workflow.png" alt="I-Cost project workflow screen" loading="lazy">
-          </article>
-
-          <article class="journey-step" data-screen="2">
-            <span>03</span>
-            <h3>Build a reliable baseline</h3>
-            <p>Create detailed cost and carbon estimates that remain connected to procurement and project delivery.</p>
-            <ul><li>Structured estimate build-up</li><li>Cost and carbon together</li><li>Reusable project libraries</li></ul>
-            <img class="mobile-screen" src="assets/images/platform-estimator.png" alt="I-Cost estimator screen" loading="lazy">
-          </article>
-
-          <article class="journey-step" data-screen="3">
-            <span>04</span>
-            <h3>Capture what happens on site</h3>
-            <p>Link daily activity, records and working hours back to the commercial picture.</p>
-            <ul><li>Project and area filters</li><li>Site records and drawings</li><li>Working-hour visibility</li></ul>
-            <img class="mobile-screen" src="assets/images/platform-timesheets.png" alt="I-Cost timesheets screen" loading="lazy">
-          </article>
-        </div>
-
-        <div class="journey-stage" aria-live="polite">
-          <div class="screen-frame">
-            <div class="screen-toolbar"><i></i><i></i><i></i><span id="screenLabel">Live cost tracking</span><small>Real product interface</small></div>
-            <div class="screen-viewport">
-              <img class="screen is-active" src="assets/images/platform-dashboard.png" alt="I-Cost cost tracking dashboard">
-              <img class="screen" src="assets/images/platform-workflow.png" alt="I-Cost project workflow screen">
-              <img class="screen" src="assets/images/platform-estimator.png" alt="I-Cost estimator screen">
-              <img class="screen" src="assets/images/platform-timesheets.png" alt="I-Cost timesheets screen">
-              <span class="screen-sheen" aria-hidden="true"></span>
-            </div>
-          </div>
-          <p class="demo-note">Interface shown with demonstration project data.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="leakage" id="leakage">
-      <div class="section-shell">
-        <div class="section-heading reveal">
-          <p class="eyebrow dark">Where is your margin going?</p>
-          <h2>Find the leak before it reaches the final account.</h2>
-          <p>Every handoff can move the margin. I-Cost makes the commercial effect visible before the business commits.</p>
-        </div>
-
-        <div class="leakage-flow">
-          <span class="flow-line" aria-hidden="true"></span>
-          <article class="flow-step reveal"><b>01</b><i></i><h3>Estimating</h3><p>Set the tender and package baseline.</p></article>
-          <article class="flow-step reveal"><b>02</b><i></i><h3>Procurement</h3><p>Compare quotes before commitment.</p></article>
-          <article class="flow-step reveal"><b>03</b><i></i><h3>Suppliers</h3><p>Measure true value, not price alone.</p></article>
-          <article class="flow-step reveal"><b>04</b><i></i><h3>Delivery</h3><p>Capture waste, downtime and extras.</p></article>
-          <article class="flow-step reveal"><b>05</b><i></i><h3>Change</h3><p>Price, submit, approve and recover.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="commercial-impact" id="approach">
-      <img class="impact-image" src="assets/images/construction-commercial-control.png" alt="Commercial manager reviewing project information on an active construction site">
-      <div class="impact-overlay" aria-hidden="true"></div>
-      <div class="section-shell impact-content">
-        <p class="eyebrow reveal">Commercial control in practice</p>
-        <h2 class="reveal">Start small.<br>Prove the saving.<br><span>Scale with confidence.</span></h2>
-        <div class="impact-steps">
-          <article class="reveal"><span>01</span><h3>Commercial health check</h3><p>Identify where margin is currently exposed.</p></article>
-          <article class="reveal"><span>02</span><h3>Pilot project</h3><p>Apply the workflow to a live, controlled scope.</p></article>
-          <article class="reveal"><span>03</span><h3>Measure</h3><p>Quantify avoided leakage and recovered value.</p></article>
-          <article class="reveal"><span>04</span><h3>Scale</h3><p>Roll proven controls across the portfolio.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="conversion" id="contact">
-      <div class="conversion-mark" aria-hidden="true"><img src="assets/images/icost-logo-transparent.png" alt=""></div>
-      <div class="section-shell conversion-grid">
-        <div class="conversion-copy reveal">
-          <p class="eyebrow">Protect the margin you already won</p>
-          <h2>Show us one live project.</h2>
-          <p>We will help you identify the commercial controls, information gaps and recovery opportunities worth addressing first.</p>
-        </div>
-
-        <form class="contact-form reveal" action="mailto:kevin@i-cost.co.uk" method="post" enctype="text/plain">
-          <div class="field-row">
-            <label><span>Name</span><input type="text" name="name" autocomplete="name" required></label>
-            <label><span>Company</span><input type="text" name="company" autocomplete="organization" required></label>
-          </div>
-          <div class="field-row">
-            <label><span>Work email</span><input type="email" name="email" autocomplete="email" required></label>
-            <label><span>Turnover range</span><select name="turnover"><option>Choose a range</option><option>Under £5m</option><option>£5m - £20m</option><option>£20m - £100m</option><option>Over £100m</option></select></label>
-          </div>
-          <label><span>Where do you suspect margin is being lost?</span><textarea name="message" rows="4"></textarea></label>
-          <button class="button button-primary" type="submit">Book a commercial health check <span aria-hidden="true">&#8594;</span></button>
-          <p class="form-note">No obligation. We will use your details only to respond to this enquiry.</p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-brand">
-      <span class="brand-mark"><img src="assets/images/icost-logo-transparent.png" alt=""></span>
-      <div><strong>I-COST</strong><span>Find the leak. Control the cost. Protect the margin.</span></div>
+  <header class="site-header dark">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="I-Cost home"><img src="assets/images/icost-logo-transparent.png" alt="" width="50" height="36"><strong>I-COST</strong></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation">Menu</button>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+        <a href="platform/">Platform</a><a href="benefits/">Benefits</a><a href="how-it-works/">How it works</a><a href="pricing/">Pricing</a>
+        <a class="button button-trial" href="https://www.i-cost.co.uk/uat/public/register">7 Day Free Trial <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
-    <div class="footer-links"><a href="platform/">Platform</a><a href="benefits/">Benefits</a><a href="how-it-works/">How it works</a><a href="pricing/">Pricing</a><a href="contractors/">Contractors</a><a href="contact/">Contact</a></div>
-    <p>&copy; <span id="year"></span> I-Cost. All rights reserved.</p>
-  </footer>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero dark" id="home" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">Construction Commercial &amp; Carbon Management Platform</p>
+          <h1 id="hero-title">YOU WON THE MARGIN<span>NOW PROTECT IT.</span></h1>
+          <p class="hero-lead">From BOQ and estimating to supplier procurement, purchase orders, labour tracking and embodied carbon, I-Cost gives commercial teams one connected view of project performance.</p>
+          <div class="actions"><a class="button button-trial" href="https://www.i-cost.co.uk/uat/public/register">START FREE TRIAL <span aria-hidden="true">&#8599;</span></a><a class="button button-outline" href="how-it-works/">SEE HOW I-COST WORKS</a></div>
+          <p class="trial-note">7-DAY FREE TRIAL &middot; NO BANK CARD REQUIRED &middot; &pound;35 / USER / MONTH</p>
+        </div>
+        <figure class="hero-visual">
+          <div class="product-frame"><div class="frame-bar"><span class="frame-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>I-Cost / Commercial overview</span></div>
+            <div class="hero-media">
+              <video class="hero-video" id="hero-video" width="1920" height="1080" autoplay muted loop playsinline preload="auto" poster="assets/images/platform-dashboard.png" aria-label="24-second I-Cost platform demonstration showing construction commercial and carbon management using demonstration project data">
+                <source src="assets/videos/icost-showcase.mp4" type="video/mp4">
+                <source src="/assets/videos/icost-showcase.mp4" type="video/mp4">
+                Your browser does not support HTML5 video. The I-Cost demonstration shows construction commercial and carbon management using demonstration project data.
+              </video>
+              <p class="hero-video-status" role="status" hidden>Video preview is unavailable. I-Cost commercial overview uses demonstration project data.</p>
+              <button class="hero-video-play" type="button" aria-controls="hero-video" aria-label="Play I-Cost platform demonstration" hidden>Play demonstration</button>
+            </div>
+            <noscript><p>I-Cost platform demonstration.</p></noscript>
+          </div>
+          <figcaption class="product-caption">Real I-Cost interface · Demonstration project data</figcaption>
+        </figure>
+        <script>
+          (() => {
+            const video = document.getElementById('hero-video');
+            const source = video.querySelector('source');
+            const media = video.closest('.hero-media');
+            const status = media.querySelector('.hero-video-status');
+            const playButton = media.querySelector('.hero-video-play');
+            const development = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
+            const reportError = error => {
+              if (development) console.warn('[I-Cost hero video] Playback notice:', error);
+            };
 
-  <script src="assets/js/icost.js" defer></script>
+            let loadFailed = false;
+
+            const preparePlayback = () => {
+              video.muted = true;
+              video.defaultMuted = true;
+              video.playsInline = true;
+              video.loop = true;
+            };
+
+            const showError = () => {
+              loadFailed = true;
+              media.dataset.playback = 'error';
+              if (playButton) {
+                playButton.hidden = false;
+                playButton.textContent = 'Retry video';
+                playButton.title = 'Retry loading the platform demonstration';
+              }
+              if (status) {
+                status.textContent = 'Video preview is unavailable. Use Play demonstration to retry.';
+                status.hidden = false;
+              }
+              reportError(video.error || 'MP4 source could not be loaded: ' + (source ? source.src : video.src));
+            };
+
+            const showPlaying = () => {
+              if (video.paused) return;
+              loadFailed = false;
+              media.dataset.playback = 'playing';
+              video.removeAttribute('poster');
+              if (status) status.hidden = true;
+              if (playButton) {
+                playButton.hidden = true;
+                playButton.removeAttribute('title');
+              }
+            };
+
+            const play = (manual = false) => {
+              preparePlayback();
+              if (status) status.hidden = true;
+              if (manual && loadFailed) {
+                loadFailed = false;
+                video.load();
+              }
+              const attempt = video.play();
+              if (attempt !== undefined) {
+                attempt.then(() => {
+                  showPlaying();
+                }).catch(error => {
+                  if (loadFailed) return;
+                  media.dataset.playback = manual ? 'playback-failed' : 'autoplay-blocked';
+                  if (playButton) {
+                    playButton.hidden = false;
+                    playButton.textContent = 'Play demonstration';
+                    playButton.title = manual
+                      ? 'Playback failed. Try playing the demonstration again.'
+                      : 'Click to play demonstration.';
+                  }
+                  reportError(error);
+                });
+              }
+            };
+
+            video.addEventListener('error', showError);
+            if (source) source.addEventListener('error', showError);
+            video.addEventListener('playing', showPlaying);
+            video.addEventListener('canplay', () => {
+              if (video.paused && !loadFailed) {
+                play();
+              }
+            });
+            video.addEventListener('loadeddata', () => {
+              if (video.paused && !loadFailed) {
+                play();
+              }
+            });
+
+            if (playButton) {
+              playButton.addEventListener('click', () => play(true));
+            }
+
+            // Always allow smooth autoplay and continuous playback regardless of OS animation settings
+            preparePlayback();
+            media.dataset.playback = 'loading';
+            play();
+          })();
+        </script>
+      </div>
+    </section>
+    <section class="capability-strip estimate-workflow" aria-labelledby="workflow-title"><div class="shell"><h2 id="workflow-title">FROM ESTIMATE TO DELIVERY</h2><ol class="estimate-steps"><li>IMPORT BOQ</li><li>BUILD ESTIMATE</li><li>APPLY MARGIN</li><li>CALCULATE CARBON</li><li>ISSUE RFQ</li><li>CREATE PO</li><li>TRACK LABOUR</li><li>REPORT</li></ol></div></section>
+    <section class="section" id="benefits" aria-labelledby="problem-title">
+      <div class="shell problem-grid reveal">
+        <div><p class="eyebrow">Built for UK contractors &amp; commercial teams</p><h2 id="problem-title">Most margin is not lost at tender.<br><span>It leaks during delivery.</span></h2>
+          <ul class="problem-points"><li>Estimate and actual cost diverge</li><li>Supplier commitments change</li><li>Site activity creates unplanned cost</li><li>Variations are not recovered quickly</li><li>Teams work from disconnected information</li></ul>
+        </div>
+        <aside class="value-example" aria-label="Illustrative margin protection value"><strong>£100,000</strong><p>Potential value of protecting 1% on £10m turnover</p><small>Illustrative example, not a guaranteed saving.</small></aside>
+      </div>
+    </section>
+    <section class="section platform" id="platform" aria-labelledby="platform-title">
+      <div class="shell">
+        <div class="split-heading reveal"><div><p class="eyebrow">The platform in practice</p><h2 id="platform-title">One commercial story.<br>Four connected views.</h2></div><p>Disconnected spreadsheets leave teams piecing the story together. I-Cost connects the baseline, commitments and delivery records in one commercial workflow.</p></div>
+        <div class="workflow-tabs">
+          <button class="workflow-tab" id="view-0" data-view="0" aria-controls="panel-0" type="button"><span>01</span>See the cost position</button>
+          <button class="workflow-tab" id="view-1" data-view="1" aria-controls="panel-1" type="button"><span>02</span>Control the workflow</button>
+          <button class="workflow-tab" id="view-2" data-view="2" aria-controls="panel-2" type="button"><span>03</span>Build a reliable baseline</button>
+          <button class="workflow-tab" id="view-3" data-view="3" aria-controls="panel-3" type="button"><span>04</span>Capture what happens on site</button>
+        </div>
+        <div class="workflow-panel" id="panel-0" aria-labelledby="view-0" tabindex="0">
+          <div><p class="eyebrow">01 / Cost visibility</p><h3>See the cost position</h3><p>Compare current estimates, committed value and forecast final cost across active projects.</p><ul><li>Portfolio-level cost tracking</li><li>Committed coverage</li><li>Forecast movement</li></ul><a class="text-link" href="platform/">Explore the platform <span aria-hidden="true">→</span></a></div>
+          <figure><div class="product-frame"><img src="assets/images/platform-dashboard.png" width="1434" height="865" alt="Cost tracking dashboard with current estimate, committed value and forecast cost chart" loading="lazy"></div><figcaption class="product-caption">Cost tracking · Demonstration project data</figcaption></figure>
+        </div>
+        <div class="workflow-panel" id="panel-1" aria-labelledby="view-1" tabindex="0">
+          <div><p class="eyebrow">02 / Connected delivery</p><h3>Control the workflow</h3><p>Follow project setup, estimating, procurement, timesheets, carbon and reporting through a visible lifecycle.</p><ul><li>Stage ownership</li><li>Clear status and progress</li><li>Structured completion</li></ul><a class="text-link" href="platform/">Explore the platform <span aria-hidden="true">→</span></a></div>
+          <figure><div class="product-frame"><img src="assets/images/platform-workflow.png" width="1542" height="970" alt="I-Cost project workflow showing the connected stages of project delivery" loading="lazy"></div><figcaption class="product-caption">Project workflow · Real I-Cost interface</figcaption></figure>
+        </div>
+        <div class="workflow-panel" id="panel-2" aria-labelledby="view-2" tabindex="0">
+          <div><p class="eyebrow">03 / The commercial baseline</p><h3>Build a reliable baseline</h3><p>Create detailed cost and carbon estimates that remain connected to procurement and project delivery.</p><ul><li>Structured estimate build-up</li><li>Cost and carbon together</li><li>Reusable project libraries</li></ul><a class="text-link" href="platform/">Explore the platform <span aria-hidden="true">→</span></a></div>
+          <figure><div class="product-frame"><img src="assets/images/platform-estimator.png" width="1549" height="910" alt="I-Cost estimator showing structured project costs and carbon estimates" loading="lazy"></div><figcaption class="product-caption">Cost and carbon estimating · Real I-Cost interface</figcaption></figure>
+        </div>
+        <div class="workflow-panel" id="panel-3" aria-labelledby="view-3" tabindex="0">
+          <div><p class="eyebrow">04 / Site to commercial team</p><h3>Capture what happens on site</h3><p>Link daily activity, records and working hours back to the commercial picture.</p><ul><li>Project and area filters</li><li>Site records and drawings</li><li>Working-hour visibility</li></ul><a class="text-link" href="platform/">Explore the platform <span aria-hidden="true">→</span></a></div>
+          <figure><div class="product-frame"><img src="assets/images/platform-timesheets.png" width="1559" height="934" alt="I-Cost timesheet interface for project activity, site records and working hours" loading="lazy"></div><figcaption class="product-caption">Site activity and timesheets · Real I-Cost interface</figcaption></figure>
+        </div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="modules-title">
+      <div class="shell"><div class="section-heading reveal"><p class="eyebrow">Connected from the start</p><h2 id="modules-title">One platform for commercial control.</h2><p>Bring the key stages of project cost management into one connected workflow.</p></div>
+        <div class="modules-grid core-capabilities">
+          <article class="module"><span class="module-number">01 / Estimate</span><h3>ESTIMATING &amp; BOQ</h3><p>Import client BOQs, structure project activities, build cost rates, apply margins and lock final tender baselines.</p><ul><li>Excel / CSV BOQ import</li><li>Structured estimating</li><li>Margin calculation</li><li>Estimate revisions</li><li>Final estimate locking</li></ul></article>
+          <article class="module"><span class="module-number">02 / Procure</span><h3>PROCUREMENT &amp; PURCHASE ORDERS</h3><p>Move from estimate data into supplier RFQs and purchase orders without rebuilding project information.</p><ul><li>Supplier directory</li><li>RFQ creation</li><li>Purchase orders</li><li>Delivery information</li><li>Supplier documentation</li></ul></article>
+          <article class="module"><span class="module-number">03 / Track</span><h3>LABOUR &amp; TIMESHEETS</h3><p>Track site operative and staff time against real project activities and approval workflows.</p><ul><li>Daily operative timesheets</li><li>Weekly staff timesheets</li><li>Project allocation</li><li>Manager approvals</li><li>Labour visibility</li></ul></article>
+          <article class="module"><span class="module-number">04 / Carbon</span><h3>CARBON MANAGEMENT</h3><p>Calculate embodied carbon alongside project cost using UK ICE and custom carbon factors.</p><ul><li>Embodied carbon per estimate line</li><li>UK ICE factors</li><li>Custom EPD / company factors</li><li>Carbon dashboard</li><li>Carbon reporting</li></ul></article>
+        </div>
+      </div>
+    </section>
+    <section class="section visibility" aria-labelledby="visibility-title"><div class="shell">
+      <div class="section-heading reveal"><p class="eyebrow">A clearer commercial position</p><h2 id="visibility-title">Know the commercial position before the final account.</h2><p>I-Cost brings estimates, commitments, forecast movement and delivery data together so commercial teams can act earlier.</p></div>
+      <div class="metrics"><div class="metric"><h3>Estimated Cost</h3><p>The baseline against which delivery is measured.</p></div><div class="metric"><h3>Committed Value</h3><p>The cost already committed to suppliers and packages.</p></div><div class="metric"><h3>Forecast Final Cost</h3><p>The expected cost position as the project develops.</p></div><div class="metric"><h3>Margin Exposure</h3><p>Cost movement and risks that need commercial attention.</p></div></div>
+      <figure class="dashboard-large"><div class="product-frame"><div class="frame-bar"><span class="frame-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>I-Cost / Project cost tracking</span></div><img src="assets/images/platform-dashboard.png" width="1434" height="865" alt="Full I-Cost commercial dashboard showing estimated and committed costs alongside forecast final cost" loading="lazy"></div><figcaption class="product-caption">Real product interface. Figures shown are demonstration data.</figcaption></figure>
+    </div></section>
+    <section class="section leakage dark" aria-labelledby="carbon-title"><div class="shell">
+      <div class="section-heading reveal"><p class="eyebrow">Commercial and sustainability teams, connected</p><h2 id="carbon-title">COST AND CARBON IN THE SAME ESTIMATE</h2><p>Every estimate line can carry both a financial rate and an embodied-carbon factor, allowing commercial and sustainability teams to work from the same project quantities and data.</p></div>
+      <dl class="carbon-example" aria-label="Illustrative estimate line per unit"><div><dt>Cost Rate</dt><dd>&pound;100.00 / unit</dd></div><div><dt>Margin</dt><dd>20%</dd></div><div><dt>Selling Rate</dt><dd>&pound;125.00 / unit</dd></div><div><dt>kgCO2e</dt><dd>15 / unit</dd></div></dl>
+      <p class="carbon-note">Illustrative values only. Margin is calculated as a percentage of the selling rate; carbon uses the selected factor.</p>
+    </div></section>
+    <section class="section" id="how-it-works" aria-labelledby="how-title"><div class="shell">
+      <div class="section-heading reveal"><p class="eyebrow">Report from live project data</p><h2 id="how-title">CLIENT-READY REPORTING</h2><p>Generate commercial, project, purchase order, timesheet and carbon reports directly from live project data.</p></div>
+      <ul class="report-formats" aria-label="Supported report formats"><li>PDF</li><li>WORD</li><li>EXCEL</li></ul>
+      <div class="team-control" aria-labelledby="team-title"><h3 id="team-title">BUILT FOR CONSTRUCTION TEAMS</h3><p>Control who can see and edit project information using construction-specific roles, granular permissions and project-level access.</p></div>
+    </div></section>
+    <section class="section trial" id="free-trial" aria-labelledby="trial-title"><div class="shell trial-grid">
+      <div class="trial-copy reveal"><p class="eyebrow">Try I-Cost</p><h2 id="trial-title">SEE YOUR OWN PROJECTS, COSTS AND CARBON IN I&#8209;COST.</h2><p>Start with 7 days of full platform access. No bank card required.</p></div>
+      <div><ul class="trial-list"><li>7 days of full platform access</li><li>Estimating, procurement, labour and carbon</li><li>Use test or live project information</li><li>No bank card required</li></ul><div class="actions"><a class="button button-trial" href="https://www.i-cost.co.uk/uat/public/register">START FREE TRIAL <span aria-hidden="true">&#8599;</span></a><a class="button button-outline" href="contact/">Book a Demo</a></div><p class="trial-note">&pound;35 per user / month after trial. <a class="text-link" href="pricing/">View pricing</a></p></div>
+    </div></section>
+    <section class="section" id="contact" aria-labelledby="contact-title"><div class="shell contact-grid">
+      <div class="contact-copy reveal"><p class="eyebrow">Protect the margin you already won.</p><h2 id="contact-title">Show us one live project.</h2><p>We will help identify the commercial controls, information gaps and recovery opportunities worth addressing first.</p><p>Prefer a guided conversation? Start with a demo or a commercial health check.</p><a class="text-link" href="contact/">Book a Demo <span aria-hidden="true">→</span></a></div>
+      <form class="contact-form" action="mailto:kevin@i-cost.co.uk" method="post" enctype="text/plain">
+        <div class="field-row"><label><span>Name</span><input type="text" name="name" autocomplete="name" required></label><label><span>Company</span><input type="text" name="company" autocomplete="organization" required></label></div>
+        <div class="field-row"><label><span>Work email</span><input type="email" name="email" autocomplete="email" required></label><label><span>Turnover range</span><select name="turnover"><option value="">Choose a range</option><option>Under £5m</option><option>£5m – £20m</option><option>£20m – £100m</option><option>Over £100m</option></select></label></div>
+        <label><span>Where do you suspect margin is being lost?</span><textarea name="message" rows="4"></textarea></label>
+        <button class="button button-dark" type="submit">Book a commercial health check <span aria-hidden="true">→</span></button>
+        <p class="form-note">Opens your email app to send your enquiry. You can also email <a href="mailto:kevin@i-cost.co.uk">kevin@i-cost.co.uk</a>. No obligation. We will use your details only to respond to this enquiry.</p>
+      </form>
+    </div></section>
+  </main>
+  <footer class="site-footer dark"><div class="shell">
+    <div class="footer-top"><a class="brand" href="#home" aria-label="I-Cost home"><img src="assets/images/icost-logo-transparent.png" alt="" width="50" height="36"><strong>I-COST</strong></a><nav class="footer-links" aria-label="Footer navigation"><a href="platform/">Platform</a><a href="benefits/">Benefits</a><a href="how-it-works/">How it works</a><a href="pricing/">Pricing</a><a href="contractors/">Contractors</a><a href="contact/">Contact</a><a href="https://www.i-cost.co.uk/uat/public/register">7 Day Free Trial</a></nav></div>
+    <div class="footer-bottom"><p>Control the cost. Protect the margin.</p><p>© <span id="year">2026</span> I-Cost. All rights reserved.</p></div>
+  </div></footer>
 </body>
 </html>
+
+

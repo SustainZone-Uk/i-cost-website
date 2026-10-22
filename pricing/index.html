@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>I-Cost Pricing | Simple construction cost control</title>
-  <meta name="description" content="Start using I-Cost for £35 per user. Try the full platform free for 7 days with no bank card, or request a one-month free tier.">
+  <title>Construction Commercial &amp; Carbon Management Pricing | I-Cost</title>
+  <meta name="description" content="I-Cost construction commercial and carbon management software from &pound;35 per user/month. Includes BOQ estimating, procurement, purchase orders, timesheets, embodied carbon and reporting.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#071c2c">
   <link rel="canonical" href="https://i-cost.co.uk/pricing/">
@@ -13,139 +13,191 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/icost.css">
+
   <style>
-    .pricing-page { background: #f7f8f4; }
-    .pricing-hero { padding: 112px 0 72px; background: #071c2c; color: #fff; }
-    .pricing-hero-inner { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(340px, .95fr); gap: 72px; align-items: end; }
-    .pricing-hero h1 { max-width: 760px; margin: 18px 0 24px; font-size: clamp(4rem, 8vw, 7.5rem); line-height: .9; }
-    .pricing-hero h1 span { color: #62dce0; }
-    .pricing-hero .page-lead { max-width: 650px; margin: 0; color: rgba(255,255,255,.72); font-size: 1.08rem; line-height: 1.7; }
-    .pricing-trust { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 34px; color: rgba(255,255,255,.72); font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
-    .pricing-trust span { display: inline-flex; align-items: center; gap: 8px; }
-    .pricing-trust span::before { content: "✓"; color: #62dce0; font-size: 1rem; }
-    .price-card { position: relative; padding: 34px; color: #071c2c; background: #fff; border: 1px solid rgba(255,255,255,.18); border-radius: 8px; box-shadow: 0 24px 80px rgba(0,0,0,.25); }
-    .price-card::before { content: "Most popular"; position: absolute; top: 0; right: 28px; padding: 8px 12px; color: #071c2c; background: #62dce0; border-radius: 0 0 5px 5px; font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-    .price-card-label { margin: 0 0 12px; color: #d50667; font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-    .price-card h2 { margin: 0; font-family: "Barlow Condensed", sans-serif; font-size: 2.3rem; text-transform: uppercase; }
-    .price-amount { display: flex; align-items: baseline; gap: 9px; margin: 20px 0 6px; }
-    .price-amount strong { font-family: "Barlow Condensed", sans-serif; font-size: 5.8rem; line-height: .9; }
-    .price-amount span { color: #667477; font-size: .92rem; font-weight: 700; }
-    .price-card-note { margin: 0 0 24px; color: #667477; font-size: .85rem; }
-    .price-card .button { width: 100%; }
-    .pricing-section { padding: 104px 0; }
-    .pricing-section.alt { background: #e6e9e5; }
-    .pricing-section-heading { max-width: 780px; margin-bottom: 54px; }
-    .pricing-section-heading h2 { margin: 12px 0 18px; font-size: clamp(3rem, 5.2vw, 5.2rem); line-height: .95; }
-    .pricing-section-heading p { max-width: 680px; margin: 0; color: #667477; line-height: 1.7; }
-    .offer-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
-    .offer-card { display: flex; flex-direction: column; min-height: 360px; padding: 32px; background: #fff; border: 1px solid #c4ccca; border-radius: 6px; }
-    .offer-card.featured { color: #fff; background: #102e40; border-color: #102e40; }
-    .offer-card .offer-kicker { margin: 0 0 18px; color: #d50667; font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-    .offer-card.featured .offer-kicker { color: #62dce0; }
-    .offer-card h3 { margin: 0 0 14px; font-family: "Barlow Condensed", sans-serif; font-size: 2.4rem; text-transform: uppercase; }
-    .offer-card p { max-width: 520px; margin: 0; color: #667477; line-height: 1.65; }
-    .offer-card.featured p { color: rgba(255,255,255,.7); }
-    .offer-card ul { display: grid; gap: 13px; margin: 28px 0 32px; padding: 0; list-style: none; }
-    .offer-card li { display: flex; gap: 10px; align-items: flex-start; font-size: .9rem; line-height: 1.45; }
-    .offer-card li::before { content: "✓"; flex: 0 0 auto; color: #d50667; font-weight: 800; }
-    .offer-card.featured li::before { color: #62dce0; }
-    .offer-card .button { align-self: flex-start; margin-top: auto; }
-    .offer-card:not(.featured) .button-ghost { color: #071c2c; border-color: #071c2c; background: transparent; }
-    .offer-card:not(.featured) .button-ghost:hover { color: #fff; background: #071c2c; }
-    .pricing-steps { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid #bcc4c4; }
-    .pricing-step { min-height: 220px; padding: 28px 30px; border-right: 1px solid #bcc4c4; border-bottom: 1px solid #bcc4c4; }
-    .pricing-step:first-child { border-left: 1px solid #bcc4c4; }
-    .pricing-step span { color: #d50667; font-size: .72rem; font-weight: 800; }
-    .pricing-step h3 { margin: 40px 0 12px; font-family: "Barlow Condensed", sans-serif; font-size: 1.8rem; text-transform: uppercase; }
-    .pricing-step p { margin: 0; color: #667477; font-size: .9rem; line-height: 1.6; }
-    .pricing-fine-print { margin: 28px 0 0; color: #667477; font-size: .78rem; line-height: 1.6; }
-    .pricing-cta { padding: 88px 0; color: #fff; background: #071c2c; }
-    .pricing-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 48px; }
-    .pricing-cta h2 { max-width: 760px; margin: 0; font-size: clamp(3rem, 6vw, 5.5rem); line-height: .92; }
-    .pricing-cta p { max-width: 420px; margin: 0; color: rgba(255,255,255,.68); line-height: 1.6; }
-    @media (max-width: 900px) {
-      .pricing-hero-inner, .offer-grid { grid-template-columns: 1fr; }
-      .pricing-hero-inner { gap: 48px; }
-      .pricing-steps { grid-template-columns: 1fr; }
-      .pricing-step, .pricing-step:first-child { border-left: 1px solid #bcc4c4; }
-      .pricing-cta-inner { display: grid; }
-    }
-    @media (max-width: 560px) {
-      .pricing-hero { padding: 82px 0 54px; }
-      .pricing-hero h1 { font-size: 4rem; }
-      .price-card { padding: 26px; }
-      .price-amount strong { font-size: 4.8rem; }
-      .pricing-section { padding: 76px 0; }
-      .offer-card { min-height: 0; padding: 26px; }
-    }
+
+    .pricing-page { background: #071c2c; }
+    .pricing-page main { color: #fff; }
+    .pricing-page .pricing-hero { padding: 112px 0 72px; }
+    .pricing-page .pricing-hero-inner { display: grid; grid-template-columns: minmax(0,1.2fr) minmax(0,.85fr); gap: 64px; align-items: center; }
+    .pricing-page .pricing-hero h1.eyebrow { margin: 24px 0 20px; font-family: Inter,Arial,sans-serif; font-size: .75rem; line-height: 1.6; letter-spacing: .12em; font-weight: 700; }
+    .pricing-page .pricing-headline { margin: 0 0 28px; font-family: 'Barlow Condensed','Arial Narrow',sans-serif; font-weight: 800; font-size: clamp(3rem,6.1vw,6rem); line-height: .96; text-transform: uppercase; }
+    .pricing-page .pricing-headline span, .pricing-page .pricing-section h2 span, .pricing-page .pricing-cta h2 span { color: #62dce0; }
+    .pricing-page .page-lead { max-width: 650px; margin: 0; color: #b8c8d1; font-size: 1.05rem; line-height: 1.7; }
+    .pricing-page .pricing-trust { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 30px; color: #b8c8d1; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+    .pricing-page .pricing-trust span::before { content: '\2713'; color: #62dce0; margin-right: 8px; }
+    .pricing-page .price-card { padding: 32px; color: #071c2c; background: #fff; border-top: 4px solid #62dce0; border-radius: 6px; min-width: 0; }
+    .pricing-page .price-card-label { margin: 0 0 12px; color: #d50667; font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .pricing-page .price-card h2 { margin: 0; font-size: 2.2rem; }
+    .pricing-page .price-amount { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; margin: 24px 0 18px; }
+    .pricing-page .price-amount strong { font-family: 'Barlow Condensed',sans-serif; font-size: 5.8rem; line-height: .9; }
+    .pricing-page .price-amount span { color: #52636e; font-size: .88rem; font-weight: 700; }
+    .pricing-page .price-card-note { color: #52636e; font-size: .85rem; margin-bottom: 22px; }
+    .pricing-page .price-card .button { width: 100%; }
+    .pricing-page .included-label { font-size: .8rem; font-weight: 800; margin: 24px 0 12px; padding-top: 20px; border-top: 1px solid #d9dfe2; }
+    .pricing-page .feature-list { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+    .pricing-page .feature-list li { position: relative; padding-left: 20px; color: #b8c8d1; font-size: .88rem; line-height: 1.5; }
+    .pricing-page .feature-list li::before { content: '\2713'; color: #62dce0; position: absolute; left: 0; font-weight: 800; }
+    .pricing-page .price-card .feature-list { margin-top: 0; gap: 8px; }
+    .pricing-page .price-card .feature-list li { color: #334e60; font-size: .82rem; }
+    .pricing-page .price-card .feature-list li::before { color: #11979e; }
+    .pricing-page .pricing-section { padding: 72px 0; border-top: 1px solid #284352; }
+    .pricing-page .pricing-section-heading { max-width: 840px; margin-bottom: 32px; }
+    .pricing-page .pricing-section h2 { margin: 0 0 20px; font-size: clamp(2.4rem,4.2vw,4rem); line-height: 1; }
+    .pricing-page .pricing-section p { color: #b8c8d1; line-height: 1.7; }
+    .pricing-page .pricing-section .eyebrow { color: #62dce0; }
+    .pricing-page .capability-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; }
+    .pricing-page .capability-card { padding: 28px; background: #102e40; border: 1px solid #284a5f; }
+    .pricing-page .capability-number { color: #62dce0; font-size: .72rem; font-weight: 800; letter-spacing: .1em; display: block; margin-bottom: 20px; }
+    .pricing-page .capability-card h3 { margin: 0 0 16px; font-family: 'Barlow Condensed',sans-serif; font-size: 1.9rem; text-transform: uppercase; }
+    .pricing-page .capability-card p { margin: 0; font-size: .9rem; }
+    .pricing-page .workflow { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 12px; padding: 0; margin: 32px 0 0; list-style: none; counter-reset: steps; }
+    .pricing-page .workflow li { counter-increment: steps; padding: 18px; border-left: 2px solid #62dce0; background: #102e40; font-size: .8rem; font-weight: 700; text-transform: uppercase; }
+    .pricing-page .workflow li::before { content: counter(steps,decimal-leading-zero) ' /'; display: block; color: #62dce0; font-size: .72rem; margin-bottom: 12px; }
+    .pricing-page .pricing-split { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+    .pricing-page .estimate-example { margin: 0; padding: 28px; border: 1px solid #284a5f; background: #102e40; }
+    .pricing-page .estimate-example figcaption { font-size: .8rem; color: #b8c8d1; margin-bottom: 24px; }
+    .pricing-page .estimate-metrics { display: grid; grid-template-columns: 1fr 1fr; margin: 0; }
+    .pricing-page .estimate-metrics div { border-top: 1px solid #355368; padding: 20px 8px; }
+    .pricing-page .estimate-metrics dt { font-size: .8rem; color: #b8c8d1; }
+    .pricing-page .estimate-metrics dd { margin: 8px 0 0; font-family: 'Barlow Condensed',sans-serif; font-size: 1.8rem; font-weight: 700; color: #62dce0; }
+    .pricing-page .report-formats { display: flex; flex-wrap: wrap; gap: 12px; padding: 0; margin: 24px 0 0; list-style: none; }
+    .pricing-page .report-formats li { padding: 10px 22px; border: 1px solid #355368; color: #62dce0; font-size: .8rem; font-weight: 800; letter-spacing: .08em; }
+    .pricing-page .pricing-cta { padding: 72px 0; background: #102e40; border-top: 1px solid #355368; }
+    .pricing-page .pricing-cta-inner { display: grid; grid-template-columns: 1.3fr 1fr; align-items: center; gap: 48px; }
+    .pricing-page .pricing-cta h2 { margin: 0; font-size: clamp(2.8rem,4.6vw,4.8rem); line-height: .98; }
+    .pricing-page .pricing-cta p { color: #b8c8d1; }
+    .pricing-page .pricing-cta .after-trial { margin: 16px 0 0; font-size: .82rem; }
+    .pricing-page main .button { min-height: 48px; white-space: normal; text-align: center; }
+    .pricing-page main a:focus-visible { outline: 3px solid #62dce0; outline-offset: 4px; }
+    @media (max-width: 1000px) { .pricing-page .pricing-hero-inner { grid-template-columns: 1fr; gap: 40px; } .pricing-page .price-card { max-width: 620px; width: 100%; } .pricing-page .capability-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .pricing-page .workflow { grid-template-columns: repeat(3,minmax(0,1fr)); } .pricing-page .pricing-split { gap: 28px; } }
+    @media (max-width: 700px) { .pricing-page .pricing-split, .pricing-page .pricing-cta-inner { grid-template-columns: 1fr; gap: 28px; } .pricing-page .pricing-section, .pricing-page .pricing-cta { padding: 52px 0; } }
+    @media (max-width: 560px) { .pricing-page .pricing-hero { padding: 104px 0 52px; } .pricing-page .pricing-headline { font-size: clamp(2.8rem,11vw,4rem); } .pricing-page .price-card, .pricing-page .capability-card, .pricing-page .estimate-example { padding: 24px; } .pricing-page .capability-grid { grid-template-columns: 1fr; } .pricing-page .workflow { grid-template-columns: repeat(2,minmax(0,1fr)); } .pricing-page .price-amount strong { font-size: 4.8rem; } }
+    @media (max-width: 360px) { .pricing-page .workflow { grid-template-columns: 1fr; } }
   </style>
 </head>
+
 <body class="subpage page-pricing pricing-page">
   <a class="skip-link" href="#main">Skip to main content</a>
+
   <header class="site-header" id="siteHeader">
-    <a class="brand" href="../" aria-label="I-Cost home"><span class="brand-mark"><img src="../assets/images/icost-logo-transparent.png" alt=""></span><span class="brand-copy"><strong>I-COST</strong><small>Margin protection platform</small></span></a>
-    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation"><span></span><span></span><span></span></button>
-    <nav class="site-nav" id="siteNav" aria-label="Primary navigation"><a href="../platform/">Platform</a><a href="../benefits/">Benefits</a><a href="../how-it-works/">How it works</a><a href="../pricing/" aria-current="page">Pricing</a><a class="nav-cta" href="https://www.i-cost.co.uk/uat/public/register">Start free trial</a></nav>
+    <a class="brand" href="../" aria-label="I-Cost home">
+      <span class="brand-mark">
+        <img src="../assets/images/icost-logo-transparent.png" alt="">
+      </span>
+
+      <span class="brand-copy">
+        <strong>I-COST</strong>
+        <small>Margin protection platform</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="../platform/">Platform</a>
+      <a href="../benefits/">Benefits</a>
+      <a href="../how-it-works/">How it works</a>
+      <a href="../pricing/" aria-current="page">Pricing</a>
+      <a class="nav-cta" href="https://www.i-cost.co.uk/uat/public/register">Start free trial</a>
+    </nav>
   </header>
 
   <main id="main">
-    <section class="pricing-hero">
+    <section class="pricing-hero" aria-labelledby="hero-heading">
       <div class="section-shell pricing-hero-inner">
         <div>
           <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span>Pricing</span></nav>
-          <p class="eyebrow">Simple, transparent pricing</p>
-          <h1>Bring your costs under control <span>from day one.</span></h1>
-          <p class="page-lead">Give your team one connected place for estimates, procurement, project costs, timesheets and reporting—without a complicated buying process.</p>
-          <div class="pricing-trust" aria-label="Pricing benefits"><span>7-day free access</span><span>No bank card</span><span>Full platform trial</span></div>
+          <h1 class="eyebrow">Construction Commercial &amp; Carbon Management Pricing</h1>
+          <p class="pricing-headline" id="hero-heading"><span>Control cost, carbon</span> and delivery from one platform.</p>
+          <p class="page-lead">Import BOQs, build estimates, protect margins, manage suppliers and purchase orders, track labour and calculate embodied carbon &mdash; from one connected construction workspace.</p>
+          <div class="pricing-trust" aria-label="Trial benefits"><span>7-day free access</span><span>No bank card</span><span>Full platform trial</span></div>
         </div>
-        <aside class="price-card" aria-label="I-Cost standard pricing">
+        <aside class="price-card" aria-labelledby="plan-heading">
           <p class="price-card-label">One straightforward plan</p>
-          <h2>Full platform access</h2>
-          <div class="price-amount"><strong>£35</strong><span>per user</span></div>
-          <p class="price-card-note">Start with 7 days of free access. No bank card is required.</p>
+          <h2 id="plan-heading">Full I-Cost Platform</h2>
+          <div class="price-amount"><strong>&pound;35</strong><span>per user / month</span></div>
+          <p class="price-card-note">7-day free trial. No bank card required.</p>
           <a class="button button-primary" href="https://www.i-cost.co.uk/uat/public/register">Start your free trial <span aria-hidden="true">&#8594;</span></a>
+          <p class="included-label">Included:</p>
+          <ul class="feature-list"><li>Projects &amp; Cost Planning</li><li>BOQ Import &amp; Estimating</li><li>Margin &amp; Final Estimate Controls</li><li>Carbon Accounting</li><li>Supplier &amp; RFQ Management</li><li>Purchase Orders</li><li>Timesheets &amp; Labour Tracking</li><li>Documents &amp; Reporting</li><li>User Roles &amp; Permissions</li></ul>
         </aside>
       </div>
     </section>
-
-    <section class="pricing-section">
+    <section class="pricing-section" aria-labelledby="included-heading">
       <div class="section-shell">
-        <div class="pricing-section-heading"><p class="eyebrow dark">Choose your starting point</p><h2>Try it properly. Then decide.</h2><p>Get your team into the platform, test it against a live workflow and see how much clearer your commercial picture becomes.</p></div>
-        <div class="offer-grid">
-          <article class="offer-card featured">
-            <p class="offer-kicker">Start today</p>
-            <h3>7-day free access</h3>
-            <p>Explore the platform with your team before you commit. There is no payment card requirement to get started.</p>
-            <ul><li>Access the platform for 7 days</li><li>No bank card needed</li><li>Start online in minutes</li><li>See the workflow with your own team</li></ul>
-            <a class="button button-primary" href="https://www.i-cost.co.uk/uat/public/register">Register free <span aria-hidden="true">&#8594;</span></a>
-          </article>
-          <article class="offer-card">
-            <p class="offer-kicker">Need more time?</p>
-            <h3>Request a 1-month free tier</h3>
-            <p>If you need longer to evaluate I-Cost, request a one-month free tier and we will arrange it with you directly.</p>
-            <ul><li>More time to test a live project</li><li>Ideal for team or workflow evaluation</li><li>Set up by request</li><li>No obligation to continue</li></ul>
-            <a class="button button-ghost" href="mailto:kevin@i-cost.co.uk?subject=Request%20for%201-month%20free%20tier">Request one month free <span aria-hidden="true">&#8594;</span></a>
-          </article>
-        </div>
-        <p class="pricing-fine-print">Pricing shown is £35 per user. The one-month free tier is available by request and subject to confirmation by the I-Cost team. Please check the applicable subscription terms before starting paid access.</p>
+        <div class="pricing-section-heading"><p class="eyebrow">One plan. One connected workspace.</p><h2 id="included-heading">What you get for <span>&pound;35 / user / month</span></h2></div>
+        <div class="capability-grid"><article class="capability-card"><span class="capability-number" aria-hidden="true">01 /</span><h3>Projects &amp; Cost Planning</h3><p>Manage multiple projects, structure estimates through project hierarchies, apply target margins and maintain project revisions from one workspace.</p><ul class="feature-list"><li>Multi-project management and user assignment</li><li>WBS / Main / Sub / Activity hierarchy</li><li>Cost and selling rates</li><li>Base margin configuration and markup</li><li>Project versioning and estimate revisions</li></ul></article>
+<article class="capability-card"><span class="capability-number" aria-hidden="true">02 /</span><h3>BOQ &amp; Estimating</h3><p>Turn client BOQs into structured commercial estimates without rebuilding everything manually.</p><ul class="feature-list"><li>Excel / CSV BOQ import</li><li>Reusable estimate item library</li><li>Formula / calculation library</li><li>Final estimate locking</li><li>Controlled estimate re-opening</li></ul></article>
+<article class="capability-card"><span class="capability-number" aria-hidden="true">03 /</span><h3>Procurement &amp; Purchase Orders</h3><p>Move directly from project estimate data into supplier procurement and committed cost control.</p><ul class="feature-list"><li>Supplier directory</li><li>RFQ creation and supplier quotation requests</li><li>Purchase order generation and sequential numbering</li><li>Delivery details and delivery note tracking</li><li>Linked invoices, certificates and documents</li></ul></article>
+<article class="capability-card"><span class="capability-number" aria-hidden="true">04 /</span><h3>Labour &amp; Timesheets</h3><p>Track site labour and staff time against real project activities and approval workflows.</p><ul class="feature-list"><li>Daily operative timesheets</li><li>Weekly staff timesheets</li><li>Project/activity allocation</li><li>Manager approval workflow</li><li>Labour visibility against project activities</li></ul></article>
+<article class="capability-card"><span class="capability-number" aria-hidden="true">05 /</span><h3>Carbon Management</h3><p>Measure embodied carbon alongside commercial cost rather than in a separate sustainability spreadsheet.</p><ul class="feature-list"><li>UK ICE factor database</li><li>Carbon per estimate line</li><li>Custom EPD/company factors</li><li>Project carbon dashboard</li><li>Carbon reports</li></ul></article>
+<article class="capability-card"><span class="capability-number" aria-hidden="true">06 /</span><h3>Reporting &amp; Governance</h3><p>Give commercial teams controlled access to the right information and export professional project records when needed.</p><ul class="feature-list"><li>PDF and Word reports</li><li>Excel exports</li><li>Central project document storage</li><li>Granular read/write permissions</li><li>Project-level access</li><li>Account data export</li></ul></article></div>
       </div>
     </section>
-
-    <section class="pricing-section alt">
+    <section class="pricing-section" aria-labelledby="workflow-heading">
       <div class="section-shell">
-        <div class="pricing-section-heading"><p class="eyebrow dark">How it works</p><h2>From first login to better control.</h2></div>
-        <div class="pricing-steps">
-          <article class="pricing-step"><span>01</span><h3>Register</h3><p>Create your account and start your 7-day free access without entering a bank card.</p></article>
-          <article class="pricing-step"><span>02</span><h3>Evaluate</h3><p>Invite your team, try the workflows and see how I-Cost fits your day-to-day commercial process.</p></article>
-          <article class="pricing-step"><span>03</span><h3>Scale</h3><p>Continue at £35 per user, or contact us if you need a longer one-month evaluation tier.</p></article>
-        </div>
+        <div class="pricing-section-heading"><h2 id="workflow-heading">From estimate <span>to delivery</span></h2><p>Keep quantities, commercial decisions and project records connected through the construction workflow.</p></div>
+        <ol class="workflow" aria-label="Connected construction workflow"><li>Import BOQ</li><li>Build estimate</li><li>Apply margin</li><li>Calculate carbon</li><li>Lock tender</li><li>Create RFQ</li><li>Issue PO</li><li>Track labour</li><li>Report</li></ol>
       </div>
     </section>
-
-    <section class="pricing-cta"><div class="section-shell pricing-cta-inner"><div><p class="eyebrow">Ready when you are</p><h2>Start seeing the cost picture clearly.</h2></div><div><p>Start your free 7-day access now, or ask us for a one-month free tier if your team needs more time.</p><a class="button button-primary" href="https://www.i-cost.co.uk/uat/public/register">Start free access <span aria-hidden="true">&#8594;</span></a></div></div></section>
+    <section class="pricing-section" aria-labelledby="carbon-heading">
+      <div class="section-shell pricing-split">
+        <div><h2 id="carbon-heading">Cost and carbon <span>in the same estimate</span></h2><p>Every estimate line can carry both a financial rate and an embodied-carbon factor, helping commercial and sustainability teams work from the same quantities and project data.</p></div>
+        <figure class="estimate-example"><figcaption>One estimate line &middot; shared quantities and project data</figcaption><dl class="estimate-metrics"><div><dt>Cost rate</dt><dd>&pound; / unit</dd></div><div><dt>Margin</dt><dd>%</dd></div><div><dt>Selling rate</dt><dd>&pound; / unit</dd></div><div><dt>Embodied carbon</dt><dd>kgCO<sub>2</sub>e</dd></div></dl></figure>
+      </div>
+    </section>
+    <section class="pricing-section" aria-labelledby="reports-heading">
+      <div class="section-shell pricing-split">
+        <div><h2 id="reports-heading">Client-ready <span>reporting</span></h2><p>Generate project, purchase order, timesheet and carbon reports directly from live project data.</p></div>
+        <ul class="report-formats" aria-label="Supported report outputs"><li>PDF</li><li>WORD</li><li>EXCEL</li></ul>
+      </div>
+    </section>
+    <section class="pricing-section" aria-labelledby="teams-heading">
+      <div class="section-shell pricing-split">
+        <div><h2 id="teams-heading">Built for real <span>construction teams</span></h2><p>Control who can see and edit project information using construction-specific roles, granular permissions and project-level access.</p></div>
+        <ul class="feature-list"><li>Construction-specific roles</li><li>Read/write permissions</li><li>Project-scoped visibility</li></ul>
+      </div>
+    </section>
+    <section class="pricing-cta" aria-labelledby="trial-heading">
+      <div class="section-shell pricing-cta-inner">
+        <h2 id="trial-heading">See your own projects, costs and carbon <span>in I-Cost.</span></h2>
+        <div><p>Start with 7 days of full platform access. No bank card required.</p><a class="button button-primary" href="https://www.i-cost.co.uk/uat/public/register">Start free trial <span aria-hidden="true">&#8594;</span></a><p class="after-trial">&pound;35 per user / month after trial.</p></div>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer"><div class="footer-brand"><span class="brand-mark"><img src="../assets/images/icost-logo-transparent.png" alt=""></span><div><strong>I-COST</strong><span>Find the leak. Control the cost. Protect the margin.</span></div></div><div class="footer-links"><a href="../platform/">Platform</a><a href="../benefits/">Benefits</a><a href="../how-it-works/">How it works</a><a href="../pricing/">Pricing</a><a href="../contractors/">Contractors</a><a href="../contact/">Contact</a></div><p>&copy; <span id="year"></span> I-Cost.</p></footer>
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="brand-mark">
+        <img src="../assets/images/icost-logo-transparent.png" alt="">
+      </span>
+
+      <div>
+        <strong>I-COST</strong>
+        <span>Find the leak. Control the cost. Protect the margin.</span>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <a href="../platform/">Platform</a>
+      <a href="../benefits/">Benefits</a>
+      <a href="../how-it-works/">How it works</a>
+      <a href="../pricing/">Pricing</a>
+      <a href="../contractors/">Contractors</a>
+      <a href="../contact/">Contact</a>
+    </div>
+
+    <p>&copy; <span id="year"></span> I-Cost.</p>
+  </footer>
+
   <script src="../assets/js/icost.js" defer></script>
 </body>
 </html>
+
+
+
