@@ -1815,3 +1815,9 @@ h2 span, .page-hero h1 span { color: var(--accent-hi); }
 .price-card.tailored { border-top-color: var(--icost-cyan); background: linear-gradient(160deg, rgba(79,212,223,.10), rgba(14,161,228,.04) 60%), var(--icost-panel); }
 .price-card .amount.quote { font-size: clamp(2.6rem,4.4vw,3.6rem); }
 @media (max-width: 760px) { .plans { grid-template-columns: 1fr; } }
+
+/* Homepage hero: give the product video more room on wider screens */
+@media (min-width: 1101px) {
+  .hero-grid { grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 40px; }
+  .hero-visual { margin-right: calc((100vw - min(var(--shell), 100vw - 96px)) / -2 + 16px); }
+}
