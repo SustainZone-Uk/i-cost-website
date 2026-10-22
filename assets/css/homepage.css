@@ -1958,3 +1958,7 @@ h2 span, .page-hero h1 span { color: var(--accent-hi); }
 .af-note .af-tag { margin: 0 4px 0 0; }
 .af-note { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; color: #4a5d69; }
 @media (max-width: 960px) { .af-intro { grid-template-columns: 1fr; gap: 22px; } }
+
+/* Footer: privacy + terms links */
+.footer-legal { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.footer-legal a { text-decoration: underline; text-underline-offset: 3px; }
