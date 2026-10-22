@@ -1533,3 +1533,28 @@ textarea:focus-visible {
   .reveal { opacity: 1; transform: none; }
   .hero-product { transform: none; }
 }
+
+/* ---- Shared type scale (Oct 2026): match the homepage sizes on every page ---- */
+:root { --header-h: 88px; }
+body { font-size: 1.0625rem; }
+.brand-mark { width: 64px; height: 42px; flex-basis: 64px; }
+.brand-copy strong { font-size: 1.45rem; }
+.brand-copy small { font-size: .64rem; }
+.site-nav a { font-size: .95rem; }
+.site-nav .nav-cta { font-size: .9rem; padding: 12px 18px; }
+main h1:not(.eyebrow) { font-size: clamp(2.6rem,4.6vw,4.8rem) !important; line-height: 1.02; }
+main h2 { font-size: clamp(2.1rem,3.6vw,3.6rem) !important; line-height: 1.05; }
+main h3 { font-size: 1.2rem !important; line-height: 1.25; font-family: "Inter", Arial, sans-serif !important; text-transform: none !important; letter-spacing: -.01em !important; }
+main article p:not(.eyebrow) { font-size: .95rem; }
+main li { font-size: .92rem; }
+.eyebrow { font-size: .8rem !important; }
+main p:not(.eyebrow) { font-size: max(1rem, 1em); }
+.button { font-size: .95rem; }
+.footer-links { font-size: .86rem; }
+.footer-brand span { font-size: .8rem; }
+@media(max-width:480px) {
+  main h1:not(.eyebrow) { font-size: 2.5rem !important; }
+  main h2 { font-size: 2.1rem !important; }
+}
+.site-nav .nav-cta { background: #e00068; border-color: #e00068; color: #fff; border-radius: 4px; }
+.site-nav .nav-cta:hover { background: #e60970; color: #fff; }
