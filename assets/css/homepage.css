@@ -1491,3 +1491,60 @@ h3 { font-size: 1.2rem; }
   .brand img { width: 52px; height: 36px; }
   .brand strong { font-size: 1.3rem; }
 }
+
+/* ---- Inner pages in the homepage style (Platform, Who it's for, ...) ---- */
+.page-hero { padding: 72px 0 64px; background: var(--icost-bg); border-bottom: 1px solid var(--icost-border); }
+.page-hero h1 { font-size: clamp(2.6rem,4.6vw,4.8rem); max-width: 980px; }
+.page-hero h1 span { display: block; color: var(--icost-cyan); }
+.page-hero .hero-lead { margin-top: 24px; max-width: 760px; }
+.page-hero .actions { margin-top: 30px; }
+.breadcrumbs { display: flex; gap: 10px; margin-bottom: 26px; font-size: .82rem; color: var(--icost-muted); }
+.breadcrumbs a:hover { color: var(--icost-cyan); }
+.jump-nav { background: var(--icost-bg-deep); border-bottom: 1px solid var(--icost-border); }
+.jump-nav ul { list-style: none; margin: 0; padding: 18px 0; display: flex; flex-wrap: wrap; gap: 10px 12px; }
+.jump-nav a { display: inline-block; padding: 7px 14px; border: 1px solid var(--icost-border); border-radius: 999px; font-size: .86rem; font-weight: 600; color: var(--icost-text); }
+.jump-nav a:hover { border-color: var(--icost-cyan); color: var(--icost-white); }
+.feature-row { display: grid; grid-template-columns: .85fr 1.15fr; gap: 56px; align-items: center; }
+.feature-row.flip { grid-template-columns: 1.15fr .85fr; }
+.feature-row.flip > :first-child { order: 2; }
+.feature-row h2 { font-size: clamp(2rem,3.2vw,3.1rem); }
+.feature-row .problem-line { margin: 22px 0 0; padding-left: 16px; border-left: 3px solid var(--icost-pink); color: var(--icost-muted); font-size: 1rem; }
+.feature-row .what-changes { margin-top: 18px; font-size: 1.05rem; }
+.feature-row ul.ticks { list-style: none; padding: 0; margin: 22px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 22px; font-size: .95rem; }
+.feature-row ul.ticks li { position: relative; padding-left: 22px; }
+.feature-row ul.ticks li::before { content: '\2713'; position: absolute; left: 0; color: var(--icost-cyan); font-weight: 700; }
+.feature-row figure .product-frame img { width: 100%; }
+.section.alt { background: var(--icost-bg-deep); }
+.role-block { display: grid; grid-template-columns: .8fr 1.2fr; gap: 56px; align-items: start; }
+.role-block h2 { font-size: clamp(2rem,3.2vw,3rem); }
+.role-block .role-worry { margin-top: 20px; padding-left: 16px; border-left: 3px solid var(--icost-pink); color: var(--icost-muted); font-size: 1.05rem; font-style: italic; }
+.role-cards { display: grid; grid-template-columns: 1.45fr 1fr; gap: 18px; }
+.role-cards > div { border: 1px solid var(--icost-border); background: var(--icost-panel); padding: 24px; border-radius: 4px; }
+.role-cards h3 { color: var(--icost-cyan); font-size: 1.02rem; margin-bottom: 12px; }
+.role-cards ul { margin: 0; padding-left: 18px; font-size: .95rem; line-height: 1.75; }
+.role-cards .feature-links { list-style: none; padding: 0; }
+.role-cards .feature-links a { color: var(--icost-white); border-bottom: 1px solid rgba(79,212,223,.5); }
+.role-cards .feature-links a:hover { color: var(--icost-cyan); }
+.cta-band { background: var(--icost-panel); border-block: 1px solid var(--icost-border); }
+.cta-band .shell { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
+.cta-band h2 { font-size: clamp(1.9rem,3vw,2.8rem); max-width: 720px; }
+.cta-band .actions { margin-top: 0; }
+.company-types { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; }
+.company-types li { border-top: 2px solid var(--icost-cyan); background: var(--icost-panel); padding: 22px; }
+.company-types h3 { font-size: 1.1rem; margin-bottom: 8px; }
+.company-types p { font-size: .95rem; margin: 0; }
+@media(max-width:1100px) {
+  .feature-row,.role-block { gap: 36px; }
+}
+@media(max-width:860px) {
+  .feature-row,.feature-row.flip,.role-block { grid-template-columns: 1fr; }
+  .feature-row.flip > :first-child { order: 0; }
+  .company-types { grid-template-columns: 1fr; }
+}
+@media(max-width:480px) {
+  .page-hero { padding: 44px 0 40px; }
+  .page-hero h1 { font-size: 2.5rem; }
+  .feature-row ul.ticks,.role-cards { grid-template-columns: 1fr; }
+  .jump-nav ul { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 14px; }
+  .jump-nav a { white-space: nowrap; }
+}

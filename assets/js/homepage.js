@@ -29,6 +29,7 @@
   const tabs = [...document.querySelectorAll('[data-view]')];
   const panels = [...document.querySelectorAll('.workflow-panel')];
   const tablist = document.querySelector('.workflow-tabs');
+  if (tablist) {
   tablist.setAttribute('role', 'tablist');
   tablist.setAttribute('aria-label', 'Explore the I-Cost workflow');
   tabs.forEach(tab => tab.setAttribute('role', 'tab'));
@@ -55,6 +56,7 @@
     });
   });
   selectView(0);
+  }
 
   // Preserve the original subtle reveal, without hiding content if scripting fails.
   if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
@@ -67,5 +69,6 @@
     }, { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
   }
-  document.getElementById('year').textContent = String(new Date().getFullYear());
+  const year = document.getElementById('year');
+  if (year) year.textContent = String(new Date().getFullYear());
 })();
