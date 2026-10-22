@@ -27,7 +27,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Inter:wght@400;500;600;650;700&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/homepage.css?v=a88aa10fbe">
+  <link rel="stylesheet" href="assets/css/homepage.css?v=e346a4fb65">
   <style>
     /* Keep critical hero media sizing with the video markup. */
     .hero-visual .product-frame::after { content: none; }
@@ -95,6 +95,7 @@
     {"@type":"Organization","@id":"https://i-cost.co.uk/#organization","name":"I-Cost","url":"https://i-cost.co.uk/","logo":"https://i-cost.co.uk/assets/images/icost-logo-200.png","email":"kevin@i-cost.co.uk","areaServed":"United Kingdom","sameAs":["https://www.g2.com/products/i-cost/reviews","https://www.capterra.com/p/10268133/I-Cost/","https://www.getapp.com/all-software/a/i-cost-1/","https://www.softwareadvice.com/product/775482-I-Cost/"]},
     {"@type":"WebSite","@id":"https://i-cost.co.uk/#website","url":"https://i-cost.co.uk/","name":"I-Cost","publisher":{"@id":"https://i-cost.co.uk/#organization"}},
     {"@type":"SoftwareApplication","@id":"https://i-cost.co.uk/#software","name":"I-Cost","applicationCategory":"BusinessApplication","applicationSubCategory":"Construction estimating and cost control software","operatingSystem":"Web browser; installs on phone, tablet and PC","url":"https://i-cost.co.uk/","publisher":{"@id":"https://i-cost.co.uk/#organization"},"description":"Construction estimating, procurement, cost control and carbon software for UK contractors: BOQ and BIM import, client quotations, supplier quotes, purchase orders, site timesheets, programme, forecast margin and whole life carbon in one place.","areaServed":"United Kingdom","offers":{"@type":"Offer","price":"35","priceCurrency":"GBP","description":"Per user per month after a 7-day free trial. No bank card required to start."},"featureList":["Excel and CSV BOQ import","BIM model (IFC) import (beta)","Construction estimating with margin","Price check on copied estimates","Client quotations and discounts","Supplier quotation requests and price comparison","Suggested suppliers","Free supplier portal","Purchase orders, goods received and accruals","QR delivery notes","Item tracker","Approved budget, committed cost and forecast margin","Gantt programme","Phone timesheets and approvals","Embodied carbon per estimate line","Whole life carbon assessment (beta)","Roles, permissions and read-only Reviewer","Team chat, Help Desk and Costa help assistant"]},
+    {"@type":"VideoObject","@id":"https://i-cost.co.uk/#video","name":"I-Cost in two minutes","description":"A two-minute tour of I-Cost, construction estimating and cost control software for UK contractors: BOQ import, estimating, supplier quotes, purchase orders and cost reports in one place.","thumbnailUrl":["https://i-cost.co.uk/assets/images/video-thumb-icost-1280.webp","https://i.ytimg.com/vi/wxgHpW9wiaE/maxresdefault.jpg"],"uploadDate":"2026-10-20T06:55:55-07:00","duration":"PT2M","contentUrl":"https://www.youtube.com/watch?v=wxgHpW9wiaE","embedUrl":"https://www.youtube-nocookie.com/embed/wxgHpW9wiaE","publisher":{"@id":"https://i-cost.co.uk/#organization"}},
     {"@type":"FAQPage","@id":"https://i-cost.co.uk/#faq","mainEntity":[
       {"@type":"Question","name":"What is I-Cost?","acceptedAnswer":{"@type":"Answer","text":"I-Cost is construction estimating, procurement, cost control and carbon software for UK contractors. The client's BOQ, your estimate, supplier quotes, purchase orders, site hours, programme and reports sit in one place, so you can see the forecast margin on every project."}},
       {"@type":"Question","name":"Who is I-Cost for?","acceptedAnswer":{"@type":"Answer","text":"UK main contractors and specialist subcontractors: commercial directors, quantity surveyors, estimators, buyers, project and site managers, sustainability leads and finance teams. Suppliers use the supplier portal free of charge."}},
@@ -233,6 +234,32 @@
         <p>In a 2024 university study, GPT-4's estimates were &ldquo;inaccurate, inconsistent, and not relevant&rdquo; until the researchers gave it real labour, plant and material rates. <a class="inline-link" href="https://doi.org/10.55092/sc20240009" rel="noopener" target="_blank">Ghasemi &amp; Dai, Smart Construction, 2024</a></p>
         <p>On a &pound;1m job at a 3% margin, material rates 5% too low on &pound;600,000 of materials cost &pound;30,000: the whole profit. <small>Illustrative example.</small></p>
       </div>
+    </div></section>
+    <section class="section video-section" id="video" aria-labelledby="video-title"><div class="shell video-grid">
+      <div class="section-heading reveal"><p class="eyebrow">See it working</p><h2 id="video-title">I-Cost in two minutes</h2><p>Watch a client BOQ become a priced estimate, supplier quotes, purchase orders and a live cost report, all in one place.</p><p class="video-note">Plays from YouTube when you press play. Nothing loads from YouTube before that.</p></div>
+      <figure class="video-figure">
+        <div class="product-frame"><div class="frame-bar"><span class="frame-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>I-Cost / Product tour</span></div>
+          <div class="video-embed" data-video="wxgHpW9wiaE">
+            <img src="assets/images/video-thumb-icost-640.webp" srcset="assets/images/video-thumb-icost-640.webp 640w, assets/images/video-thumb-icost-1280.webp 1280w" sizes="(max-width: 860px) 100vw, 700px" alt="" width="1280" height="720" loading="lazy" decoding="async">
+            <button class="video-play" type="button" aria-label="Play the two-minute I-Cost product video"><span aria-hidden="true">&#9654;</span> Play video (2:00)</button>
+          </div>
+        </div>
+        <figcaption class="product-caption"><a class="inline-link" href="https://www.youtube.com/watch?v=wxgHpW9wiaE" rel="noopener" target="_blank">Watch on YouTube</a></figcaption>
+      </figure>
+      <script>
+        (() => {
+          const box = document.querySelector('.video-embed');
+          box.querySelector('.video-play').addEventListener('click', () => {
+            const f = document.createElement('iframe');
+            f.src = 'https://www.youtube-nocookie.com/embed/' + box.dataset.video + '?autoplay=1&rel=0';
+            f.title = 'I-Cost product video';
+            f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+            f.allowFullscreen = true;
+            box.replaceChildren(f);
+            f.focus();
+          });
+        })();
+      </script>
     </div></section>
     <section class="section" id="who" aria-labelledby="who-title"><div class="shell">
       <div class="section-heading reveal"><p class="eyebrow">Who it's for</p><h2 id="who-title">One job. Eight people.<br><span>Each with their own worry.</span></h2><p>A buying decision involves the whole team. Here is what changes for each of them.</p></div>
