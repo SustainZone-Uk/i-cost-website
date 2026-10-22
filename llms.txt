@@ -29,6 +29,16 @@ Why real prices matter: AI tools can help draft an estimate but do not know toda
 - [Pricing](https://i-cost.co.uk/pricing/): one plan, £35 per user per month, everything included
 - [Contact](https://i-cost.co.uk/contact/): free trial, request a quote, or book a demo or commercial health check
 
+## Solutions
+
+- [Construction project management software](https://i-cost.co.uk/construction-project-management-software/): run the commercial side of every job, from estimate to final report
+- [Construction estimating software](https://i-cost.co.uk/construction-estimating-software/): import the client BOQ or a BIM model, price it and quote the client; how to price a BOQ
+- [Construction supplier management](https://i-cost.co.uk/construction-supplier-management/): quotes from several suppliers side by side, a free supplier portal, managing subcontractors
+- [Construction purchase order software](https://i-cost.co.uk/construction-purchase-order-software/): orders, QR delivery notes, goods received, invoices and committed cost
+- [Construction cost and budget tracking](https://i-cost.co.uk/construction-cost-tracking/): approved budget, committed cost, forecast final cost and margin
+- [Construction timesheet app](https://i-cost.co.uk/construction-timesheet-app/): site hours on a phone, gangs, approvals and labour cost
+- [Embodied carbon calculator](https://i-cost.co.uk/embodied-carbon-calculator/): carbon from the estimate, and whole life carbon assessments A1 to D following RICS
+
 ## Optional
 
 - [Blog](https://blog.i-cost.co.uk/): articles on margin leaks, carbon reduction plans (PPN 006) and net zero targets for SMEs
