@@ -39,6 +39,14 @@ Why real prices matter: AI tools can help draft an estimate but do not know toda
 - [Construction timesheet app](https://i-cost.co.uk/construction-timesheet-app/): site hours on a phone, gangs, approvals and labour cost
 - [Embodied carbon calculator](https://i-cost.co.uk/embodied-carbon-calculator/): carbon from the estimate, and whole life carbon assessments A1 to D following RICS
 
+## Guides
+
+- [How to manage a construction project step by step](https://i-cost.co.uk/insights/how-to-manage-a-construction-project/)
+- [How to price a BOQ (bill of quantities)](https://i-cost.co.uk/insights/how-to-price-a-boq/)
+- [How to track construction costs](https://i-cost.co.uk/insights/how-to-track-construction-costs/)
+- [How to manage suppliers and subcontractors](https://i-cost.co.uk/insights/how-to-manage-suppliers-and-subcontractors/)
+- [Free construction templates for Excel: cost tracker and purchase order](https://i-cost.co.uk/insights/free-construction-templates/)
+
 ## Optional
 
 - [Blog](https://blog.i-cost.co.uk/): articles on margin leaks, carbon reduction plans (PPN 006) and net zero targets for SMEs
