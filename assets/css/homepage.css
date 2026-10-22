@@ -1821,3 +1821,45 @@ h2 span, .page-hero h1 span { color: var(--accent-hi); }
   .hero-grid { grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 40px; }
   .hero-visual { margin-right: calc((100vw - min(var(--shell), 100vw - 96px)) / -2 + 16px); }
 }
+
+/* Homepage journey: 12 steps in 3 stages (replaces the 8-tile strip) */
+.journey { background: #fff; padding: 56px 0 64px; }
+.j-intro { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 24px; margin-bottom: 28px; }
+.j-intro h2 { color: #0b1f2e; font-size: clamp(1.9rem,2.6vw,2.6rem); }
+.j-intro p { color: #4a5d69; margin: 0; font-size: 1.02rem; }
+.j-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.j-head { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 10px; padding-bottom: 8px; border-bottom: 3px solid var(--j); }
+.j-head strong { font-family: "Barlow Condensed","Arial Narrow",Arial,sans-serif; font-size: 1.35rem; letter-spacing: .02em; text-transform: uppercase; color: #0b1f2e; }
+.j-head span { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #4a5d69; }
+.j-phase ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.j-phase li { position: relative; display: grid; grid-template-columns: 34px 1fr; column-gap: 12px; padding: 14px 16px; border-radius: 8px; background: var(--j); color: #fff; }
+.j-phase li h3 { grid-column: 2; margin: 0; font-size: 1rem; color: #fff; letter-spacing: 0; }
+.j-phase li p { grid-column: 2; margin: 3px 0 0; font-size: .88rem; line-height: 1.4; color: #fff; }
+.j-num { grid-row: 1 / span 2; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: rgba(0,0,0,.22); color: #fff; font-family: "Barlow Condensed","Arial Narrow",Arial,sans-serif; font-size: 1.15rem; font-weight: 700; }
+.j-phase-1 { --j: #0b3b66; }
+.j-phase-1 li:nth-child(2n) { background: #0b4f8a; }
+.j-phase-2 { --j: #0b6aa8; }
+.j-phase-2 li:nth-child(2n) { background: #0a5f97; }
+.j-phase-3 { --j: #0b7d75; }
+.j-phase-3 li:nth-child(2n) { background: #0a6e69; }
+.j-phase-3 li:last-child { background: var(--icost-pink); }
+@media (max-width: 960px) { .j-grid { grid-template-columns: 1fr; gap: 28px; } }
+
+/* Insights cards with photos */
+.post-list { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.post-list li.wide { grid-column: span 2; }
+.post-list li a { display: flex; flex-direction: column; padding: 0; overflow: hidden; border-radius: 12px; border-top: 0; transition: transform .2s ease, box-shadow .2s ease; }
+.light .post-list li a { background: #fff; border: 1px solid rgba(6,27,42,.1); box-shadow: 0 2px 10px rgba(6,27,42,.06); }
+.post-list li a:hover { transform: translateY(-4px); box-shadow: 0 16px 36px rgba(6,27,42,.16); border-color: var(--pc); }
+.post-img { position: relative; display: block; aspect-ratio: 16 / 9; overflow: hidden; background: #0d3042; }
+.post-list li.wide .post-img { aspect-ratio: 21 / 9; }
+.post-img::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: var(--pc); }
+.post-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.post-list li a:hover .post-img img { transform: scale(1.04); }
+.post-body { display: flex; flex-direction: column; flex: 1; padding: 22px 24px 24px; }
+.post-list .kind { align-self: flex-start; padding: 4px 10px; border-radius: 999px; background: var(--pc); color: #fff; font-size: .72rem; }
+.post-list h3 { margin: 12px 0 8px; }
+.post-cta { margin-top: auto; padding-top: 16px; font-weight: 700; font-size: .92rem; color: var(--pc); }
+@media (prefers-reduced-motion: reduce) { .post-list li a, .post-img img { transition: none; } .post-list li a:hover, .post-list li a:hover .post-img img { transform: none; } }
+@media (max-width: 1100px) { .post-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 700px) { .post-list { grid-template-columns: 1fr; } .post-list li.wide { grid-column: auto; } .post-list li.wide .post-img { aspect-ratio: 16 / 9; } }
