@@ -5,7 +5,7 @@
 I-Cost is for UK main contractors and specialist subcontractors: commercial directors, quantity surveyors, estimators, buyers, project and site managers, sustainability leads and finance teams. It runs in the browser and installs like an app on phone, tablet and PC.
 
 What I-Cost does:
-- Estimating and BOQ: import the client's Excel or CSV bill of quantities with a total check, or quantities from a BIM model (IFC, beta); cost and selling rates with margin; libraries; a price check that flags copied items bought since at a different price; locked final estimates and revisions.
+- Estimating and BOQ: import the client's Excel or CSV bill of quantities with a total check, or quantities from a BIM model (IFC, beta) or straight from Revit 2023-2027 with the free I-Cost for Revit add-in (https://i-cost.co.uk/revit/); cost and selling rates with margin; libraries; a price check that flags copied items bought since at a different price; locked final estimates and revisions.
 - Client quotations: quotation PDF from the estimate at selling prices, negotiated discount, accepted revision becomes the agreed contract sum used in every report.
 - Suppliers and quotes: one quotation request to several suppliers, suggested suppliers, a free supplier portal, side-by-side price comparison, order from the lowest quote.
 - Purchase orders and deliveries: drafts and revisions, order progress from suppliers, QR delivery notes, goods received, accruals, credit notes, an Item tracker from request to invoice, supply chain view.
