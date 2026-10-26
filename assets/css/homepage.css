@@ -1819,7 +1819,7 @@ h2 span, .page-hero h1 span { color: var(--accent-hi); }
 /* Homepage hero: give the product video more room on wider screens */
 @media (min-width: 1101px) {
   .hero-grid { grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 40px; }
-  .hero-visual { margin-right: calc((100vw - min(var(--shell), 100vw - 96px)) / -2 + 16px); }
+  .hero-visual { margin-right: calc((100vw - min(var(--shell), 100vw - 96px)) / -2 + 50px); }
 }
 
 /* Homepage journey: 12 steps in 3 stages (replaces the 8-tile strip) */
