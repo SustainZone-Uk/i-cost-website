@@ -1,0 +1,35 @@
+/* Loaded only by the six new Insights articles. Keep shared site styles intact. */
+.insights-article .article-header .breadcrumbs {
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.insights-article .article-header .breadcrumbs > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.insights-article .article-main .faq summary,
+.insights-article .article-sidebar h2 {
+  color: #0b1f2e;
+}
+
+.insights-article .article-main .faq,
+.insights-article .article-main .faq details {
+  border-color: #dbe3e8;
+}
+
+.insights-article .article-main .faq summary::after {
+  color: #0b6aa8;
+}
+
+.insights-article .article-sidebar p {
+  color: #3f5564;
+}
+
+.insights-article .article-sidebar a,
+.insights-article .article-main p a {
+  color: #0b6aa8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
