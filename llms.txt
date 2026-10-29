@@ -25,7 +25,7 @@ Why real prices matter: AI tools can help draft an estimate but do not know toda
 - [Platform](https://i-cost.co.uk/platform/): every feature, section by section, with screenshots
 - [Who it's for](https://i-cost.co.uk/contractors/): what changes for directors, QSs, estimators, buyers, site managers, sustainability leads, finance and suppliers
 - [Benefits](https://i-cost.co.uk/benefits/): where construction margin leaks and how to protect it, with sourced figures and a margin calculator
-- [How it works](https://i-cost.co.uk/how-it-works/): getting started in five steps and the eight steps of every project
+- [How it works](https://i-cost.co.uk/how-it-works/): getting started in five steps and the nine steps of every project (Project, Design, Estimate, Secure work, Budget, Materials and Labour side by side, Progress, Report)
 - [Pricing](https://i-cost.co.uk/pricing/): one plan, £35 per user per month, everything included
 - [Contact](https://i-cost.co.uk/contact/): free trial, request a quote, or book a demo or commercial health check
 
