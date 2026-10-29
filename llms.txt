@@ -8,14 +8,14 @@ What I-Cost does:
 - Estimating and BOQ: import the client's Excel or CSV bill of quantities with a total check, or quantities from a BIM model (IFC, beta) or straight from Revit 2023-2027 with the free I-Cost for Revit add-in (https://i-cost.co.uk/revit/); cost and selling rates with margin; libraries; a price check that flags copied items bought since at a different price; locked final estimates and revisions.
 - Client quotations: quotation PDF from the estimate at selling prices, negotiated discount, accepted revision becomes the agreed contract sum used in every report.
 - Suppliers and quotes: one quotation request to several suppliers, suggested suppliers, a free supplier portal, side-by-side price comparison, order from the lowest quote.
-- Purchase orders and deliveries: drafts and revisions, order progress from suppliers, QR delivery notes, goods received, accruals, credit notes, an Item tracker from request to invoice, supply chain view.
+- Purchase orders and deliveries: drafts and revisions, order progress from suppliers, QR delivery notes, goods received, accruals, credit notes, an Item tracker from request to invoice, supply chain view; supplier invoices exported as a file for Xero's bill import (draft bills; a file you import, not a live Xero connection).
 - Cost control and reporting: approved cost budget (versioned), committed and incurred cost, forecast final cost, cost to complete and forecast margin by area and cost type; the records behind every figure; project report as Word or PDF; CSV for Excel.
 - Programme: Gantt programme from the estimate's sections, late and upcoming work, Excel download, time summary across projects.
 - Timesheets: hours logged on a phone, site gangs, design tasks, approvals with send back, costed at hourly rates.
 - Carbon: embodied carbon on every estimate line from UK ICE data or EPDs; whole life carbon assessments (beta) covering stages A1-A5, B1-B7, C1-C4 and D, following the RICS Professional Standard (2nd edition) and BS EN 15978.
 - Team and support: roles and permissions, read-only Reviewer, team chat, guided tutorial, Costa in-app help assistant, Help Desk, hourly off-site backups, data export at any time.
 
-Not in I-Cost yet: valuations, payment applications and a variations register.
+Not in I-Cost yet: valuations, payment applications, a variations register, and a live connection to accounting software (Xero, QuickBooks or Sage).
 
 Why real prices matter: AI tools can help draft an estimate but do not know today's prices from your suppliers. UK top-100 contractors average a 2.4% pre-tax margin (The Construction Index, 2025), UK material prices rose 6.4% in the year to August 2026 (Department for Business and Trade), and avoidable errors cost around 21% of project value (Get It Right Initiative / CITB). I-Cost keeps supplier quotes and your own purchase order prices in one place.
 
