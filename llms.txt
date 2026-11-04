@@ -52,3 +52,4 @@ Why real prices matter: AI tools can help draft an estimate but do not know toda
 - [Blog](https://blog.i-cost.co.uk/): articles on margin leaks, carbon reduction plans (PPN 006) and net zero targets for SMEs
 - [Start a free trial](https://www.i-cost.co.uk/uat/public/register)
 - [Request a quote](https://www.i-cost.co.uk/uat/public/get-a-quote)
+- [Security & trust](https://i-cost.co.uk/security/): how I-Cost protects customer data (separate workspaces, two-step login, security log, private files, hourly backups, UK standby); aligning with ISO/IEC 27001, not certified.
