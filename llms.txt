@@ -12,7 +12,7 @@ What I-Cost does:
 - Cost control and reporting: approved cost budget (versioned), committed and incurred cost, forecast final cost, cost to complete and forecast margin by area and cost type; the records behind every figure; project report as Word or PDF; CSV for Excel.
 - Programme: Gantt programme from the estimate's sections, late and upcoming work, Excel download, time summary across projects.
 - Timesheets: hours logged on a phone, site gangs, design tasks, approvals with send back, costed at hourly rates.
-- Carbon: embodied carbon on every estimate line from UK ICE data or EPDs; whole life carbon assessments (beta) covering stages A1-A5, B1-B7, C1-C4 and D, following the RICS Professional Standard (2nd edition) and BS EN 15978.
+- Carbon: embodied carbon on every estimate line from a carbon library of UK Government factors and ÖKOBAUDAT datasets (EN 15804+A2), or the company's own EPDs. AI is used only to match: Match with AI (Claude, by Anthropic) suggests which library material fits each line and never supplies carbon figures; Build up the rest estimates the library materials in products the library lacks, marked as estimated and added only when a person presses Use; whole life carbon assessments (beta) covering stages A1-A5, B1-B7, C1-C4 and D, following the RICS Professional Standard (2nd edition) and BS EN 15978.
 - Team and support: roles and permissions, read-only Reviewer, team chat, guided tutorial, Costa in-app help assistant, Help Desk, hourly off-site backups, data export at any time.
 
 Not in I-Cost yet: valuations, payment applications, a variations register, and connections to QuickBooks or Sage.
