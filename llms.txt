@@ -27,6 +27,7 @@ Why real prices matter: AI tools can help draft an estimate but do not know toda
 - [Benefits](https://i-cost.co.uk/benefits/): where construction margin leaks and how to protect it, with sourced figures and a margin calculator
 - [How it works](https://i-cost.co.uk/how-it-works/): getting started in five steps and the ten steps of every project (Project, Design, Estimate, Supplier prices, Client quote, Budget, Orders, Deliveries, Site work, Report)
 - [Pricing](https://i-cost.co.uk/pricing/): one plan, £35 per user per month, everything included
+- [Connect I-Cost to Xero](https://i-cost.co.uk/help/xero/): help for the live Xero connection: what it sends and reads, price (£10 a month per company), set-up steps, data shared and troubleshooting
 - [Contact](https://i-cost.co.uk/contact/): free trial, request a quote, or book a demo or commercial health check
 
 ## Solutions
