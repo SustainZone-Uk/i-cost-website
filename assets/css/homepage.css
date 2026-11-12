@@ -1962,3 +1962,128 @@ h2 span, .page-hero h1 span { color: var(--accent-hi); }
 /* Footer: privacy + terms links */
 .footer-legal { display: flex; flex-wrap: wrap; gap: 8px 20px; }
 .footer-legal a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Corrective visual polish, scoped to the original homepage without changing its HTML.
+   All baseline rules above remain intact for subpages. Content and JavaScript are unchanged. */
+body:has(> #main > #home.hero) { --shell: 1296px; font-size: 1rem; line-height: 1.65; }
+body:has(> #main > #home.hero) .shell { width: min(var(--shell), calc(100% - 96px)); }
+body:has(> #main > #home.hero) :is(h1, h2, h3) { text-transform: none; }
+body:has(> #main > #home.hero) h1 { font-size: clamp(2.5rem, 3.4vw, 3.25rem); line-height: 1.12; }
+body:has(> #main > #home.hero) h2 { font-size: clamp(2rem, 2.6vw, 2.5rem); line-height: 1.2; }
+body:has(> #main > #home.hero) h3 { font-size: 1.125rem; line-height: 1.4; }
+body:has(> #main > #home.hero) .eyebrow { font-size: .8125rem; letter-spacing: .025em; text-transform: none; margin-bottom: 14px; }
+body:has(> #main > #home.hero) .section { padding-block: 64px; }
+body:has(> #main > #home.hero) .section-heading { max-width: 760px; margin-bottom: 32px; }
+body:has(> #main > #home.hero) .section-heading > p:last-child { font-size: 1rem; line-height: 1.65; max-width: 68ch; margin-top: 18px; }
+body:has(> #main > #home.hero) .split-heading { gap: 48px; margin-bottom: 32px; }
+body:has(> #main > #home.hero) .split-heading > p { font-size: 1rem; }
+body:has(> #main > #home.hero) .light { background-image: none !important; }
+body:has(> #main > #home.hero) .header-inner { min-height: 80px; }
+body:has(> #main > #home.hero) .site-nav { gap: 24px; font-size: .875rem; }
+body:has(> #main > #home.hero) .button { min-height: 48px; padding: 11px 20px; gap: 14px; border-radius: 4px; font-size: .875rem; font-weight: 650; transition: none; }
+body:has(> #main > #home.hero) .site-nav .button { min-height: 44px; padding: 10px 18px; }
+body:has(> #main > #home.hero) .button:disabled { opacity: .6; cursor: not-allowed; }
+body:has(> #main > #home.hero) :is(a, button, summary, [tabindex]):focus-visible { outline: 3px solid var(--icost-cyan); outline-offset: 4px; }
+body:has(> #main > #home.hero) .hero { padding: 56px 0; }
+body:has(> #main > #home.hero) .hero.dark::after { content: none; }
+body:has(> #main > #home.hero) .hero-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 48px; }
+body:has(> #main > #home.hero) .hero h1 .hero-kicker { font-size: .8125rem; line-height: 1.6; letter-spacing: .025em; margin-bottom: 18px; }
+body:has(> #main > #home.hero) .hero-lead { font-size: 1rem; line-height: 1.7; margin-top: 22px; }
+body:has(> #main > #home.hero) .hero .trial-note { font-size: .8125rem; line-height: 1.7; }
+body:has(> #main > #home.hero) .hero-visual { margin: 0; max-width: none; }
+body:has(> #main > #home.hero) .hero-visual .product-frame { border: 1px solid var(--icost-border); border-radius: 4px; }
+body:has(> #main > #home.hero) .hero-video-play { min-height: 44px; border-radius: 4px; background: #041521; border-color: #93a4af; }
+body:has(> #main > #home.hero) .works-with { gap: 12px; }
+body:has(> #main > #home.hero) .works-with > span { letter-spacing: .025em; text-transform: none; }
+body:has(> #main > #home.hero) .works-with a { border-radius: 4px; padding: 8px 12px; background: transparent; }
+body:has(> #main > #home.hero) :is(.product-frame, .photo-card, .intel-demo) { border-radius: 4px; box-shadow: none; }
+body:has(> #main > #home.hero) .photo-card::after { content: none; }
+body:has(> #main > #home.hero) .product-caption { font-size: .75rem; line-height: 1.5; margin-top: 12px; }
+body:has(> #main > #home.hero) .journey { padding-block: 48px; }
+body:has(> #main > #home.hero) .j-grid { gap: 24px; align-items: start; }
+body:has(> #main > #home.hero) .j-head { border-bottom: 2px solid #0a7c87; }
+body:has(> #main > #home.hero) .j-head strong { font-size: 1.25rem; text-transform: none; }
+body:has(> #main > #home.hero) .j-head span { letter-spacing: .025em; text-transform: none; }
+body:has(> #main > #home.hero) .j-phase li { padding: 16px; border: 1px solid rgba(6,27,42,.15); border-radius: 4px; background: #f4f7f9; color: #364a57; }
+body:has(> #main > #home.hero) .j-phase li h3 { font-size: 1rem; line-height: 1.4; color: #0b1f2e; }
+body:has(> #main > #home.hero) .j-phase li p { color: #364a57; line-height: 1.5; }
+body:has(> #main > #home.hero) .j-num { border-radius: 3px; background: #e3e9ee; color: #0b1f2e; }
+body:has(> #main > #home.hero) :is(.pairs li, .roles li, .module, .how-grid li, .related a) { transition: none; box-shadow: none; }
+body:has(> #main > #home.hero) :is(.pairs li, .roles li, .module, .how-grid li, .related a):hover { transform: none; box-shadow: none; }
+body:has(> #main > #home.hero) :is(.pairs li, .roles li, .module, .report-list li, .team-grid > div, .contact-options li, .intel-grid > li) { padding: 24px; border-radius: 4px; }
+body:has(> #main > #home.hero) .module:hover { background: var(--icost-panel); border-color: var(--icost-border); }
+body:has(> #main > #home.hero) :is(.pairs p, .roles p, .module p, .report-list p) { font-size: .9375rem; line-height: 1.65; }
+body:has(> #main > #home.hero) :is(.roles h3, .report-list h3, .team-grid h3) { font-size: 1.0625rem; line-height: 1.4; }
+body:has(> #main > #home.hero) .feature-groups .module { border-top-width: 1px; }
+body:has(> #main > #home.hero) .feature-groups ul { font-size: .875rem; line-height: 1.7; }
+body:has(> #main > #home.hero) .module .module-number { margin-bottom: 14px; font-size: .75rem; }
+body:has(> #main > #home.hero) .value-example { background: #fff; border: 1px solid rgba(6,27,42,.15); border-left: 3px solid var(--icost-pink); padding: 28px; }
+body:has(> #main > #home.hero) .value-example :is(strong, p, small) { color: #0b1f2e; }
+body:has(> #main > #home.hero) .value-example strong { font-size: 2.75rem; line-height: 1.15; }
+body:has(> #main > #home.hero) .stats li { border-top-width: 1px; padding: 24px; }
+body:has(> #main > #home.hero) .stats strong { font-size: 2.75rem; line-height: 1.15; }
+body:has(> #main > #home.hero) .stats p { font-size: .9375rem; }
+body:has(> #main > #home.hero) .intel { background: var(--icost-bg); }
+body:has(> #main > #home.hero) .intel-grid > li { background: var(--icost-panel); }
+body:has(> #main > #home.hero) .intel-demo { min-height: 176px; border: 1px solid #e3e9ee; }
+body:has(> #main > #home.hero) .intel-grid p { font-size: .9375rem; line-height: 1.65; }
+body:has(> #main > #home.hero) .intel-bar i { border-radius: 2px; background: #0b6aa8; clip-path: inset(0 calc(100% - var(--w)) 0 0); }
+body:has(> #main > #home.hero) .intel-cols span { border-radius: 3px; background: #0b4f8a; }
+body:has(> #main > #home.hero) :is(.intel-row .up, .tag-ok, .tag-ask, .tag) { border-radius: 3px; }
+body:has(> #main > #home.hero) .track-stages { gap: 12px; }
+body:has(> #main > #home.hero) .track-stages li { border-radius: 4px; background: #0b3b66; padding: 32px 12px 16px; }
+body:has(> #main > #home.hero) .track-stages li::after { content: none; }
+body:has(> #main > #home.hero) .track-head { gap: 40px; }
+body:has(> #main > #home.hero) .workflow-tab { font-size: .9375rem; min-height: 64px; padding: 16px; }
+body:has(> #main > #home.hero) .workflow-panel { gap: 40px; }
+body:has(> #main > #home.hero) .workflow-panel h3 { font-size: 1.5rem; line-height: 1.3; }
+body:has(> #main > #home.hero) .workflow-panel ul { font-size: .875rem; }
+body:has(> #main > #home.hero) .metrics { gap: 20px; }
+body:has(> #main > #home.hero) .metric { padding: 22px; border-top-width: 1px; }
+body:has(> #main > #home.hero) .video-play { min-height: 48px; border-radius: 4px; font-size: .9375rem; }
+body:has(> #main > #home.hero) .faq summary { font-size: 1rem; min-height: 52px; }
+body:has(> #main > #home.hero) .faq details p { font-size: .9375rem; line-height: 1.65; }
+body:has(> #main > #home.hero) .trial.photo-bg { position: relative; background-image: url('../images/photos/pexels-cranes-sunset.webp') !important; }
+body:has(> #main > #home.hero) .trial.photo-bg::before { content: ''; position: absolute; inset: 0; background: rgba(6,27,42,.9); pointer-events: none; }
+body:has(> #main > #home.hero) .trial.photo-bg .shell { position: relative; }
+body:has(> #main > #home.hero) .trial-grid { gap: 48px; }
+body:has(> #main > #home.hero) .contact-options { gap: 24px; }
+/* Prevent the existing reveal enhancement from moving or fading content; its script stays untouched. */
+body:has(> #main > #home.hero) .reveal { opacity: 1 !important; transform: none !important; }
+@media (max-width: 1100px) {
+  body:has(> #main > #home.hero) .shell { width: calc(100% - 64px); }
+  body:has(> #main > #home.hero) .site-nav { gap: 14px; font-size: .8125rem; }
+  body:has(> #main > #home.hero) :is(.hero-grid, .track-head, .workflow-panel, .trial-grid) { gap: 32px; }
+  body:has(> #main > #home.hero) .track-stages { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+  body:has(> #main > #home.hero) .shell { width: calc(100% - 48px); }
+  body:has(> #main > #home.hero) .header-inner { min-height: 72px; }
+  body:has(> #main > #home.hero) .site-nav { font-size: .9375rem; }
+  body:has(> #main > #home.hero) .site-nav > a { min-height: 44px; }
+  body:has(> #main > #home.hero) .section { padding-block: 48px; }
+  body:has(> #main > #home.hero) .hero { padding-block: 40px; }
+  body:has(> #main > #home.hero) .hero-grid { grid-template-columns: 1fr; }
+  body:has(> #main > #home.hero) .hero h1 { font-size: 2.75rem; }
+  body:has(> #main > #home.hero) .hero-visual { width: 100%; }
+  body:has(> #main > #home.hero) :is(.split-heading, .track-head) { gap: 24px; }
+  body:has(> #main > #home.hero) .j-grid { gap: 28px; }
+  body:has(> #main > #home.hero) .j-phase li { min-height: 88px; }
+  body:has(> #main > #home.hero) .workflow-tab { min-height: 72px; }
+  body:has(> #main > #home.hero) .intel-demo { min-height: 0; }
+}
+@media (max-width: 540px) {
+  body:has(> #main > #home.hero) .shell { width: calc(100% - 40px); }
+  body:has(> #main > #home.hero) .section { padding-block: 40px; }
+  body:has(> #main > #home.hero) .hero h1 { font-size: 2.5rem; }
+  body:has(> #main > #home.hero) h2 { font-size: 2rem; }
+  body:has(> #main > #home.hero) .hero .actions { flex-direction: column; align-items: stretch; }
+  body:has(> #main > #home.hero) .hero .actions .button { width: 100%; }
+  body:has(> #main > #home.hero) .works-with > span { flex-basis: 100%; }
+  body:has(> #main > #home.hero) :is(.pairs li, .roles li, .module, .report-list li, .team-grid > div, .contact-options li, .intel-grid > li) { padding: 20px; }
+  body:has(> #main > #home.hero) .track-stages { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body:has(> #main > #home.hero) .intel-row { grid-template-columns: minmax(0, 1fr) auto auto auto; gap: 8px; }
+  body:has(> #main > #home.hero) .intel-row.two { grid-template-columns: minmax(0, 1fr) auto; }
+  body:has(> #main > #home.hero) .intel-demo-head { flex-wrap: wrap; gap: 4px 10px; }
+}
+
