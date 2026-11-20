@@ -30,7 +30,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Inter:wght@400;500;600;650;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/homepage.css?v=b6f16b7a4e">
-  <link rel="preload" as="image" href="assets/images/hero/hero-site-1600.webp" type="image/webp" media="(min-width: 861px)" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/hero/hero-team-1400.webp" type="image/webp" media="(min-width: 861px)" fetchpriority="high">
   <style>
     /* Live hero (v3, 20 Nov 2026): site photo behind the real I-Cost dashboard. Inside the dashboard the figures count up and
        light up, the ring and journey bar draw, the activity list fills and updates; two card slots show 3D model progress,
@@ -41,7 +41,7 @@
     .hero-bg::after { content: ""; position: absolute; inset: 0; background:
       linear-gradient(90deg, var(--icost-bg) 0%, rgba(6,27,42,.78) 14%, rgba(6,27,42,.22) 40%, rgba(6,27,42,.10) 100%),
       linear-gradient(0deg, rgba(6,27,42,.65) 0%, rgba(6,27,42,0) 22%, rgba(6,27,42,0) 70%, var(--icost-bg) 100%); }
-    @media (min-width: 861px) { .hero-bg { background-image: url("assets/images/hero/hero-site-1600.webp"); background-position: 0% 50%; } }
+    @media (min-width: 861px) { .hero-bg { background-image: url("assets/images/hero/hero-team-1400.webp"); background-position: 62% 78%; } }
     .hero-stage { position: relative; width: 100%; aspect-ratio: 16 / 12; font-family: Inter, Arial, sans-serif; color: #0b1f2e; }
     .hero-live .product-caption { position: relative; z-index: 2; color: #c9d6de; text-shadow: 0 1px 3px rgba(0,0,0,.8); }
     .hs-dash { position: absolute; top: -12%; right: -2%; width: 92%; margin: 0; perspective: 1800px; }
@@ -85,14 +85,18 @@
     .hs-row em { font-style: normal; font-size: .85cqw; color: #c9d6de; background: #1d2a35; border-radius: 99px; padding: .3cqw .8cqw; white-space: nowrap; }
     .hs-row.new em { background: #0f5b4a; color: #c8f7e4; }
     .hs-card { position: absolute; background: #fff; border-radius: 12px; box-shadow: 0 18px 44px rgba(0,0,0,.42), 0 0 0 1px rgba(11,31,46,.06); padding: 11px 13px; font-size: 12px; line-height: 1.35;
-      opacity: 0; transform: translateY(16px) scale(.96); transition: opacity .45s ease, transform .55s cubic-bezier(.2,.8,.2,1.15); }
-    .hs-card.on { opacity: 1; transform: none; }
+      opacity: 0; transform: scale(.6); filter: blur(5px); transform-origin: var(--o, 30% 100%); pointer-events: none;
+      transition: opacity .35s ease, transform .35s cubic-bezier(.4,0,.2,1), filter .35s ease; }
+    .hs-card.on { opacity: 1; transform: none; filter: none; animation: hsBubble .75s cubic-bezier(.2,.9,.25,1) both, hsRipple 1s ease-out .15s; }
+    @keyframes hsBubble { 0% { transform: scale(.55); opacity: 0; filter: blur(6px); } 55% { transform: scale(1.035); opacity: 1; filter: blur(0); } 78% { transform: scale(.992); } 100% { transform: scale(1); } }
+    @keyframes hsRipple { 0% { box-shadow: 0 18px 44px rgba(0,0,0,.42), 0 0 0 0 rgba(79,212,223,.55); } 100% { box-shadow: 0 18px 44px rgba(0,0,0,.42), 0 0 0 16px rgba(79,212,223,0); } }
     .hs-head { display: flex; align-items: center; gap: 9px; margin-bottom: 8px; }
     .hs-ic { flex: 0 0 26px; height: 26px; border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: 13px; font-weight: 800; }
     .hs-head b { display: block; font-size: 12.5px; color: #0b1f2e; }
     .hs-head small { display: block; font-size: 10.5px; color: #5d6f7b; }
-    .hs-a { left: -7%; top: 50%; width: 44%; }
-    .hs-b { left: 41%; top: 66%; width: 40%; }
+    .hs-a { left: -7%; top: 50%; width: 44%; --o: 20% 0%; }
+    .hs-margin { --o: 100% 50%; }
+    .hs-b { left: 41%; top: 66%; width: 40%; --o: 50% 0%; }
     .hs-bim .hs-ic { background: #0ea1e4; }
     .hs-views { position: relative; aspect-ratio: 560 / 346; border-radius: 8px; overflow: hidden; background: #2a3442; }
     .hs-v { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; transition: opacity .5s ease; }
@@ -105,8 +109,8 @@
     .hs-stages span i { display: block; height: 3px; border-radius: 2px; background: var(--c); margin-bottom: 2px; }
     .hs-stages span.hot { background: #e6f7fd; }
     .hs-chip { position: absolute; display: flex; align-items: center; gap: 7px; padding: 6px 11px 6px 7px; border-radius: 999px; background: rgba(255,255,255,.96); color: #0b1f2e; font-size: 11.5px; font-weight: 650; white-space: nowrap;
-      box-shadow: 0 10px 26px rgba(0,0,0,.35); opacity: 0; transform: scale(.8); transition: opacity .35s ease, transform .45s cubic-bezier(.2,.8,.2,1.3), box-shadow .3s ease; }
-    .hs-chip.on { opacity: 1; transform: none; animation: hsFloat 4s ease-in-out infinite; animation-delay: var(--d, 0s); }
+      box-shadow: 0 10px 26px rgba(0,0,0,.35); opacity: 0; transform: scale(.4); filter: blur(4px); transition: opacity .3s ease, transform .3s ease, filter .3s ease, box-shadow .3s ease; }
+    .hs-chip.on { opacity: 1; transform: none; filter: none; animation: hsBubble .7s cubic-bezier(.2,.9,.25,1) both, hsFloat 4s ease-in-out .7s infinite; }
     .hs-chip i { flex: 0 0 20px; height: 20px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-style: normal; font-size: 10.5px; font-weight: 800; background: var(--c); }
     .hs-chip.ping { box-shadow: 0 0 0 3px var(--c), 0 10px 26px rgba(0,0,0,.35); }
     @keyframes hsFloat { 0%, 100% { translate: 0 0; } 50% { translate: 0 -5px; } }
@@ -122,6 +126,26 @@
     .hs-fuzzy.taken .hs-sugg .pick { background: #6b5cff; color: #fff; }
     .hs-sugg .pick small { color: #6b5cff; font-weight: 700; } .hs-fuzzy.taken .hs-sugg .pick small { color: #fff; }
     .hs-copy .hs-ic { background: #c8125e; }
+    .hs-qr .hs-ic { background: #0a7096; } .hs-rep .hs-ic { background: #0b1f2e; }
+    .hs-qrbody { display: flex; gap: 11px; align-items: center; }
+    .hs-qrbox { position: relative; flex: 0 0 74px; height: 74px; border-radius: 8px; overflow: hidden; border: 1px solid #e3e8ee; padding: 4px; background: #fff; }
+    .hs-qrcode { display: block; width: 100%; height: 100%; }
+    .hs-scan { position: absolute; left: 0; right: 0; top: 0; height: 3px; background: #2fd3e6; box-shadow: 0 0 10px 3px rgba(47,211,230,.7); opacity: 0; }
+    .hs-qr.on .hs-scan { animation: hsScan .9s ease-in-out 2 alternate; }
+    @keyframes hsScan { 0% { top: 0; opacity: 1; } 100% { top: calc(100% - 3px); opacity: 1; } }
+    .hs-qrinfo { display: grid; gap: 3px; font-size: 11px; color: #3c4f5c; }
+    .hs-qrinfo b { color: #0b1f2e; font-size: 11.5px; }
+    .hs-status { margin-top: 3px; justify-self: start; padding: 3px 9px; border-radius: 99px; font-size: 10.5px; font-weight: 700; background: #fff3d6; color: #8a5a00; transition: background .3s ease, color .3s ease; }
+    .hs-qr.got .hs-status { background: #dff5ea; color: #0a7c50; }
+    .hs-bars { display: grid; gap: 6px; }
+    .hs-bars div { display: grid; grid-template-columns: 70px 1fr 50px; gap: 7px; align-items: center; font-size: 10.5px; color: #3c4f5c; font-variant-numeric: tabular-nums; }
+    .hs-bars i { display: block; height: 9px; border-radius: 5px; background: var(--c); width: 0; transition: width .8s cubic-bezier(.2,.8,.2,1); }
+    .hs-rep.grow .hs-bars i { width: var(--w); }
+    .hs-bars b { text-align: right; color: #0b1f2e; }
+    .hs-fmt { display: flex; gap: 6px; margin-top: 8px; }
+    .hs-fmt span { padding: 3px 9px; border-radius: 6px; font-size: 10.5px; font-weight: 700; color: #fff; background: var(--c); opacity: 0; transform: scale(.6); transition: opacity .3s ease, transform .4s cubic-bezier(.2,.9,.25,1.3); }
+    .hs-rep.fmt .hs-fmt span { opacity: 1; transform: none; }
+    .hs-rep.fmt .hs-fmt span:nth-child(2) { transition-delay: .1s; } .hs-rep.fmt .hs-fmt span:nth-child(3) { transition-delay: .2s; }
     .hs-pr { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 4px 0; border-top: 1px solid #eef2f6; font-size: 11.5px; opacity: 0; transform: translateX(-6px); transition: opacity .3s ease, transform .3s ease; font-variant-numeric: tabular-nums; }
     .hs-pr.on { opacity: 1; transform: none; }
     .hs-pr s { color: #8a99a4; margin-right: 4px; } .hs-pr b { color: #c8125e; }
@@ -140,7 +164,7 @@
     .works-with .ce span { display: flex; flex-direction: column; gap: 1px; }
     @media (max-width: 1100px) { .hs-card { font-size: 11px; padding: 10px 12px; } .hs-big { font-size: 26px; } }
     @media (max-width: 860px) {
-      .hero-stage { aspect-ratio: 4 / 3.9; border-radius: 14px; overflow: hidden; background: #0b2233 url("assets/images/hero/hero-site-900.webp") 30% 70% / cover no-repeat; }
+      .hero-stage { aspect-ratio: 4 / 3.9; border-radius: 14px; overflow: hidden; background: #0b2233 url("assets/images/hero/hero-team-800.webp") 60% 80% / cover no-repeat; }
       .hero-stage::before { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(6,27,42,.55), rgba(6,27,42,.15) 60%); }
       .hs-dash { top: 3%; right: 3%; width: 94%; }
       .hs-a, .hs-b { left: 3%; top: 49%; width: 62%; }
@@ -153,7 +177,7 @@
     @media (max-width: 860px) { .hs-chip { display: none; } }
     @media (max-width: 520px) { .hs-a, .hs-b { width: 64%; } .hs-margin { width: 33%; } .hs-bar b { display: none; } }
     /* Reduce motion: the same story with fades only (no sliding, tilting in or growing). */
-    .hero-stage.calm .hs-card, .hero-stage.calm .hs-row, .hero-stage.calm .hs-pr, .hero-stage.calm .hs-sugg, .hero-stage.calm .hs-seg, .hero-stage.calm .hs-plus, .hero-stage.calm .hs-chip { transform: none; animation: none; transition-property: opacity, background, color; }
+    .hero-stage.calm .hs-card, .hero-stage.calm .hs-row, .hero-stage.calm .hs-pr, .hero-stage.calm .hs-sugg, .hero-stage.calm .hs-seg, .hero-stage.calm .hs-plus, .hero-stage.calm .hs-chip, .hero-stage.calm .hs-card.on, .hero-stage.calm .hs-chip.on { transform: none; filter: none; animation: none; transition-property: opacity, background, color; }
     .hero-stage.calm .hs-frame { transform: rotateY(-9deg) rotateX(4deg); transition: opacity .8s ease; }
     /* Targeted additions; reuse the existing homepage theme and breakpoints. */
     .estimate-workflow { padding-block: 28px; }
@@ -225,7 +249,7 @@
           <style>.works-with { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 18px 0 0; } .works-with > span { color: #b9cde0; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; margin-right: 4px; } .works-with a { display: inline-flex; flex-direction: column; gap: 1px; padding: 8px 16px; border: 1px solid rgba(255,255,255,.32); border-radius: 10px; background: rgba(255,255,255,.07); color: #fff; text-decoration: none; line-height: 1.2; } .works-with a:hover, .works-with a:focus-visible { background: rgba(255,255,255,.16); border-color: rgba(255,255,255,.6); } .works-with b { font-size: 1rem; } .works-with small { color: #c9dbea; font-size: .76rem; }</style>
         </div>
         <figure class="hero-visual">
-          <div class="hero-stage" id="heroStage" role="img" aria-label="I-Cost in action, using demonstration project data: the dashboard figures counting up and updating, the projects ring and job journey filling in, the activity list updating, a 3D building model tracked from estimated to quotes requested, ordered and delivered, the main features around the dashboard, a misspelt item matched to the right item with the price last paid, an estimate copied with its rates checked against the latest orders, and the forecast margin rising.">
+          <div class="hero-stage" id="heroStage" role="img" aria-label="I-Cost in action, using demonstration project data: the dashboard figures counting up and updating, the projects ring and job journey filling in, the activity list updating, a 3D building model tracked from estimated to quotes requested, ordered and delivered, a delivery note QR code scanned and matched to its order, a cost report in PDF, Excel and Word, the main features around the dashboard, a misspelt item matched to the right item with the price last paid, an estimate copied with its rates checked against the latest orders, and the forecast margin rising.">
             <div class="hs-dash" aria-hidden="true"><div class="hs-frame"><div class="hs-bar"><i></i><i></i><i></i><span>I-Cost dashboard</span><b>Live</b></div><div class="hs-shot"><img src="assets/images/hero/hero-dashboard-1100.webp" srcset="assets/images/hero/hero-dashboard-700.webp 700w, assets/images/hero/hero-dashboard-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 760px" width="1100" height="709" alt="" decoding="async" fetchpriority="high"><i class="hs-ov hs-glow" data-g="0" style="left:0.36%;top:30.54%;width:23.76%;height:11.65%"></i><i class="hs-ov hs-glow" data-g="1" style="left:25.51%;top:30.54%;width:23.83%;height:11.65%"></i><i class="hs-ov hs-glow" data-g="2" style="left:50.80%;top:30.54%;width:23.76%;height:11.65%"></i><i class="hs-ov hs-glow" data-g="3" style="left:76.02%;top:30.54%;width:23.83%;height:11.65%"></i><span class="hs-ov hs-kpi" data-k="0" style="left:20.41%;top:32.69%;width:2.41%;height:3.28%"><span data-count="17" data-dp="0">17</span></span><span class="hs-ov hs-kpi" data-k="1" style="left:39.72%;top:32.69%;width:8.31%;height:3.28%">&pound;<span data-count="19.79" data-dp="2">19.79</span>M</span><span class="hs-ov hs-kpi" data-k="2" style="left:65.96%;top:32.01%;width:7.29%;height:2.94%">&pound;<span data-count="2.03" data-dp="2">2.03</span>M</span><span class="hs-ov hs-kpi red" data-k="3" style="left:96.36%;top:32.69%;width:2.11%;height:3.28%"><span data-count="11" data-dp="0">11</span></span><span class="hs-ov hs-plus">+&pound;30K</span><svg class="hs-ov hs-ring" style="left:49.42%;top:52.04%;width:13.85%;height:21.49%" viewBox="0 0 190 190"><circle class="cover" cx="95" cy="95" r="78.5"/><circle class="arc a1" cx="95" cy="95" r="78.5" pathLength="17" stroke="#20a66a" style="--len:7" transform="rotate(-90 95 95)"/><circle class="arc a2" cx="95" cy="95" r="78.5" pathLength="17" stroke="#6474d9" style="--len:3" transform="rotate(58.24 95 95)"/><circle class="arc a3" cx="95" cy="95" r="78.5" pathLength="17" stroke="#f0a830" style="--len:3" transform="rotate(121.76 95 95)"/><circle class="arc a4" cx="95" cy="95" r="78.5" pathLength="17" stroke="#9fb3c4" style="--len:4" transform="rotate(185.29 95 95)"/></svg><i class="hs-ov hs-seg" style="left:2.19%;top:58.94%;width:3.50%;height:1.13%"></i><i class="hs-ov hs-seg" style="left:6.12%;top:58.94%;width:3.57%;height:1.13%"></i><i class="hs-ov hs-seg" style="left:10.13%;top:58.94%;width:3.43%;height:1.13%"></i><i class="hs-ov hs-seg" style="left:14.07%;top:58.94%;width:3.50%;height:1.13%"></i><i class="hs-ov hs-seg" style="left:18.00%;top:58.94%;width:3.50%;height:1.13%"></i><i class="hs-ov hs-seg" style="left:21.94%;top:58.94%;width:3.43%;height:1.13%"></i><i class="hs-ov hs-seg" style="left:25.95%;top:58.94%;width:3.43%;height:1.13%"></i><i class="hs-ov hs-seg" style="left:29.81%;top:58.94%;width:3.50%;height:1.13%"></i><i class="hs-ov hs-seg" style="left:33.53%;top:58.94%;width:4.01%;height:1.13%"></i><div class="hs-ov hs-acts" style="left:71.06%;top:53.17%;width:27.55%;height:39.82%"><div class="hs-row"><i>&#9650;</i><span><b>Model updated from Revit</b><small>Kingsway House &middot; 808 elements</small></span><em>just now</em></div><div class="hs-row"><i>&#128722;</i><span><b>Purchase order raised</b><small>PO-1043 &middot; Doors &amp; joinery</small></span><em>2 min ago</em></div><div class="hs-row"><i>&#10148;</i><span><b>RFQ created</b><small>3 suppliers asked to price</small></span><em>1 h ago</em></div><div class="hs-row"><i>&#10010;</i><span><b>New project created</b><small>City Office Fit-Out</small></span><em>today</em></div></div></div></div></div>
             <div class="hs-card hs-margin" aria-hidden="true">
               <div class="hs-head"><span class="hs-ic">&#8593;</span><span><b>Forecast margin</b><small>City Office Fit-Out</small></span></div>
@@ -242,13 +266,23 @@
               <div class="hs-input"><span class="typed" data-text="plstrbrd 12.5">plstrbrd 12.5</span></div>
               <div class="hs-sugg"><div class="pick"><span>Plasterboard 12.5mm 2400&times;1200</span><small>Tab</small></div><div><span>Last paid &pound;7.85 / sheet</span><span>PO-0988</span></div></div>
             </div>
-            <span class="hs-chip" style="left:-9%;top:36%;--c:#0ea1e4;--d:0.00s" aria-hidden="true"><i>&#8681;</i>BOQ &amp; BIM import</span><span class="hs-chip" style="left:-11%;top:44%;--c:#0a8f5a;--d:0.37s" aria-hidden="true"><i>&pound;</i>Estimating &amp; margin</span><span class="hs-chip" style="right:-4%;top:-9%;--c:#c8125e;--d:0.74s" aria-hidden="true"><i>&#10148;</i>Supplier quotes</span><span class="hs-chip" style="right:-6%;top:-1%;--c:#3f7df0;--d:1.11s" aria-hidden="true"><i>&#9638;</i>Purchase orders</span><span class="hs-chip" style="right:-3%;top:58%;--c:#f0a830;--d:1.48s" aria-hidden="true"><i>&#9201;</i>Phone timesheets</span><span class="hs-chip" style="right:-7%;top:66%;--c:#6b5cff;--d:1.85s" aria-hidden="true"><i>&#9636;</i>Programme &amp; dates</span><span class="hs-chip" style="right:-2%;top:74%;--c:#20a66a;--d:2.22s" aria-hidden="true"><i>CO&#8322;</i>Carbon per line</span><span class="hs-chip" style="right:-8%;top:82%;--c:#0b86c2;--d:2.59s" aria-hidden="true"><i>R</i>Revit add-in</span><span class="hs-chip" style="right:-3%;top:90%;--c:#13b5ea;--d:2.96s" aria-hidden="true"><i>X</i>Xero bills</span>
+            <span class="hs-chip" style="left:-9%;top:36%;--c:#0ea1e4;--d:0.00s" aria-hidden="true"><i>&#8681;</i>BOQ &amp; BIM import</span><span class="hs-chip" style="left:-11%;top:44%;--c:#0a8f5a;--d:0.37s" aria-hidden="true"><i>&pound;</i>Estimating &amp; margin</span><span class="hs-chip" style="right:-4%;top:-9%;--c:#c8125e;--d:0.74s" aria-hidden="true"><i>&#10148;</i>Supplier quotes</span><span class="hs-chip" style="right:-6%;top:-1%;--c:#3f7df0;--d:1.11s" aria-hidden="true"><i>&#9635;</i>QR delivery notes</span><span class="hs-chip" style="right:-3%;top:58%;--c:#f0a830;--d:1.48s" aria-hidden="true"><i>&#9201;</i>Phone timesheets</span><span class="hs-chip" style="right:-7%;top:66%;--c:#6b5cff;--d:1.85s" aria-hidden="true"><i>&#9636;</i>Programme &amp; dates</span><span class="hs-chip" style="right:-2%;top:74%;--c:#20a66a;--d:2.22s" aria-hidden="true"><i>CO&#8322;</i>Carbon per line</span><span class="hs-chip" style="right:-8%;top:82%;--c:#0b86c2;--d:2.59s" aria-hidden="true"><i>R</i>Revit add-in</span><span class="hs-chip" style="right:-3%;top:90%;--c:#13b5ea;--d:2.96s" aria-hidden="true"><i>X</i>Xero bills</span>
             <div class="hs-card hs-b hs-copy" aria-hidden="true">
               <div class="hs-head"><span class="hs-ic">&#10697;</span><span><b>Estimate copied</b><small>From Kingsway Offices &middot; price check</small></span></div>
               <div class="hs-pr"><span>Plasterboard 12.5mm</span><span><s>&pound;7.20</s><b>&pound;7.85</b></span></div>
               <div class="hs-pr"><span>Metal stud C50</span><span><s>&pound;2.95</s><b>&pound;3.40</b></span></div>
               <div class="hs-pr"><span>Skim coat per m&sup2;</span><span><s>&pound;9.10</s><b>&pound;9.60</b></span></div>
               <div class="hs-done">&#10003; 23 rates updated to what you last paid</div>
+            </div>
+            <div class="hs-card hs-b hs-qr" aria-hidden="true">
+              <div class="hs-head"><span class="hs-ic">&#9635;</span><span><b>Delivery note scanned</b><small>QR code on the supplier's note</small></span></div>
+              <div class="hs-qrbody"><div class="hs-qrbox"><svg class="hs-qrcode" viewBox="-1 -1 23 23"><rect x="-1" y="-1" width="23" height="23" fill="#fff"/><path d="M0 0h1v1h-1zM1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM4 0h1v1h-1zM5 0h1v1h-1zM6 0h1v1h-1zM8 0h1v1h-1zM9 0h1v1h-1zM11 0h1v1h-1zM14 0h1v1h-1zM15 0h1v1h-1zM16 0h1v1h-1zM17 0h1v1h-1zM18 0h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM0 1h1v1h-1zM6 1h1v1h-1zM8 1h1v1h-1zM9 1h1v1h-1zM11 1h1v1h-1zM12 1h1v1h-1zM14 1h1v1h-1zM20 1h1v1h-1zM0 2h1v1h-1zM2 2h1v1h-1zM3 2h1v1h-1zM4 2h1v1h-1zM6 2h1v1h-1zM8 2h1v1h-1zM9 2h1v1h-1zM10 2h1v1h-1zM12 2h1v1h-1zM14 2h1v1h-1zM16 2h1v1h-1zM17 2h1v1h-1zM18 2h1v1h-1zM20 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM6 3h1v1h-1zM8 3h1v1h-1zM12 3h1v1h-1zM14 3h1v1h-1zM16 3h1v1h-1zM17 3h1v1h-1zM18 3h1v1h-1zM20 3h1v1h-1zM0 4h1v1h-1zM2 4h1v1h-1zM3 4h1v1h-1zM4 4h1v1h-1zM6 4h1v1h-1zM9 4h1v1h-1zM11 4h1v1h-1zM12 4h1v1h-1zM14 4h1v1h-1zM16 4h1v1h-1zM17 4h1v1h-1zM18 4h1v1h-1zM20 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h1v1h-1zM9 5h1v1h-1zM11 5h1v1h-1zM14 5h1v1h-1zM20 5h1v1h-1zM0 6h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM4 6h1v1h-1zM5 6h1v1h-1zM6 6h1v1h-1zM9 6h1v1h-1zM11 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM15 6h1v1h-1zM16 6h1v1h-1zM17 6h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM8 7h1v1h-1zM10 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM1 8h1v1h-1zM4 8h1v1h-1zM9 8h1v1h-1zM11 8h1v1h-1zM12 8h1v1h-1zM14 8h1v1h-1zM15 8h1v1h-1zM16 8h1v1h-1zM0 9h1v1h-1zM4 9h1v1h-1zM7 9h1v1h-1zM9 9h1v1h-1zM14 9h1v1h-1zM15 9h1v1h-1zM17 9h1v1h-1zM18 9h1v1h-1zM19 9h1v1h-1zM20 9h1v1h-1zM0 10h1v1h-1zM2 10h1v1h-1zM3 10h1v1h-1zM4 10h1v1h-1zM6 10h1v1h-1zM7 10h1v1h-1zM12 10h1v1h-1zM13 10h1v1h-1zM14 10h1v1h-1zM17 10h1v1h-1zM18 10h1v1h-1zM19 10h1v1h-1zM20 10h1v1h-1zM0 11h1v1h-1zM2 11h1v1h-1zM3 11h1v1h-1zM4 11h1v1h-1zM5 11h1v1h-1zM12 11h1v1h-1zM17 11h1v1h-1zM18 11h1v1h-1zM19 11h1v1h-1zM0 12h1v1h-1zM1 12h1v1h-1zM2 12h1v1h-1zM3 12h1v1h-1zM4 12h1v1h-1zM5 12h1v1h-1zM6 12h1v1h-1zM7 12h1v1h-1zM8 12h1v1h-1zM9 12h1v1h-1zM10 12h1v1h-1zM13 12h1v1h-1zM14 12h1v1h-1zM15 12h1v1h-1zM16 12h1v1h-1zM17 12h1v1h-1zM20 12h1v1h-1zM8 13h1v1h-1zM9 13h1v1h-1zM10 13h1v1h-1zM11 13h1v1h-1zM12 13h1v1h-1zM14 13h1v1h-1zM15 13h1v1h-1zM18 13h1v1h-1zM20 13h1v1h-1zM0 14h1v1h-1zM1 14h1v1h-1zM2 14h1v1h-1zM3 14h1v1h-1zM4 14h1v1h-1zM5 14h1v1h-1zM6 14h1v1h-1zM12 14h1v1h-1zM13 14h1v1h-1zM14 14h1v1h-1zM18 14h1v1h-1zM19 14h1v1h-1zM0 15h1v1h-1zM6 15h1v1h-1zM13 15h1v1h-1zM15 15h1v1h-1zM16 15h1v1h-1zM17 15h1v1h-1zM18 15h1v1h-1zM19 15h1v1h-1zM0 16h1v1h-1zM2 16h1v1h-1zM3 16h1v1h-1zM4 16h1v1h-1zM6 16h1v1h-1zM9 16h1v1h-1zM13 16h1v1h-1zM14 16h1v1h-1zM15 16h1v1h-1zM16 16h1v1h-1zM17 16h1v1h-1zM0 17h1v1h-1zM2 17h1v1h-1zM3 17h1v1h-1zM4 17h1v1h-1zM6 17h1v1h-1zM8 17h1v1h-1zM11 17h1v1h-1zM16 17h1v1h-1zM17 17h1v1h-1zM19 17h1v1h-1zM0 18h1v1h-1zM2 18h1v1h-1zM3 18h1v1h-1zM4 18h1v1h-1zM6 18h1v1h-1zM9 18h1v1h-1zM10 18h1v1h-1zM13 18h1v1h-1zM14 18h1v1h-1zM15 18h1v1h-1zM18 18h1v1h-1zM0 19h1v1h-1zM6 19h1v1h-1zM9 19h1v1h-1zM11 19h1v1h-1zM12 19h1v1h-1zM17 19h1v1h-1zM20 19h1v1h-1zM0 20h1v1h-1zM1 20h1v1h-1zM2 20h1v1h-1zM3 20h1v1h-1zM4 20h1v1h-1zM5 20h1v1h-1zM6 20h1v1h-1zM8 20h1v1h-1zM9 20h1v1h-1zM10 20h1v1h-1zM12 20h1v1h-1zM13 20h1v1h-1zM14 20h1v1h-1zM16 20h1v1h-1zM17 20h1v1h-1zM20 20h1v1h-1z" fill="#0b1f2e"/></svg><i class="hs-scan"></i></div>
+                <div class="hs-qrinfo"><b>DN-2231 &middot; Supplier B</b><span>24 &times; Plasterboard 12.5mm</span><span>PO-1043 &middot; Level 1</span><span class="hs-status">Checking against the order&hellip;</span></div></div>
+            </div>
+            <div class="hs-card hs-b hs-rep" aria-hidden="true">
+              <div class="hs-head"><span class="hs-ic">&#9636;</span><span><b>Cost report</b><small>City Office Fit-Out &middot; one click</small></span></div>
+              <div class="hs-bars"><div><span>Budget</span><i style="--w:100%;--c:#9aa6ae"></i><b>&pound;412K</b></div><div><span>Committed</span><i style="--w:77%;--c:#3f7df0"></i><b>&pound;318K</b></div><div><span>Forecast</span><i style="--w:89%;--c:#0a8f5a"></i><b>&pound;369K</b></div><div><span>Carbon</span><i style="--w:62%;--c:#20a66a"></i><b>86 t</b></div></div>
+              <div class="hs-fmt"><span style="--c:#c8125e">PDF</span><span style="--c:#0a8f5a">Excel</span><span style="--c:#2b5fd9">Word</span></div>
             </div>
           </div>
           <figcaption class="product-caption">Real I-Cost screens &middot; Demonstration project data</figcaption>
@@ -276,6 +310,7 @@
             const typed = Q('.hs-fuzzy .typed'), word = typed.dataset.text;
             const acts = Q('.hs-acts'), rowsHtml = acts.innerHTML;
             const margin = Q('[data-k="2"] [data-count]');
+            const addRow = (ic, t, d) => { const r = document.createElement('div'); r.className = 'hs-row new'; r.innerHTML = '<i>' + ic + '</i><span><b>' + t + '</b><small>' + d + '</small></span><em>just now</em>'; acts.prepend(r); requestAnimationFrame(() => requestAnimationFrame(() => on(r))); };
             const narrow = () => window.matchMedia('(max-width: 860px)').matches;
             // People who have turned animation down get the same steps as gentle fades.
             stage.classList.toggle('calm', window.matchMedia('(prefers-reduced-motion: reduce)').matches);
@@ -284,7 +319,8 @@
               stage.classList.remove('fading');
               QA('.hs-card, .hs-seg, .hs-ring, .hs-pr, .hs-done, .hs-plus, .hs-chip').forEach(el => on(el, false));
               chips.forEach(c => c.classList.remove('ping'));
-              Q('.hs-fuzzy').classList.remove('sugg', 'taken');
+              Q('.hs-fuzzy').classList.remove('sugg', 'taken'); Q('.hs-qr').classList.remove('got'); Q('.hs-rep').classList.remove('grow', 'fmt');
+              Q('.hs-status').innerHTML = 'Checking against the order&hellip;';
               Q('[data-k="2"]').classList.remove('tick');
               acts.innerHTML = rowsHtml; view(0); typed.textContent = '';
               QA('[data-count]').forEach(el => { el.textContent = fmt(0, el); });
@@ -303,34 +339,40 @@
               // The main features pop up around the dashboard, then light up one by one.
               chips.forEach((c, i) => later(1000 + i * 140, () => on(c)));
               for (let k = 0; k < 12; k++) later(2600 + k * 520, () => { chips.forEach(c => c.classList.remove('ping')); chips[k % chips.length].classList.add('ping'); });
-              // Smart suggestions: a misspelt item is still matched, with the price last paid.
-              const fz = narrow() ? 3700 : 1500;
-              if (narrow()) later(3500, () => on(Q('.hs-bim'), false));
-              later(fz, () => on(Q('.hs-fuzzy')));
-              [...word].forEach((ch, i) => later(fz + 250 + i * 55, () => { typed.textContent = word.slice(0, i + 1); }));
-              later(fz + 1150, () => Q('.hs-fuzzy').classList.add('sugg'));
-              later(fz + 1650, () => Q('.hs-fuzzy').classList.add('taken'));
-              later(3300, () => { on(Q('.hs-margin')); count(Q('.hs-margin'), 1100); });
-              // Copy an old estimate: rates are checked against what you last paid, and the margin updates live.
-              const cp = narrow() ? 6000 : 3700;
-              later(cp - 300, () => on(Q('.hs-fuzzy'), false));
+              // Slot B runs quickly through smart suggestions, the price check, a delivery note QR scan and a report.
+              const B = narrow() ? 3400 : 1300;
+              if (narrow()) later(3200, () => on(Q('.hs-bim'), false));
+              later(B, () => on(Q('.hs-fuzzy')));
+              [...word].forEach((ch, i) => later(B + 150 + i * 45, () => { typed.textContent = word.slice(0, i + 1); }));
+              later(B + 800, () => Q('.hs-fuzzy').classList.add('sugg'));
+              later(B + 1250, () => Q('.hs-fuzzy').classList.add('taken'));
+              later(B + 1650, () => on(Q('.hs-fuzzy'), false));
+              later(2900, () => { on(Q('.hs-margin')); count(Q('.hs-margin'), 1000); });
+              const cp = B + 1850;
               later(cp, () => on(Q('.hs-copy')));
-              QA('.hs-pr').forEach((r, i) => later(cp + 300 + i * 250, () => on(r)));
-              later(cp + 1100, () => on(Q('.hs-done')));
-              later(cp + 1400, () => {
+              QA('.hs-pr').forEach((r, i) => later(cp + 200 + i * 180, () => on(r)));
+              later(cp + 800, () => on(Q('.hs-done')));
+              later(cp + 1000, () => {
                 Q('[data-k="2"]').classList.add('tick'); tween(margin, 2.03, 2.06, 900); glow(2, true); on(Q('.hs-plus'));
-                const r = document.createElement('div'); r.className = 'hs-row new';
-                r.innerHTML = '<i>&#10003;</i><span><b>Rates updated</b><small>23 lines from your latest orders</small></span><em>just now</em>';
-                acts.prepend(r); requestAnimationFrame(() => requestAnimationFrame(() => on(r)));
+                addRow('&#10003;', 'Rates updated', '23 lines from your latest orders');
               });
-              later(narrow() ? 10500 : 9000, () => stage.classList.add('fading'));
-              later(narrow() ? 11200 : 9700, () => { if (running) play(); });
+              later(cp + 1700, () => on(Q('.hs-copy'), false));
+              const qr = cp + 1900;
+              later(qr, () => on(Q('.hs-qr')));
+              later(qr + 1500, () => { Q('.hs-qr').classList.add('got'); Q('.hs-status').innerHTML = '&#10003; Received, photo saved'; addRow('&#9635;', 'Delivery received', 'DN-2231 &middot; matched to PO-1043'); });
+              later(qr + 2300, () => on(Q('.hs-qr'), false));
+              const rp = qr + 2500;
+              later(rp, () => on(Q('.hs-rep')));
+              later(rp + 250, () => Q('.hs-rep').classList.add('grow'));
+              later(rp + 1000, () => Q('.hs-rep').classList.add('fmt'));
+              later(narrow() ? 12600 : 10600, () => stage.classList.add('fading'));
+              later(narrow() ? 13200 : 11200, () => { if (running) play(); });
             };
             // The still picture: everything filled in.
             const still = () => {
               stage.classList.add('is-on');
               QA('.hs-seg, .hs-ring, .hs-row, .hs-chip').forEach(el => on(el)); view(3);
-              on(Q('.hs-bim')); on(Q('.hs-margin')); if (!narrow()) { on(Q('.hs-copy')); QA('.hs-pr, .hs-done').forEach(el => on(el)); }
+              on(Q('.hs-bim')); on(Q('.hs-margin')); if (!narrow()) { on(Q('.hs-rep')); Q('.hs-rep').classList.add('grow', 'fmt'); }
               QA('[data-count]').forEach(el => { el.textContent = fmt(parseFloat(el.dataset.count), el); });
               typed.textContent = word;
             };
