@@ -269,6 +269,10 @@
       [[458, 150, 447, 108], 'right:-4%;top:6%', '#2bd38c', '&pound;', 'Agreed contract sum &pound;563,785.83', 'Accepted revision, with a 2.5% discount agreed at the tender meeting'],
       [[20, 320, 960, 30], 'left:-4%;top:36%', '#8f84ff', 'V', 'Variations: who pays', 'The client, us, the supplier or a split'],
       [[664, 512, 64, 36], 'right:-4%;top:58%', '#c8125e', '&#8681;', 'Quote PDF from the estimate', 'Selling prices only, never cost or margin']]],
+    programme: [1545, 665, [
+      [[1155, 14, 392, 42], 'right:-4%;top:4%', '#4fd4df', '&#8644;', 'Works with MS Project', 'Send the programme out and read the planner&rsquo;s changes back'],
+      [[190, 284, 160, 36], 'left:-4%;top:40%', '#e0607e', '&#9670;', 'Approvals on the chart', 'Overdue ones turn red before they hold up work'],
+      [[590, 526, 560, 34], 'right:-4%;top:76%', '#f0a830', '&#9201;', 'Order-by dates', 'Lead times worked back from each start date']]],
     timesheet: [1449, 800, [
       [[940, 324, 80, 46], 'right:-4%;top:28%', '#f0a830', '&#9201;', 'Hours in seconds', 'Type 7:30 or 7.5 against the day'],
       [[30, 300, 340, 100], 'left:-4%;top:46%', '#4fd4df', '&#9776;', 'Booked to the estimate line', 'So labour cost lands where it belongs'],
