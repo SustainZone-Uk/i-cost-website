@@ -193,6 +193,20 @@
     prep.push({ sec, scene, dark });
   });
 
+  // Other pages: every remaining section gets the same fade-in for its cards and lists.
+  [...main.querySelectorAll(':scope > section')].forEach(sec => {
+    if (prep.some(p => p.sec === sec) || sec.matches('.hero, .page-hero')) return;
+    const dark = isDark(sec);
+    sec.classList.add(dark ? 'sa-dark' : 'sa-light');
+    const vw = window.innerWidth;
+    [...sec.querySelectorAll(ITEMS + ', .pair-list li, .feature-row, .role-block, .how-grid li, .plans > *, .price-card, .related a, .faq details, .steps li, .check-list li')].forEach((el, i) => {
+      if (el.closest('.sa')) return;
+      el.classList.add('sa'); el.style.setProperty('--i', String(i % 10));
+      const r = el.getBoundingClientRect(); el.style.setProperty('--sx', (r.left + r.width / 2 > vw / 2 ? '26px' : '-26px'));
+    });
+    prep.push({ sec, scene: null, dark });
+  });
+
   // Load the background photos only when a section is near.
   const near = new IntersectionObserver(es => es.forEach(e => {
     if (!e.isIntersecting) return;
@@ -206,10 +220,11 @@
   // Play each section once, when about a quarter of it is on screen.
   const play = p => { p.sec.classList.add('sa-in'); if (p.scene && scenes[p.scene]) scenes[p.scene](p.sec, p.dark).catch(() => {}); };
   const io = new IntersectionObserver(es => es.forEach(e => {
-    if (!e.isIntersecting) return;
+    // Tall sections never show 22% at once: playing when a third of the screen is filled by them is enough.
+    if (!e.isIntersecting || (e.intersectionRatio < 0.22 && e.intersectionRect.height < window.innerHeight * 0.33)) return;
     io.unobserve(e.target);
     const p = prep.find(x => x.sec === e.target); if (p) play(p);
-  }), { threshold: 0.22, rootMargin: '0px 0px -10% 0px' });
+  }), { threshold: [0, 0.05, 0.1, 0.15, 0.22, 0.4], rootMargin: '0px 0px -10% 0px' });
   prep.forEach(p => io.observe(p.sec));
 })();
 
@@ -221,7 +236,7 @@
     tracker: [1372, 892, [
       [[20, 246, 790, 42], 'right:-4%;top:12%', '#4fd4df', '&#9776;', '60 items, one list', '25 not requested &middot; 20 waiting for prices &middot; 6 ordered &middot; 2 on the way &middot; 7 delivered'],
       [[878, 462, 252, 96], 'right:-5%;top:50%', '#3f7df0', '&#128722;', 'Ordered from Northfield Drylining', 'PO 2 &middot; 677.55 m&sup2; &middot; waiting for the supplier'],
-      [[744, 178, 126, 40], 'left:-4%;top:58%', '#0ea1e4', '&#9651;', 'See it on the 3D model', 'Each item coloured by how far it has got', 'assets/images/hero/model-track-t2.webp']]],
+      [[744, 178, 126, 40], 'left:-4%;top:58%', '#0ea1e4', '&#9651;', 'See it on the 3D model', 'Each item coloured by how far it has got', '/assets/images/hero/model-track-t2.webp']]],
     estimate: [1427, 840, [
       [[80, 210, 1245, 46], 'right:-3%;top:6%', '#0ea1e4', '&pound;', 'Every line priced', 'Exterior wall: 677.55 m&sup2; at &pound;170.59 = &pound;115,582.03'],
       [[1058, 175, 110, 480], 'right:-4%;top:46%', '#2bd38c', '&#8593;', 'Profit on every line', 'Cost &pound;145 &rarr; selling &pound;170.59: &pound;25.59 profit per m&sup2;'],
@@ -237,7 +252,7 @@
     revit: [990, 1130, [
       [[40, 118, 760, 44], 'left:106%;top:6%', '#0b86c2', 'R', '2,984 elements counted', 'Walls, floors, doors, services: by level and type'],
       [[50, 652, 830, 180], 'left:106%;top:38%', '#8f84ff', '&#9776;', 'Grouped the way you price', 'Level, then kind of element, or assembly code'],
-      [[514, 1016, 226, 60], 'left:106%;top:68%', '#2bd38c', '&#10003;', '653 lines, ready to price', 'Checked in I-Cost before anything is saved', 'assets/images/hero/model-track-t0.webp']]],
+      [[514, 1016, 226, 60], 'left:106%;top:68%', '#2bd38c', '&#10003;', '653 lines, ready to price', 'Checked in I-Cost before anything is saved', '/assets/images/hero/model-track-t0.webp']]],
     costreport: [1372, 880, [
       [[690, 83, 320, 155], 'right:-4%;top:4%', '#3f7df0', '&#9638;', 'Committed so far &pound;281,786.69', 'Orders, staff and labour, live'],
       [[1025, 83, 320, 155], 'right:-5%;top:38%', '#2bd38c', '%', '40.8% of the budget committed', '&pound;408,119.81 still to spend'],
@@ -246,6 +261,22 @@
       [[81, 135, 1222, 388], 'right:-4%;top:4%', '#4fd4df', '&#9636;', '9 reports, one click', 'Cost, purchases, hours, carbon, deliveries, cost plan, quotation and your own'],
       [[81, 135, 400, 128], 'left:-4%;top:40%', '#0a8f5a', '&pound;', 'Project cost report', 'Budget, committed, forecast and margin, with the records behind each figure'],
       [[1151, 708, 152, 44], 'right:-4%;top:70%', '#c8125e', '&#8681;', 'PDF, Word or Excel', 'Ready for the board, the client or the bank']]],
+    project: [1372, 880, [
+      [[14, 320, 1336, 66], 'right:-4%;top:24%', '#4fd4df', '&#10148;', 'Where every job is', 'Ten stages, from project set-up to the final report'],
+      [[24, 655, 768, 70], 'left:-4%;top:68%', '#2bd38c', '&#9776;', '60 items, tracked', '25 estimated &middot; 20 quoted &middot; 8 ordered &middot; 7 delivered'],
+      [[810, 435, 528, 400], 'right:-4%;top:58%', '#0ea1e4', '&#9651;', 'The 3D model on the project', 'Coloured by how far each item has got']]],
+    quotation: [1372, 880, [
+      [[458, 150, 447, 108], 'right:-4%;top:6%', '#2bd38c', '&pound;', 'Agreed contract sum &pound;563,785.83', 'Accepted revision, with a 2.5% discount agreed at the tender meeting'],
+      [[20, 320, 960, 30], 'left:-4%;top:36%', '#8f84ff', 'V', 'Variations: who pays', 'The client, us, the supplier or a split'],
+      [[664, 512, 64, 36], 'right:-4%;top:58%', '#c8125e', '&#8681;', 'Quote PDF from the estimate', 'Selling prices only, never cost or margin']]],
+    timesheet: [1449, 800, [
+      [[940, 324, 80, 46], 'right:-4%;top:28%', '#f0a830', '&#9201;', 'Hours in seconds', 'Type 7:30 or 7.5 against the day'],
+      [[30, 300, 340, 100], 'left:-4%;top:46%', '#4fd4df', '&#9776;', 'Booked to the estimate line', 'So labour cost lands where it belongs'],
+      [[1155, 716, 236, 48], 'right:-4%;top:76%', '#2bd38c', '&#10003;', 'Sent for approval', 'Only approved hours count as cost']]],
+    dashboard: [1372, 884, [
+      [[5, 270, 1365, 103], 'right:-4%;top:8%', '#4fd4df', '&#9638;', 'Every project at a glance', '17 active &middot; &pound;19.79M contract value &middot; &pound;2.03M forecast margin'],
+      [[678, 460, 190, 190], 'left:-4%;top:50%', '#2bd38c', '&#9711;', 'Projects by stage', 'On site, tendering, estimating and set up'],
+      [[975, 470, 378, 352], 'right:-4%;top:62%', '#8f84ff', '&#9889;', 'What just happened', 'Orders, quotes and estimates as they change']]],
     aiguide: [554, 613, [
       [[8, 290, 538, 70], 'left:106%;top:40%', '#8f84ff', 'AI', 'A guide, not a guess', 'Range &pound;64&ndash;&pound;82, starting from your own earlier prices'],
       [[8, 362, 538, 125], 'left:106%;top:60%', '#4fd4df', '&#9776;', 'Shows how it was worked out', 'Your 2026 rate, indexed to the price date, plus pointing both faces'],
@@ -265,14 +296,16 @@
   const build = fig => {
     const cfg = S[fig.dataset.ls]; if (!cfg) return null;
     const W = cfg[0], H = cfg[1], steps = cfg[2], shot = fig.querySelector('.ls-shot');
-    const dark = !!fig.closest('.sa-dark');
+    const dark = !!fig.closest('.sa-dark, .page-hero, .dark');
     const hls = steps.map(st => { const b = st[0]; const d = document.createElement('i'); d.className = 'ls-hl'; d.setAttribute('aria-hidden', 'true');
       d.style.cssText = 'left:' + (b[0] / W * 100) + '%;top:' + (b[1] / H * 100) + '%;width:' + (b[2] / W * 100) + '%;height:' + (b[3] / H * 100) + '%'; shot.appendChild(d); return d; });
     return { steps: steps, hls: hls, dark: dark };
   };
   const card = (fig, dark, st, n) => {
     const d = document.createElement('div'); d.className = 'sa-pop ' + (dark ? 'dark' : 'light'); d.setAttribute('aria-hidden', 'true');
-    d.style.cssText = st[1] + ';--ac:' + st[2] + ';--sx:' + (/left/.test(st[1]) ? '-26px' : '26px');
+    let pos = st[1];
+    if (fig.classList.contains('ls-hero')) pos = pos.replace(/right:-?\d+%/, 'right:3%').replace(/left:-?\d+%/, 'left:-6%');
+    d.style.cssText = pos + ';--ac:' + st[2] + ';--sx:' + (/left/.test(st[1]) ? '-26px' : '26px');
     d.innerHTML = '<span class="sa-n">' + n + '</span><div class="sa-ph"><i>' + st[3] + '</i><span><b>' + st[4] + '</b><small>' + st[5] + '</small></span></div>' + (st[6] ? '<img src="' + st[6] + '" alt="" loading="lazy">' : '');
     fig.appendChild(d); requestAnimationFrame(() => requestAnimationFrame(() => d.classList.add('on'))); return d;
   };

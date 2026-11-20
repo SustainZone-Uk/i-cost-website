@@ -114,3 +114,8 @@ html:not(.sa-on) .ls-frame { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   .ls-frame, .ls-hl { transition: opacity .9s ease, transform .9s cubic-bezier(.22,.61,.36,1), box-shadow .8s ease !important; }
 }
+
+/* Other pages */
+main { overflow-x: clip; }
+.ls-hero { margin: 0; max-width: none; }
+.ls-hero .sa-pop { max-width: 250px; }
