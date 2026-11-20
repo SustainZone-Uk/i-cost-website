@@ -67,7 +67,7 @@
       $$(sec, '.stats strong').forEach((s, i) => setTimeout(() => countUp(s, 1400), 400 + i * 250));
       await wait(1500);
       const host = $(sec, '.shell');
-      pop(host, dark, { wide: 1, pos: 'right:0;top:30px', sx: '30px', ac: '#ff4f8b', ic: '&pound;', t: 'Price check', s: 'Plasterboard 12.5mm, per sheet', rows: [['AI guess', '&pound;6.80', 'sa-bad'], ['Your last order', '&pound;7.85', 'sa-ok'], ['Missed by the guess', '+15%']] });
+      pop(host, dark, { wide: 1, pos: 'right:0;top:30px', sx: '30px', ac: '#ff4f8b', ic: '&pound;', t: 'Price check', s: 'Plasterboard 12.5mm, per sheet', rows: [['Chatbot guess', '&pound;6.80', 'sa-bad'], ['Your last order', '&pound;7.85', 'sa-ok'], ['Missed by the guess', '+15%']] });
     },
     intel: async (sec) => {
       const bars = $$(sec, '.intel-bar i'); bars.forEach(b => b.classList.add('sa-zero'));
@@ -246,6 +246,10 @@
       [[81, 135, 1222, 388], 'right:-4%;top:4%', '#4fd4df', '&#9636;', '9 reports, one click', 'Cost, purchases, hours, carbon, deliveries, cost plan, quotation and your own'],
       [[81, 135, 400, 128], 'left:-4%;top:40%', '#0a8f5a', '&pound;', 'Project cost report', 'Budget, committed, forecast and margin, with the records behind each figure'],
       [[1151, 708, 152, 44], 'right:-4%;top:70%', '#c8125e', '&#8681;', 'PDF, Word or Excel', 'Ready for the board, the client or the bank']]],
+    pcarbon: [1325, 896, [
+      [[403, 380, 420, 200], 'right:-4%;top:44%', '#20a66a', 'CO&#8322;', 'Matched from the carbon library', 'Brick, steel studs, insulation and plasterboard, each from UK Government and &Ouml;KOBAUDAT data'],
+      [[23, 110, 245, 78], 'left:-4%;top:4%', '#4fd4df', '&Sigma;', '256 tCO&#8322;e for the whole job', '59 of 60 lines have carbon'],
+      [[966, 205, 330, 40], 'right:-4%;top:4%', '#8f84ff', 'AI', 'AI picks from the library', 'It never makes up a figure &middot; a monthly allowance for every company']]],
     carbon: [1045, 780, [
       [[48, 242, 230, 173], 'right:-6%;top:10%', '#20a66a', 'CO&#8322;', '256 tCO&#8322;e upfront carbon', 'Modules A1&ndash;A5, from the estimate quantities'],
       [[532, 242, 230, 173], 'right:-6%;top:42%', '#4fd4df', '&#10003;', '59 of 60 lines have carbon', 'I-Cost asks you about the one it is unsure of'],
