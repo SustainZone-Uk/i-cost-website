@@ -119,3 +119,9 @@ html:not(.sa-on) .ls-frame { opacity: 1; transform: none; }
 main { overflow-x: clip; }
 .ls-hero { margin: 0; max-width: none; }
 .ls-hero .sa-pop { max-width: 250px; }
+
+/* Page headers with a live screen on the right */
+.hero-split-live { grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 48px; }
+.hero-split-live h1 { font-size: clamp(2.3rem, 3.4vw, 3.6rem); }
+.page-hero .ls-hero .ls-frame { box-shadow: 0 34px 80px rgba(0,0,0,.55); }
+@media (max-width: 960px) { .hero-split-live { grid-template-columns: 1fr; gap: 32px; } }
