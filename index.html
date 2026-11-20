@@ -257,6 +257,8 @@
   </script>
   <script>document.documentElement.classList.add('js');</script>
   <script src="assets/js/homepage.js?v=df9e458f0c" defer></script>
+  <link rel="stylesheet" href="assets/css/anim.css?v=20261120a">
+  <script src="assets/js/anim.js?v=20261120a" defer></script>
 <!-- Look v2 -->
 </head>
 <body>
@@ -652,12 +654,16 @@
         .about-facts b { display: block; font-family: "Barlow Condensed", Inter, sans-serif; font-size: 1.5rem; color: #0b1f2e; }
         .about-co { font-size: .8rem !important; color: #6a7c88 !important; }
         .team-cards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-        .team-cards li { background: #fff; border: 1px solid #e1e8ee; border-radius: 14px; padding: 20px; box-shadow: 0 6px 20px rgba(11,31,46,.06); }
-        .team-cards img { width: 76px; height: 76px; border-radius: 50%; object-fit: cover; display: block; margin-bottom: 12px; border: 3px solid #fff; box-shadow: 0 0 0 2px var(--icost-cyan); }
-        .team-cards h3 { color: #0b1f2e; font-size: 1.08rem; margin: 0; text-transform: none; }
-        .team-cards .role { color: #0a7c87; font-weight: 700; font-size: .85rem; margin: 2px 0 8px; }
-        .team-cards p { color: #3c4f5c; font-size: .9rem; line-height: 1.55; margin: 0; }
-        .team-cards small { display: block; margin-top: 10px; color: #6a7c88; font-size: .76rem; line-height: 1.45; }
+        .team-cards li { position: relative; background: #fff; border: 1px solid #e1e8ee; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(11,31,46,.08); transition: transform .35s ease, box-shadow .35s ease; }
+        .team-cards li:hover { transform: translateY(-4px); box-shadow: 0 18px 40px rgba(11,31,46,.14); }
+        .team-cards .ph { position: relative; aspect-ratio: 4 / 4.2; overflow: hidden; background: #dfe8ee; }
+        .team-cards .ph::after { content: ""; position: absolute; inset: auto 0 0 0; height: 45%; background: linear-gradient(0deg, rgba(6,27,42,.85), transparent); }
+        .team-cards img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block; }
+        .team-cards .ph h3 { position: absolute; left: 16px; right: 16px; bottom: 34px; z-index: 1; margin: 0; color: #fff; font-size: 1.2rem; text-transform: none; }
+        .team-cards .ph .role { position: absolute; left: 16px; bottom: 10px; z-index: 1; margin: 0; padding: 2px 10px; border-radius: 99px; background: rgba(79,212,223,.92); color: #04202a; font-weight: 700; font-size: .74rem; }
+        .team-cards .tx { padding: 14px 16px 16px; }
+        .team-cards p { color: #3c4f5c; font-size: .88rem; line-height: 1.55; margin: 0; }
+        .team-cards small { display: block; margin-top: 10px; color: #6a7c88; font-size: .74rem; line-height: 1.45; }
         @media (max-width: 960px) { .about-grid { grid-template-columns: 1fr; gap: 36px; } }
         @media (max-width: 560px) { .team-cards, .about-facts { grid-template-columns: 1fr 1fr; } .team-cards { grid-template-columns: 1fr; } }
       </style>
@@ -671,10 +677,10 @@
           <p class="about-co">I-COST LTD &middot; Registered in England and Wales, company number 09789057</p>
         </div>
         <ul class="team-cards reveal">
-          <li><img src="assets/images/team/kevin.webp" width="320" height="320" alt="Kevin Chinniah" loading="lazy" decoding="async"><h3>Kevin Chinniah</h3><p class="role">Director</p><p>Quantity surveyor with a master's in construction law. Leads I-Cost's direction, customers and partnerships, drawing on years of construction management, procurement and contract experience.</p><small>BSc Quantity Surveying &amp; Construction Management, University of Greenwich &middot; LLM Construction Law &amp; Dispute Resolution, Robert Gordon University &middot; RICS Diploma in Adjudication</small></li>
-          <li><img src="assets/images/team/lasanda.webp" width="320" height="320" alt="Lasanda Manupiya" loading="lazy" decoding="async"><h3>Lasanda Manupiya</h3><p class="role">Technical Lead</p><p>Designs the system architecture and leads development of the I-Cost software, from the app and its data to the Revit add-in, AI features and security.</p><small>MSc Electronic Engineering &middot; BEng Electrical &amp; Electronic Engineering, University of Hertfordshire</small></li>
-          <li><img src="assets/images/team/deepak.webp" width="320" height="320" alt="Deepak Sadineni" loading="lazy" decoding="async"><h3>Deepak Sadineni</h3><p class="role">Design Architect &amp; Engineer</p><p>Shapes the design architecture and engineering behind I-Cost, so its features fit together and perform as the platform grows.</p><small>MSc Electronics Engineering, University of Hertfordshire &middot; B.Tech Electronics &amp; Communication Engineering</small></li>
-          <li><img src="assets/images/team/arvind.webp" width="320" height="320" alt="Arvind Seewoosungkur" loading="lazy" decoding="async"><h3>Arvind Seewoosungkur</h3><p class="role">Adviser, climate change &amp; carbon</p><p>Advises on climate change and carbon emissions, keeping I-Cost's carbon and whole life carbon tools in line with current methods and reporting expectations.</p><small>MSc Space Science &amp; Engineering, UCL &middot; BEng Mechanical Engineering, University of Greenwich</small></li>
+          <li><div class="ph"><img src="assets/images/team/kevin.webp" width="480" height="600" alt="Kevin Chinniah" loading="lazy" decoding="async"><h3>Kevin Chinniah</h3><p class="role">Director</p></div><div class="tx"><p>Quantity surveyor with a master's in construction law. Leads I-Cost's direction, customers and partnerships, drawing on years of construction management, procurement and contract experience.</p><small>BSc Quantity Surveying &amp; Construction Management, University of Greenwich &middot; LLM Construction Law &amp; Dispute Resolution, Robert Gordon University &middot; RICS Diploma in Adjudication</small></div></li>
+          <li><div class="ph"><img src="assets/images/team/lasanda.webp" width="480" height="600" alt="Lasanda Manupiya" loading="lazy" decoding="async"><h3>Lasanda Manupiya</h3><p class="role">Technical Lead</p></div><div class="tx"><p>Designs the system architecture and leads development of the I-Cost software, from the app and its data to the Revit add-in, AI features and security.</p><small>MSc Electronic Engineering &middot; BEng Electrical &amp; Electronic Engineering, University of Hertfordshire</small></div></li>
+          <li><div class="ph"><img src="assets/images/team/deepak.webp" width="480" height="600" alt="Deepak Sadineni" loading="lazy" decoding="async"><h3>Deepak Sadineni</h3><p class="role">Design Architect &amp; Engineer</p></div><div class="tx"><p>Shapes the design architecture and engineering behind I-Cost, so its features fit together and perform as the platform grows.</p><small>MSc Electronics Engineering, University of Hertfordshire &middot; B.Tech Electronics &amp; Communication Engineering</small></div></li>
+          <li><div class="ph"><img src="assets/images/team/arvind.webp" width="480" height="600" alt="Arvind Seewoosungkur" loading="lazy" decoding="async"><h3>Arvind Seewoosungkur</h3><p class="role">Adviser, climate change &amp; carbon</p></div><div class="tx"><p>Advises on climate change and carbon emissions, keeping I-Cost's carbon and whole life carbon tools in line with current methods and reporting expectations.</p><small>MSc Space Science &amp; Engineering, UCL &middot; BEng Mechanical Engineering, University of Greenwich</small></div></li>
         </ul>
       </div>
     </div></section>
