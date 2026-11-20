@@ -246,10 +246,14 @@
       [[81, 135, 1222, 388], 'right:-4%;top:4%', '#4fd4df', '&#9636;', '9 reports, one click', 'Cost, purchases, hours, carbon, deliveries, cost plan, quotation and your own'],
       [[81, 135, 400, 128], 'left:-4%;top:40%', '#0a8f5a', '&pound;', 'Project cost report', 'Budget, committed, forecast and margin, with the records behind each figure'],
       [[1151, 708, 152, 44], 'right:-4%;top:70%', '#c8125e', '&#8681;', 'PDF, Word or Excel', 'Ready for the board, the client or the bank']]],
+    aiguide: [554, 613, [
+      [[8, 290, 538, 70], 'left:106%;top:40%', '#8f84ff', 'AI', 'A guide, not a guess', 'Range &pound;64&ndash;&pound;82, starting from your own earlier prices'],
+      [[8, 362, 538, 125], 'left:106%;top:60%', '#4fd4df', '&#9776;', 'Shows how it was worked out', 'Your 2026 rate, indexed to the price date, plus pointing both faces'],
+      [[20, 496, 112, 40], 'left:106%;top:80%', '#2bd38c', '&#10003;', 'Nothing changes until you press Use', 'Project names, clients and people are never sent']]],
     pcarbon: [1325, 896, [
       [[403, 380, 420, 200], 'right:-4%;top:44%', '#20a66a', 'CO&#8322;', 'Matched from the carbon library', 'Brick, steel studs, insulation and plasterboard, each from UK Government and &Ouml;KOBAUDAT data'],
       [[23, 110, 245, 78], 'left:-4%;top:4%', '#4fd4df', '&Sigma;', '256 tCO&#8322;e for the whole job', '59 of 60 lines have carbon'],
-      [[966, 205, 330, 40], 'right:-4%;top:4%', '#8f84ff', 'AI', 'AI picks from the library', 'It never makes up a figure &middot; a monthly allowance for every company']]],
+      [[966, 205, 330, 40], 'right:-4%;top:4%', '#8f84ff', 'AI', 'AI picks from the library', 'It never makes up a figure &middot; a monthly AI allowance']]],
     carbon: [1045, 780, [
       [[48, 242, 230, 173], 'right:-6%;top:10%', '#20a66a', 'CO&#8322;', '256 tCO&#8322;e upfront carbon', 'Modules A1&ndash;A5, from the estimate quantities'],
       [[532, 242, 230, 173], 'right:-6%;top:42%', '#4fd4df', '&#10003;', '59 of 60 lines have carbon', 'I-Cost asks you about the one it is unsure of'],
