@@ -134,8 +134,6 @@
     },
     carbon: async (sec, dark) => {
       $$(sec, '.carbon-example dd').forEach((d, i) => setTimeout(() => countUp(d, 1100), 600 + i * 450));
-      await wait(2600);
-      pop($(sec, '.shell'), dark, { wide: 1, pos: 'right:0;top:34px', sx: '30px', ac: '#20a66a', ic: 'CO&#8322;', t: 'Same line, cost and carbon', s: 'Concrete C32/40 slab, 42 m&sup3;', rows: [['Cost', '&pound;5,250'], ['Embodied carbon', '13.4 tCO&#8322;e', 'sa-ok']] });
     },
     anywhere: async (sec, dark) => {
       const host = $(sec, '.photo-card'); if (!host) return;
@@ -213,4 +211,81 @@
     const p = prep.find(x => x.sec === e.target); if (p) play(p);
   }), { threshold: 0.22, rootMargin: '0px 0px -10% 0px' });
   prep.forEach(p => io.observe(p.sec));
+})();
+
+// Live screens (data-ls figures): the screen tilts in, a spotlight moves to each detail, and a card explains it.
+(() => {
+  'use strict';
+  if (!('IntersectionObserver' in window)) return;
+  const S = {
+    tracker: [1372, 892, [
+      [[20, 246, 790, 42], 'right:-4%;top:12%', '#4fd4df', '&#9776;', '60 items, one list', '25 not requested &middot; 20 waiting for prices &middot; 6 ordered &middot; 2 on the way &middot; 7 delivered'],
+      [[878, 462, 252, 96], 'right:-5%;top:50%', '#3f7df0', '&#128722;', 'Ordered from Northfield Drylining', 'PO 2 &middot; 677.55 m&sup2; &middot; waiting for the supplier'],
+      [[744, 178, 126, 40], 'left:-4%;top:58%', '#0ea1e4', '&#9651;', 'See it on the 3D model', 'Each item coloured by how far it has got', 'assets/images/hero/model-track-t2.webp']]],
+    estimate: [1427, 840, [
+      [[80, 210, 1245, 46], 'right:-3%;top:6%', '#0ea1e4', '&pound;', 'Every line priced', 'Exterior wall: 677.55 m&sup2; at &pound;170.59 = &pound;115,582.03'],
+      [[1058, 175, 110, 480], 'right:-4%;top:46%', '#2bd38c', '&#8593;', 'Profit on every line', 'Cost &pound;145 &rarr; selling &pound;170.59: &pound;25.59 profit per m&sup2;'],
+      [[1172, 127, 130, 46], 'right:-3%;top:80%', '#8f84ff', '&Sigma;', 'Totals add up as you go', 'Walls &pound;248,148.35 &middot; Level 1 &pound;428,362.98']]],
+    compare: [1332, 896, [
+      [[1035, 345, 297, 86], 'right:-4%;top:36%', '#2bd38c', '&#10003;', 'Lowest price in green', 'Oakline Joinery: &pound;45.00 each, against &pound;62.00'],
+      [[25, 90, 1275, 127], 'left:-4%;top:4%', '#f0a830', '!', 'Suggested: split the order', 'Saves &pound;656.00 against buying it all from one supplier'],
+      [[1097, 105, 186, 32], 'right:-4%;top:74%', '#c8125e', '&#9998;', '2 draft orders, ready to check', 'Nothing goes to a supplier until you send it']]],
+    xero: [1379, 868, [
+      [[390, 184, 135, 22], 'right:-4%;top:8%', '#13b5ea', 'X', 'Live Xero connection', 'Connected to your Xero organisation'],
+      [[3, 708, 1365, 44], 'left:-4%;top:58%', '#2bd38c', '&#10003;', 'Sent to Xero as a draft bill', 'INV-NF-2041 &middot; Northfield Drylining &middot; &pound;110,396.79'],
+      [[355, 336, 305, 22], 'right:-5%;top:44%', '#f0a830', '&pound;', 'Paid dates come back', 'Suppliers are told when their invoice is paid']]],
+    revit: [990, 1130, [
+      [[40, 118, 760, 44], 'left:106%;top:6%', '#0b86c2', 'R', '2,984 elements counted', 'Walls, floors, doors, services: by level and type'],
+      [[50, 652, 830, 180], 'left:106%;top:38%', '#8f84ff', '&#9776;', 'Grouped the way you price', 'Level, then kind of element, or assembly code'],
+      [[514, 1016, 226, 60], 'left:106%;top:68%', '#2bd38c', '&#10003;', '653 lines, ready to price', 'Checked in I-Cost before anything is saved', 'assets/images/hero/model-track-t0.webp']]],
+    costreport: [1372, 880, [
+      [[690, 83, 320, 155], 'right:-4%;top:4%', '#3f7df0', '&#9638;', 'Committed so far &pound;281,786.69', 'Orders, staff and labour, live'],
+      [[1025, 83, 320, 155], 'right:-5%;top:38%', '#2bd38c', '%', '40.8% of the budget committed', '&pound;408,119.81 still to spend'],
+      [[38, 300, 1045, 580], 'left:-4%;top:56%', '#0ea1e4', '&#9651;', 'The 3D model, in the report', 'Coloured by buying stage, ready for the client']]],
+    reports: [1332, 896, [
+      [[81, 135, 1222, 388], 'right:-4%;top:4%', '#4fd4df', '&#9636;', '9 reports, one click', 'Cost, purchases, hours, carbon, deliveries, cost plan, quotation and your own'],
+      [[81, 135, 400, 128], 'left:-4%;top:40%', '#0a8f5a', '&pound;', 'Project cost report', 'Budget, committed, forecast and margin, with the records behind each figure'],
+      [[1151, 708, 152, 44], 'right:-4%;top:70%', '#c8125e', '&#8681;', 'PDF, Word or Excel', 'Ready for the board, the client or the bank']]],
+    carbon: [1045, 780, [
+      [[48, 242, 230, 173], 'right:-6%;top:10%', '#20a66a', 'CO&#8322;', '256 tCO&#8322;e upfront carbon', 'Modules A1&ndash;A5, from the estimate quantities'],
+      [[532, 242, 230, 173], 'right:-6%;top:42%', '#4fd4df', '&#10003;', '59 of 60 lines have carbon', 'I-Cost asks you about the one it is unsure of'],
+      [[48, 640, 957, 140], 'left:-5%;top:74%', '#8f84ff', '&#9776;', 'By life-cycle stage', 'Set out as the RICS whole life carbon standard and BS EN 15978 ask']]],
+  };
+  const SLOW = 1.2;
+  const wait = ms => new Promise(r => setTimeout(r, ms * SLOW));
+  const runs = new WeakMap();
+  const build = fig => {
+    const cfg = S[fig.dataset.ls]; if (!cfg) return null;
+    const W = cfg[0], H = cfg[1], steps = cfg[2], shot = fig.querySelector('.ls-shot');
+    const dark = !!fig.closest('.sa-dark');
+    const hls = steps.map(st => { const b = st[0]; const d = document.createElement('i'); d.className = 'ls-hl'; d.setAttribute('aria-hidden', 'true');
+      d.style.cssText = 'left:' + (b[0] / W * 100) + '%;top:' + (b[1] / H * 100) + '%;width:' + (b[2] / W * 100) + '%;height:' + (b[3] / H * 100) + '%'; shot.appendChild(d); return d; });
+    return { steps: steps, hls: hls, dark: dark };
+  };
+  const card = (fig, dark, st, n) => {
+    const d = document.createElement('div'); d.className = 'sa-pop ' + (dark ? 'dark' : 'light'); d.setAttribute('aria-hidden', 'true');
+    d.style.cssText = st[1] + ';--ac:' + st[2] + ';--sx:' + (/left/.test(st[1]) ? '-26px' : '26px');
+    d.innerHTML = '<span class="sa-n">' + n + '</span><div class="sa-ph"><i>' + st[3] + '</i><span><b>' + st[4] + '</b><small>' + st[5] + '</small></span></div>' + (st[6] ? '<img src="' + st[6] + '" alt="" loading="lazy">' : '');
+    fig.appendChild(d); requestAnimationFrame(() => requestAnimationFrame(() => d.classList.add('on'))); return d;
+  };
+  const reset = fig => { fig.classList.remove('in'); fig.querySelectorAll('.ls-hl').forEach(h => h.classList.remove('on')); fig.querySelectorAll('.sa-pop').forEach(c => c.remove()); };
+  const play = async fig => {
+    const b = fig._ls || (fig._ls = build(fig)); if (!b) return;
+    const token = {}; runs.set(fig, token);
+    reset(fig); await wait(60); fig.classList.add('in');
+    await wait(1000);
+    for (let i = 0; i < b.steps.length; i++) {
+      if (runs.get(fig) !== token) return;
+      b.hls.forEach((h, j) => h.classList.toggle('on', j === i));
+      card(fig, b.dark, b.steps[i], (i + 1) + '/' + b.steps.length);
+      await wait(2300);
+    }
+    if (runs.get(fig) === token) b.hls.forEach(h => h.classList.remove('on'));
+  };
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    const f = e.target;
+    if (e.isIntersecting && e.intersectionRatio >= 0.35) { if (!f._playing) { f._playing = true; play(f); } }
+    else if (!e.isIntersecting) { f._playing = false; runs.set(f, {}); reset(f); }
+  }), { threshold: [0, 0.35] });
+  document.querySelectorAll('figure.ls[data-ls]').forEach(f => io.observe(f));
 })();
