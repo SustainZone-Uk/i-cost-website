@@ -1,0 +1,554 @@
+{
+ "91566b1764ad": {
+  "en": "Construction Software for UK Contractors | Who I-Cost Is For",
+  "kind": "json"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "1a26d06b6272": {
+  "en": "<1>Home</1><2>/</2><3>Who it's for</3>",
+  "kind": "html"
+ },
+ "f880086bc19f": {
+  "en": "Construction software for UK contractors",
+  "kind": "html"
+ },
+ "9d6059045324": {
+  "en": "One job. Eight people.<1>One version of the truth.</1>",
+  "kind": "html"
+ },
+ "1d85f2771022": {
+  "en": "On every job, several people have a say in how it is priced, bought, built and reported, and each of them worries about something different. Here is what changes for each of them when the whole job sits in I-Cost.",
+  "kind": "html"
+ },
+ "1c36738f3d23": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>SEE THE PLATFORM</3>",
+  "kind": "html"
+ },
+ "5bfe7d8da901": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Supplier price comparison</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "0a4974fddfaf": {
+  "en": "<1>Directors</1>",
+  "kind": "html"
+ },
+ "3508d91d99f4": {
+  "en": "<1>Quantity surveyors</1>",
+  "kind": "html"
+ },
+ "899a3b7f07b5": {
+  "en": "<1>Estimators</1>",
+  "kind": "html"
+ },
+ "46cadc1cc42b": {
+  "en": "<1>Buyers</1>",
+  "kind": "html"
+ },
+ "f58262532107": {
+  "en": "<1>Project &amp; site managers</1>",
+  "kind": "html"
+ },
+ "3ffc715a0581": {
+  "en": "<1>Sustainability leads</1>",
+  "kind": "html"
+ },
+ "a3080046105c": {
+  "en": "<1>Finance</1>",
+  "kind": "html"
+ },
+ "bc3ed224fdf8": {
+  "en": "<1>Suppliers</1>",
+  "kind": "html"
+ },
+ "2eba6b473700": {
+  "en": "Built for",
+  "kind": "html"
+ },
+ "09a64533ad6d": {
+  "en": "Contractors who price, buy and deliver.",
+  "kind": "html"
+ },
+ "fd6dfd3deddd": {
+  "en": "I-Cost is made for UK construction businesses that win work on a priced BOQ and then have to deliver it at a margin.",
+  "kind": "html"
+ },
+ "b1a7bcc5615e": {
+  "en": "Main contractors",
+  "kind": "html"
+ },
+ "570a1b95f2f6": {
+  "en": "Run every package from tender to final report, with one cost position across all your projects.",
+  "kind": "html"
+ },
+ "139c91da19b4": {
+  "en": "Specialist &amp; trade subcontractors",
+  "kind": "html"
+ },
+ "3f42775a3be3": {
+  "en": "Price your package from the main contractor's BOQ, buy materials, log your gangs' hours and protect your own margin.",
+  "kind": "html"
+ },
+ "6f76bb2b1215": {
+  "en": "Suppliers",
+  "kind": "html"
+ },
+ "93e7ea6e17fb": {
+  "en": "Receive requests, send prices and manage orders and deliveries in a free portal. Run your own jobs with one login if you are a contractor too.",
+  "kind": "html"
+ },
+ "c24033494ca6": {
+  "en": "01 / Managing &amp; commercial directors",
+  "kind": "html"
+ },
+ "a83e3befb09b": {
+  "en": "See the margin now, not at the final account.",
+  "kind": "html"
+ },
+ "ebaf4e7ac868": {
+  "en": "\"We won it at ten per cent. Will we still make ten per cent when it's finished?\"",
+  "kind": "html"
+ },
+ "0ccfcd0de407": {
+  "en": "What changes",
+  "kind": "html"
+ },
+ "d8f54f295e24": {
+  "en": "Forecast margin on every project, kept up to date by orders, invoices and hours",
+  "kind": "html"
+ },
+ "6eee958fd84a": {
+  "en": "Agreed contract sum, budget and committed cost in one report",
+  "kind": "html"
+ },
+ "f33685458c20": {
+  "en": "Late work and overspends visible early, with the records behind them",
+  "kind": "html"
+ },
+ "e00bcc7248ec": {
+  "en": "Read-only access when you just want to look",
+  "kind": "html"
+ },
+ "58f768dd2ea5": {
+  "en": "Features you'll use",
+  "kind": "html"
+ },
+ "8303cfbf2256": {
+  "en": "<1>Cost control &amp; reports</1>",
+  "kind": "html"
+ },
+ "8b4e6bf34c2d": {
+  "en": "<1>Programme &amp; dashboard</1>",
+  "kind": "html"
+ },
+ "54aca4603618": {
+  "en": "<1>Client quotations</1>",
+  "kind": "html"
+ },
+ "465425121933": {
+  "en": "<1>Roles and Reviewer access</1>",
+  "kind": "html"
+ },
+ "6e2d1b3517a5": {
+  "en": "02 / Quantity surveyors &amp; commercial managers",
+  "kind": "html"
+ },
+ "72cfa0af2215": {
+  "en": "Cost to complete without rebuilding spreadsheets.",
+  "kind": "html"
+ },
+ "3f3b57672557": {
+  "en": "\"I spend more time matching up spreadsheets than managing the cost.\"",
+  "kind": "html"
+ },
+ "c64c28cf992b": {
+  "en": "Approved budget locked from the estimate, every version kept",
+  "kind": "html"
+ },
+ "08837580aa56": {
+  "en": "Committed, incurred, cost to complete and forecast by area and cost type",
+  "kind": "html"
+ },
+ "8dcd78b2c26a": {
+  "en": "Orders against invoices, goods received and accruals on each order",
+  "kind": "html"
+ },
+ "52c44f038efe": {
+  "en": "Click any figure to see the orders, invoices and timesheets behind it",
+  "kind": "html"
+ },
+ "cf9e94c783ab": {
+  "en": "<1>Orders &amp; deliveries</1>",
+  "kind": "html"
+ },
+ "2dd16c1e28c1": {
+  "en": "<1>Estimating &amp; BOQ</1>",
+  "kind": "html"
+ },
+ "e8ecafb71203": {
+  "en": "<1>Timesheets</1>",
+  "kind": "html"
+ },
+ "57a83dcad289": {
+  "en": "03 / Estimators",
+  "kind": "html"
+ },
+ "dbf6a368322a": {
+  "en": "From the client's BOQ to a quotation the same day.",
+  "kind": "html"
+ },
+ "a88a19fcebbf": {
+  "en": "\"Half my week goes on retyping BOQs and chasing prices I already had on the last job.\"",
+  "kind": "html"
+ },
+ "174242484134": {
+  "en": "Import the Excel BOQ, or quantities from a BIM model, with a total check",
+  "kind": "html"
+ },
+ "f2ea3e98e455": {
+  "en": "Reuse rates from your library and copy items between estimates",
+  "kind": "html"
+ },
+ "2afa142a3d26": {
+  "en": "A warning when copied rates are older than what you last paid",
+  "kind": "html"
+ },
+ "b8e4991bb58e": {
+  "en": "Quotation PDF with discount and the agreed sum, from the same estimate",
+  "kind": "html"
+ },
+ "b63be4a9d0e1": {
+  "en": "<1>Suppliers &amp; quotes</1>",
+  "kind": "html"
+ },
+ "c519f49b52c9": {
+  "en": "<1>Carbon per estimate line</1>",
+  "kind": "html"
+ },
+ "44c087a93f3c": {
+  "en": "04 / Buyers &amp; procurement",
+  "kind": "html"
+ },
+ "ed7979fb8777": {
+  "en": "Quotes side by side. Orders in one click.",
+  "kind": "html"
+ },
+ "74410a384c83": {
+  "en": "\"Prices come back in five different formats, and I compare them by hand.\"",
+  "kind": "html"
+ },
+ "83e44230cbbc": {
+  "en": "One request to several suppliers, with items and quantities from the estimate",
+  "kind": "html"
+ },
+ "8ee1e690dccf": {
+  "en": "Suggested suppliers for the items you are buying",
+  "kind": "html"
+ },
+ "bc927f5da5bb": {
+  "en": "Replies side by side, lowest price highlighted, order from the lowest in one click",
+  "kind": "html"
+ },
+ "d14a2a769302": {
+  "en": "Order progress, deliveries and the Item tracker in one place",
+  "kind": "html"
+ },
+ "c6d6f13b21d8": {
+  "en": "05 / Project &amp; site managers",
+  "kind": "html"
+ },
+ "b3a37ac7075a": {
+  "en": "Log it on site, see it in the office.",
+  "kind": "html"
+ },
+ "0b1fdd533b61": {
+  "en": "\"By the time the office sees my timesheets and delivery notes, they're a week old.\"",
+  "kind": "html"
+ },
+ "cb77ed609285": {
+  "en": "Log your own or your gang's hours on a phone in a few taps",
+  "kind": "html"
+ },
+ "c7688aec584a": {
+  "en": "Scan the QR on a delivery note and confirm what arrived",
+  "kind": "html"
+ },
+ "2972b5cc45fa": {
+  "en": "Approve hours or send them back with a note",
+  "kind": "html"
+ },
+ "eaaa6e3df1e7": {
+  "en": "The programme shows what is late and what is coming up",
+  "kind": "html"
+ },
+ "a2a5dc4f5f20": {
+  "en": "06 / Sustainability leads",
+  "kind": "html"
+ },
+ "334138869957": {
+  "en": "Carbon figures from the real quantities.",
+  "kind": "html"
+ },
+ "7d62f52b888b": {
+  "en": "\"The tender wants embodied carbon by Friday, and the quantities are in someone else's spreadsheet.\"",
+  "kind": "html"
+ },
+ "6a12b83d9aca": {
+  "en": "Embodied carbon on every estimate line, from UK Government and ÖKOBAUDAT figures or your own EPDs",
+  "kind": "html"
+ },
+ "87c735765b36": {
+  "en": "Whole life carbon assessments (beta), stages A1 to D, following RICS",
+  "kind": "html"
+ },
+ "81657b428409": {
+  "en": "Estimate items matched to materials, with weights worked out for you",
+  "kind": "html"
+ },
+ "51657546e32e": {
+  "en": "Cost and carbon always from the same quantities",
+  "kind": "html"
+ },
+ "bb965dde8c38": {
+  "en": "<1>Carbon</1>",
+  "kind": "html"
+ },
+ "b134278eab9b": {
+  "en": "07 / Finance",
+  "kind": "html"
+ },
+ "8aee0af69031": {
+  "en": "Know what's owed before the invoice lands.",
+  "kind": "html"
+ },
+ "fd7635cebdf9": {
+  "en": "\"Goods arrive, invoices come later, and nobody tells me what has been committed.\"",
+  "kind": "html"
+ },
+ "d595994230c2": {
+  "en": "Every order with what is received, invoiced and still to invoice",
+  "kind": "html"
+ },
+ "3cbee68fbf99": {
+  "en": "Accruals for goods received but not yet invoiced",
+  "kind": "html"
+ },
+ "5e8ada8f06c9": {
+  "en": "Credit notes and closed orders counted correctly",
+  "kind": "html"
+ },
+ "7b78b9343a79": {
+  "en": "Staff and site hours costed at the rates you set",
+  "kind": "html"
+ },
+ "3335171ff42e": {
+  "en": "Supplier invoices sent to Xero as draft bills, or as a file for Xero's import, so nobody retypes them",
+  "kind": "html"
+ },
+ "7afa96609d8e": {
+  "en": "08 / Suppliers &amp; subcontractors",
+  "kind": "html"
+ },
+ "2ea0c91e1dbe": {
+  "en": "Easy to buy from, with no email chasing.",
+  "kind": "html"
+ },
+ "696d2973ab66": {
+  "en": "\"I never know if my quote arrived, or when the order is coming.\"",
+  "kind": "html"
+ },
+ "4943445bb0a9": {
+  "en": "A free portal with every request and order from each customer",
+  "kind": "html"
+ },
+ "35cc0f2a231f": {
+  "en": "Price online and see when your quote has been sent",
+  "kind": "html"
+ },
+ "b77368437029": {
+  "en": "Accept orders, record dispatches and print QR delivery notes",
+  "kind": "html"
+ },
+ "638be5994606": {
+  "en": "One login if you also run your own jobs in I-Cost",
+  "kind": "html"
+ },
+ "898f0d66d1dd": {
+  "en": "<1>Supplier portal</1>",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "768dda51450a": {
+  "en": "Who uses I-Cost?",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "0861cf2fcc90": {
+  "en": "Is I-Cost quantity surveying software?",
+  "kind": "json"
+ },
+ "59e07666afa8": {
+  "en": "I-Cost covers the quantity surveyor's day-to-day commercial work on a contractor's side: pricing from the BOQ, the approved budget, committed cost, cost to complete and forecast margin, with the records behind every figure. Valuations, payment applications and a variations register are not in I-Cost yet.",
+  "kind": "json"
+ },
+ "70a9190e84bc": {
+  "en": "Is I-Cost only for main contractors?",
+  "kind": "json"
+ },
+ "fdc4ee9ab8eb": {
+  "en": "No. It is used by main contractors and by specialist and trade subcontractors who price, buy and deliver their own packages. Suppliers use the free supplier portal, and a supplier who also runs jobs can switch to their own company with one login.",
+  "kind": "json"
+ },
+ "1364671f385b": {
+  "en": "Can each person see only what they need?",
+  "kind": "json"
+ },
+ "f8905aa29357": {
+  "en": "Yes. Roles and permissions control what each person can see and change, people are added to the projects they work on, and the read-only Reviewer role lets directors, client QSs or auditors look without changing anything.",
+  "kind": "json"
+ },
+ "937807866f02": {
+  "en": "How much does it cost?",
+  "kind": "json"
+ },
+ "d429a30d96d3": {
+  "en": "&pound;35 per user per month after a 7-day free trial, with no bank card needed to start. Suppliers using the portal do not pay. <1>See pricing</1>",
+  "kind": "html"
+ },
+ "1c00efa29a57": {
+  "en": "Is I-Cost suitable for small construction businesses?",
+  "kind": "json"
+ },
+ "a86b2a4abc74": {
+  "en": "Yes. You pay &pound;35 per user per month with no set-up fee, so a team of two costs &pound;70 a month, and you can start with a 7-day free trial on one live project. Suppliers use the portal free.",
+  "kind": "html"
+ },
+ "629affae60d5": {
+  "en": "Can I manage suppliers and subcontractors in I-Cost?",
+  "kind": "json"
+ },
+ "a086afff61a1": {
+  "en": "Yes. Suppliers and subcontractors receive your quotation requests and purchase orders in a free portal, send prices, accept orders and record deliveries, and I-Cost suggests who to ask from what they supply. Your own site labour is tracked through timesheets.",
+  "kind": "json"
+ },
+ "bedb6524800b": {
+  "en": "Put one live project in I-Cost.",
+  "kind": "html"
+ },
+ "0d9002916e40": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A DEMO</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "53c6b1fc6f76": {
+  "en": "What changes for directors, quantity surveyors, estimators, buyers, site managers, sustainability leads, finance and suppliers when the whole job sits in I-Cost.",
+  "kind": "attr"
+ },
+ "e4d388618888": {
+  "en": "One job, eight people, each with their own worry. What changes for each of them with I-Cost.",
+  "kind": "attr"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "e175842d90bf": {
+  "en": "I-Cost price comparison: suppliers side by side, the lowest price for each item in green and a suggested split order",
+  "kind": "attr"
+ },
+ "ad27bba26101": {
+  "en": "Roles on this page",
+  "kind": "attr"
+ },
+ "8006eb8dc21a": {
+  "en": "A site team in hard hats and hi-vis reviewing drawings together",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "380adc200f96": {
+  "en": "Who it's for",
+  "kind": "json"
+ },
+ "cfab0a63ee82": {
+  "en": "£35 per user per month after a 7-day free trial, with no bank card needed to start. Suppliers using the portal do not pay.",
+  "kind": "json"
+ },
+ "a85fbd612e62": {
+  "en": "Yes. You pay £35 per user per month with no set-up fee, so a team of two costs £70 a month, and you can start with a 7-day free trial on one live project. Suppliers use the portal free.",
+  "kind": "json"
+ }
+}

@@ -1,0 +1,570 @@
+{
+ "d20f8fb52a61": {
+  "en": "How to Manage a Construction Project Step by Step | I-Cost",
+  "kind": "attr"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "5730788def16": {
+  "en": "<1>Home</1><2>/</2><3>How it works</3>",
+  "kind": "html"
+ },
+ "4356bee3670c": {
+  "en": "How I-Cost works",
+  "kind": "html"
+ },
+ "28def7ead915": {
+  "en": "Up and running<1>on day one.</1>",
+  "kind": "html"
+ },
+ "68d54f6029b6": {
+  "en": "Sign up, bring in the client's BOQ, invite your team and send your first quotation request, with a guided tutorial showing you each step on the real screens. Then every project runs through the same ten clear steps.",
+  "kind": "html"
+ },
+ "0d9002916e40": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A DEMO</3>",
+  "kind": "html"
+ },
+ "299dfd874186": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "76e7a3a3f9c2": {
+  "en": "Getting started",
+  "kind": "html"
+ },
+ "b09162274660": {
+  "en": "Five steps to your<1/><2>first supplier prices.</2>",
+  "kind": "html"
+ },
+ "8321f06668a8": {
+  "en": "Start the free trial",
+  "kind": "json"
+ },
+ "5fde72c6353e": {
+  "en": "Sign up with your work email for 7 days of the full platform. No bank card needed.",
+  "kind": "html"
+ },
+ "fff8d0d81a52": {
+  "en": "Add your team",
+  "kind": "json"
+ },
+ "555a6876cd8c": {
+  "en": "Invite colleagues by email and give each a role. They choose their own password.",
+  "kind": "html"
+ },
+ "a469a5950ae1": {
+  "en": "Create a project",
+  "kind": "json"
+ },
+ "803f3381e2e2": {
+  "en": "Add the client, dates and margin, and give the right people access. Or keep the demo project to explore.",
+  "kind": "html"
+ },
+ "b2cd72a5adad": {
+  "en": "Import the BOQ",
+  "kind": "json"
+ },
+ "8bd2a416c772": {
+  "en": "Upload the client's Excel or CSV BOQ, or an IFC model, check the total and save it to the estimate.",
+  "kind": "html"
+ },
+ "e1f8e1e862f8": {
+  "en": "Ask suppliers for prices",
+  "kind": "json"
+ },
+ "844e97774b74": {
+  "en": "Pick items from the estimate and send one request to several suppliers. They reply in the free portal.",
+  "kind": "html"
+ },
+ "e9698ddecd45": {
+  "en": "Every project",
+  "kind": "html"
+ },
+ "63ca64863204": {
+  "en": "How to manage a construction project,<1/><2>step by step.</2>",
+  "kind": "html"
+ },
+ "d6963ada897f": {
+  "en": "The same ten steps, in the order a job runs, sit across the top of your dashboard, and the Workflow page shows where each project stands and what to do next. Suppliers price the materials while you estimate; site progress and labour run together.",
+  "kind": "html"
+ },
+ "f6f4da8d93e8": {
+  "en": "Project",
+  "kind": "html"
+ },
+ "1e8860ce8236": {
+  "en": "Client, dates, team",
+  "kind": "html"
+ },
+ "96f6045b90ac": {
+  "en": "Set up the job, say whether the design is ready and give your team access.",
+  "kind": "html"
+ },
+ "59b035367211": {
+  "en": "Design",
+  "kind": "html"
+ },
+ "024c9320917a": {
+  "en": "Design sign-off",
+  "kind": "html"
+ },
+ "a56046295cd8": {
+  "en": "Design not ready? Price the design work in the estimate first and the client or architect signs each design line off; then the materials open. Already designed? Go straight to the estimate.",
+  "kind": "html"
+ },
+ "2352230ae436": {
+  "en": "Estimate",
+  "kind": "html"
+ },
+ "93e31fc6c74a": {
+  "en": "BOQ, pricing, carbon",
+  "kind": "html"
+ },
+ "0e9b7f9d0790": {
+  "en": "Import the BOQ or BIM model and price every item at cost and selling rates, with carbon on each line.",
+  "kind": "html"
+ },
+ "9028a2a3f233": {
+  "en": "Supplier prices",
+  "kind": "html"
+ },
+ "36fe442f95a9": {
+  "en": "RFQs, replies",
+  "kind": "html"
+ },
+ "dd03fe2d577b": {
+  "en": "While you estimate, suppliers price the materials in their own portal, and you compare the replies side by side.",
+  "kind": "html"
+ },
+ "849fd1e7d238": {
+  "en": "Client quote",
+  "kind": "html"
+ },
+ "31bc5440ca44": {
+  "en": "Quote, acceptance",
+  "kind": "html"
+ },
+ "d2fa1b24b650": {
+  "en": "Send the client a quotation and record the price they accept as the contract sum.",
+  "kind": "html"
+ },
+ "7aeba4cd15b1": {
+  "en": "Budget",
+  "kind": "html"
+ },
+ "ad63c5ffa396": {
+  "en": "Lock the budget",
+  "kind": "html"
+ },
+ "f04756c3b3cb": {
+  "en": "The agreed estimate is locked as the budget everything is measured against.",
+  "kind": "html"
+ },
+ "cded093321dd": {
+  "en": "Orders",
+  "kind": "html"
+ },
+ "bd7891df3d57": {
+  "en": "Purchase orders",
+  "kind": "html"
+ },
+ "5382d9f72909": {
+  "en": "Order from the best supplier prices, against the estimate.",
+  "kind": "html"
+ },
+ "bc4f986ecbca": {
+  "en": "Deliveries",
+  "kind": "html"
+ },
+ "26e03ef76d12": {
+  "en": "Deliveries, invoices",
+  "kind": "html"
+ },
+ "2d9ee0600530": {
+  "en": "Record what arrives, then the supplier invoices and payments, into Xero if it is connected.",
+  "kind": "html"
+ },
+ "d2cb89266beb": {
+  "en": "Site work",
+  "kind": "html"
+ },
+ "a2c54926ca75": {
+  "en": "Programme, labour",
+  "kind": "html"
+ },
+ "ce277b05ed41": {
+  "en": "Dates and progress for each area with late work flagged, and staff and site hours logged, approved and costed.",
+  "kind": "html"
+ },
+ "ee45c30326b7": {
+  "en": "Report",
+  "kind": "html"
+ },
+ "3f65bcf99f4c": {
+  "en": "Cost, margin",
+  "kind": "html"
+ },
+ "05fa3fb40f8a": {
+  "en": "Committed cost, forecast final cost, margin and carbon, ready to share.",
+  "kind": "html"
+ },
+ "d19c3ced652c": {
+  "en": "Your dashboard",
+  "kind": "html"
+ },
+ "f8978cba4972": {
+  "en": "Always know what to do next.",
+  "kind": "html"
+ },
+ "f2cc33003faa": {
+  "en": "The dashboard opens on the ten steps, what is waiting for you (timesheets to approve, supplier replies, invoices, estimates still to lock), quick actions, your recent projects and the latest activity across the company.",
+  "kind": "html"
+ },
+ "7cd418197397": {
+  "en": "The ten steps, one click each",
+  "kind": "html"
+ },
+ "de1aadb50eff": {
+  "en": "What is waiting for you",
+  "kind": "html"
+ },
+ "e47e804262aa": {
+  "en": "Quick actions",
+  "kind": "html"
+ },
+ "c0b954aa65b8": {
+  "en": "Recent projects and activity",
+  "kind": "html"
+ },
+ "152074c843b8": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Dashboard</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d51636dad584": {
+  "en": "Help when you need it",
+  "kind": "html"
+ },
+ "eae75f5e2b84": {
+  "en": "You're never on your own.",
+  "kind": "html"
+ },
+ "a89f730d1761": {
+  "en": "Guided tutorial",
+  "kind": "html"
+ },
+ "93130455dc8c": {
+  "en": "Step-by-step chapters that highlight the real buttons: add your team, create a project, import a BOQ, raise an order and more.",
+  "kind": "html"
+ },
+ "813d377576ae": {
+  "en": "Costa, the help assistant",
+  "kind": "html"
+ },
+ "d4e0fe1504ec": {
+  "en": "Ask Costa how to do something in I-Cost and get an answer straight away, inside the app.",
+  "kind": "html"
+ },
+ "2875ac1f0dd9": {
+  "en": "Help Desk",
+  "kind": "html"
+ },
+ "c1090d660f23": {
+  "en": "Raise a question or a problem with the I-Cost team, add a screenshot, and get an alert when they reply.",
+  "kind": "html"
+ },
+ "81de34188320": {
+  "en": "Demo project",
+  "kind": "html"
+ },
+ "feab1bbe8105": {
+  "en": "A ready-made project to explore safely before you put your own work in. Keep it or remove it.",
+  "kind": "html"
+ },
+ "9f4fb6660717": {
+  "en": "Team chat",
+  "kind": "html"
+ },
+ "78a1623a12a3": {
+  "en": "Talk about the job inside I-Cost, with unread badges, instead of in scattered emails.",
+  "kind": "html"
+ },
+ "ca6f42368f1f": {
+  "en": "Guided start",
+  "kind": "html"
+ },
+ "5e77e992dadc": {
+  "en": "Prefer someone to walk you through it? Book a demo or a commercial health check on one live project.",
+  "kind": "html"
+ },
+ "0033603ca5d5": {
+  "en": "On site and in the office",
+  "kind": "html"
+ },
+ "669448325f7b": {
+  "en": "Install it like an app.",
+  "kind": "html"
+ },
+ "e74bfda63429": {
+  "en": "I-Cost runs in the browser and installs on phone, tablet and PC, with no app store and nothing to download. It is always the same live system.",
+  "kind": "html"
+ },
+ "e2e38a5575fa": {
+  "en": "iPhone and iPad",
+  "kind": "html"
+ },
+ "45be57b38996": {
+  "en": "Open I-Cost in Safari, tap Share, then Add to Home Screen.",
+  "kind": "html"
+ },
+ "1928f95c598b": {
+  "en": "Android",
+  "kind": "html"
+ },
+ "68d666fcffe5": {
+  "en": "Open I-Cost in Chrome, tap the menu, then Install app or Add to Home screen. Press and hold the icon for \"Log my hours\".",
+  "kind": "html"
+ },
+ "3c4af1d996b0": {
+  "en": "PC and Mac",
+  "kind": "html"
+ },
+ "1146ddffc711": {
+  "en": "Open I-Cost in Chrome or Edge and click the install icon in the address bar. It opens in its own window.",
+  "kind": "html"
+ },
+ "48cd18dabc14": {
+  "en": "Your data",
+  "kind": "html"
+ },
+ "5014e4fcac52": {
+  "en": "Safe, separate and yours.",
+  "kind": "html"
+ },
+ "1a6826e291e8": {
+  "en": "Each company's data is kept separate, people only see the projects they are given, and roles control what each person can change. Everything is backed up off-site every hour, with a standby server ready, and you can download all your company's data at any time.",
+  "kind": "html"
+ },
+ "b362d3b0bb3a": {
+  "en": "Roles and per-person permissions",
+  "kind": "html"
+ },
+ "f90af27c7608": {
+  "en": "Read-only Reviewer access",
+  "kind": "html"
+ },
+ "0d269afde690": {
+  "en": "Two-step login and a security log",
+  "kind": "html"
+ },
+ "0d405024619c": {
+  "en": "Hourly off-site backups",
+  "kind": "html"
+ },
+ "95ca96fe03c7": {
+  "en": "Standby server ready to take over",
+  "kind": "html"
+ },
+ "484d6691c0e8": {
+  "en": "Download your data at any time (UK GDPR)",
+  "kind": "html"
+ },
+ "d89888608a3c": {
+  "en": "Aligning with ISO/IEC 27001, not certified (<1>Security &amp; trust</1>)",
+  "kind": "html"
+ },
+ "6b6b11f665f2": {
+  "en": "Billing managed by you, cancel any time",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "02aef29b8dc7": {
+  "en": "Getting started questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "ee4b1781599f": {
+  "en": "Do we need training?",
+  "kind": "json"
+ },
+ "578bcf7b28ef": {
+  "en": "Most people start with the guided tutorial inside I-Cost, which walks through each step on the real buttons, and the demo project you can keep or remove. Costa, the in-app help assistant, answers questions, and the Help Desk reaches the I-Cost team.",
+  "kind": "json"
+ },
+ "0716baab2c9b": {
+  "en": "Can we try it on a live project?",
+  "kind": "json"
+ },
+ "6bd52af2970a": {
+  "en": "Yes. The 7-day free trial is the full platform, so you can import a real BOQ and invite suppliers. If you would rather start with a guided commercial health check or a pilot on one project, <1>book a demo</1>.",
+  "kind": "html"
+ },
+ "e650300ae772": {
+  "en": "What happens after the trial?",
+  "kind": "json"
+ },
+ "0d6c50b29eaf": {
+  "en": "You subscribe by card at &pound;35 per user per month. Billing is managed in the app through Stripe, where you can change your card, download invoices or cancel; a cancelled subscription stops at the end of the month already paid for.",
+  "kind": "html"
+ },
+ "c6f8875a50d3": {
+  "en": "Is our data safe?",
+  "kind": "json"
+ },
+ "ef02201c87e1": {
+  "en": "Each company's data is kept separate, people only see the projects they are given, and data is backed up off-site every hour with a standby server ready. You can download all your company's data at any time.",
+  "kind": "json"
+ },
+ "71895f885463": {
+  "en": "How do I manage a construction project in I-Cost, step by step?",
+  "kind": "json"
+ },
+ "e9680b93b8ba": {
+  "en": "Set up the project with its client, dates, margin and team; import the BOQ and price the estimate; send the client quotation and record the agreed sum; lock the estimate as the budget; ask suppliers for prices and raise purchase orders; log and approve hours; date the programme and track progress; then report on cost, forecast margin and carbon.",
+  "kind": "json"
+ },
+ "d462abc76a7a": {
+  "en": "Start with one live project.",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "422943078bee": {
+  "en": "Sign up, import your BOQ, invite your team and send your first quotation request. How a project runs through I-Cost's ten steps, from design to report, and the help you get on the way.",
+  "kind": "attr"
+ },
+ "d23a61678c34": {
+  "en": "From sign-up to your first quotation request, and how every project runs through ten clear steps, from design to report.",
+  "kind": "attr"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "ed626ce0cf3f": {
+  "en": "An I-Cost project page: the ten stages, time, work done, materials and the 3D model",
+  "kind": "attr"
+ },
+ "aaa9946172c5": {
+  "en": "Block of flats going up behind scaffolding",
+  "kind": "attr"
+ },
+ "0e73f369be06": {
+  "en": "The I-Cost dashboard: projects, contract value, forecast margin, projects by stage and activity",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "1dd6a17cb403": {
+  "en": "How it works",
+  "kind": "json"
+ },
+ "34c429382775": {
+  "en": "Getting started with I-Cost",
+  "kind": "json"
+ },
+ "430bae3d80de": {
+  "en": "Set up I-Cost and send your first supplier quotation request.",
+  "kind": "json"
+ },
+ "5b1311255f33": {
+  "en": "Sign up for the 7-day free trial with your work email. No bank card is needed.",
+  "kind": "json"
+ },
+ "323fc9a16459": {
+  "en": "Invite colleagues by email and give each one a role. Each person chooses their own password.",
+  "kind": "json"
+ },
+ "a949df0612b8": {
+  "en": "Add the project with its client, dates and margin, and give your team access to it.",
+  "kind": "json"
+ },
+ "7bb578f4988a": {
+  "en": "Upload the client's Excel or CSV BOQ, or an IFC model, check the preview and the total, and save it to the estimate.",
+  "kind": "json"
+ },
+ "3f87b5d60f47": {
+  "en": "Pick items from the estimate and send one quotation request to several suppliers, who price it in the free supplier portal.",
+  "kind": "json"
+ },
+ "196ff3f4e655": {
+  "en": "Yes. The 7-day free trial is the full platform, so you can import a real BOQ and invite suppliers. If you would rather start with a guided commercial health check or a pilot on one project, book a demo.",
+  "kind": "json"
+ },
+ "71726c3c2df0": {
+  "en": "You subscribe by card at £35 per user per month. Billing is managed in the app through Stripe, where you can change your card, download invoices or cancel; a cancelled subscription stops at the end of the month already paid for.",
+  "kind": "json"
+ }
+}

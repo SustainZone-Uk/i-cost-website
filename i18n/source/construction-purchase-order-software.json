@@ -1,0 +1,518 @@
+{
+ "6b11c336f4b4": {
+  "en": "Construction Purchase Order Software | I-Cost",
+  "kind": "json"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "38ce1a498c41": {
+  "en": "<1>Home</1><2>/</2><3>Platform</3><4>/</4><5>Purchase orders</5>",
+  "kind": "html"
+ },
+ "14175c8261c4": {
+  "en": "<1>Purchase orders</1>",
+  "kind": "html"
+ },
+ "0bf8a8692018": {
+  "en": "Purchase order system for construction",
+  "kind": "html"
+ },
+ "55202148499c": {
+  "en": "A purchase order system<1>built for construction.</1>",
+  "kind": "html"
+ },
+ "437d687b0e3a": {
+  "en": "Raise purchase orders from the estimate or the winning quote, track each order from sent to delivered and invoiced, and see the committed cost against the budget the moment it is sent.",
+  "kind": "html"
+ },
+ "0d9002916e40": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A DEMO</3>",
+  "kind": "html"
+ },
+ "160ac9fc3c81": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Item tracker</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "8a9400005c3b": {
+  "en": "The problem",
+  "kind": "html"
+ },
+ "71ab22f37332": {
+  "en": "A PO template<1/><2>isn't a purchase order system.</2>",
+  "kind": "html"
+ },
+ "e21a48f3ca06": {
+  "en": "Orders typed into Word or Excel templates don't know the budget, the deliveries or the invoices, so committed cost is a guess.",
+  "kind": "html"
+ },
+ "31912030a345": {
+  "en": "Orders are typed into a template, then emailed and forgotten.",
+  "kind": "html"
+ },
+ "ed037cae21d9": {
+  "en": "Orders come from the estimate or the quote, are saved as drafts, then sent from I-Cost.",
+  "kind": "html"
+ },
+ "f10bb71b142d": {
+  "en": "Nobody checks an order against the budget.",
+  "kind": "html"
+ },
+ "00525a8bc8cf": {
+  "en": "Sent orders count against the approved budget straight away, by area and cost type.",
+  "kind": "html"
+ },
+ "ca6242d485e2": {
+  "en": "Deliveries arrive short or damaged and nobody records it.",
+  "kind": "html"
+ },
+ "0ffa48f807e7": {
+  "en": "Site confirms what arrived, and anything short or damaged is sent back to the supplier.",
+  "kind": "html"
+ },
+ "6383a6605dec": {
+  "en": "Invoices are paid against orders nobody can find.",
+  "kind": "html"
+ },
+ "8bb684ba14e5": {
+  "en": "Goods received, invoices and credit notes sit on the order.",
+  "kind": "html"
+ },
+ "62a08fed605d": {
+  "en": "You don't know when the order will turn up.",
+  "kind": "html"
+ },
+ "18a9e5d7fa17": {
+  "en": "Suppliers accept, process and dispatch in the portal, and you see each step.",
+  "kind": "html"
+ },
+ "62194e420b95": {
+  "en": "Month-end accruals take a day.",
+  "kind": "html"
+ },
+ "080cc61596b4": {
+  "en": "Received-not-invoiced value is worked out for you.",
+  "kind": "html"
+ },
+ "466283b1eabc": {
+  "en": "In I-Cost",
+  "kind": "html"
+ },
+ "b783d5c3342e": {
+  "en": "From order<1/><2>to invoice.</2>",
+  "kind": "html"
+ },
+ "dd76896e5aa0": {
+  "en": "Every purchase order keeps its revisions, its delivery progress and its paperwork. Suppliers accept the order and record each dispatch with a QR delivery note; your team scans it, confirms what arrived and flags anything short or damaged. Goods received, invoices and credit notes all count towards the committed and incurred cost in the report.",
+  "kind": "html"
+ },
+ "13164f917c8b": {
+  "en": "Orders from the estimate or the quote",
+  "kind": "html"
+ },
+ "3d17b2c792e4": {
+  "en": "Drafts, then send to the supplier",
+  "kind": "html"
+ },
+ "e90a60d2cd7e": {
+  "en": "Printed PO and PDF",
+  "kind": "html"
+ },
+ "b9d26db3ba90": {
+  "en": "Revision history",
+  "kind": "html"
+ },
+ "73c34d5d74c9": {
+  "en": "Order progress from the supplier",
+  "kind": "html"
+ },
+ "3bf5f17028b2": {
+  "en": "QR delivery notes",
+  "kind": "html"
+ },
+ "e780e28ef897": {
+  "en": "Goods received and accruals",
+  "kind": "html"
+ },
+ "ab0bf38e6c1e": {
+  "en": "Credit notes and closing orders",
+  "kind": "html"
+ },
+ "c16dfd1733eb": {
+  "en": "Step by step",
+  "kind": "html"
+ },
+ "573b0de66dec": {
+  "en": "How a purchase order<1/><2>runs in I-Cost.</2>",
+  "kind": "html"
+ },
+ "cd2ba35cd4a0": {
+  "en": "Raise",
+  "kind": "html"
+ },
+ "36400ae5a00b": {
+  "en": "From the estimate items or the winning quote, with delivery date and address.",
+  "kind": "html"
+ },
+ "9bc2575c3930": {
+  "en": "Send",
+  "kind": "html"
+ },
+ "c1f2173cd4a5": {
+  "en": "Save as a draft, check it, then send it to the supplier by email and portal.",
+  "kind": "html"
+ },
+ "b1c5a7af06ba": {
+  "en": "Track",
+  "kind": "html"
+ },
+ "394aeb30b8cd": {
+  "en": "The supplier accepts, processes and dispatches, with a QR delivery note.",
+  "kind": "html"
+ },
+ "965fb2ddf63d": {
+  "en": "Receive",
+  "kind": "html"
+ },
+ "994e480f21bb": {
+  "en": "Site confirms what arrived; goods received and accruals update.",
+  "kind": "html"
+ },
+ "fcab360bac59": {
+  "en": "Invoice and close",
+  "kind": "html"
+ },
+ "d4902ed2539d": {
+  "en": "Record invoices and credit notes, send them to Xero if you use it, then close the order.",
+  "kind": "html"
+ },
+ "90d153a2fabc": {
+  "en": "Template or system",
+  "kind": "html"
+ },
+ "7c848cd8f30e": {
+  "en": "Purchase order template<1/><2>vs purchase order system.</2>",
+  "kind": "html"
+ },
+ "468d5a623c57": {
+  "en": "Word / Excel template",
+  "kind": "html"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "2a87ca5c8fb8": {
+  "en": "Creating the order",
+  "kind": "html"
+ },
+ "2de2b3e79d17": {
+  "en": "Typed from scratch",
+  "kind": "html"
+ },
+ "788ab93cf8d0": {
+  "en": "From the estimate items or the winning quote",
+  "kind": "html"
+ },
+ "7aeba4cd15b1": {
+  "en": "Budget",
+  "kind": "html"
+ },
+ "22705e738a7a": {
+  "en": "Not checked",
+  "kind": "html"
+ },
+ "c9243f052eb5": {
+  "en": "Counted against the approved budget when sent",
+  "kind": "html"
+ },
+ "bc4f986ecbca": {
+  "en": "Deliveries",
+  "kind": "html"
+ },
+ "51079b6ce9da": {
+  "en": "Delivery notes in a folder",
+  "kind": "html"
+ },
+ "7ce7a8789b69": {
+  "en": "QR delivery notes, confirmed on site",
+  "kind": "html"
+ },
+ "35f8f37b92ae": {
+  "en": "Invoices",
+  "kind": "html"
+ },
+ "16424f389768": {
+  "en": "Matched by hand",
+  "kind": "html"
+ },
+ "d5925f3de722": {
+  "en": "Recorded on the order, with credit notes",
+  "kind": "html"
+ },
+ "e509c3b7f1d2": {
+  "en": "Committed cost",
+  "kind": "html"
+ },
+ "7021a1f8b5a3": {
+  "en": "Worked out at month end",
+  "kind": "html"
+ },
+ "7a9b0f6fabf7": {
+  "en": "Live in the project report",
+  "kind": "html"
+ },
+ "891ef0d2c712": {
+  "en": "Item tracker",
+  "kind": "html"
+ },
+ "b4acae1db38b": {
+  "en": "Know where every material is,<1/><2>from request to delivery.</2>",
+  "kind": "html"
+ },
+ "311afe424a16": {
+  "en": "One list of every material item on the job, each with its buying stage, its quotation requests, quotes, orders, deliveries and invoices. Filter by stage, area or level, then act straight from the list.",
+  "kind": "html"
+ },
+ "df28eb9bcd51": {
+  "en": "Tick items and request prices for them in one go",
+  "kind": "html"
+ },
+ "d61dbc443b6a": {
+  "en": "Order everything from the lowest quotes as draft orders",
+  "kind": "html"
+ },
+ "e0d7c7f2f9dd": {
+  "en": "Suppliers mark orders accepted, processing and dispatched in their portal",
+  "kind": "html"
+ },
+ "31c895512f1b": {
+  "en": "A QR label on the delivery lets site confirm what arrived",
+  "kind": "html"
+ },
+ "0c3f59c05f73": {
+  "en": "<1>Not requested</1><2>On the estimate. Nobody has asked for a price yet.</2>",
+  "kind": "html"
+ },
+ "32174ced2fe3": {
+  "en": "<1>Request not sent</1><2>In a quotation request that has not gone out.</2>",
+  "kind": "html"
+ },
+ "149ae05cd857": {
+  "en": "<1>Waiting for prices</1><2>Sent to suppliers, waiting for their replies.</2>",
+  "kind": "html"
+ },
+ "a86aa5d439e9": {
+  "en": "<1>Priced, not ordered</1><2>Quotes are in. Time to pick one.</2>",
+  "kind": "html"
+ },
+ "ff4d5c70f1fd": {
+  "en": "<1>Draft order</1><2>The order is ready but not sent.</2>",
+  "kind": "html"
+ },
+ "dad7b69041a7": {
+  "en": "<1>Ordered</1><2>The supplier has the purchase order.</2>",
+  "kind": "html"
+ },
+ "6dac35136d50": {
+  "en": "<1>On its way</1><2>The supplier has dispatched it.</2>",
+  "kind": "html"
+ },
+ "dc0f550c5469": {
+  "en": "<1>Delivered</1><2>Received on site, then matched to the invoice.</2>",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "a8c3f8cb2e63": {
+  "en": "Purchase order questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "a5c5916255a5": {
+  "en": "Can I still print and email purchase orders?",
+  "kind": "json"
+ },
+ "e0480f38ae96": {
+  "en": "Yes. Each order prints as a tidy PO document or PDF and is emailed to the supplier, who can also see it in the free portal.",
+  "kind": "json"
+ },
+ "b986096e4b2d": {
+  "en": "When does an order count as committed?",
+  "kind": "json"
+ },
+ "0934b5317277": {
+  "en": "When it is sent. Drafts don't count, so you can prepare orders without changing the report. Committed cost per order is the order value or the invoices, whichever is higher.",
+  "kind": "json"
+ },
+ "8f6b3974acb2": {
+  "en": "Can I record part deliveries?",
+  "kind": "json"
+ },
+ "6a9ad8967dfb": {
+  "en": "Yes. Record what arrived on each line, as many times as needed, or confirm a supplier's dispatch and mark anything short, damaged or wrong.",
+  "kind": "json"
+ },
+ "9dffe6e13a7d": {
+  "en": "Do suppliers need an I-Cost account?",
+  "kind": "json"
+ },
+ "001de93f4a41": {
+  "en": "They receive the order by email, and can use the free supplier portal to accept it, record dispatches and print QR delivery notes.",
+  "kind": "json"
+ },
+ "fb597a0781c7": {
+  "en": "Does I-Cost work with Xero?",
+  "kind": "json"
+ },
+ "c44f34a5295f": {
+  "en": "Yes, two ways. With the live Xero connection, Send to Xero puts supplier invoices into Xero as draft bills with one click, or by themselves as each one is approved: suppliers become Xero contacts, projects become tracking, and paid dates come back to I-Cost, with an email to the supplier if you want. I-Cost never approves, pays or deletes anything in Xero. It is &pound;10 a month for your whole company, and we switch it on when you ask from inside I-Cost. Or, free, Export bills for Xero downloads a file in Xero's bill import layout to import yourself. QuickBooks and Sage aren't supported yet.",
+  "kind": "html"
+ },
+ "60756af26962": {
+  "en": "More of I-Cost",
+  "kind": "html"
+ },
+ "d355d72c40d7": {
+  "en": "One platform for the whole job.",
+  "kind": "html"
+ },
+ "484152f029fe": {
+  "en": "Everything below works together, from the same estimate. <1>See the full platform</1>.",
+  "kind": "html"
+ },
+ "8ab043d6f267": {
+  "en": "<1>Project management<2>Run the commercial side of every job</2></1>",
+  "kind": "html"
+ },
+ "d2bc8b35347b": {
+  "en": "<1>Estimating &amp; BOQ<2>Price the BOQ, quote the client</2></1>",
+  "kind": "html"
+ },
+ "b97ecfa86c94": {
+  "en": "<1>Supplier management<2>Quotes, suppliers and subcontractors</2></1>",
+  "kind": "html"
+ },
+ "22cf478b5e5b": {
+  "en": "<1>Cost tracking<2>Budget, committed and forecast margin</2></1>",
+  "kind": "html"
+ },
+ "dcafb2658217": {
+  "en": "<1>Timesheet app<2>Site hours on a phone</2></1>",
+  "kind": "html"
+ },
+ "99335bd9eb66": {
+  "en": "<1>Carbon calculator<2>Embodied and whole life carbon</2></1>",
+  "kind": "html"
+ },
+ "940ebc3e061d": {
+  "en": "Send your next purchase order from I-Cost.",
+  "kind": "html"
+ },
+ "d8a84af1fbd2": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>VIEW PRICING</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "6e0310b2ce42": {
+  "en": "A purchase order system built for construction: orders from the estimate, supplier progress, QR delivery notes, goods received, invoices and committed cost.",
+  "kind": "json"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "b6465f12ca2b": {
+  "en": "I-Cost Item tracker: every material item with its quotation request, order, delivery and invoice",
+  "kind": "attr"
+ },
+ "8b979bdf6557": {
+  "en": "Buyer checking stock on a tablet in a warehouse",
+  "kind": "attr"
+ },
+ "7dad3465ee65": {
+  "en": "Steel beams stacked in a supplier yard ready for delivery",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "123a7f2fcc9a": {
+  "en": "Platform",
+  "kind": "json"
+ },
+ "bd7891df3d57": {
+  "en": "Purchase orders",
+  "kind": "json"
+ },
+ "75f74790367d": {
+  "en": "Yes, two ways. With the live Xero connection, Send to Xero puts supplier invoices into Xero as draft bills with one click, or by themselves as each one is approved: suppliers become Xero contacts, projects become tracking, and paid dates come back to I-Cost, with an email to the supplier if you want. I-Cost never approves, pays or deletes anything in Xero. It is £10 a month for your whole company, and we switch it on when you ask from inside I-Cost. Or, free, Export bills for Xero downloads a file in Xero's bill import layout to import yourself. QuickBooks and Sage aren't supported yet.",
+  "kind": "json"
+ }
+}

@@ -1,0 +1,618 @@
+{
+ "e4881821f973": {
+  "en": "I-Cost Model Link: Revit quantities into a BOQ | Help and download",
+  "kind": "attr"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "86270148500f": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Blogs &amp; Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "bbb4fc1accc0": {
+  "en": "<1>Home</1><2>/</2><3>I-Cost Model Link</3>",
+  "kind": "html"
+ },
+ "8818e8067512": {
+  "en": "I-Cost Model Link · Free Revit add-in",
+  "kind": "html"
+ },
+ "754b48f61eeb": {
+  "en": "Revit quantities into I-Cost<1>without retyping.</1>",
+  "kind": "html"
+ },
+ "8150346605f6": {
+  "en": "A free add-in for Revit 2023 to 2027 that adds up your model's walls, floors, roofs, doors, windows, structure and services by level and type, and sends them to I-Cost's Import BOQ to price, order and track.",
+  "kind": "html"
+ },
+ "ae73c4a22d3f": {
+  "en": "<1>DOWNLOAD FOR WINDOWS <2>&#8595;</2></1><3>START FREE TRIAL</3>",
+  "kind": "html"
+ },
+ "a201792de574": {
+  "en": "<1>After downloading</1><2> · Your download has started</2>",
+  "kind": "html"
+ },
+ "cfe7de9427c7": {
+  "en": "Close Revit. Open the downloaded zip and double-click <1>I-Cost-for-Revit-Setup.exe</1>.",
+  "kind": "html"
+ },
+ "b5c87ec91a8f": {
+  "en": "If Windows says <1>Windows protected your PC</1>, click <2>More info</2>, then <3>Run anyway</3>. Click <4>OK</4> to install.",
+  "kind": "html"
+ },
+ "112f354671e2": {
+  "en": "Start Revit and open a model. If Revit asks about the publisher, choose <1>Always Load</1>.",
+  "kind": "html"
+ },
+ "dd4a90fde987": {
+  "en": "On the <1>Add-Ins</1> tab, click <2>I-Cost &gt; Connect</2>, approve the code in I-Cost, then click <3>Send to I-Cost</3>.",
+  "kind": "html"
+ },
+ "c2b87101719e": {
+  "en": "<1>Full step-by-step guide <2>&#8595;</2></1>",
+  "kind": "html"
+ },
+ "68751c0fbc3b": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Send to I-Cost, in Revit</4><5>Live</5>",
+  "kind": "html"
+ },
+ "333433831908": {
+  "en": "Real I-Cost Model Link window &middot; Sample Revit model",
+  "kind": "html"
+ },
+ "ea354c99a863": {
+  "en": "Version 1.0.1 · Revit 2023, 2024, 2025, 2026 and 2027 on Windows · Updated 18 November 2026",
+  "kind": "html"
+ },
+ "ca032b5844df": {
+  "en": "What it does",
+  "kind": "html"
+ },
+ "676e2304386b": {
+  "en": "<1>Send to I-Cost</1> adds up the elements in your model by level and type, in metric units, and lets you choose what to send and how to group it.",
+  "kind": "html"
+ },
+ "01e2eb5a7e7a": {
+  "en": "I-Cost opens <1>Import BOQ</1> with the quantities ready to preview. Nothing reaches an estimate until you check the preview and save it.",
+  "kind": "html"
+ },
+ "70c27d575a98": {
+  "en": "From there you price the work, send quotation requests to suppliers, raise purchase orders and track cost and carbon, all in I-Cost.",
+  "kind": "html"
+ },
+ "6c7bc66c3431": {
+  "en": "How the link between Revit and I-Cost works",
+  "kind": "html"
+ },
+ "346e04d33e52": {
+  "en": "<1>Connect, once per computer.</1> When you click <2>Connect</2>, the add-in asks I-Cost for a short one-time code and opens I-Cost in your browser. You sign in there as usual and approve the code. I-Cost then gives that computer its own access key, which the add-in keeps on your computer, encrypted for your Windows account. Your I-Cost password is never typed into Revit, and I-Cost keeps only a scrambled copy of the key.",
+  "kind": "html"
+ },
+ "7b0cbad636c2": {
+  "en": "<1>Add up the quantities on your computer.</1> When you click <2>Send to I-Cost</2>, the add-in reads the open model and adds up the elements you ticked by level and type: areas in m², lengths in m, volumes in m³ and everything else by number. This happens inside Revit; the model is not uploaded.",
+  "kind": "html"
+ },
+ "d6048dcf0092": {
+  "en": "<1>Send the totals.</1> Only the list of totals (model name, levels, element categories and types, quantities and units) goes to your own I-Cost account over a secure HTTPS connection. The key can only send quantities to your Import BOQ; it cannot open your projects, estimates or prices.",
+  "kind": "html"
+ },
+ "b209cfe58fe5": {
+  "en": "<1>Check and save in I-Cost.</1> Your browser opens <2>Import BIM model</2> with <3>Received from Revit</3>. You choose the project and look at the lines in the Import BOQ preview, the same preview as an Excel BOQ import. Nothing is added to an estimate until you save it. Sent quantities you do not save are deleted after 7 days.",
+  "kind": "html"
+ },
+ "ee166274b7a5": {
+  "en": "<1>Carry on in I-Cost.</1> Once the lines are in the estimate, you add rates and margin, send quotation requests to suppliers, raise purchase orders and track cost and embodied carbon against the budget, like any other estimate.",
+  "kind": "html"
+ },
+ "0a358dd2314b": {
+  "en": "Change the model? Send again. Each send arrives as a new set of quantities to preview, so you decide what goes into the estimate.",
+  "kind": "html"
+ },
+ "fdc7e5fe8a1e": {
+  "en": "Where to get it: the Autodesk App Store or this page",
+  "kind": "html"
+ },
+ "cdccb9b5491a": {
+  "en": "<1>Autodesk App Store:</1> I-Cost Model Link is listed on the Autodesk App Store (Autodesk Marketplace) since 23 November 2026, after Autodesk reviewed and tested it. <2>Get I-Cost Model Link on the Autodesk App Store</2> and install it there, next to your other Revit add-ins.",
+  "kind": "html"
+ },
+ "8cca72d91df8": {
+  "en": "<1>Or download it here:</1> download the installer from this page, or in I-Cost under <2>My Account &gt; Connected apps</2>. Because this download is not yet signed by a known publisher, Windows and Revit each ask once before running it (see below).",
+  "kind": "html"
+ },
+ "decfcc5edd42": {
+  "en": "It is the same free add-in either way, for Revit 2023 to 2027, and it connects to I-Cost in the same way.",
+  "kind": "html"
+ },
+ "e0a694160414": {
+  "en": "1. Install",
+  "kind": "html"
+ },
+ "5f71156f3bc5": {
+  "en": "Close Revit.",
+  "kind": "html"
+ },
+ "5b413debae8c": {
+  "en": "<1>Download the installer</1> (a zip of about 230 KB), open the zip and double-click <2>I-Cost-for-Revit-Setup.exe</2>.",
+  "kind": "html"
+ },
+ "ccb13a605767": {
+  "en": "If Windows says <1>Windows protected your PC</1>, click <2>More info</2>, then <3>Run anyway</3>. The add-in is not yet signed by a known publisher, so Windows asks once.",
+  "kind": "html"
+ },
+ "58492c48f8df": {
+  "en": "Click <1>OK</1>. It installs for your Windows account only and needs no admin rights.",
+  "kind": "html"
+ },
+ "e62a7b1eae1b": {
+  "en": "For IT teams: install without the installer",
+  "kind": "html"
+ },
+ "9b071c8c70b2": {
+  "en": "Download the <1>add-in bundle</1> and unzip it into",
+  "kind": "html"
+ },
+ "cad8c44394b5": {
+  "en": "for one user, or",
+  "kind": "html"
+ },
+ "58ea25dae8aa": {
+  "en": "for everyone on a computer. Most people do not need this: the installer above does it for you.",
+  "kind": "html"
+ },
+ "447067e7ac86": {
+  "en": "2. Connect Revit to I-Cost (once)",
+  "kind": "html"
+ },
+ "b4ed516f4aee": {
+  "en": "Start Revit and open a model. If Revit asks about the publisher of <1>I-Cost Model Link</1> (<2>I-Cost for Revit</2> in versions before 1.0), choose <3>Always Load</3>.",
+  "kind": "html"
+ },
+ "9509ccdc882c": {
+  "en": "On the <1>Add-Ins</1> tab, in the <2>I-Cost</2> panel, click <3>Connect</3>. Revit shows a short code and your browser opens I-Cost.",
+  "kind": "html"
+ },
+ "c1e81a9677e2": {
+  "en": "Sign in to I-Cost if asked, check the code matches, and click <1>Connect</1>. Revit says <2>Connected as …</2> within a few seconds.",
+  "kind": "html"
+ },
+ "f27578274c30": {
+  "en": "No password is typed into Revit. The link is kept on your computer, encrypted for your Windows account, and you can remove it any time in Revit (Connect) or in I-Cost under <1>My Account &gt; Connected apps</1>.",
+  "kind": "html"
+ },
+ "4b8abfef5dfe": {
+  "en": "3. Send quantities",
+  "kind": "html"
+ },
+ "1187ca1bdb27": {
+  "en": "With the model open, click <1>Add-Ins &gt; I-Cost &gt; Send to I-Cost</1>.",
+  "kind": "html"
+ },
+ "e799f7e891c9": {
+  "en": "Tick the kinds of element to send and choose how to group the lines: by <1>level</1>, by <2>kind of element</2>, or by the type's <3>Assembly code</3>.",
+  "kind": "html"
+ },
+ "05d98d99718a": {
+  "en": "Click <1>Send</1>. I-Cost opens <2>Import BIM model</2> showing <3>Received from Revit</3> with the model name and number of lines.",
+  "kind": "html"
+ },
+ "6c24b879a408": {
+  "en": "Choose the project, click <1>Send quantities to preview</1>, arrange and check the lines, then save them to the estimate.",
+  "kind": "html"
+ },
+ "ce618e75ae4a": {
+  "en": "Quantities are only as good as the model. Compare a few totals with your Revit schedules the first time, for example the total area of a wall type.",
+  "kind": "html"
+ },
+ "8405fc8a29e9": {
+  "en": "What is measured",
+  "kind": "html"
+ },
+ "7c5e5e14d29f": {
+  "en": "Kind of element",
+  "kind": "html"
+ },
+ "4c0a53532751": {
+  "en": "Revit categories",
+  "kind": "html"
+ },
+ "44f6af694554": {
+  "en": "Quantity",
+  "kind": "html"
+ },
+ "af8aa700ff89": {
+  "en": "Walls (including curtain walls)",
+  "kind": "html"
+ },
+ "d7a58e57aa1a": {
+  "en": "Walls",
+  "kind": "html"
+ },
+ "fda1afaff3d3": {
+  "en": "Area, m²",
+  "kind": "html"
+ },
+ "9c5ce849e9f9": {
+  "en": "Floors and slabs",
+  "kind": "html"
+ },
+ "e623d4fb1413": {
+  "en": "Floors",
+  "kind": "html"
+ },
+ "23b998c3b550": {
+  "en": "Roofs",
+  "kind": "html"
+ },
+ "c2c122ca9a7c": {
+  "en": "Ceilings and finishes",
+  "kind": "html"
+ },
+ "7be7b277ffa0": {
+  "en": "Ceilings",
+  "kind": "html"
+ },
+ "2efa1e7572ca": {
+  "en": "Foundations",
+  "kind": "html"
+ },
+ "361c47f4f93f": {
+  "en": "Structural Foundations",
+  "kind": "html"
+ },
+ "34165590e024": {
+  "en": "Volume, m³ (or number)",
+  "kind": "html"
+ },
+ "cf723c59b62a": {
+  "en": "Columns",
+  "kind": "html"
+ },
+ "72aac62de84b": {
+  "en": "Columns, Structural Columns",
+  "kind": "html"
+ },
+ "b7baa1d40c4e": {
+  "en": "Number",
+  "kind": "html"
+ },
+ "386e682b14b1": {
+  "en": "Beams",
+  "kind": "html"
+ },
+ "686f234dc591": {
+  "en": "Structural Framing",
+  "kind": "html"
+ },
+ "7a738e50481b": {
+  "en": "Cut length, m",
+  "kind": "html"
+ },
+ "0ffea0e2e9cb": {
+  "en": "Doors, windows, stairs and ramps",
+  "kind": "html"
+ },
+ "c8129706a680": {
+  "en": "Doors, Windows, Stairs, Ramps",
+  "kind": "html"
+ },
+ "38a47b3cb842": {
+  "en": "Railings",
+  "kind": "html"
+ },
+ "e92467fd09fd": {
+  "en": "Length, m",
+  "kind": "html"
+ },
+ "bc251374e21c": {
+  "en": "Furniture and fittings",
+  "kind": "html"
+ },
+ "0b57394742a2": {
+  "en": "Furniture, Casework",
+  "kind": "html"
+ },
+ "2f6e894071a0": {
+  "en": "Pipes, ducts and cable runs",
+  "kind": "html"
+ },
+ "15a472ff6b17": {
+  "en": "Pipes, Ducts, Cable Trays, Conduits",
+  "kind": "html"
+ },
+ "bb5339262724": {
+  "en": "Services fittings and terminals",
+  "kind": "html"
+ },
+ "d53e757f73db": {
+  "en": "Plumbing, Lighting and Electrical fixtures, Mechanical equipment, Air terminals, Sprinklers",
+  "kind": "html"
+ },
+ "1a7d2ef300da": {
+  "en": "Other building elements",
+  "kind": "html"
+ },
+ "21c76c834d04": {
+  "en": "Generic Models",
+  "kind": "html"
+ },
+ "39f160bc6b7a": {
+  "en": "Left out: parts nested inside other families, elements in secondary design options, and demolished elements. Each line is one family and type in one unit, so you can price it straight away.",
+  "kind": "html"
+ },
+ "e4b6055ac37e": {
+  "en": "If something does not work",
+  "kind": "html"
+ },
+ "aa8860cbe522": {
+  "en": "<1>The browser will not download the installer.</1> Use the zip download above; a new unsigned",
+  "kind": "html"
+ },
+ "08cc3e66973b": {
+  "en": "on its own is often held back by browsers.",
+  "kind": "html"
+ },
+ "535b211ac5c9": {
+  "en": "<1>There is no I-Cost panel.</1> Look on the <2>Add-Ins</2> tab with a model open. If Revit asked about the publisher and you chose <3>Do Not Load</3>, email us and we will help you load it.",
+  "kind": "html"
+ },
+ "f59b362c6e89": {
+  "en": "<1>The installer keeps asking you to close Revit.</1> Close every Revit window and try again. If no Revit window is open, restart your computer.",
+  "kind": "html"
+ },
+ "88785ed7cade": {
+  "en": "<1>Revit says it is not connected.</1> The link may have been removed in I-Cost. Click <2>Connect</2> again.",
+  "kind": "html"
+ },
+ "4c6030fc2613": {
+  "en": "<1>The quantities say they are no longer available.</1> Sent quantities are kept for 7 days and only for the person who sent them. Click <2>Send to I-Cost</2> again.",
+  "kind": "html"
+ },
+ "c1f79d46e298": {
+  "en": "Using a Mac?",
+  "kind": "html"
+ },
+ "d2eddecd90bf": {
+  "en": "Revit only runs on Windows, so the add-in does too. If you run Revit in Parallels or another Windows virtual machine, install the add-in inside Windows. From ArchiCAD, Vectorworks or any other BIM tool, export an IFC model and use <1>Cost Planning &gt; Import BIM model</1> in I-Cost: the model is read in your browser, on a Mac too.",
+  "kind": "html"
+ },
+ "48cd18dabc14": {
+  "en": "Your data",
+  "kind": "html"
+ },
+ "a3a922a1f4fe": {
+  "en": "The add-in sends only quantity information (model name, levels, element categories and types, quantities and units) to your own I-Cost account. Sent quantities are deleted after 7 days unless you save them into an estimate. It does not send drawings, geometry or the model file. The full details are in the <1>I-Cost privacy notice</1>.",
+  "kind": "html"
+ },
+ "0e54930945fa": {
+  "en": "Removing it",
+  "kind": "html"
+ },
+ "4d600a9078cd": {
+  "en": "Windows <1>Settings &gt; Apps &gt; Installed apps</1>, find <2>I-Cost Model Link</2> (called <3>I-Cost for Revit</3> in versions before 1.0) and choose <4>Uninstall</4>. Your I-Cost account and anything you have already imported are not affected.",
+  "kind": "html"
+ },
+ "c47ae15370cf": {
+  "en": "Help",
+  "kind": "html"
+ },
+ "137b981d85f3": {
+  "en": "Email <1>info@i-cost.co.uk</1> with your Revit version and what you see. Tell us what would make it more useful.",
+  "kind": "html"
+ },
+ "78ac99851cf4": {
+  "en": "Autodesk and Revit are registered trademarks or trademarks of Autodesk, Inc., in the USA and other countries. I-Cost Model Link is made by I-Cost and is not made or endorsed by Autodesk.",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "8c0bde9559a5": {
+  "en": "Which versions of Revit does it work with?",
+  "kind": "json"
+ },
+ "4cc351264e5b": {
+  "en": "Revit 2023, 2024, 2025, 2026 and 2027 on Windows. One installer covers all of them.",
+  "kind": "json"
+ },
+ "458b3492dc3a": {
+  "en": "Does it work on a Mac?",
+  "kind": "json"
+ },
+ "ecd7d41a1ddb": {
+  "en": "Revit itself only runs on Windows, so the add-in does too. If you run Revit in Parallels or another Windows virtual machine, install it inside Windows. From ArchiCAD, Vectorworks or other BIM tools on a Mac, export an IFC model and use Import BIM model in I-Cost, which works in Safari and every other browser.",
+  "kind": "json"
+ },
+ "ce4555cab051": {
+  "en": "Does it upload my model?",
+  "kind": "json"
+ },
+ "f7a8a3e39e32": {
+  "en": "No. It adds up quantities on your computer and sends only the results: the model name, levels, element categories and types, quantities and units. Drawings, geometry and the model file stay on your computer.",
+  "kind": "json"
+ },
+ "2016aea09e62": {
+  "en": "Do I need an I-Cost account?",
+  "kind": "json"
+ },
+ "9f6e4ddd7194": {
+  "en": "Yes. The quantities go into your I-Cost account to be priced. If you do not have one, <1>start a free 7-day trial</1>; no bank card is needed.",
+  "kind": "html"
+ },
+ "4aad1f4d1ce8": {
+  "en": "Does it change my Revit model?",
+  "kind": "json"
+ },
+ "e4fd6913d47a": {
+  "en": "No. It only reads the model. Nothing in Revit is changed or saved.",
+  "kind": "json"
+ },
+ "681692b4096c": {
+  "en": "Is anything added to my estimate straight away?",
+  "kind": "json"
+ },
+ "f4ef625354eb": {
+  "en": "No. The quantities open in I-Cost's Import BOQ preview. You choose the project, check and arrange the lines, add rates if you want, and only then save them to the estimate.",
+  "kind": "json"
+ },
+ "937807866f02": {
+  "en": "How much does it cost?",
+  "kind": "json"
+ },
+ "1638187848d4": {
+  "en": "The add-in is free. It works with any I-Cost plan, including the free trial.",
+  "kind": "json"
+ },
+ "c5217d9a9fd2": {
+  "en": "Is it on the Autodesk App Store?",
+  "kind": "json"
+ },
+ "68cfb36943fd": {
+  "en": "Yes. It is listed as I-Cost Model Link on the Autodesk App Store (Autodesk Marketplace) since 23 November 2026: <1>open the listing</1>. You can also download it from this page or from I-Cost under My Account &gt; Connected apps. It is the same add-in either way.",
+  "kind": "html"
+ },
+ "0a0890c79a7d": {
+  "en": "What can the connection see in my I-Cost account?",
+  "kind": "json"
+ },
+ "ca8b151fbece": {
+  "en": "Very little. Each connection can only send quantities to the Import BOQ of the person who connected it, check that it is still connected, and disconnect itself. It cannot open your projects, estimates, prices or anything else in I-Cost.",
+  "kind": "json"
+ },
+ "9f450ff353b5": {
+  "en": "Get the add-in",
+  "kind": "html"
+ },
+ "1433af3488b9": {
+  "en": "Free, for Revit 2023 to 2027 on Windows. Installs in a minute, no admin rights needed.",
+  "kind": "html"
+ },
+ "7fa861983860": {
+  "en": "<1>DOWNLOAD <2>&#8595;</2></1>",
+  "kind": "html"
+ },
+ "0d6db0d54074": {
+  "en": "Then open the zip and double-click <1>I-Cost-for-Revit-Setup.exe</1>. <2>Install steps</2>",
+  "kind": "html"
+ },
+ "ca31fed7fc25": {
+  "en": "New to I-Cost?",
+  "kind": "html"
+ },
+ "dba494c1c5b6": {
+  "en": "Price the quantities, request quotes, order and track cost in one place.",
+  "kind": "html"
+ },
+ "cf16caba1022": {
+  "en": "<1>START FREE TRIAL</1>",
+  "kind": "html"
+ },
+ "fd10344b563b": {
+  "en": "<1>Estimating in I-Cost</1>",
+  "kind": "html"
+ },
+ "8d38152e409a": {
+  "en": "From model to priced BOQ, without retyping.",
+  "kind": "html"
+ },
+ "64b290f439ce": {
+  "en": "<1>Your download has started.</1> Next: open the zip and double-click <2>I-Cost-for-Revit-Setup.exe</2>, then in Revit click <3>Add-Ins &gt; I-Cost &gt; Connect</3>. <4>Install steps</4>",
+  "kind": "html"
+ },
+ "7d36f21694b3": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Blogs &amp; Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "e8e63433e206": {
+  "en": "Free Revit add-in (Revit 2023-2027) that sends model quantities to I-Cost Import BOQ. Download, connect, send, what is measured, Mac users, privacy and help.",
+  "kind": "attr"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "b463019a4d2f": {
+  "en": "I-Cost Model Link in Revit",
+  "kind": "attr"
+ },
+ "5d8ced5da9bb": {
+  "en": "The I-Cost Model Link window in Revit: elements found, what to send and how to group the lines",
+  "kind": "attr"
+ },
+ "a320e19a26a7": {
+  "en": "I-Cost Model Link",
+  "kind": "json"
+ },
+ "bbfa773e5a63": {
+  "en": "Close",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "e065078860cc": {
+  "en": "Yes. The quantities go into your I-Cost account to be priced. If you do not have one, start a free 7-day trial; no bank card is needed.",
+  "kind": "json"
+ },
+ "37215cdcdf31": {
+  "en": "Yes. It is listed as I-Cost Model Link on the Autodesk App Store (Autodesk Marketplace) since 23 November 2026: https://marketplace.autodesk.com/apps/5b20f345-bedf-4aba-984f-0046e8409f14 . You can also download it from this page or from I-Cost under My Account > Connected apps. It is the same add-in either way.",
+  "kind": "json"
+ }
+}

@@ -1,0 +1,690 @@
+{
+ "ade6005a0477": {
+  "en": "I-Cost Pricing | Construction Software from £35 per User",
+  "kind": "json"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "2ab61ecbdced": {
+  "en": "<1>Home</1><2>/</2><3>Pricing</3>",
+  "kind": "html"
+ },
+ "84ae3ea3a36e": {
+  "en": "I-Cost pricing",
+  "kind": "html"
+ },
+ "f03627cdaa71": {
+  "en": "Two ways to start.<1>Everything included.</1>",
+  "kind": "html"
+ },
+ "05107b46e354": {
+  "en": "No modules to add and no charge for your suppliers. Every company gets the full platform: estimating, quotations, buying, orders, timesheets, programme, cost control, reports and carbon. Start on your own today, or tell us what you need and we will send you a tailored quotation.",
+  "kind": "html"
+ },
+ "fab4fa8bbdd3": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Estimate</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "d83f167a0095": {
+  "en": "Start today",
+  "kind": "html"
+ },
+ "9c080d217334": {
+  "en": "<1>&pound;35</1><2>per user / month</2>",
+  "kind": "html"
+ },
+ "e38746327504": {
+  "en": "For teams who want to sign up and get going on their own.",
+  "kind": "html"
+ },
+ "9035c4784a82": {
+  "en": "The full I-Cost platform",
+  "kind": "html"
+ },
+ "0288da4d2520": {
+  "en": "7-day free trial, no bank card needed",
+  "kind": "html"
+ },
+ "074e2a8655d1": {
+  "en": "Suppliers use the portal free",
+  "kind": "html"
+ },
+ "6cac1e8eb4a6": {
+  "en": "Add users and manage billing yourself",
+  "kind": "html"
+ },
+ "4cdffd51e59e": {
+  "en": "Cancel any time",
+  "kind": "html"
+ },
+ "063582c5620c": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1>",
+  "kind": "html"
+ },
+ "d868fa103ade": {
+  "en": "Tailored",
+  "kind": "html"
+ },
+ "de2d32ef2eac": {
+  "en": "<1>Your quote</1>",
+  "kind": "html"
+ },
+ "2fb0e9724b13": {
+  "en": "Tell us your team size, projects and what you need, and we will put together a quotation for your business.",
+  "kind": "html"
+ },
+ "c9c33319778b": {
+  "en": "Larger teams or several companies",
+  "kind": "html"
+ },
+ "68003cbb79ab": {
+  "en": "12 or 24 month terms",
+  "kind": "html"
+ },
+ "044b0afc55b4": {
+  "en": "Help importing your existing data",
+  "kind": "html"
+ },
+ "ebefffb9b83c": {
+  "en": "Training for your team",
+  "kind": "html"
+ },
+ "5bc539136dad": {
+  "en": "<1>GET A TAILORED QUOTE <2>&#8599;</2></1>",
+  "kind": "html"
+ },
+ "46521cc5cb77": {
+  "en": "<1>Optional extra: live Xero connection, &pound;10 a month for your whole company.</1> Supplier invoices go to Xero as draft bills and paid dates come back. We switch it on when you ask from inside I-Cost. The file for Xero's bill import is included free. <2>How it works</2>",
+  "kind": "html"
+ },
+ "a0efd5b47069": {
+  "en": "What you get for &pound;35",
+  "kind": "html"
+ },
+ "1d8e4ea87b6d": {
+  "en": "Every feature,<1/><2>every user.</2>",
+  "kind": "html"
+ },
+ "02cf7acd1d7a": {
+  "en": "The same plan for everyone, with betas included. <1>See how each part works</1>.",
+  "kind": "html"
+ },
+ "12e6a7ca9b98": {
+  "en": "<1>01 / Estimate</1>",
+  "kind": "html"
+ },
+ "1d3eb6a348f3": {
+  "en": "Estimating &amp; BOQ",
+  "kind": "html"
+ },
+ "d52478aa9550": {
+  "en": "Excel / CSV BOQ import with total check",
+  "kind": "html"
+ },
+ "5dcdd8d09faf": {
+  "en": "BIM model import (IFC)",
+  "kind": "html"
+ },
+ "e23b239d7a37": {
+  "en": "<1>Revit add-in</1>: quantities straight from Revit",
+  "kind": "html"
+ },
+ "ba5546b195a4": {
+  "en": "Cost and selling rates with margin",
+  "kind": "html"
+ },
+ "391ac9073c98": {
+  "en": "Libraries and copy to estimate",
+  "kind": "html"
+ },
+ "0079aa81a5a4": {
+  "en": "Price check on copied estimates",
+  "kind": "html"
+ },
+ "364e06e28429": {
+  "en": "Locked final estimate and revisions",
+  "kind": "html"
+ },
+ "549752dfd61c": {
+  "en": "<1>02 / Quote</1>",
+  "kind": "html"
+ },
+ "32e0520b7162": {
+  "en": "Client quotations",
+  "kind": "html"
+ },
+ "8e36c719e70a": {
+  "en": "Quotation PDF from the estimate",
+  "kind": "html"
+ },
+ "3804863d28c9": {
+  "en": "Summary page and preview",
+  "kind": "html"
+ },
+ "b0252a4e9605": {
+  "en": "Negotiated discount with a reason",
+  "kind": "html"
+ },
+ "3767312af57a": {
+  "en": "Agreed contract sum in every report",
+  "kind": "html"
+ },
+ "31a2860612ff": {
+  "en": "<1>03 / Source</1>",
+  "kind": "html"
+ },
+ "10b740c9c464": {
+  "en": "Suppliers &amp; quotes",
+  "kind": "html"
+ },
+ "26ab2db69a38": {
+  "en": "Quotation requests to several suppliers",
+  "kind": "html"
+ },
+ "a6be89fd626e": {
+  "en": "Suggested suppliers",
+  "kind": "html"
+ },
+ "e565fe022b25": {
+  "en": "Free supplier portal",
+  "kind": "html"
+ },
+ "6247f3acca6c": {
+  "en": "Side-by-side price comparison",
+  "kind": "html"
+ },
+ "01eb07e9e560": {
+  "en": "Order from the lowest quote",
+  "kind": "html"
+ },
+ "23e90388e2f8": {
+  "en": "<1>04 / Order</1>",
+  "kind": "html"
+ },
+ "c77f859c9790": {
+  "en": "Orders &amp; deliveries",
+  "kind": "html"
+ },
+ "5ab033ff0a05": {
+  "en": "Drafts, revisions and printed orders",
+  "kind": "html"
+ },
+ "5aa4087e4d4a": {
+  "en": "Order progress and QR delivery notes",
+  "kind": "html"
+ },
+ "e780e28ef897": {
+  "en": "Goods received and accruals",
+  "kind": "html"
+ },
+ "ab0bf38e6c1e": {
+  "en": "Credit notes and closing orders",
+  "kind": "html"
+ },
+ "15feda43846e": {
+  "en": "Item tracker and supply chain view",
+  "kind": "html"
+ },
+ "8f08558997fb": {
+  "en": "<1>05 / Control</1>",
+  "kind": "html"
+ },
+ "496d3b062368": {
+  "en": "Cost control &amp; reports",
+  "kind": "html"
+ },
+ "ff3eb60ca0c7": {
+  "en": "Approved cost budget, versioned",
+  "kind": "html"
+ },
+ "ea27e92c7a94": {
+  "en": "Committed, incurred and forecast",
+  "kind": "html"
+ },
+ "821ae4376bd5": {
+  "en": "Forecast margin and cost to complete",
+  "kind": "html"
+ },
+ "77f95b930e75": {
+  "en": "Records behind every figure",
+  "kind": "html"
+ },
+ "273762ba8e49": {
+  "en": "Word, PDF and CSV reports",
+  "kind": "html"
+ },
+ "bf1d13fa9170": {
+  "en": "<1>06 / Plan</1>",
+  "kind": "html"
+ },
+ "3eaaa3a2dcbb": {
+  "en": "Programme &amp; dashboard",
+  "kind": "html"
+ },
+ "072b9cf0ebbb": {
+  "en": "Gantt programme from the estimate",
+  "kind": "html"
+ },
+ "62d638a852e1": {
+  "en": "Late and coming up next",
+  "kind": "html"
+ },
+ "e583f263f9f1": {
+  "en": "Time summary across projects",
+  "kind": "html"
+ },
+ "85c05257f649": {
+  "en": "Excel download",
+  "kind": "html"
+ },
+ "ea006999a2dc": {
+  "en": "\"Waiting for you\" dashboard",
+  "kind": "html"
+ },
+ "be7599cc7d97": {
+  "en": "<1>07 / Track</1>",
+  "kind": "html"
+ },
+ "1b485b9e171b": {
+  "en": "Timesheets",
+  "kind": "html"
+ },
+ "21215dcd249d": {
+  "en": "Log hours on a phone",
+  "kind": "html"
+ },
+ "e24752b94a79": {
+  "en": "Site gangs and design tasks",
+  "kind": "html"
+ },
+ "053ef79588bc": {
+  "en": "Approvals with send back",
+  "kind": "html"
+ },
+ "b172ffa6039f": {
+  "en": "Costed at your hourly rates",
+  "kind": "html"
+ },
+ "5da4b08254f0": {
+  "en": "<1>08 / Carbon</1>",
+  "kind": "html"
+ },
+ "6097563751a0": {
+  "en": "Carbon",
+  "kind": "html"
+ },
+ "67c65e07af11": {
+  "en": "Embodied carbon per estimate line",
+  "kind": "html"
+ },
+ "29550c9dab7b": {
+  "en": "UK Government, ÖKOBAUDAT and your own EPD factors",
+  "kind": "html"
+ },
+ "64af56aaa936": {
+  "en": "Whole life carbon, A1&ndash;A5 to D <1>Beta</1>",
+  "kind": "html"
+ },
+ "e8d4c3201912": {
+  "en": "Smart material matching",
+  "kind": "html"
+ },
+ "8136bd12c5e9": {
+  "en": "Team &amp; access",
+  "kind": "html"
+ },
+ "74d5398ab1e5": {
+  "en": "Roles and permissions for each person",
+  "kind": "html"
+ },
+ "f90af27c7608": {
+  "en": "Read-only Reviewer access",
+  "kind": "html"
+ },
+ "f5045457ea07": {
+  "en": "Invite your team by email",
+  "kind": "html"
+ },
+ "9f4fb6660717": {
+  "en": "Team chat",
+  "kind": "html"
+ },
+ "2f70a4949d77": {
+  "en": "Help &amp; support",
+  "kind": "html"
+ },
+ "a89f730d1761": {
+  "en": "Guided tutorial",
+  "kind": "html"
+ },
+ "8a4025e15f14": {
+  "en": "Costa, the in-app help assistant",
+  "kind": "html"
+ },
+ "31bb6df31fd5": {
+  "en": "Help Desk to the I-Cost team",
+  "kind": "html"
+ },
+ "ec5ea9214e24": {
+  "en": "Demo project to explore",
+  "kind": "html"
+ },
+ "a7a6111d67d8": {
+  "en": "Safe &amp; anywhere",
+  "kind": "html"
+ },
+ "e6971c70776a": {
+  "en": "Installs on phone, tablet and PC",
+  "kind": "html"
+ },
+ "aadf2fc0f980": {
+  "en": "Hourly off-site backups and a standby server",
+  "kind": "html"
+ },
+ "1b358aaef7eb": {
+  "en": "Each company's data kept separate",
+  "kind": "html"
+ },
+ "0d269afde690": {
+  "en": "Two-step login and a security log",
+  "kind": "html"
+ },
+ "484d6691c0e8": {
+  "en": "Download your data at any time (UK GDPR)",
+  "kind": "html"
+ },
+ "d89888608a3c": {
+  "en": "Aligning with ISO/IEC 27001, not certified (<1>Security &amp; trust</1>)",
+  "kind": "html"
+ },
+ "b9ce4cad7414": {
+  "en": "How pricing works",
+  "kind": "html"
+ },
+ "296955cdfe6f": {
+  "en": "Simple, per user,<1/><2>month to month.</2>",
+  "kind": "html"
+ },
+ "326c5d9e74f0": {
+  "en": "Pay for your team",
+  "kind": "html"
+ },
+ "8e4849f2c9ec": {
+  "en": "Each person in your company with their own login is one user at &pound;35 a month. A team of five is &pound;175 a month.",
+  "kind": "html"
+ },
+ "7de1c043b4ef": {
+  "en": "Suppliers are free",
+  "kind": "html"
+ },
+ "03dea15248db": {
+  "en": "Suppliers receive requests, send prices and manage orders and deliveries in the portal without paying anything.",
+  "kind": "html"
+ },
+ "cbd17d59ba03": {
+  "en": "No lock-in",
+  "kind": "html"
+ },
+ "1da6e4e09a84": {
+  "en": "Billing is monthly and managed by you in the app. Cancel at any time; access runs to the end of the month already paid for.",
+  "kind": "html"
+ },
+ "c37e4910a8cd": {
+  "en": "Try it first",
+  "kind": "html"
+ },
+ "b5fb243a84ef": {
+  "en": "Seven days of the full platform with your own BOQ and suppliers, and no bank card needed to start.",
+  "kind": "html"
+ },
+ "00fb631bb8eb": {
+  "en": "Longer terms",
+  "kind": "html"
+ },
+ "cdb9051c3084": {
+  "en": "Prefer a 12 or 24 month contract, or have a larger team? Request a quote and we will come back to you.",
+  "kind": "html"
+ },
+ "85683076188a": {
+  "en": "Help to get started",
+  "kind": "html"
+ },
+ "681e96ba64ce": {
+  "en": "Ask in your quote for help importing existing BOQs, price lists and suppliers, or for training your team.",
+  "kind": "html"
+ },
+ "4304a4e675bc": {
+  "en": "Worth it?",
+  "kind": "html"
+ },
+ "c2d1cacba243": {
+  "en": "Weigh it against one leak.",
+  "kind": "html"
+ },
+ "4a883b9d498c": {
+  "en": "The UK's top 100 contractors average a 2.4% pre-tax margin, so one wrong price or one unchecked order can cost more than a year of I-Cost for the whole team. Work out what protecting even 1% of your turnover would be worth.",
+  "kind": "html"
+ },
+ "a8e023ed4069": {
+  "en": "<1>TRY THE CALCULATOR</1>",
+  "kind": "html"
+ },
+ "d86edaba3372": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project cost report</4><5>Live</5>",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "34a4cc6da8f2": {
+  "en": "Pricing questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "afe198ecf1ee": {
+  "en": "Is there a free trial?",
+  "kind": "json"
+ },
+ "99827e3306b4": {
+  "en": "Yes. You get 7 days of the full platform, and you do not need a bank card to start.",
+  "kind": "json"
+ },
+ "72a2540faa4f": {
+  "en": "Who counts as a user?",
+  "kind": "json"
+ },
+ "1a2253e216ed": {
+  "en": "Each person in your company with their own login is one user. Suppliers using the supplier portal are free.",
+  "kind": "json"
+ },
+ "030e3a7a8eb2": {
+  "en": "Are the beta features included?",
+  "kind": "json"
+ },
+ "bfaa42850950": {
+  "en": "Yes. Every feature is in every plan, including whole life carbon assessments, which are in beta.",
+  "kind": "json"
+ },
+ "9277aca2336e": {
+  "en": "Can I cancel?",
+  "kind": "json"
+ },
+ "72f56bce41d9": {
+  "en": "Yes. Billing is managed in the app through Stripe, where you can change your card, download invoices or cancel. A cancelled subscription stops at the end of the month already paid for, with no further charges.",
+  "kind": "json"
+ },
+ "96e81381863b": {
+  "en": "Do you offer longer contracts or help getting set up?",
+  "kind": "json"
+ },
+ "1f04eef94e2f": {
+  "en": "Yes. For 12 or 24 month terms, larger teams, help importing your existing BOQs, price lists and suppliers, or training for your team, <1>request a quote</1> and we will come back to you.",
+  "kind": "html"
+ },
+ "438519310561": {
+  "en": "Are there any extras?",
+  "kind": "json"
+ },
+ "d87a216ac3ba": {
+  "en": "One, and only if you want it: the live Xero connection, &pound;10 a month for your whole company. If you pay by card it is added to your subscription when we switch it on. Everything else, betas included, is in the per-user price.",
+  "kind": "html"
+ },
+ "13c43c11bfd4": {
+  "en": "Is our data secure? Is I-Cost ISO 27001 certified?",
+  "kind": "json"
+ },
+ "4477c8a70be4": {
+  "en": "Each company's data is kept separate and its files are private. Sign-in can use two-step login, and a security log shows your admins who signed in and what changed. Your data is backed up off-site every hour, with a UK standby server ready to take over. We are aligning our information security with ISO/IEC 27001, the international standard; we are not certified. <1>Security &amp; trust</1>",
+  "kind": "html"
+ },
+ "6281bbeaa645": {
+  "en": "Is support included?",
+  "kind": "json"
+ },
+ "f7c565063883": {
+  "en": "Yes. Every plan includes the guided tutorial, Costa the in-app help assistant, and the Help Desk to reach the I-Cost team.",
+  "kind": "json"
+ },
+ "1c00efa29a57": {
+  "en": "Is I-Cost suitable for small construction businesses?",
+  "kind": "json"
+ },
+ "a86b2a4abc74": {
+  "en": "Yes. You pay &pound;35 per user per month with no set-up fee, so a team of two costs &pound;70 a month, and you can start with a 7-day free trial on one live project. Suppliers use the portal free.",
+  "kind": "html"
+ },
+ "429e39daa155": {
+  "en": "Start your 7-day free trial.",
+  "kind": "html"
+ },
+ "07664292592b": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>REQUEST A QUOTE</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "2eb87ad6a7e7": {
+  "en": "Everything included in every plan: estimating, BOQ and BIM import, quotations, supplier quotes, purchase orders, timesheets, programme, cost control and carbon. £35 per user per month.",
+  "kind": "attr"
+ },
+ "b07df4738e79": {
+  "en": "Everything included: £35 per user per month after a 7-day free trial, or a tailored quote for your team. Suppliers use the portal free.",
+  "kind": "attr"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "70d3513486f9": {
+  "en": "An I-Cost estimate with cost rate, selling rate, profit and total on every line",
+  "kind": "attr"
+ },
+ "75b7cf746c25": {
+  "en": "I-Cost project cost report: contract value, cost budget, committed so far, budget remaining and the 3D model",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "a0d9bbad5f93": {
+  "en": "Pricing",
+  "kind": "json"
+ },
+ "1e949b437370": {
+  "en": "I-Cost Full Platform",
+  "kind": "json"
+ },
+ "6c58600daee7": {
+  "en": "Construction estimating, procurement, cost control and carbon software for UK contractors, with every feature included.",
+  "kind": "json"
+ },
+ "c1ba0c927bdf": {
+  "en": "Per user per month after a 7-day free trial. No bank card required to start.",
+  "kind": "json"
+ },
+ "f5e1d7a26023": {
+  "en": "Yes. For 12 or 24 month terms, larger teams, help importing your existing BOQs, price lists and suppliers, or training for your team, request a quote and we will come back to you.",
+  "kind": "json"
+ },
+ "e9b19c5c1559": {
+  "en": "One, and only if you want it: the live Xero connection, £10 a month for your whole company. If you pay by card it is added to your subscription when we switch it on. Everything else, betas included, is in the per-user price.",
+  "kind": "json"
+ },
+ "03ac7348d84c": {
+  "en": "Each company's data is kept separate and its files are private. Sign-in can use two-step login, and a security log shows your admins who signed in and what changed. Your data is backed up off-site every hour, with a UK standby server ready to take over. We are aligning our information security with ISO/IEC 27001, the international standard; we are not certified.",
+  "kind": "json"
+ },
+ "a85fbd612e62": {
+  "en": "Yes. You pay £35 per user per month with no set-up fee, so a team of two costs £70 a month, and you can start with a 7-day free trial on one live project. Suppliers use the portal free.",
+  "kind": "json"
+ }
+}

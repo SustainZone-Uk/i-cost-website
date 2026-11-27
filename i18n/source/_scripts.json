@@ -1,0 +1,386 @@
+{
+ "8065dcb07189": {
+  "en": "Price check",
+  "kind": "script"
+ },
+ "4688d76e03d5": {
+  "en": "Plasterboard 12.5mm, per sheet",
+  "kind": "script"
+ },
+ "eb30cfeceb95": {
+  "en": "Chatbot guess",
+  "kind": "script"
+ },
+ "a29d79cd93ad": {
+  "en": "Your last order",
+  "kind": "script"
+ },
+ "e605adcd8a2b": {
+  "en": "Missed by the guess",
+  "kind": "script"
+ },
+ "e1294d7cf036": {
+  "en": "Forecast margin 10.3%",
+  "kind": "script"
+ },
+ "25809cc032da": {
+  "en": "Directors see it today, not at the final account",
+  "kind": "script"
+ },
+ "23e9869c0f5e": {
+  "en": "Buyers order in one click",
+  "kind": "script"
+ },
+ "0a320e7eb899": {
+  "en": "42 h approved this week",
+  "kind": "script"
+ },
+ "f45b1bb760d7": {
+  "en": "Site managers, from their phones",
+  "kind": "script"
+ },
+ "90ca578f2ea6": {
+  "en": "QR delivery note scanned",
+  "kind": "script"
+ },
+ "814ee96e7da9": {
+  "en": "Committed so far",
+  "kind": "script"
+ },
+ "bc873013cbbd": {
+  "en": "Orders, labour and invoices",
+  "kind": "script"
+ },
+ "cca8e40c3fce": {
+  "en": "Forecast margin 3.3%",
+  "kind": "script"
+ },
+ "0d46eb95b57e": {
+  "en": "Below the 5% target: act now",
+  "kind": "script"
+ },
+ "9ec3c99ba869": {
+  "en": "Materials over budget",
+  "kind": "script"
+ },
+ "62d06efa5e60": {
+  "en": "Log my hours",
+  "kind": "script"
+ },
+ "495e3f1dc04a": {
+  "en": "Delivery checked on site",
+  "kind": "script"
+ },
+ "07532d624560": {
+  "en": "The office sees it straight away",
+  "kind": "script"
+ },
+ "79f30d8d5209": {
+  "en": "60 items, one list",
+  "kind": "script"
+ },
+ "30203effa9d6": {
+  "en": "Ordered from Northfield Drylining",
+  "kind": "script"
+ },
+ "8c940fd849a0": {
+  "en": "See it on the 3D model",
+  "kind": "script"
+ },
+ "dd4712d3469f": {
+  "en": "Each item coloured by how far it has got",
+  "kind": "script"
+ },
+ "39453718de55": {
+  "en": "Every line priced",
+  "kind": "script"
+ },
+ "2261d9c0d52b": {
+  "en": "Profit on every line",
+  "kind": "script"
+ },
+ "527f0718623b": {
+  "en": "Totals add up as you go",
+  "kind": "script"
+ },
+ "545a7207d146": {
+  "en": "Lowest price in green",
+  "kind": "script"
+ },
+ "d7aa71cf1117": {
+  "en": "Suggested: split the order",
+  "kind": "script"
+ },
+ "6fe68042b64f": {
+  "en": "2 draft orders, ready to check",
+  "kind": "script"
+ },
+ "0301fb5a6745": {
+  "en": "Nothing goes to a supplier until you send it",
+  "kind": "script"
+ },
+ "702c35267cde": {
+  "en": "Live Xero connection",
+  "kind": "script"
+ },
+ "1fc6e6d94747": {
+  "en": "Connected to your Xero organisation",
+  "kind": "script"
+ },
+ "abc54f8a43f0": {
+  "en": "Sent to Xero as a draft bill",
+  "kind": "script"
+ },
+ "e9c3616a043e": {
+  "en": "Paid dates come back",
+  "kind": "script"
+ },
+ "f7fc5b1aa8b9": {
+  "en": "Suppliers are told when their invoice is paid",
+  "kind": "script"
+ },
+ "2f2d3acab69c": {
+  "en": "2,984 elements counted",
+  "kind": "script"
+ },
+ "466bb6b4b832": {
+  "en": "Walls, floors, doors, services: by level and type",
+  "kind": "script"
+ },
+ "c6c77a64fae5": {
+  "en": "Grouped the way you price",
+  "kind": "script"
+ },
+ "20a48527abd5": {
+  "en": "Level, then kind of element, or assembly code",
+  "kind": "script"
+ },
+ "061d757e01ba": {
+  "en": "653 lines, ready to price",
+  "kind": "script"
+ },
+ "d10ad3fff10c": {
+  "en": "Checked in I-Cost before anything is saved",
+  "kind": "script"
+ },
+ "e58ee1f1c17f": {
+  "en": "Orders, staff and labour, live",
+  "kind": "script"
+ },
+ "31f0ab57bed7": {
+  "en": "40.8% of the budget committed",
+  "kind": "script"
+ },
+ "0256bf76a627": {
+  "en": "The 3D model, in the report",
+  "kind": "script"
+ },
+ "a11e062b0b3e": {
+  "en": "Coloured by buying stage, ready for the client",
+  "kind": "script"
+ },
+ "85b6bcf71e8b": {
+  "en": "9 reports, one click",
+  "kind": "script"
+ },
+ "75692993da59": {
+  "en": "Cost, purchases, hours, carbon, deliveries, cost plan, quotation and your own",
+  "kind": "script"
+ },
+ "9455a9c1174b": {
+  "en": "Project cost report",
+  "kind": "script"
+ },
+ "0eb20228755c": {
+  "en": "Budget, committed, forecast and margin, with the records behind each figure",
+  "kind": "script"
+ },
+ "a31a9fa9fb5e": {
+  "en": "PDF, Word or Excel",
+  "kind": "script"
+ },
+ "ab2f6ff1d3a4": {
+  "en": "Ready for the board, the client or the bank",
+  "kind": "script"
+ },
+ "0a340a64f7d4": {
+  "en": "Where every job is",
+  "kind": "script"
+ },
+ "e9a835929f4d": {
+  "en": "Ten stages, from project set-up to the final report",
+  "kind": "script"
+ },
+ "e1556057e878": {
+  "en": "60 items, tracked",
+  "kind": "script"
+ },
+ "994b23941feb": {
+  "en": "The 3D model on the project",
+  "kind": "script"
+ },
+ "3ebf6d43e639": {
+  "en": "Coloured by how far each item has got",
+  "kind": "script"
+ },
+ "e85a585b2b4e": {
+  "en": "Accepted revision, with a 2.5% discount agreed at the tender meeting",
+  "kind": "script"
+ },
+ "8435f62f44a6": {
+  "en": "Variations: who pays",
+  "kind": "script"
+ },
+ "cf73e54975b4": {
+  "en": "The client, us, the supplier or a split",
+  "kind": "script"
+ },
+ "ededd2496900": {
+  "en": "Quote PDF from the estimate",
+  "kind": "script"
+ },
+ "41c29a9e8213": {
+  "en": "Selling prices only, never cost or margin",
+  "kind": "script"
+ },
+ "22d48219f322": {
+  "en": "Works with MS Project",
+  "kind": "script"
+ },
+ "bd6d44c3bc53": {
+  "en": "Approvals on the chart",
+  "kind": "script"
+ },
+ "0e8e10b9e65b": {
+  "en": "Overdue ones turn red before they hold up work",
+  "kind": "script"
+ },
+ "85e4254b5902": {
+  "en": "Order-by dates",
+  "kind": "script"
+ },
+ "e3238a480892": {
+  "en": "Lead times worked back from each start date",
+  "kind": "script"
+ },
+ "864666115b90": {
+  "en": "Hours in seconds",
+  "kind": "script"
+ },
+ "148c3cc16406": {
+  "en": "Type 7:30 or 7.5 against the day",
+  "kind": "script"
+ },
+ "9feaaecd65d1": {
+  "en": "Booked to the estimate line",
+  "kind": "script"
+ },
+ "b8ac34033546": {
+  "en": "So labour cost lands where it belongs",
+  "kind": "script"
+ },
+ "d87726fd8ecb": {
+  "en": "Sent for approval",
+  "kind": "script"
+ },
+ "e547dfd221f3": {
+  "en": "Only approved hours count as cost",
+  "kind": "script"
+ },
+ "ff5f2554d052": {
+  "en": "Every project at a glance",
+  "kind": "script"
+ },
+ "2f3343343448": {
+  "en": "Projects by stage",
+  "kind": "script"
+ },
+ "4fb3c7bed9bf": {
+  "en": "On site, tendering, estimating and set up",
+  "kind": "script"
+ },
+ "4d71788d8891": {
+  "en": "What just happened",
+  "kind": "script"
+ },
+ "31d17c435d36": {
+  "en": "Orders, quotes and estimates as they change",
+  "kind": "script"
+ },
+ "9c3aef5772fb": {
+  "en": "A guide, not a guess",
+  "kind": "script"
+ },
+ "56fd5b4c2465": {
+  "en": "Shows how it was worked out",
+  "kind": "script"
+ },
+ "6daa98295870": {
+  "en": "Your 2026 rate, indexed to the price date, plus pointing both faces",
+  "kind": "script"
+ },
+ "d091e9426175": {
+  "en": "Nothing changes until you press Use",
+  "kind": "script"
+ },
+ "ff4c8e62948e": {
+  "en": "Project names, clients and people are never sent",
+  "kind": "script"
+ },
+ "087ac7cea192": {
+  "en": "Matched from the carbon library",
+  "kind": "script"
+ },
+ "58bbd152bfc7": {
+  "en": "59 of 60 lines have carbon",
+  "kind": "script"
+ },
+ "0ef07dbee832": {
+  "en": "AI picks from the library",
+  "kind": "script"
+ },
+ "cde1e6039054": {
+  "en": "I-Cost asks you about the one it is unsure of",
+  "kind": "script"
+ },
+ "0b20ad81745c": {
+  "en": "By life-cycle stage",
+  "kind": "script"
+ },
+ "e06c89b2c15a": {
+  "en": "Set out as the RICS whole life carbon standard and BS EN 15978 ask",
+  "kind": "script"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "script"
+ },
+ "917c4cbbc58f": {
+  "en": "Close navigation",
+  "kind": "script"
+ },
+ "48844e391bbf": {
+  "en": "Explore the I-Cost workflow",
+  "kind": "script"
+ },
+ "a7f8e7cc0d43": {
+  "en": "just now",
+  "kind": "script"
+ },
+ "83c6d247e132": {
+  "en": "Rates updated",
+  "kind": "script"
+ },
+ "032694f8447e": {
+  "en": "23 lines from your latest orders",
+  "kind": "script"
+ },
+ "123f23666d0b": {
+  "en": "Delivery received",
+  "kind": "script"
+ },
+ "c7f8fb4580c3": {
+  "en": "I-Cost product video",
+  "kind": "script"
+ }
+}

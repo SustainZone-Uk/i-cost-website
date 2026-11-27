@@ -1,0 +1,738 @@
+{
+ "e59180530270": {
+  "en": "Construction Cost Control Software | Protect Your Margin | I-Cost",
+  "kind": "json"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "0818d3681000": {
+  "en": "<1>Home</1><2>/</2><3>Benefits</3>",
+  "kind": "html"
+ },
+ "8be671ee0ab4": {
+  "en": "Construction cost control software",
+  "kind": "html"
+ },
+ "749679da6002": {
+  "en": "Keep more of the margin<1>you already won.</1>",
+  "kind": "html"
+ },
+ "06afa088dcb1": {
+  "en": "Margin is rarely lost in one big event. It leaks through retyped quantities, guessed prices, late orders, unapproved hours and figures nobody sees until the final account. I-Cost closes those leaks by keeping the whole job in one place.",
+  "kind": "html"
+ },
+ "b79a7facf81f": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>WORK OUT YOUR NUMBER</3><4>SEE EVERY FEATURE</4>",
+  "kind": "html"
+ },
+ "d86edaba3372": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project cost report</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "5ab99b14f581": {
+  "en": "Everything in I-Cost",
+  "kind": "html"
+ },
+ "a5402cdc68b2": {
+  "en": "Every feature,<1/><2>in one place.</2>",
+  "kind": "html"
+ },
+ "cc6d593d79b4": {
+  "en": "Everything below comes in one plan, with nothing extra to buy. Pick a role to see what matters most to that person.",
+  "kind": "html"
+ },
+ "6f7909064d7d": {
+  "en": "<1>52</1><2>features</2>",
+  "kind": "html"
+ },
+ "89f189c34163": {
+  "en": "<1>9</1><2>areas of the job</2>",
+  "kind": "html"
+ },
+ "a9bf8ba38b42": {
+  "en": "<1>4</1><2>smart checks</2>",
+  "kind": "html"
+ },
+ "311f9aa32c04": {
+  "en": "<1>1</1><2>plan, &pound;35 per user</2>",
+  "kind": "html"
+ },
+ "c756f6af1f03": {
+  "en": "Everyone",
+  "kind": "html"
+ },
+ "d897d8053ec8": {
+  "en": "&#9733; Highlights",
+  "kind": "html"
+ },
+ "3816ddf09b09": {
+  "en": "Directors",
+  "kind": "html"
+ },
+ "6b9ebd82f3fe": {
+  "en": "Quantity surveyors",
+  "kind": "html"
+ },
+ "d52f4d3825ef": {
+  "en": "Estimators",
+  "kind": "html"
+ },
+ "8a399a6cd292": {
+  "en": "Buyers",
+  "kind": "html"
+ },
+ "09f757e48170": {
+  "en": "Site managers",
+  "kind": "html"
+ },
+ "31bc1b17f980": {
+  "en": "Sustainability",
+  "kind": "html"
+ },
+ "1b48d3f01424": {
+  "en": "Finance",
+  "kind": "html"
+ },
+ "6f76bb2b1215": {
+  "en": "Suppliers",
+  "kind": "html"
+ },
+ "0e5de1cc927d": {
+  "en": "<1><2/><3>Estimating &amp; BOQ</3><4>10</4></1>",
+  "kind": "html"
+ },
+ "91997f9686d0": {
+  "en": "Excel and CSV BOQ import with a total check",
+  "kind": "html"
+ },
+ "5065cdf4d3c2": {
+  "en": "Columns recognised and rows sorted for you to check <1>Smart</1>",
+  "kind": "html"
+ },
+ "edd3b236a073": {
+  "en": "Areas and levels kept from the BOQ",
+  "kind": "html"
+ },
+ "7ce90f3c40e1": {
+  "en": "BIM model (IFC) import",
+  "kind": "html"
+ },
+ "5ff1243ee7b3": {
+  "en": "Revit add-in: quantities straight from Revit",
+  "kind": "html"
+ },
+ "210802845e7d": {
+  "en": "Cost and selling rates with your margin",
+  "kind": "html"
+ },
+ "feef74d31d99": {
+  "en": "Labour hours costed at your company rate",
+  "kind": "html"
+ },
+ "7446b8752470": {
+  "en": "Rate libraries and copy to estimate",
+  "kind": "html"
+ },
+ "aff6a4f46270": {
+  "en": "Copy between projects, checked against what you last paid <1>Smart</1>",
+  "kind": "html"
+ },
+ "d3d1d6de0ec5": {
+  "en": "Locked final estimate with every version kept",
+  "kind": "html"
+ },
+ "9698f24e439e": {
+  "en": "<1><2/><3>Client quotations</3><4>3</4></1>",
+  "kind": "html"
+ },
+ "7c6946f820a3": {
+  "en": "Quotation PDF built from the estimate",
+  "kind": "html"
+ },
+ "ce4b186a5748": {
+  "en": "Discounts and the agreed contract sum",
+  "kind": "html"
+ },
+ "1f4695425a30": {
+  "en": "Quotation summary and preview before sending <1>New</1>",
+  "kind": "html"
+ },
+ "2fbcdbfc1e38": {
+  "en": "<1><2/><3>Suppliers &amp; quotes</3><4>7</4></1>",
+  "kind": "html"
+ },
+ "9c1552318ddf": {
+  "en": "Supplier list with what each one supplies",
+  "kind": "html"
+ },
+ "b54d140a81ca": {
+  "en": "Suggested suppliers for each request <1>Smart</1>",
+  "kind": "html"
+ },
+ "4aedc77b2986": {
+  "en": "One quotation request to several suppliers",
+  "kind": "html"
+ },
+ "0e10c9d64e92": {
+  "en": "Prices side by side, lowest like-for-like shown",
+  "kind": "html"
+ },
+ "e02abe5fdf4b": {
+  "en": "Free supplier portal to price and follow orders",
+  "kind": "html"
+ },
+ "bf346ea345ba": {
+  "en": "Suppliers work for several customers from one login",
+  "kind": "html"
+ },
+ "17fde2815893": {
+  "en": "Supply chain view and supplier job progress <1>New</1>",
+  "kind": "html"
+ },
+ "25f1745bba88": {
+  "en": "<1><2/><3>Purchase orders &amp; deliveries</3><4>9</4></1>",
+  "kind": "html"
+ },
+ "308af4c7d5b5": {
+  "en": "Purchase orders from the estimate or the winning quote",
+  "kind": "html"
+ },
+ "31d40041dbc1": {
+  "en": "Draft orders, and order from the lowest quotes in one go <1>New</1>",
+  "kind": "html"
+ },
+ "0038ec56b6f4": {
+  "en": "Item tracker: every material from request to delivery <1>New</1>",
+  "kind": "html"
+ },
+ "7540aa7af9b7": {
+  "en": "Suppliers accept, process and dispatch in their portal <1>New</1>",
+  "kind": "html"
+ },
+ "4157b9ce38ef": {
+  "en": "QR delivery labels and delivery notes <1>New</1>",
+  "kind": "html"
+ },
+ "aef8126e1e8b": {
+  "en": "Goods received against each order line",
+  "kind": "html"
+ },
+ "82a12c670326": {
+  "en": "Invoices and credit notes against the order",
+  "kind": "html"
+ },
+ "d7300ed48527": {
+  "en": "Received-not-invoiced accruals worked out for you",
+  "kind": "html"
+ },
+ "b1e2ea947944": {
+  "en": "Supplier invoices sent to Xero as draft bills, paid dates back (or a file for Xero's import)",
+  "kind": "html"
+ },
+ "3ec8e89c1509": {
+  "en": "<1><2/><3>Cost control &amp; reports</3><4>6</4></1>",
+  "kind": "html"
+ },
+ "3d01125f33d9": {
+  "en": "Approved budget from the locked estimate",
+  "kind": "html"
+ },
+ "28575a3c6ced": {
+  "en": "Committed cost the moment an order is sent",
+  "kind": "html"
+ },
+ "01bdcb7a6e88": {
+  "en": "Forecast final cost and forecast margin",
+  "kind": "html"
+ },
+ "748f41d93d38": {
+  "en": "Cost types and budget baselines",
+  "kind": "html"
+ },
+ "825c285a2ebb": {
+  "en": "Project cost report with drill-down to every record",
+  "kind": "html"
+ },
+ "acbbcf969308": {
+  "en": "Dashboard across all your projects",
+  "kind": "html"
+ },
+ "4646bdaf54db": {
+  "en": "<1><2/><3>Programme &amp; site</3><4>4</4></1>",
+  "kind": "html"
+ },
+ "68ba6c84ba6e": {
+  "en": "Simple Gantt programme with Excel export",
+  "kind": "html"
+ },
+ "35f6df97c3c4": {
+  "en": "Project dates against today, with late work flagged",
+  "kind": "html"
+ },
+ "60af4e1c9617": {
+  "en": "Every project in the same ten steps, design first, with the next step shown",
+  "kind": "html"
+ },
+ "90897654dbfb": {
+  "en": "Site photos on the project",
+  "kind": "html"
+ },
+ "63ad8b452a3b": {
+  "en": "<1><2/><3>Timesheets</3><4>4</4></1>",
+  "kind": "html"
+ },
+ "9d44927933d8": {
+  "en": "Log hours from a phone on one screen",
+  "kind": "html"
+ },
+ "c4900e5f38f0": {
+  "en": "Hours against estimate items",
+  "kind": "html"
+ },
+ "6fe84d3ff9ca": {
+  "en": "Weekly timesheets and approvals, with send back",
+  "kind": "html"
+ },
+ "3ee6fb2d3d8f": {
+  "en": "All logged hours costed into the cost report",
+  "kind": "html"
+ },
+ "cfa6eaf98416": {
+  "en": "<1><2/><3>Carbon</3><4>3</4></1>",
+  "kind": "html"
+ },
+ "3dc37461d0d7": {
+  "en": "Embodied carbon on every estimate line (UK Government and ÖKOBAUDAT figures, or your own EPDs)",
+  "kind": "html"
+ },
+ "7921ed56bf47": {
+  "en": "Lines matched to carbon factors, with a match strictness you set <1>Smart</1>",
+  "kind": "html"
+ },
+ "f6603befe325": {
+  "en": "Whole life carbon assessment, stages A1&ndash;A5 to D <1>Beta</1>",
+  "kind": "html"
+ },
+ "0f636d9b0751": {
+  "en": "<1><2/><3>Team, access &amp; support</3><4>6</4></1>",
+  "kind": "html"
+ },
+ "74d5398ab1e5": {
+  "en": "Roles and permissions for each person",
+  "kind": "html"
+ },
+ "f90af27c7608": {
+  "en": "Read-only Reviewer access",
+  "kind": "html"
+ },
+ "6b006379de93": {
+  "en": "Team chat on the project",
+  "kind": "html"
+ },
+ "0715687e07a5": {
+  "en": "Help Desk and Costa, the help assistant",
+  "kind": "html"
+ },
+ "c45648284aab": {
+  "en": "Installs on phone, tablet and PC, with no app store",
+  "kind": "html"
+ },
+ "1edace792d7b": {
+  "en": "Self-serve billing: add users or cancel any time",
+  "kind": "html"
+ },
+ "2e4e6701a6a2": {
+  "en": "<1>Smart</1> checks your work using your own data. <2>New</2> added in the last few months. <3>Beta</3> included and still being improved.",
+  "kind": "html"
+ },
+ "2622f4cb256d": {
+  "en": "Where margin leaks",
+  "kind": "html"
+ },
+ "3db3a06774be": {
+  "en": "Six leaks.<1/><2>Six fixes.</2>",
+  "kind": "html"
+ },
+ "c927191e1ab4": {
+  "en": "The same problems come up on almost every job. Here is what changes when the job sits in one place.",
+  "kind": "html"
+ },
+ "63b3e750593a": {
+  "en": "Quantities are retyped from the client's BOQ, and a line or a decimal goes missing.",
+  "kind": "html"
+ },
+ "81ce9d714645": {
+  "en": "The BOQ is imported, checked against its total and priced in one estimate.",
+  "kind": "html"
+ },
+ "658ed99a8f9f": {
+  "en": "Rates are copied from an old job, a spreadsheet or an AI chatbot, and nobody knows they are out of date.",
+  "kind": "html"
+ },
+ "1b5687bfea42": {
+  "en": "Prices come from supplier quotes and your own orders, and copied rates are checked against what you last paid.",
+  "kind": "html"
+ },
+ "35b49c3ed164": {
+  "en": "The client agrees a discount, but the reports still use the original price.",
+  "kind": "html"
+ },
+ "f3bc0d744832": {
+  "en": "The accepted quotation sets the agreed contract sum used in every report.",
+  "kind": "html"
+ },
+ "337e7fc358cc": {
+  "en": "Orders go out without anyone comparing them to the budget.",
+  "kind": "html"
+ },
+ "7bcd13303dec": {
+  "en": "Every order counts against the approved budget the moment it is sent, by area and cost type.",
+  "kind": "html"
+ },
+ "f7e2de946e5a": {
+  "en": "Deliveries arrive short or damaged, and invoices are paid in full anyway.",
+  "kind": "html"
+ },
+ "b3ce9c3d442e": {
+  "en": "Site confirms what arrived; goods received, invoices and credit notes sit on the order.",
+  "kind": "html"
+ },
+ "8d5a979e149d": {
+  "en": "Labour hours reach the office weeks late, so overspend is found too late.",
+  "kind": "html"
+ },
+ "28a2c0f64459": {
+  "en": "Hours are logged on a phone, approved and costed into the report the same week.",
+  "kind": "html"
+ },
+ "21c69c24363d": {
+  "en": "Why guessing costs so much",
+  "kind": "html"
+ },
+ "31e001f72708": {
+  "en": "AI on its own guesses.<1/><2>I-Cost's AI starts from your prices.</2>",
+  "kind": "html"
+ },
+ "d44388b22b76": {
+  "en": "A chatbot doesn't know what you pay. I-Cost's AI guide prices start from your own earlier orders and quotes, can look at your own suppliers' websites first, and show where every figure came from. Nothing goes into the estimate until you press Use. With margins this thin, one wrong guess can cost the whole profit.",
+  "kind": "html"
+ },
+ "dd985aa14dd0": {
+  "en": "Average pre-tax margin of the UK's top 100 contractors.",
+  "kind": "html"
+ },
+ "a16c1a94eb48": {
+  "en": "<1>The Construction Index, Top 100, 2025</1>",
+  "kind": "html"
+ },
+ "bc3e4190ff9b": {
+  "en": "Rise in UK construction material prices in one year. Structural steel rose 21.2%, rebar 12.5%.",
+  "kind": "html"
+ },
+ "6f24ebd3c77d": {
+  "en": "<1>Department for Business and Trade, August 2026</1>",
+  "kind": "html"
+ },
+ "c20b71bcbada": {
+  "en": "Of project value lost to avoidable errors, up to £25bn a year in the UK. Inadequate planning is the biggest cause.",
+  "kind": "html"
+ },
+ "a47703c92169": {
+  "en": "<1>Get It Right Initiative / CITB, 2026</1>",
+  "kind": "html"
+ },
+ "36cce85227bf": {
+  "en": "In a 2024 university study on a real bridge job, GPT-4's estimates were &ldquo;inaccurate, inconsistent, and not relevant&rdquo; until the researchers gave it real labour, plant and material rates. Even then, item costs varied between runs of the same question. <1>Ghasemi &amp; Dai, Smart Construction, 2024</1>",
+  "kind": "html"
+ },
+ "9c3fb39df1e8": {
+  "en": "Construction teams spend about 5.5 hours a week looking for project information, and poor communication and poor project information cause nearly half of rework. <1>FMI / PlanGrid survey of 600 US professionals, 2018</1>",
+  "kind": "html"
+ },
+ "d2ec9fef3587": {
+  "en": "Your number",
+  "kind": "html"
+ },
+ "a580708cd281": {
+  "en": "A small percentage<1/><2>is a large number.</2>",
+  "kind": "html"
+ },
+ "8deb590cf564": {
+  "en": "Put in your yearly turnover and the share of margin you think is leaking today. This is a simple illustration, not a promised saving.",
+  "kind": "html"
+ },
+ "139256cd3086": {
+  "en": "<1>Yearly turnover (£ million)<2/></1> <3>Margin leaking (% of turnover)<4/></3>",
+  "kind": "html"
+ },
+ "271bf61e54b3": {
+  "en": "a year of margin worth protecting",
+  "kind": "html"
+ },
+ "5b2d0ce098ae": {
+  "en": "<1>Illustrative only: turnover × percentage. Not a guaranteed saving.</1>",
+  "kind": "html"
+ },
+ "0ccfcd0de407": {
+  "en": "What changes",
+  "kind": "html"
+ },
+ "27c515472cac": {
+  "en": "Less retyping, fewer surprises,<1/><2>nothing lost.</2>",
+  "kind": "html"
+ },
+ "5e33b5b526a6": {
+  "en": "Time back",
+  "kind": "html"
+ },
+ "1feaee0ade45": {
+  "en": "No retyping BOQs, chasing quotes by email or rebuilding cost reports at month end.",
+  "kind": "html"
+ },
+ "d3e0167b61a2": {
+  "en": "BOQ and BIM import · quotation requests · live reports",
+  "kind": "html"
+ },
+ "2c0aeb8d7e3d": {
+  "en": "Fewer errors",
+  "kind": "html"
+ },
+ "a26eb4e357e4": {
+  "en": "Totals checked on import, out-of-date rates flagged, budgets locked and every version kept.",
+  "kind": "html"
+ },
+ "4e35718c49fb": {
+  "en": "BOQ total check · price check on copies · approved budget versions",
+  "kind": "html"
+ },
+ "4d8a37a4df26": {
+  "en": "Nothing lost",
+  "kind": "html"
+ },
+ "a9401049de80": {
+  "en": "Quotes, orders, deliveries, invoices, documents and conversations all sit on the project.",
+  "kind": "html"
+ },
+ "5217e5a039fb": {
+  "en": "Item tracker · documents · team chat · hourly backups",
+  "kind": "html"
+ },
+ "bbddd5de5060": {
+  "en": "Earlier decisions",
+  "kind": "html"
+ },
+ "cc10f4da227a": {
+  "en": "Committed cost and forecast margin update as orders, invoices and hours come in.",
+  "kind": "html"
+ },
+ "46a3209596b3": {
+  "en": "Forecast final cost · cost to complete · records behind every figure",
+  "kind": "html"
+ },
+ "6f856adf09df": {
+  "en": "Better buying",
+  "kind": "html"
+ },
+ "d528714a313e": {
+  "en": "Several suppliers asked at once, prices compared side by side, and the lowest quote ordered in one click.",
+  "kind": "html"
+ },
+ "9a2fdaa71918": {
+  "en": "Suggested suppliers · free supplier portal · price comparison",
+  "kind": "html"
+ },
+ "95512e9fc388": {
+  "en": "Carbon ready for tenders",
+  "kind": "html"
+ },
+ "b58286ab0889": {
+  "en": "Carbon figures come from the same quantities as the cost, without a separate model.",
+  "kind": "html"
+ },
+ "ac13155052fd": {
+  "en": "Embodied carbon per line · whole life carbon (beta)",
+  "kind": "html"
+ },
+ "535cbe502b32": {
+  "en": "See it early",
+  "kind": "html"
+ },
+ "930b7019fb8b": {
+  "en": "The forecast margin, before the final account.",
+  "kind": "html"
+ },
+ "a7caff8c9ca6": {
+  "en": "The project cost report brings the agreed contract sum, the approved budget, committed and incurred cost, the forecast final cost and the forecast margin together, by area and by cost type. When something moves, you see it the same week and can open the orders, invoices and hours behind it.",
+  "kind": "html"
+ },
+ "61500ddb5a64": {
+  "en": "<1>How cost control works <2>→</2></1>",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "28a4995448f1": {
+  "en": "Benefits questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "77fc1535eed6": {
+  "en": "How does I-Cost protect margin?",
+  "kind": "json"
+ },
+ "f178cf372234": {
+  "en": "By keeping the agreed contract sum, the approved budget, supplier quotes, orders, invoices, deliveries and site hours in one place, so the forecast margin is always up to date and problems show up while there is still time to act.",
+  "kind": "json"
+ },
+ "0539db78a15e": {
+  "en": "Can an AI chatbot price our job instead?",
+  "kind": "json"
+ },
+ "57a3edca0018": {
+  "en": "A chatbot on its own does not know what you pay: a 2024 university study found GPT-4's estimates were inaccurate and inconsistent until it was given real labour, plant and material rates. I-Cost keeps those real rates, your supplier quotes and purchase order prices, and its AI guide prices start from them, then your own suppliers' websites if you tick it. Each guide shows its range and where it came from, and nothing goes into the estimate until you press Use.",
+  "kind": "json"
+ },
+ "33cb84cc38ba": {
+  "en": "Does I-Cost guarantee a saving?",
+  "kind": "json"
+ },
+ "4dcdd39b74ea": {
+  "en": "No software can guarantee a saving. I-Cost gives you the figures early enough to act on them: what has been committed against the budget, what the forecast margin is, and which items are still waiting for prices or deliveries.",
+  "kind": "json"
+ },
+ "ed90bcadad99": {
+  "en": "What does it cost?",
+  "kind": "json"
+ },
+ "d429a30d96d3": {
+  "en": "&pound;35 per user per month after a 7-day free trial, with no bank card needed to start. Suppliers using the portal do not pay. <1>See pricing</1>",
+  "kind": "html"
+ },
+ "c5c2a2b2c8cd": {
+  "en": "How is I-Cost better than a construction cost tracking spreadsheet?",
+  "kind": "json"
+ },
+ "283a28882ec8": {
+  "en": "A spreadsheet only knows what someone typed into it. In I-Cost, orders, invoices, deliveries and site hours update the committed cost and the forecast margin as they happen, every figure links to the records behind it, and nothing is copied between files.",
+  "kind": "json"
+ },
+ "3d2635632065": {
+  "en": "Find where your margin is moving.",
+  "kind": "html"
+ },
+ "5deb526b7b9b": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A HEALTH CHECK</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "9d76b9d0c57a": {
+  "en": "Where construction margin leaks, why guessed prices cost the whole profit, and how I-Cost keeps real prices, orders, hours and the forecast margin in one place.",
+  "kind": "attr"
+ },
+ "f41d511d3353": {
+  "en": "Margins are thin, prices move and guesses are expensive. Keep real prices, orders, hours and the forecast margin in one place.",
+  "kind": "attr"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "ffdcdf884d46": {
+  "en": "I-Cost project cost report: contract value, cost budget, committed so far and budget remaining",
+  "kind": "attr"
+ },
+ "58a6945b7b24": {
+  "en": "Show features for",
+  "kind": "attr"
+ },
+ "ba272de6bbd6": {
+  "en": "Commercial team reviewing a project together in the office",
+  "kind": "attr"
+ },
+ "75b7cf746c25": {
+  "en": "I-Cost project cost report: contract value, cost budget, committed so far, budget remaining and the 3D model",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "927f40673764": {
+  "en": "Benefits",
+  "kind": "json"
+ },
+ "cfab0a63ee82": {
+  "en": "£35 per user per month after a 7-day free trial, with no bank card needed to start. Suppliers using the portal do not pay.",
+  "kind": "json"
+ }
+}

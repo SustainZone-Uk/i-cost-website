@@ -1,0 +1,434 @@
+{
+ "f195c3696442": {
+  "en": "Embodied Carbon Calculator UK | I-Cost",
+  "kind": "json"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "29b969eb533f": {
+  "en": "<1>Home</1><2>/</2><3>Platform</3><4>/</4><5>Carbon calculator</5>",
+  "kind": "html"
+ },
+ "bb965dde8c38": {
+  "en": "<1>Carbon</1>",
+  "kind": "html"
+ },
+ "58602c4d9dce": {
+  "en": "Embodied carbon calculator",
+  "kind": "html"
+ },
+ "04f9aa84eb56": {
+  "en": "An embodied carbon calculator<1>built into your estimate.</1>",
+  "kind": "html"
+ },
+ "f328f2948418": {
+  "en": "Work out embodied carbon from the quantities you have already priced. Every estimate line can carry a carbon factor, and whole life carbon assessments (beta) cover the full life of the building.",
+  "kind": "html"
+ },
+ "0d9002916e40": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A DEMO</3>",
+  "kind": "html"
+ },
+ "a65163d7b3ce": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project carbon</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "8a9400005c3b": {
+  "en": "The problem",
+  "kind": "html"
+ },
+ "64fe3ba33701": {
+  "en": "Carbon in one spreadsheet,<1/><2>cost in another.</2>",
+  "kind": "html"
+ },
+ "23d25fac82be": {
+  "en": "Tenders and planning conditions increasingly ask for carbon figures, and working them out separately from the estimate doubles the work.",
+  "kind": "html"
+ },
+ "264851074fff": {
+  "en": "Quantities are copied into a separate carbon spreadsheet.",
+  "kind": "html"
+ },
+ "183f0d52ad10": {
+  "en": "Carbon is worked out from the same estimate quantities as the cost.",
+  "kind": "html"
+ },
+ "9f7d5839bbce": {
+  "en": "Weights have to be calculated by hand from sizes and units.",
+  "kind": "html"
+ },
+ "e04bf253bd71": {
+  "en": "Weights are worked out from each item's size and unit.",
+  "kind": "html"
+ },
+ "b7a586a073a6": {
+  "en": "Matching BOQ wording to carbon data takes hours.",
+  "kind": "html"
+ },
+ "f080d4984671": {
+  "en": "Smart matching copes with typos and BOQ shorthand, with an accuracy slider.",
+  "kind": "html"
+ },
+ "4bbbd40bc1b6": {
+  "en": "Consultants are expensive for every tender.",
+  "kind": "html"
+ },
+ "c76c7c568c0f": {
+  "en": "Your team produces the figures inside I-Cost.",
+  "kind": "html"
+ },
+ "0aa6f75ee581": {
+  "en": "When the estimate changes, the carbon figures don't.",
+  "kind": "html"
+ },
+ "fa5a2e8f7f70": {
+  "en": "Carbon updates with the estimate.",
+  "kind": "html"
+ },
+ "73b25e176f55": {
+  "en": "Only the product stage gets counted.",
+  "kind": "html"
+ },
+ "3e1749fcbc02": {
+  "en": "Whole life carbon covers A1 to D (beta).",
+  "kind": "html"
+ },
+ "466283b1eabc": {
+  "en": "In I-Cost",
+  "kind": "html"
+ },
+ "c29932c0f6f3": {
+  "en": "Cost and carbon<1/><2>from the same quantities.</2>",
+  "kind": "html"
+ },
+ "56603db601ef": {
+  "en": "Each estimate line can carry an embodied carbon factor from UK Government and &Ouml;KOBAUDAT data or your own EPDs. For a full assessment, whole life carbon (beta) links estimate items to materials and covers stages A1&ndash;A5, B1&ndash;B7, C1&ndash;C4 and D, following the RICS Professional Standard (2nd edition) and BS EN 15978. You confirm any uncertain match.",
+  "kind": "html"
+ },
+ "67c65e07af11": {
+  "en": "Embodied carbon per estimate line",
+  "kind": "html"
+ },
+ "e15302d9c7df": {
+  "en": "UK Government, &Ouml;KOBAUDAT and your own EPD factors",
+  "kind": "html"
+ },
+ "64af56aaa936": {
+  "en": "Whole life carbon, A1&ndash;A5 to D <1>Beta</1>",
+  "kind": "html"
+ },
+ "b3740b560e2e": {
+  "en": "Weights worked out for you",
+  "kind": "html"
+ },
+ "007a1f940cec": {
+  "en": "Smart matching with accuracy slider",
+  "kind": "html"
+ },
+ "2a9f0d1db564": {
+  "en": "Carbon dashboard and reports",
+  "kind": "html"
+ },
+ "c16dfd1733eb": {
+  "en": "Step by step",
+  "kind": "html"
+ },
+ "60df2ccc53d0": {
+  "en": "How to calculate carbon<1/><2>in I-Cost.</2>",
+  "kind": "html"
+ },
+ "bca448adf60b": {
+  "en": "Price the estimate",
+  "kind": "html"
+ },
+ "9d7ba9dbf73c": {
+  "en": "Import the BOQ or model and price it as usual.",
+  "kind": "html"
+ },
+ "6eacb9aab64a": {
+  "en": "Match materials",
+  "kind": "html"
+ },
+ "e60028b95df0": {
+  "en": "I-Cost, or Match with AI, matches each item to a material in the carbon library; confirm or change the uncertain ones.",
+  "kind": "html"
+ },
+ "1abb260f84b9": {
+  "en": "Check the weights",
+  "kind": "html"
+ },
+ "9bf87732eb0e": {
+  "en": "Weights come from each item's size and unit; adjust any you know better.",
+  "kind": "html"
+ },
+ "ee45c30326b7": {
+  "en": "Report",
+  "kind": "html"
+ },
+ "e742232d4b37": {
+  "en": "See carbon by line, material and life-cycle stage, and download the results.",
+  "kind": "html"
+ },
+ "59e703ee9487": {
+  "en": "Life-cycle stages",
+  "kind": "html"
+ },
+ "2aa856a7b81f": {
+  "en": "What a whole life<1/><2>carbon assessment covers.</2>",
+  "kind": "html"
+ },
+ "c1d33ad534e8": {
+  "en": "Stages",
+  "kind": "html"
+ },
+ "3400ca528a97": {
+  "en": "Upfront",
+  "kind": "html"
+ },
+ "b09888792fa4": {
+  "en": "A1&ndash;A3 product, A4 transport to site, A5 construction",
+  "kind": "html"
+ },
+ "9fcd7419ec12": {
+  "en": "From the estimate quantities and material factors",
+  "kind": "html"
+ },
+ "20716e9262a7": {
+  "en": "In use",
+  "kind": "html"
+ },
+ "966d5f643c6c": {
+  "en": "B1&ndash;B7 use, maintenance, repair, replacement, refurbishment, energy, water",
+  "kind": "html"
+ },
+ "3c9596a93ee4": {
+  "en": "Over the study period (60 years for buildings by default)",
+  "kind": "html"
+ },
+ "186ca17f0576": {
+  "en": "End of life",
+  "kind": "html"
+ },
+ "13955c1828de": {
+  "en": "C1&ndash;C4 deconstruction, transport, processing, disposal",
+  "kind": "html"
+ },
+ "db5f27ad4185": {
+  "en": "From material weights",
+  "kind": "html"
+ },
+ "3d003408d129": {
+  "en": "Beyond the life cycle",
+  "kind": "html"
+ },
+ "14b2e7c624fc": {
+  "en": "D benefits beyond the system boundary",
+  "kind": "html"
+ },
+ "a24c808cc06c": {
+  "en": "Reported separately",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "e22d7bf97681": {
+  "en": "Carbon questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "c5403d727bfc": {
+  "en": "What is embodied carbon?",
+  "kind": "json"
+ },
+ "11bc27a1bf64": {
+  "en": "The greenhouse gas emissions from making, transporting and installing building materials, and from maintaining, replacing and disposing of them, as opposed to the operational carbon from running the building.",
+  "kind": "json"
+ },
+ "b8ce33feb1db": {
+  "en": "Which carbon data does I-Cost use?",
+  "kind": "json"
+ },
+ "0990b488c1c3": {
+  "en": "A carbon library of UK Government material factors and &Ouml;KOBAUDAT datasets (to EN 15804+A2), plus your own EPD or company figures, per estimate line. Match with AI only matches your lines to materials in that library; it never supplies carbon figures.",
+  "kind": "html"
+ },
+ "1d8665fe6990": {
+  "en": "Does I-Cost use AI for carbon?",
+  "kind": "json"
+ },
+ "3a21c5ea6dcb": {
+  "en": "Only to match, when you press the button. Match with AI (Claude, by Anthropic) suggests which material in the carbon library fits each estimate line; the carbon figure always comes from the library, never from the AI. For products the library lacks, Build up the rest estimates which library materials one unit is made of, marked as estimated, and nothing is added until you press Use. Only line descriptions, units and section names are sent: no prices, quantities or personal details, and they are not used to train the AI.",
+  "kind": "json"
+ },
+ "4a6d513b8419": {
+  "en": "Is the whole life carbon assessment RICS compliant?",
+  "kind": "json"
+ },
+ "a5f79deb2883": {
+  "en": "It follows the RICS Professional Standard for whole life carbon assessment (2nd edition) and BS EN 15978 life-cycle stages. It is in beta, and formal submissions should still be reviewed by a qualified assessor.",
+  "kind": "json"
+ },
+ "b4e1ead195c9": {
+  "en": "Is the carbon calculator included in the price?",
+  "kind": "json"
+ },
+ "17c1441247f6": {
+  "en": "Yes. Carbon is part of the one plan at &pound;35 per user per month, with a 7-day free trial.",
+  "kind": "html"
+ },
+ "60756af26962": {
+  "en": "More of I-Cost",
+  "kind": "html"
+ },
+ "d355d72c40d7": {
+  "en": "One platform for the whole job.",
+  "kind": "html"
+ },
+ "484152f029fe": {
+  "en": "Everything below works together, from the same estimate. <1>See the full platform</1>.",
+  "kind": "html"
+ },
+ "8ab043d6f267": {
+  "en": "<1>Project management<2>Run the commercial side of every job</2></1>",
+  "kind": "html"
+ },
+ "d2bc8b35347b": {
+  "en": "<1>Estimating &amp; BOQ<2>Price the BOQ, quote the client</2></1>",
+  "kind": "html"
+ },
+ "b97ecfa86c94": {
+  "en": "<1>Supplier management<2>Quotes, suppliers and subcontractors</2></1>",
+  "kind": "html"
+ },
+ "750998961ff1": {
+  "en": "<1>Purchase orders<2>Orders, deliveries and invoices</2></1>",
+  "kind": "html"
+ },
+ "22cf478b5e5b": {
+  "en": "<1>Cost tracking<2>Budget, committed and forecast margin</2></1>",
+  "kind": "html"
+ },
+ "dcafb2658217": {
+  "en": "<1>Timesheet app<2>Site hours on a phone</2></1>",
+  "kind": "html"
+ },
+ "e658b400b0a2": {
+  "en": "Get carbon figures from your next estimate.",
+  "kind": "html"
+ },
+ "d8a84af1fbd2": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>VIEW PRICING</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "474f9cd98ebf": {
+  "en": "An embodied carbon calculator built into your construction estimate: UK Government, ÖKOBAUDAT and EPD factors per line, and whole life carbon assessments following RICS.",
+  "kind": "json"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "5df7315cf7a0": {
+  "en": "I-Cost Project carbon: each estimate line matched to a carbon material from the library",
+  "kind": "attr"
+ },
+ "0532240cdde7": {
+  "en": "Timber roof frame going up on a building site",
+  "kind": "attr"
+ },
+ "a7edd4ede3a9": {
+  "en": "Modern building among trees with tower cranes behind",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "123a7f2fcc9a": {
+  "en": "Platform",
+  "kind": "json"
+ },
+ "c855c739d1ad": {
+  "en": "Carbon calculator",
+  "kind": "json"
+ },
+ "15cb1ee0c2e5": {
+  "en": "A carbon library of UK Government material factors and ÖKOBAUDAT datasets (to EN 15804+A2), plus your own EPD or company figures, per estimate line. Match with AI only matches your lines to materials in that library; it never supplies carbon figures.",
+  "kind": "json"
+ },
+ "a62a37605a57": {
+  "en": "Yes. Carbon is part of the one plan at £35 per user per month, with a 7-day free trial.",
+  "kind": "json"
+ }
+}

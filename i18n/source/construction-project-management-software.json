@@ -1,0 +1,450 @@
+{
+ "170a72783ea1": {
+  "en": "Construction Project Management Software UK | I-Cost",
+  "kind": "json"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "7b3ef6c6a0de": {
+  "en": "<1>Home</1><2>/</2><3>Platform</3><4>/</4><5>Project management</5>",
+  "kind": "html"
+ },
+ "0537b0cdf49b": {
+  "en": "<1>Project management</1>",
+  "kind": "html"
+ },
+ "4857e5fb30fd": {
+  "en": "Construction project management software",
+  "kind": "html"
+ },
+ "04033c3c2fd4": {
+  "en": "Manage your construction projects<1>from estimate to final report.</1>",
+  "kind": "html"
+ },
+ "24e9f703c1d0": {
+  "en": "Most project tools track tasks and drawings. I-Cost manages what decides whether a job makes money: the estimate, the price the client agreed, the budget, suppliers and orders, site hours, the programme and the forecast margin, all in one place.",
+  "kind": "html"
+ },
+ "0d9002916e40": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A DEMO</3>",
+  "kind": "html"
+ },
+ "299dfd874186": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "8a9400005c3b": {
+  "en": "The problem",
+  "kind": "html"
+ },
+ "348938937e6a": {
+  "en": "Five tools, five versions<1/><2>of the same job.</2>",
+  "kind": "html"
+ },
+ "c7131267432e": {
+  "en": "On most jobs the estimate lives in a spreadsheet, quotes in email, orders in Word, hours on paper and the programme in another app. Nobody sees the whole picture until the final account.",
+  "kind": "html"
+ },
+ "9cdf48820728": {
+  "en": "The estimate is in one spreadsheet, the budget in another, and they drift apart.",
+  "kind": "html"
+ },
+ "94baecbeb93f": {
+  "en": "The estimate is locked as the approved budget, and every version is kept.",
+  "kind": "html"
+ },
+ "7050eef1e78c": {
+  "en": "Supplier quotes, orders and deliveries are spread across inboxes.",
+  "kind": "html"
+ },
+ "a31987a7e2e1": {
+  "en": "Requests, quotes, orders and deliveries sit on the project, item by item.",
+  "kind": "html"
+ },
+ "d97ed2292594": {
+  "en": "Site hours arrive on paper at the end of the week.",
+  "kind": "html"
+ },
+ "aa8d165d4bbe": {
+  "en": "Hours are logged on a phone, approved and costed into the report.",
+  "kind": "html"
+ },
+ "fd70ae48584b": {
+  "en": "Nobody knows the forecast margin until the job is finished.",
+  "kind": "html"
+ },
+ "cc10f4da227a": {
+  "en": "Committed cost and forecast margin update as orders, invoices and hours come in.",
+  "kind": "html"
+ },
+ "c75efb949a36": {
+  "en": "The programme is in a separate tool nobody updates.",
+  "kind": "html"
+ },
+ "50ec89ffe84b": {
+  "en": "Dates and progress sit next to the estimate, with late work flagged.",
+  "kind": "html"
+ },
+ "15475ec37b19": {
+  "en": "New starters don't know where anything is.",
+  "kind": "html"
+ },
+ "e21d7fe9b73b": {
+  "en": "Every project follows the same ten steps, and the project page shows what to do next.",
+  "kind": "html"
+ },
+ "466283b1eabc": {
+  "en": "In I-Cost",
+  "kind": "html"
+ },
+ "aefb020e7c9e": {
+  "en": "One project page.<1/><2>Eight clear steps.</2>",
+  "kind": "html"
+ },
+ "c51e41c03c16": {
+  "en": "Every project runs through the same ten steps: set up the project, plan the design (or confirm the client has designed it), price the estimate while suppliers price the materials, agree the price with the client, lock the budget, order, record deliveries and invoices, follow site progress and labour together, then report on cost and carbon. The project page shows where each step stands and the next thing to do.",
+  "kind": "html"
+ },
+ "e0ed8b474252": {
+  "en": "Estimate, agreed sum, ordered and hours at a glance",
+  "kind": "html"
+ },
+ "2182b37df1f2": {
+  "en": "\"Next step\" on every project",
+  "kind": "html"
+ },
+ "2eed14c96180": {
+  "en": "Project dates against today",
+  "kind": "html"
+ },
+ "492cf5a0543b": {
+  "en": "Roles, permissions and Reviewer access",
+  "kind": "html"
+ },
+ "98172a8d6df4": {
+  "en": "Works on phone, tablet and PC",
+  "kind": "html"
+ },
+ "6b006379de93": {
+  "en": "Team chat on the project",
+  "kind": "html"
+ },
+ "152074c843b8": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Dashboard</4><5>Live</5>",
+  "kind": "html"
+ },
+ "c16dfd1733eb": {
+  "en": "Step by step",
+  "kind": "html"
+ },
+ "6016959d54ee": {
+  "en": "How to manage a construction project<1/><2>in I-Cost.</2>",
+  "kind": "html"
+ },
+ "919dfe2ec19f": {
+  "en": "Set up the project",
+  "kind": "html"
+ },
+ "17bbc8409f29": {
+  "en": "Client, dates, margin and the people who work on it.",
+  "kind": "html"
+ },
+ "5825670f926d": {
+  "en": "Price and agree",
+  "kind": "html"
+ },
+ "3d8aacc29298": {
+  "en": "Import the BOQ, price the estimate and send the client quotation. The accepted price becomes the agreed contract sum.",
+  "kind": "html"
+ },
+ "ad63c5ffa396": {
+  "en": "Lock the budget",
+  "kind": "html"
+ },
+ "dba3b1597f00": {
+  "en": "Lock the estimate as the approved budget everything is measured against.",
+  "kind": "html"
+ },
+ "f24dfbdb7f5d": {
+  "en": "Buy and build",
+  "kind": "html"
+ },
+ "f0c1a55d472f": {
+  "en": "Ask suppliers for prices, raise orders, record deliveries, log site hours and date the programme.",
+  "kind": "html"
+ },
+ "ee45c30326b7": {
+  "en": "Report",
+  "kind": "html"
+ },
+ "f9c4ed68e917": {
+  "en": "Committed cost, forecast final cost and forecast margin, with the records behind every figure.",
+  "kind": "html"
+ },
+ "2c7bea83fc8a": {
+  "en": "Honest scope",
+  "kind": "html"
+ },
+ "521b5bfbabb7": {
+  "en": "What I-Cost covers,<1/><2>and what it doesn't.</2>",
+  "kind": "html"
+ },
+ "d35ea8413990": {
+  "en": "Covered in I-Cost",
+  "kind": "html"
+ },
+ "458193f09e6d": {
+  "en": "Use another tool for",
+  "kind": "html"
+ },
+ "1dc043bb8eb5": {
+  "en": "Money",
+  "kind": "html"
+ },
+ "b7a287af67a1": {
+  "en": "Estimate, client quotation, budget, committed and forecast cost, margin",
+  "kind": "html"
+ },
+ "70b144f388d3": {
+  "en": "Accounts and payroll",
+  "kind": "html"
+ },
+ "4187f2b4a93e": {
+  "en": "Buying",
+  "kind": "html"
+ },
+ "457dbf614a2e": {
+  "en": "Supplier quotes, purchase orders, deliveries, invoices, credit notes",
+  "kind": "html"
+ },
+ "6c82e6dd8680": {
+  "en": "Time",
+  "kind": "html"
+ },
+ "f658a1b0ab11": {
+  "en": "Site and staff timesheets with approvals; a simple Gantt programme with progress",
+  "kind": "html"
+ },
+ "e3bbe21805b1": {
+  "en": "Detailed critical-path planning",
+  "kind": "html"
+ },
+ "0eb5ed506e49": {
+  "en": "Information",
+  "kind": "html"
+ },
+ "af545d7c2840": {
+  "en": "Project documents, photos, team chat",
+  "kind": "html"
+ },
+ "33601fcf8080": {
+  "en": "Drawing management, RFIs and snagging",
+  "kind": "html"
+ },
+ "6097563751a0": {
+  "en": "Carbon",
+  "kind": "html"
+ },
+ "9c40738eab9f": {
+  "en": "Embodied carbon on the estimate; whole life carbon assessments (beta)",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "482aebac1523": {
+  "en": "Project management questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "1133bc568028": {
+  "en": "Is I-Cost construction project management software?",
+  "kind": "json"
+ },
+ "2be04fab6031": {
+  "en": "Yes, for the commercial side of construction projects: estimating, client quotations, supplier management, purchase orders, deliveries, timesheets, the programme, cost tracking and carbon. It does not replace drawing management, RFI or snagging tools.",
+  "kind": "json"
+ },
+ "1c00efa29a57": {
+  "en": "Is I-Cost suitable for small construction businesses?",
+  "kind": "json"
+ },
+ "a7cccf030d97": {
+  "en": "Yes. You pay &pound;35 per user per month with no set-up fee, so a team of two costs &pound;70 a month, and you can start with a 7-day free trial on one live project.",
+  "kind": "html"
+ },
+ "4883ce92fbdf": {
+  "en": "Does it replace Microsoft Project or other planning tools?",
+  "kind": "json"
+ },
+ "b73238eefd62": {
+  "en": "I-Cost includes a simple programme (Gantt chart) built from the estimate, with dates, progress and late work flagged. For detailed critical-path scheduling you may still want a dedicated planning tool.",
+  "kind": "json"
+ },
+ "d2e8653f5413": {
+  "en": "Can site teams use it on their phones?",
+  "kind": "json"
+ },
+ "ffdba229b8f2": {
+  "en": "Yes. I-Cost runs in the browser and installs like an app on phone, tablet and PC. Site teams log hours and confirm deliveries from their phone.",
+  "kind": "json"
+ },
+ "17e6257aaf16": {
+  "en": "How long does it take to get started?",
+  "kind": "json"
+ },
+ "2a577047cdca": {
+  "en": "You can sign up, import a BOQ, invite your team and send your first quotation request on the first day, with a guided tutorial showing each step on the real screens.",
+  "kind": "json"
+ },
+ "60756af26962": {
+  "en": "More of I-Cost",
+  "kind": "html"
+ },
+ "d355d72c40d7": {
+  "en": "One platform for the whole job.",
+  "kind": "html"
+ },
+ "484152f029fe": {
+  "en": "Everything below works together, from the same estimate. <1>See the full platform</1>.",
+  "kind": "html"
+ },
+ "d2bc8b35347b": {
+  "en": "<1>Estimating &amp; BOQ<2>Price the BOQ, quote the client</2></1>",
+  "kind": "html"
+ },
+ "b97ecfa86c94": {
+  "en": "<1>Supplier management<2>Quotes, suppliers and subcontractors</2></1>",
+  "kind": "html"
+ },
+ "750998961ff1": {
+  "en": "<1>Purchase orders<2>Orders, deliveries and invoices</2></1>",
+  "kind": "html"
+ },
+ "22cf478b5e5b": {
+  "en": "<1>Cost tracking<2>Budget, committed and forecast margin</2></1>",
+  "kind": "html"
+ },
+ "dcafb2658217": {
+  "en": "<1>Timesheet app<2>Site hours on a phone</2></1>",
+  "kind": "html"
+ },
+ "99335bd9eb66": {
+  "en": "<1>Carbon calculator<2>Embodied and whole life carbon</2></1>",
+  "kind": "html"
+ },
+ "a304694b89cb": {
+  "en": "Run your next project in I-Cost.",
+  "kind": "html"
+ },
+ "d8a84af1fbd2": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>VIEW PRICING</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "4a2f483128c3": {
+  "en": "Manage construction projects in one place: estimate, client quote, budget, suppliers, purchase orders, site hours, programme and cost reports. From £35 per user.",
+  "kind": "json"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "15ab4f4d4370": {
+  "en": "An I-Cost project page: where the job is, time, work done, materials and the 3D model",
+  "kind": "attr"
+ },
+ "19f12a96b661": {
+  "en": "Site team checking figures on a phone and tablet",
+  "kind": "attr"
+ },
+ "0e73f369be06": {
+  "en": "The I-Cost dashboard: projects, contract value, forecast margin, projects by stage and activity",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "123a7f2fcc9a": {
+  "en": "Platform",
+  "kind": "json"
+ },
+ "8a288730e8e4": {
+  "en": "Project management",
+  "kind": "json"
+ },
+ "f86d833b218e": {
+  "en": "Yes. You pay £35 per user per month with no set-up fee, so a team of two costs £70 a month, and you can start with a 7-day free trial on one live project.",
+  "kind": "json"
+ }
+}

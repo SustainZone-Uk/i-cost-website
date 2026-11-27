@@ -1,0 +1,470 @@
+{
+ "86ba0e1590f1": {
+  "en": "Construction Estimating Software UK | BOQ Pricing | I-Cost",
+  "kind": "json"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "0fe85960fca3": {
+  "en": "<1>Home</1><2>/</2><3>Platform</3><4>/</4><5>Estimating &amp; BOQ</5>",
+  "kind": "html"
+ },
+ "2dd16c1e28c1": {
+  "en": "<1>Estimating &amp; BOQ</1>",
+  "kind": "html"
+ },
+ "339e546f597b": {
+  "en": "Construction estimating software",
+  "kind": "html"
+ },
+ "a01b8764e7cf": {
+  "en": "Construction estimating software<1>that starts from the client's BOQ.</1>",
+  "kind": "html"
+ },
+ "bb896e25a0b3": {
+  "en": "Import the client's bill of quantities from Excel, or take quantities from a BIM model, price every item with real rates, add your margin and send the quotation, without retyping a single line.",
+  "kind": "html"
+ },
+ "0d9002916e40": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A DEMO</3>",
+  "kind": "html"
+ },
+ "fab4fa8bbdd3": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Estimate</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "8a9400005c3b": {
+  "en": "The problem",
+  "kind": "html"
+ },
+ "4e50b1b06ff5": {
+  "en": "Estimating eats the week,<1/><2>and guesses creep in.</2>",
+  "kind": "html"
+ },
+ "a0fd92521f8d": {
+  "en": "Retyping BOQs, copying rates from old jobs and building quotes by hand takes days, and every step is a chance for an error that comes straight off the margin.",
+  "kind": "html"
+ },
+ "3c528c81ae15": {
+  "en": "The client's BOQ is retyped line by line into a spreadsheet.",
+  "kind": "html"
+ },
+ "ebe3c3ddf11d": {
+  "en": "The Excel or CSV BOQ is imported, with its areas and levels, and checked against its total.",
+  "kind": "html"
+ },
+ "2f6685d4eb7e": {
+  "en": "Rates are copied from an old job, and nobody knows they are out of date.",
+  "kind": "html"
+ },
+ "915abd32a33f": {
+  "en": "Copied items are checked against what you have bought since, with the latest order price shown.",
+  "kind": "html"
+ },
+ "3191770bf79f": {
+  "en": "Quantities have to be measured again from the drawings or model.",
+  "kind": "html"
+ },
+ "deda14b93bf7": {
+  "en": "Quantities come straight from an IFC model or from Revit, added up for you.",
+  "kind": "html"
+ },
+ "3c9ba05c05f4": {
+  "en": "The quote is rebuilt in Word, and the agreed price is lost in email.",
+  "kind": "html"
+ },
+ "32a9a4ee1bd2": {
+  "en": "The quotation PDF comes from the estimate, and the accepted revision becomes the agreed sum.",
+  "kind": "html"
+ },
+ "2e9eb397daf0": {
+  "en": "Carbon figures are a separate job for someone else.",
+  "kind": "html"
+ },
+ "c0d56879257f": {
+  "en": "Each line can carry an embodied carbon factor from the same quantities.",
+  "kind": "html"
+ },
+ "46768643cab1": {
+  "en": "The estimate changes after the budget is set.",
+  "kind": "html"
+ },
+ "b5e3447538e3": {
+  "en": "The final estimate is locked as the approved budget, with every version kept.",
+  "kind": "html"
+ },
+ "466283b1eabc": {
+  "en": "In I-Cost",
+  "kind": "html"
+ },
+ "f4a0cde8cc8d": {
+  "en": "Import, price, quote,<1/><2>lock.</2>",
+  "kind": "html"
+ },
+ "825ddf1101ff": {
+  "en": "Upload the BOQ, tell I-Cost what each column is, check the preview and the total, and save it to the estimate. Price each item at cost and selling rates, reuse rates from your library, and apply the project margin. When the client agrees, lock it as the budget.",
+  "kind": "html"
+ },
+ "d52478aa9550": {
+  "en": "Excel / CSV BOQ import with total check",
+  "kind": "html"
+ },
+ "5dcdd8d09faf": {
+  "en": "BIM model import (IFC)",
+  "kind": "html"
+ },
+ "ba5546b195a4": {
+  "en": "Cost and selling rates with margin",
+  "kind": "html"
+ },
+ "391ac9073c98": {
+  "en": "Libraries and copy to estimate",
+  "kind": "html"
+ },
+ "0079aa81a5a4": {
+  "en": "Price check on copied estimates",
+  "kind": "html"
+ },
+ "91a0fb8b85b7": {
+  "en": "Quotation PDF with discount",
+  "kind": "html"
+ },
+ "93a4a9a62b8e": {
+  "en": "Carbon on every line",
+  "kind": "html"
+ },
+ "364e06e28429": {
+  "en": "Locked final estimate and revisions",
+  "kind": "html"
+ },
+ "b1dd463ee005": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Client quotation</4><5>Live</5>",
+  "kind": "html"
+ },
+ "c16dfd1733eb": {
+  "en": "Step by step",
+  "kind": "html"
+ },
+ "63ec468dcc11": {
+  "en": "How to price a BOQ<1/><2>in I-Cost.</2>",
+  "kind": "html"
+ },
+ "b2cd72a5adad": {
+  "en": "Import the BOQ",
+  "kind": "html"
+ },
+ "4c05e4a0ab21": {
+  "en": "Upload the client's Excel or CSV file, or an IFC model, and pick the project it belongs to.",
+  "kind": "html"
+ },
+ "b34795154b96": {
+  "en": "Map and check",
+  "kind": "html"
+ },
+ "652c24f7918b": {
+  "en": "Tell I-Cost which column is the item, quantity, unit and rate, and check the total matches the client's.",
+  "kind": "html"
+ },
+ "4ed67b170443": {
+  "en": "Price each item",
+  "kind": "html"
+ },
+ "9d5261ee8bcc": {
+  "en": "Add cost rates from your library or past jobs; I-Cost flags copied rates that have changed since.",
+  "kind": "html"
+ },
+ "d41374628e64": {
+  "en": "Add margin and send",
+  "kind": "html"
+ },
+ "ebaa8670bb51": {
+  "en": "Apply the margin and send the client a quotation PDF at selling prices only.",
+  "kind": "html"
+ },
+ "ad63c5ffa396": {
+  "en": "Lock the budget",
+  "kind": "html"
+ },
+ "43650b2b80eb": {
+  "en": "When the price is agreed, lock the estimate as the approved budget for buying and reporting.",
+  "kind": "html"
+ },
+ "75176b5f9a80": {
+  "en": "Spreadsheet or I-Cost",
+  "kind": "html"
+ },
+ "d6f9af8e1f12": {
+  "en": "Why estimators move<1/><2>off spreadsheets.</2>",
+  "kind": "html"
+ },
+ "cc6fdf1b0963": {
+  "en": "Spreadsheet",
+  "kind": "html"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "caacd1bf8141": {
+  "en": "Getting the BOQ in",
+  "kind": "html"
+ },
+ "f4e889947b07": {
+  "en": "Retype or paste, check by eye",
+  "kind": "html"
+ },
+ "6679c5b1e58f": {
+  "en": "Import with a total check, areas and levels kept",
+  "kind": "html"
+ },
+ "f04cad5a95ab": {
+  "en": "Rates",
+  "kind": "html"
+ },
+ "8b7ef9d6b18c": {
+  "en": "Copied from the last job",
+  "kind": "html"
+ },
+ "b78815f44205": {
+  "en": "Library rates, with a check against what you last paid",
+  "kind": "html"
+ },
+ "849fd1e7d238": {
+  "en": "Client quote",
+  "kind": "html"
+ },
+ "87e42870d011": {
+  "en": "Rebuilt in Word",
+  "kind": "html"
+ },
+ "7e192d95dc29": {
+  "en": "PDF from the estimate, discount and agreed sum recorded",
+  "kind": "html"
+ },
+ "5d72ee3f068d": {
+  "en": "After the quote",
+  "kind": "html"
+ },
+ "4012423aa080": {
+  "en": "A separate budget sheet",
+  "kind": "html"
+ },
+ "51836eb16c6b": {
+  "en": "Locked as the approved budget for orders and reports",
+  "kind": "html"
+ },
+ "6097563751a0": {
+  "en": "Carbon",
+  "kind": "html"
+ },
+ "c850bc9036ba": {
+  "en": "Another spreadsheet",
+  "kind": "html"
+ },
+ "69fce2ea9d24": {
+  "en": "On every estimate line",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "372363b5ddbc": {
+  "en": "Estimating questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "4a60a30ffd63": {
+  "en": "How do I price a BOQ in I-Cost?",
+  "kind": "json"
+ },
+ "2eeb6dfeb625": {
+  "en": "Import the client's BOQ from Excel or CSV, check it against the total, add cost rates from your library or past jobs, apply the margin and send the quotation PDF. Copied rates are checked against what you have bought since.",
+  "kind": "json"
+ },
+ "2fc8321c5b7b": {
+  "en": "Can I import my client&#x27;s Excel BOQ?",
+  "kind": "html"
+ },
+ "070e209d4640": {
+  "en": "Yes. Upload the Excel or CSV file, tell I-Cost what each column is, check the preview and the total, and bring the lines straight into the estimate. Nobody has to retype it.",
+  "kind": "json"
+ },
+ "5f768a17cdee": {
+  "en": "Can I do quantity takeoff in I-Cost?",
+  "kind": "json"
+ },
+ "94a2d572916c": {
+  "en": "Yes, from a BIM model: import an IFC file exported from Revit, ArchiCAD, Tekla or similar, and I-Cost adds up the quantities, keeping the levels, in the same preview as a BOQ import. In Revit 2023 to 2027 the free <1>I-Cost Model Link</1> add-in sends them straight from the model.",
+  "kind": "html"
+ },
+ "47546eb8deb1": {
+  "en": "Can AI estimate my construction project?",
+  "kind": "json"
+ },
+ "fdbd843f9bdc": {
+  "en": "A chatbot on its own does not know what you pay. I-Cost keeps your real supplier quotes and purchase order prices next to the estimate, and its AI guide prices start from those, show where each figure came from and change nothing until you press Use. <1>Why real prices matter</1>.",
+  "kind": "html"
+ },
+ "4e9f54a517bf": {
+  "en": "Is it suitable for subcontractors pricing a package?",
+  "kind": "json"
+ },
+ "43c27a80f0f7": {
+  "en": "Yes. Specialist and trade subcontractors import the main contractor's BOQ for their package, price it and send their quotation in the same way.",
+  "kind": "json"
+ },
+ "60756af26962": {
+  "en": "More of I-Cost",
+  "kind": "html"
+ },
+ "d355d72c40d7": {
+  "en": "One platform for the whole job.",
+  "kind": "html"
+ },
+ "484152f029fe": {
+  "en": "Everything below works together, from the same estimate. <1>See the full platform</1>.",
+  "kind": "html"
+ },
+ "8ab043d6f267": {
+  "en": "<1>Project management<2>Run the commercial side of every job</2></1>",
+  "kind": "html"
+ },
+ "b97ecfa86c94": {
+  "en": "<1>Supplier management<2>Quotes, suppliers and subcontractors</2></1>",
+  "kind": "html"
+ },
+ "750998961ff1": {
+  "en": "<1>Purchase orders<2>Orders, deliveries and invoices</2></1>",
+  "kind": "html"
+ },
+ "22cf478b5e5b": {
+  "en": "<1>Cost tracking<2>Budget, committed and forecast margin</2></1>",
+  "kind": "html"
+ },
+ "dcafb2658217": {
+  "en": "<1>Timesheet app<2>Site hours on a phone</2></1>",
+  "kind": "html"
+ },
+ "99335bd9eb66": {
+  "en": "<1>Carbon calculator<2>Embodied and whole life carbon</2></1>",
+  "kind": "html"
+ },
+ "91288ab9f5d1": {
+  "en": "Price your next BOQ in I-Cost.",
+  "kind": "html"
+ },
+ "d8a84af1fbd2": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>VIEW PRICING</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "e764b56d0610": {
+  "en": "Construction estimating software that starts from the client's BOQ: import Excel or BIM, price with real rates, apply margin and send the client quotation.",
+  "kind": "json"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "70d3513486f9": {
+  "en": "An I-Cost estimate with cost rate, selling rate, profit and total on every line",
+  "kind": "attr"
+ },
+ "8d066a29860a": {
+  "en": "Estimator and site manager going through drawings on a table",
+  "kind": "attr"
+ },
+ "9b66539401f5": {
+  "en": "I-Cost client quotation: estimate total, agreed contract sum, variations and quotation revisions",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "123a7f2fcc9a": {
+  "en": "Platform",
+  "kind": "json"
+ },
+ "091e35be0ccb": {
+  "en": "Estimating & BOQ",
+  "kind": "json"
+ },
+ "979387dac6d1": {
+  "en": "Can I import my client's Excel BOQ?",
+  "kind": "json"
+ },
+ "ae42bb9a51aa": {
+  "en": "Yes, from a BIM model: import an IFC file exported from Revit, ArchiCAD, Tekla or similar, and I-Cost adds up the quantities, keeping the levels, in the same preview as a BOQ import. In Revit 2023 to 2027 the free I-Cost Model Link add-in sends them straight from the model.",
+  "kind": "json"
+ },
+ "8f3f6ba3d723": {
+  "en": "A chatbot on its own does not know what you pay. I-Cost keeps your real supplier quotes and purchase order prices next to the estimate, and its AI guide prices start from those, show where each figure came from and change nothing until you press Use. Why real prices matter.",
+  "kind": "json"
+ }
+}

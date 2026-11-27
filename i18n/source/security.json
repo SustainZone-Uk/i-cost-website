@@ -1,0 +1,394 @@
+{
+ "f11932bcc38e": {
+  "en": "Security &amp; Trust | How I-Cost Protects Your Data",
+  "kind": "html"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "97dc97507265": {
+  "en": "<1>Home</1><2>/</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "ee6d82258bb9": {
+  "en": "Security &amp; trust",
+  "kind": "html"
+ },
+ "8690ff0d1b03": {
+  "en": "Your prices stay<1>your prices.</1>",
+  "kind": "html"
+ },
+ "5ae9f4a030a1": {
+  "en": "Construction companies trust I-Cost with their estimates, supplier quotes, orders and people. Here is how we protect that data, what we follow, and how to report a security problem.",
+  "kind": "html"
+ },
+ "acd3c53adfea": {
+  "en": "Certification and standards",
+  "kind": "html"
+ },
+ "eb3b5fccf4b2": {
+  "en": "What we follow.",
+  "kind": "html"
+ },
+ "1972b7a4f394": {
+  "en": "<1>Cyber Essentials certified.</1> In November 2026 I-COST LTD passed Cyber Essentials, the UK government-backed scheme run with the National Cyber Security Centre, first time and with every answer marked compliant. It covers firewalls, secure settings, security updates within 14 days, user access with two-step login and malware protection across our laptops, phones, servers and cloud services. <2>Check our certificate</2>.",
+  "kind": "html"
+ },
+ "5c751cdff566": {
+  "en": "We are aligning our information security with <1>ISO/IEC 27001:2022</1>: our policies, risk register and Statement of Applicability (all 93 Annex A controls) follow its structure. We are <2>not certified</2>. Read <3>our security policies in brief</3>; the full documents are available to customers on request: <4>info@i-cost.co.uk</4>.",
+  "kind": "html"
+ },
+ "48cd18dabc14": {
+  "en": "Your data",
+  "kind": "html"
+ },
+ "6ba67bc1739c": {
+  "en": "Who can see what.",
+  "kind": "html"
+ },
+ "a829265dc1b6": {
+  "en": "Separate workspaces",
+  "kind": "html"
+ },
+ "3d9f9a3ec4b1": {
+  "en": "Every request is checked so a company can only reach its own projects, prices, documents and people. An automated test checks this for every page before each update goes live.",
+  "kind": "html"
+ },
+ "5fa35a440181": {
+  "en": "Roles and permissions",
+  "kind": "html"
+ },
+ "17b753a41d3e": {
+  "en": "Your company admin decides what each role, and each person, can see and do, and which projects each person works on.",
+  "kind": "html"
+ },
+ "7ee9ed6c12f2": {
+  "en": "Private files",
+  "kind": "html"
+ },
+ "19cd3fd299fb": {
+  "en": "Orders, invoices, delivery notes, certificates, timesheet photos and drawings are checked when uploaded, kept in private storage and opened only by people signed in to your company.",
+  "kind": "html"
+ },
+ "7740225ea570": {
+  "en": "Least access",
+  "kind": "html"
+ },
+ "5880bc377f39": {
+  "en": "Our team looks at customer data only when needed to support you or keep the service running.",
+  "kind": "html"
+ },
+ "287bfe2cd030": {
+  "en": "Your copy, any time",
+  "kind": "html"
+ },
+ "ae6b1686b175": {
+  "en": "Company admins can download all their company's data as a zip whenever they want.",
+  "kind": "html"
+ },
+ "471b1ba24b4f": {
+  "en": "Suppliers we use",
+  "kind": "html"
+ },
+ "68adc1453d21": {
+  "en": "The companies that process data for us are listed, with where and why, on our <1>subprocessors page</1>.",
+  "kind": "html"
+ },
+ "3819f5fe5fb7": {
+  "en": "Signing in",
+  "kind": "html"
+ },
+ "c9b1f334fac9": {
+  "en": "A stolen password is not enough.",
+  "kind": "html"
+ },
+ "e95f84539214": {
+  "en": "Strong passwords",
+  "kind": "html"
+ },
+ "37b37bf8b3fb": {
+  "en": "At least 12 characters, stored only as one-way hashes. Sign-in pauses after 5 wrong passwords.",
+  "kind": "html"
+ },
+ "b59ec08ef6d0": {
+  "en": "Two-step login",
+  "kind": "html"
+ },
+ "2236c9a20f6f": {
+  "en": "A code from a free authenticator app, or by email, as well as the password, with backup codes for a lost phone.",
+  "kind": "html"
+ },
+ "91a69925955c": {
+  "en": "Security log",
+  "kind": "html"
+ },
+ "432b8a09d81d": {
+  "en": "Admins see every sign-in and every change to people, permissions and settings: when, who and from where. Nobody can edit it.",
+  "kind": "html"
+ },
+ "76e3745b332f": {
+  "en": "Safe in the browser",
+  "kind": "html"
+ },
+ "08a5c1fbf156": {
+  "en": "HTTPS only. Sign-in cookies are never sent with forms from other websites, and I-Cost pages cannot be framed by other sites.",
+  "kind": "html"
+ },
+ "97fa15b17333": {
+  "en": "Hosting and backups",
+  "kind": "html"
+ },
+ "47b882c40552": {
+  "en": "In the UK, copied every hour.",
+  "kind": "html"
+ },
+ "297016aa7f87": {
+  "en": "UK hosting",
+  "kind": "html"
+ },
+ "034dc251aaca": {
+  "en": "The application, database and files are hosted in the United Kingdom (Manchester), with a standby server in London.",
+  "kind": "html"
+ },
+ "57694e6242dc": {
+  "en": "Hourly backups",
+  "kind": "html"
+ },
+ "79bd1718277e": {
+  "en": "The database and new or changed files are copied off the server every hour to Cloudflare R2, encrypted at rest. Each company's records are also backed up daily.",
+  "kind": "html"
+ },
+ "fbdb17c41a14": {
+  "en": "Ready to take over",
+  "kind": "html"
+ },
+ "c4e25016594d": {
+  "en": "The London standby refreshes itself every night and can take over in about an hour. At most one hour of data could be lost.",
+  "kind": "html"
+ },
+ "6722912e091a": {
+  "en": "Tested before every update",
+  "kind": "html"
+ },
+ "709cf086ef14": {
+  "en": "Every change runs our full automated test suite, including security checks, on the same software versions as the live service.",
+  "kind": "html"
+ },
+ "f202655ef1d2": {
+  "en": "Kept up to date",
+  "kind": "html"
+ },
+ "d3d4ba5f0c25": {
+  "en": "Supported versions of Laravel and PHP. We follow NCSC alerts and patch critical issues within a day.",
+  "kind": "html"
+ },
+ "fd2c4e1fdd8d": {
+  "en": "If something goes wrong",
+  "kind": "html"
+ },
+ "7945c4d62129": {
+  "en": "A written incident plan. If a breach affects your data we tell you without undue delay, and report to the ICO within 72 hours where the law requires.",
+  "kind": "html"
+ },
+ "687c82861c95": {
+  "en": "Documents",
+  "kind": "html"
+ },
+ "e5b392e81ae7": {
+  "en": "For your security questionnaire.",
+  "kind": "html"
+ },
+ "178f8630e869": {
+  "en": "Our security policies in brief<1><2>Read it</2></1>",
+  "kind": "html"
+ },
+ "3bd2fdc67097": {
+  "en": "Privacy notice<1><2>Read it</2></1>",
+  "kind": "html"
+ },
+ "872621c74f61": {
+  "en": "Terms of service<1><2>Read it</2></1>",
+  "kind": "html"
+ },
+ "06ed30b9d0ab": {
+  "en": "Data processing addendum<1><2>Read it</2></1>",
+  "kind": "html"
+ },
+ "c90b6fb0112d": {
+  "en": "Subprocessors<1><2>Read it</2></1>",
+  "kind": "html"
+ },
+ "637ec8627925": {
+  "en": "Information security policy<1>On request</1>",
+  "kind": "html"
+ },
+ "1cff3ffc335f": {
+  "en": "Access control policy<1>On request</1>",
+  "kind": "html"
+ },
+ "cad35e289afa": {
+  "en": "Incident response plan<1>On request</1>",
+  "kind": "html"
+ },
+ "416b8e01d182": {
+  "en": "Business continuity and disaster recovery<1>On request</1>",
+  "kind": "html"
+ },
+ "266a2d5ae085": {
+  "en": "Backup policy<1>On request</1>",
+  "kind": "html"
+ },
+ "dc292c070960": {
+  "en": "Secure development policy<1>On request</1>",
+  "kind": "html"
+ },
+ "52bfe264dcef": {
+  "en": "Supplier security policy<1>On request</1>",
+  "kind": "html"
+ },
+ "a4c00f183e63": {
+  "en": "Statement of Applicability (ISO/IEC 27001 Annex A)<1>On request</1>",
+  "kind": "html"
+ },
+ "b579cbf29648": {
+  "en": "To ask for a document, or for help with a security questionnaire, email <1>info@i-cost.co.uk</1>.",
+  "kind": "html"
+ },
+ "97769a0f7726": {
+  "en": "Found something?",
+  "kind": "html"
+ },
+ "ec10f2d1ef23": {
+  "en": "Report a security problem.",
+  "kind": "html"
+ },
+ "a100ae1b145a": {
+  "en": "Email <1>info@i-cost.co.uk</1> with \"Security\" in the subject and enough detail for us to reproduce it. We acknowledge reports within 3 working days and keep you updated.",
+  "kind": "html"
+ },
+ "394076203a41": {
+  "en": "Please only test against your own account, do not access, change or delete other people's data, avoid anything that slows the service down, and give us reasonable time to fix the issue before telling anyone else. We will not take legal action against good-faith research that follows these rules.",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "d13b9ba4bf40": {
+  "en": "How I-Cost protects construction companies' prices, orders and people: separate workspaces, two-step login, security log, private files, hourly backups and a UK standby server. Cyber Essentials certified; aligning with ISO/IEC 27001 (not certified).",
+  "kind": "attr"
+ },
+ "a72620069cc0": {
+  "en": "Security & Trust | How I-Cost Protects Your Data",
+  "kind": "attr"
+ },
+ "e7cb1ab58b8e": {
+  "en": "Separate workspaces, two-step login, a security log, private files, hourly backups and a UK standby server. Cyber Essentials certified; aligning with ISO/IEC 27001 (not certified).",
+  "kind": "attr"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "8ad8be51a7cd": {
+  "en": "Separate workspaces, two-step login, a security log, private files, hourly backups and a UK standby server.",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "5b53e1e02f09": {
+  "en": "Security & Trust",
+  "kind": "json"
+ },
+ "d5fb1e5773bf": {
+  "en": "Is I-Cost Cyber Essentials certified?",
+  "kind": "json"
+ },
+ "6523988e45c4": {
+  "en": "Yes. I-COST LTD passed Cyber Essentials, the UK government-backed scheme, in November 2026. The certificate can be checked at https://registry.blockmarktech.com/certificates/078fbfdd-428a-4c73-84d3-690a8e104211/",
+  "kind": "json"
+ },
+ "d36e934d2d09": {
+  "en": "Is I-Cost ISO 27001 certified?",
+  "kind": "json"
+ },
+ "3d4a26247816": {
+  "en": "No. I-Cost is aligning its information security with ISO/IEC 27001:2022: its policies, risk register and Statement of Applicability follow the standard's structure. It is not certified. A summary of each policy is published at https://www.i-cost.co.uk/uat/public/legal/security-policies and the full documents are available to customers on request.",
+  "kind": "json"
+ },
+ "04eaf42601b1": {
+  "en": "Where is I-Cost data hosted?",
+  "kind": "json"
+ },
+ "cdbce7476b2a": {
+  "en": "In the United Kingdom: the application, database and files are hosted by Hostinger in Manchester, with a standby server in London (Oracle Cloud, UK South). Hourly off-site backups are kept in Cloudflare R2, encrypted at rest.",
+  "kind": "json"
+ },
+ "66408b753d6f": {
+  "en": "Can other companies see our prices in I-Cost?",
+  "kind": "json"
+ },
+ "8660bd5121b8": {
+  "en": "No. Every request is checked so a company can only reach its own projects, prices, documents and people, and an automated test checks this for every page before each update goes live.",
+  "kind": "json"
+ }
+}

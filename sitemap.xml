@@ -1,26 +1,522 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://i-cost.co.uk/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://i-cost.co.uk/platform/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://i-cost.co.uk/contractors/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://i-cost.co.uk/benefits/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://i-cost.co.uk/pricing/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://i-cost.co.uk/how-it-works/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://i-cost.co.uk/security/</loc><lastmod>2026-11-04</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://i-cost.co.uk/contact/</loc><lastmod>2026-10-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://i-cost.co.uk/construction-project-management-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://i-cost.co.uk/construction-estimating-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://i-cost.co.uk/construction-supplier-management/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://i-cost.co.uk/construction-purchase-order-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://i-cost.co.uk/construction-cost-tracking/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://i-cost.co.uk/construction-timesheet-app/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://i-cost.co.uk/embodied-carbon-calculator/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://i-cost.co.uk/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/</loc><lastmod>2026-10-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/platform/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/platform/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/platform/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/platform/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/platform/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/platform/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/platform/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/platform/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/platform/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/platform/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/platform/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/platform/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/platform/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/platform/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/platform/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/platform/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/platform/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/platform/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/platform/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/platform/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/contractors/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/contractors/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/contractors/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/contractors/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/contractors/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/contractors/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/contractors/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/contractors/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/contractors/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/benefits/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/benefits/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/benefits/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/benefits/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/benefits/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/benefits/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/benefits/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/benefits/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/benefits/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/pricing/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/pricing/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/pricing/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/pricing/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/pricing/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/pricing/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/pricing/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/pricing/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/how-it-works/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/how-it-works/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/how-it-works/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/how-it-works/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/how-it-works/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/how-it-works/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/how-it-works/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/how-it-works/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/security/</loc><lastmod>2026-11-04</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/security/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/security/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/security/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/security/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/security/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/security/</loc><lastmod>2026-11-04</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/security/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/security/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/security/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/security/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/security/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/security/</loc><lastmod>2026-11-04</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/security/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/security/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/security/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/security/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/security/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/security/</loc><lastmod>2026-11-04</lastmod><changefreq>monthly</changefreq><priority>0.5</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/security/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/security/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/security/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/security/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/security/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/contact/</loc><lastmod>2026-10-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/contact/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/contact/</loc><lastmod>2026-10-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/contact/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/contact/</loc><lastmod>2026-10-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/contact/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/contact/</loc><lastmod>2026-10-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/contact/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/construction-project-management-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-project-management-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/construction-project-management-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-project-management-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/construction-project-management-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-project-management-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/construction-project-management-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-project-management-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-project-management-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/construction-estimating-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-estimating-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/construction-estimating-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-estimating-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/construction-estimating-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-estimating-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/construction-estimating-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-estimating-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-estimating-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/construction-supplier-management/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-supplier-management/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/construction-supplier-management/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-supplier-management/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/construction-supplier-management/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-supplier-management/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/construction-supplier-management/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-supplier-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-supplier-management/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/construction-purchase-order-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-purchase-order-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/construction-purchase-order-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-purchase-order-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/construction-purchase-order-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-purchase-order-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/construction-purchase-order-software/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-purchase-order-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-purchase-order-software/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/construction-cost-tracking/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-cost-tracking/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/construction-cost-tracking/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-cost-tracking/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/construction-cost-tracking/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-cost-tracking/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/construction-cost-tracking/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-cost-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-cost-tracking/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/construction-timesheet-app/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-timesheet-app/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/construction-timesheet-app/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-timesheet-app/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/construction-timesheet-app/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-timesheet-app/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/construction-timesheet-app/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/construction-timesheet-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/construction-timesheet-app/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/embodied-carbon-calculator/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/embodied-carbon-calculator/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/embodied-carbon-calculator/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/embodied-carbon-calculator/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/embodied-carbon-calculator/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/embodied-carbon-calculator/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/embodied-carbon-calculator/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/embodied-carbon-calculator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/embodied-carbon-calculator/"/>
+  </url>
   <url><loc>https://i-cost.co.uk/insights/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://i-cost.co.uk/insights/how-to-manage-a-construction-project/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://i-cost.co.uk/insights/how-to-price-a-boq/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://i-cost.co.uk/insights/how-to-track-construction-costs/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://i-cost.co.uk/insights/how-to-manage-suppliers-and-subcontractors/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://i-cost.co.uk/insights/free-construction-templates/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://i-cost.co.uk/revit/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://i-cost.co.uk/revit/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/revit/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/revit/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/revit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/revit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/revit/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/es/revit/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/revit/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/revit/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/revit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/revit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/revit/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/fr/revit/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/revit/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/revit/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/revit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/revit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/revit/"/>
+  </url>
+  <url><loc>https://i-cost.co.uk/de/revit/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://i-cost.co.uk/revit/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://i-cost.co.uk/es/revit/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://i-cost.co.uk/fr/revit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://i-cost.co.uk/de/revit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://i-cost.co.uk/revit/"/>
+  </url>
   <url><loc>https://i-cost.co.uk/help/xero/</loc><lastmod>2026-11-12</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

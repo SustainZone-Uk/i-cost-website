@@ -1,0 +1,842 @@
+{
+ "093b9cf41b53": {
+  "en": "Construction Cost Management Software | I-Cost Platform",
+  "kind": "json"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "4fee3f9d963b": {
+  "en": "<1>Home</1><2>/</2><3>Platform</3>",
+  "kind": "html"
+ },
+ "b1164652f551": {
+  "en": "Construction cost management software",
+  "kind": "html"
+ },
+ "7765ffba7e80": {
+  "en": "Every stage of the job.<1>One platform.</1>",
+  "kind": "html"
+ },
+ "861437439c2f": {
+  "en": "Manage your construction projects in one place. From the client's BOQ to the final report, I-Cost keeps the estimate, quotations, supplier prices, orders, deliveries, site hours, programme and carbon connected. Nothing is retyped, nothing is lost in email, and the forecast margin is always up to date.",
+  "kind": "html"
+ },
+ "0d9002916e40": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A DEMO</3>",
+  "kind": "html"
+ },
+ "152074c843b8": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Dashboard</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "2dd16c1e28c1": {
+  "en": "<1>Estimating &amp; BOQ</1>",
+  "kind": "html"
+ },
+ "54aca4603618": {
+  "en": "<1>Client quotations</1>",
+  "kind": "html"
+ },
+ "b63be4a9d0e1": {
+  "en": "<1>Suppliers &amp; quotes</1>",
+  "kind": "html"
+ },
+ "cf9e94c783ab": {
+  "en": "<1>Orders &amp; deliveries</1>",
+  "kind": "html"
+ },
+ "8303cfbf2256": {
+  "en": "<1>Cost control &amp; reports</1>",
+  "kind": "html"
+ },
+ "8b4e6bf34c2d": {
+  "en": "<1>Programme &amp; dashboard</1>",
+  "kind": "html"
+ },
+ "e8ecafb71203": {
+  "en": "<1>Timesheets</1>",
+  "kind": "html"
+ },
+ "bb965dde8c38": {
+  "en": "<1>Carbon</1>",
+  "kind": "html"
+ },
+ "dfa07277085b": {
+  "en": "<1>Team &amp; support</1>",
+  "kind": "html"
+ },
+ "742c530fef37": {
+  "en": "How it fits together",
+  "kind": "html"
+ },
+ "aefb020e7c9e": {
+  "en": "One project page.<1/><2>Eight clear steps.</2>",
+  "kind": "html"
+ },
+ "27cdf334deed": {
+  "en": "Every project in I-Cost follows the same ten steps: set up the project, plan the design (or confirm the client has designed it), price the estimate while suppliers price the materials, agree the price with the client, lock the budget, order, record deliveries and invoices, follow site progress and labour together, then report on cost and carbon. The project page shows where each step stands and what to do next.",
+  "kind": "html"
+ },
+ "e0ed8b474252": {
+  "en": "Estimate, agreed sum, ordered and hours at a glance",
+  "kind": "html"
+ },
+ "2182b37df1f2": {
+  "en": "\"Next step\" on every project",
+  "kind": "html"
+ },
+ "2eed14c96180": {
+  "en": "Project dates against today",
+  "kind": "html"
+ },
+ "fb9ae5536c90": {
+  "en": "Each step opens the right page",
+  "kind": "html"
+ },
+ "299dfd874186": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project</4><5>Live</5>",
+  "kind": "html"
+ },
+ "2ca0f889c61b": {
+  "en": "01 / Estimating, BOQ &amp; quantity takeoff",
+  "kind": "html"
+ },
+ "c105e090d4a3": {
+  "en": "Construction estimating and BOQ pricing, without retyping.",
+  "kind": "html"
+ },
+ "79e8e9db2950": {
+  "en": "The problem: retyping a bill of quantities takes days, and every line retyped is a chance for an error.",
+  "kind": "html"
+ },
+ "27257283fd06": {
+  "en": "Upload the client's Excel or CSV BOQ, tell I-Cost what each column is, check the preview and the total, and the lines go straight into your estimate, with their areas and levels. Working from a model instead? Import an IFC file and I-Cost adds up the quantities in your browser, or send them straight from Revit 2023 to 2027 with the free <1>I-Cost Model Link</1> add-in, now <2>on the Autodesk App Store</2>.",
+  "kind": "html"
+ },
+ "d52478aa9550": {
+  "en": "Excel / CSV BOQ import with total check",
+  "kind": "html"
+ },
+ "5dcdd8d09faf": {
+  "en": "BIM model import (IFC)",
+  "kind": "html"
+ },
+ "875f8e6440b7": {
+  "en": "Revit add-in",
+  "kind": "html"
+ },
+ "ba5546b195a4": {
+  "en": "Cost and selling rates with margin",
+  "kind": "html"
+ },
+ "391ac9073c98": {
+  "en": "Libraries and copy to estimate",
+  "kind": "html"
+ },
+ "0079aa81a5a4": {
+  "en": "Price check on copied estimates",
+  "kind": "html"
+ },
+ "364e06e28429": {
+  "en": "Locked final estimate and revisions",
+  "kind": "html"
+ },
+ "4c83cba34e25": {
+  "en": "Areas and levels from the file",
+  "kind": "html"
+ },
+ "ed24647c6879": {
+  "en": "Photos on the estimate",
+  "kind": "html"
+ },
+ "267254a53669": {
+  "en": "<1>More on construction estimating software <2>→</2></1>",
+  "kind": "html"
+ },
+ "fab4fa8bbdd3": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Estimate</4><5>Live</5>",
+  "kind": "html"
+ },
+ "0181881378db": {
+  "en": "02 / Client quotations",
+  "kind": "html"
+ },
+ "4a0ad7bd7f0d": {
+  "en": "Construction quotes your client can accept.",
+  "kind": "html"
+ },
+ "91ff30b83cb6": {
+  "en": "The problem: the client negotiates a discount, and the figure everyone agreed gets lost between emails and spreadsheets.",
+  "kind": "html"
+ },
+ "896959a20ae9": {
+  "en": "Turn the estimate into a quotation PDF at selling prices only, never cost or margin, with an optional summary page. Record the negotiated discount and the reason, mark the accepted revision, and that agreed contract sum is used in every report from then on.",
+  "kind": "html"
+ },
+ "8e36c719e70a": {
+  "en": "Quotation PDF from the estimate",
+  "kind": "html"
+ },
+ "3804863d28c9": {
+  "en": "Summary page and preview",
+  "kind": "html"
+ },
+ "9ff4272a19cd": {
+  "en": "Discount with a private reason",
+  "kind": "html"
+ },
+ "265125185ebd": {
+  "en": "Revisions: sent, accepted, replaced",
+  "kind": "html"
+ },
+ "3767312af57a": {
+  "en": "Agreed contract sum in every report",
+  "kind": "html"
+ },
+ "77df4336941e": {
+  "en": "Your terms and an acceptance box",
+  "kind": "html"
+ },
+ "38d743223b00": {
+  "en": "<1>More on estimating and quotations <2>→</2></1>",
+  "kind": "html"
+ },
+ "b1dd463ee005": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Client quotation</4><5>Live</5>",
+  "kind": "html"
+ },
+ "754840ab1d21": {
+  "en": "03 / Supplier &amp; procurement management",
+  "kind": "html"
+ },
+ "d9eb90ab1c85": {
+  "en": "Supplier management: real prices, side by side.",
+  "kind": "html"
+ },
+ "a2d9f942c4c9": {
+  "en": "The problem: supplier quotes arrive by email in different formats, and someone compares them by hand.",
+  "kind": "html"
+ },
+ "b73d36853e56": {
+  "en": "Pick the estimate items by area, level and section, and send one quotation request to several suppliers. I-Cost suggests the suppliers most likely to price the items, from what they supply and what you have ordered from them before. Suppliers price online in their free portal, the replies line up side by side, and you order from the lowest quote in one click.",
+  "kind": "html"
+ },
+ "cc6c61217e7f": {
+  "en": "Requests by area, level and section",
+  "kind": "html"
+ },
+ "b602cfa87a2e": {
+  "en": "A quantity on every item",
+  "kind": "html"
+ },
+ "a6be89fd626e": {
+  "en": "Suggested suppliers",
+  "kind": "html"
+ },
+ "e565fe022b25": {
+  "en": "Free supplier portal",
+  "kind": "html"
+ },
+ "6247f3acca6c": {
+  "en": "Side-by-side price comparison",
+  "kind": "html"
+ },
+ "0a0b58d87332": {
+  "en": "Alert when a supplier replies",
+  "kind": "html"
+ },
+ "01eb07e9e560": {
+  "en": "Order from the lowest quote",
+  "kind": "html"
+ },
+ "864cd22be63d": {
+  "en": "Supplier list with what they supply",
+  "kind": "html"
+ },
+ "1aee522888da": {
+  "en": "<1>More on supplier management <2>→</2></1>",
+  "kind": "html"
+ },
+ "5bfe7d8da901": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Supplier price comparison</4><5>Live</5>",
+  "kind": "html"
+ },
+ "3f09875615ec": {
+  "en": "04 / Orders &amp; deliveries",
+  "kind": "html"
+ },
+ "70a0b3f34fed": {
+  "en": "A purchase order system built for construction.",
+  "kind": "html"
+ },
+ "550538cd2d56": {
+  "en": "The problem: orders, delivery notes and invoices live in different places, so nobody knows what is really committed.",
+  "kind": "html"
+ },
+ "3693651ca0ac": {
+  "en": "Raise purchase orders from the estimate, save drafts and keep every revision. Suppliers accept the order and record each delivery with a QR label; your team scans it, confirms what arrived and reports anything short or damaged. Goods received, invoices, credit notes and accruals all sit on the order, and the Item tracker shows every material item from request to invoice. Supplier invoices go to Xero as draft bills through the live Xero connection, or as a file for Xero's import, and paid dates come back, so finance doesn't retype them.",
+  "kind": "html"
+ },
+ "5ab033ff0a05": {
+  "en": "Drafts, revisions and printed orders",
+  "kind": "html"
+ },
+ "73c34d5d74c9": {
+  "en": "Order progress from the supplier",
+  "kind": "html"
+ },
+ "3bf5f17028b2": {
+  "en": "QR delivery notes",
+  "kind": "html"
+ },
+ "e780e28ef897": {
+  "en": "Goods received and accruals",
+  "kind": "html"
+ },
+ "ab0bf38e6c1e": {
+  "en": "Credit notes and closing orders",
+  "kind": "html"
+ },
+ "52402bb84ac1": {
+  "en": "Item tracker, request to invoice",
+  "kind": "html"
+ },
+ "178403d31b99": {
+  "en": "Supply chain view",
+  "kind": "html"
+ },
+ "88f721a2ab20": {
+  "en": "Delivery address from the project",
+  "kind": "html"
+ },
+ "2318285b9ace": {
+  "en": "<1>More on purchase order system <2>→</2></1>",
+  "kind": "html"
+ },
+ "160ac9fc3c81": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Item tracker</4><5>Live</5>",
+  "kind": "html"
+ },
+ "778ed4ecd58e": {
+  "en": "05 / Cost &amp; budget tracking, reports",
+  "kind": "html"
+ },
+ "19092a736558": {
+  "en": "Construction cost and budget tracking, live.",
+  "kind": "html"
+ },
+ "ae4ef5ae5846": {
+  "en": "The problem: most contractors only find out what a job really made at the final account.",
+  "kind": "html"
+ },
+ "923e9db6e0a2": {
+  "en": "Lock the estimate and it becomes the approved cost budget, with every version kept. I-Cost then tracks committed cost (orders, invoices, staff and site labour), what has been incurred, the forecast final cost and the forecast margin, by area and by cost type. Click any figure to see the records behind it.",
+  "kind": "html"
+ },
+ "ff3eb60ca0c7": {
+  "en": "Approved cost budget, versioned",
+  "kind": "html"
+ },
+ "5e70cdfb6894": {
+  "en": "Committed and incurred",
+  "kind": "html"
+ },
+ "146b31cf4472": {
+  "en": "Forecast final cost and margin",
+  "kind": "html"
+ },
+ "603516c20e5e": {
+  "en": "Cost to complete",
+  "kind": "html"
+ },
+ "c144eedb515b": {
+  "en": "Cost types and areas",
+  "kind": "html"
+ },
+ "3beb2f3c748e": {
+  "en": "The records behind every figure",
+  "kind": "html"
+ },
+ "f4a8d0102dab": {
+  "en": "Word and PDF project report",
+  "kind": "html"
+ },
+ "27e1522458d9": {
+  "en": "CSV for Excel",
+  "kind": "html"
+ },
+ "1ea85bc508b7": {
+  "en": "<1>More on cost and budget tracking <2>→</2></1>",
+  "kind": "html"
+ },
+ "d86edaba3372": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project cost report</4><5>Live</5>",
+  "kind": "html"
+ },
+ "be876018c3e6": {
+  "en": "06 / Programme &amp; dashboard",
+  "kind": "html"
+ },
+ "a229c8acf4ef": {
+  "en": "Construction programme software that flags late work.",
+  "kind": "html"
+ },
+ "e85cd875793b": {
+  "en": "The problem: late work is spotted when it is already costing money.",
+  "kind": "html"
+ },
+ "9418d02538d8": {
+  "en": "The programme lists the estimate's sections in order: type start and end dates, and the Gantt chart shows them, with late lines flagged, approvals and order-by dates on the chart, an Excel download, and a link both ways with Microsoft Project. A time summary shows progress and late tasks across all projects, and the dashboard shows what is waiting for you: timesheets to approve, supplier replies, invoices and estimates still to lock.",
+  "kind": "html"
+ },
+ "072b9cf0ebbb": {
+  "en": "Gantt programme from the estimate",
+  "kind": "html"
+ },
+ "62d638a852e1": {
+  "en": "Late and coming up next",
+  "kind": "html"
+ },
+ "4ec5eb3bae08": {
+  "en": "Time used against work done",
+  "kind": "html"
+ },
+ "44936814f670": {
+  "en": "Excel download and MS Project link",
+  "kind": "html"
+ },
+ "ea006999a2dc": {
+  "en": "\"Waiting for you\" dashboard",
+  "kind": "html"
+ },
+ "c0b954aa65b8": {
+  "en": "Recent projects and activity",
+  "kind": "html"
+ },
+ "3343e6f31bda": {
+  "en": "<1>More on construction project management <2>→</2></1>",
+  "kind": "html"
+ },
+ "3a3e7ada89ee": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Programme</4><5>Live</5>",
+  "kind": "html"
+ },
+ "f902fb25eac1": {
+  "en": "07 / Timesheets",
+  "kind": "html"
+ },
+ "c90f0d71207c": {
+  "en": "A construction timesheet app for site and office.",
+  "kind": "html"
+ },
+ "683751298097": {
+  "en": "The problem: paper timesheets arrive days late, and labour cost is a guess until the end of the month.",
+  "kind": "html"
+ },
+ "ee1cad39eb4e": {
+  "en": "Site teams log hours on their phone with quick time buttons, and supervisors log a whole gang in one go. Managers approve a week in one click or send it back with a note. Approved hours are locked, and every hour is costed at the hourly rates you set, straight into the cost report.",
+  "kind": "html"
+ },
+ "21215dcd249d": {
+  "en": "Log hours on a phone",
+  "kind": "html"
+ },
+ "3ef71915c6bd": {
+  "en": "Site gangs in one go",
+  "kind": "html"
+ },
+ "06154524b0e1": {
+  "en": "Design tasks on design hours",
+  "kind": "html"
+ },
+ "78238995334b": {
+  "en": "Approve or send back",
+  "kind": "html"
+ },
+ "b5241404f8df": {
+  "en": "Approved hours locked",
+  "kind": "html"
+ },
+ "b172ffa6039f": {
+  "en": "Costed at your hourly rates",
+  "kind": "html"
+ },
+ "9751be4c5e19": {
+  "en": "Photos from the camera",
+  "kind": "html"
+ },
+ "1cc02dc3b711": {
+  "en": "\"Log my hours\" shortcut",
+  "kind": "html"
+ },
+ "05f8215900c2": {
+  "en": "<1>More on construction timesheet app <2>→</2></1>",
+  "kind": "html"
+ },
+ "bd41add0d017": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; My timesheet</4><5>Live</5>",
+  "kind": "html"
+ },
+ "a406fb2e9f1c": {
+  "en": "08 / Carbon",
+  "kind": "html"
+ },
+ "2fc58734e525": {
+  "en": "An embodied carbon calculator inside your estimate.",
+  "kind": "html"
+ },
+ "b71b78197857": {
+  "en": "The problem: tenders and planning conditions ask for carbon figures, and consultants are expensive.",
+  "kind": "html"
+ },
+ "dba0b5ffc4e2": {
+  "en": "Every estimate line can carry an embodied-carbon factor from UK Government and ÖKOBAUDAT data or your own EPDs. For a full assessment, whole life carbon (beta) links estimate items to materials, works out the weights for you and covers stages A1&ndash;A5, B1&ndash;B7, C1&ndash;C4 and D, following the RICS Professional Standard (2nd edition) and BS EN 15978. Matching copes with typos and BOQ shorthand, and you confirm anything uncertain.",
+  "kind": "html"
+ },
+ "67c65e07af11": {
+  "en": "Embodied carbon per estimate line",
+  "kind": "html"
+ },
+ "29550c9dab7b": {
+  "en": "UK Government, ÖKOBAUDAT and your own EPD factors",
+  "kind": "html"
+ },
+ "e505fdbdaa84": {
+  "en": "Whole life carbon <1>Beta</1>",
+  "kind": "html"
+ },
+ "b3740b560e2e": {
+  "en": "Weights worked out for you",
+  "kind": "html"
+ },
+ "007a1f940cec": {
+  "en": "Smart matching with accuracy slider",
+  "kind": "html"
+ },
+ "2a9f0d1db564": {
+  "en": "Carbon dashboard and reports",
+  "kind": "html"
+ },
+ "815fe3a6d5cb": {
+  "en": "<1>More on embodied carbon calculator <2>→</2></1>",
+  "kind": "html"
+ },
+ "a65163d7b3ce": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project carbon</4><5>Live</5>",
+  "kind": "html"
+ },
+ "babb525125de": {
+  "en": "Team, access and support",
+  "kind": "html"
+ },
+ "164d0df057b6": {
+  "en": "Built for construction teams.",
+  "kind": "html"
+ },
+ "3572223ac1a0": {
+  "en": "Give each person the access they need, keep conversations on the project, and get help inside the app.",
+  "kind": "html"
+ },
+ "12323805935f": {
+  "en": "Access and security",
+  "kind": "html"
+ },
+ "74d5398ab1e5": {
+  "en": "Roles and permissions for each person",
+  "kind": "html"
+ },
+ "00917a19c85a": {
+  "en": "Read-only Reviewer for directors, client QSs and auditors",
+  "kind": "html"
+ },
+ "f5045457ea07": {
+  "en": "Invite your team by email",
+  "kind": "html"
+ },
+ "a03adca47129": {
+  "en": "One login for suppliers who are also customers",
+  "kind": "html"
+ },
+ "0d269afde690": {
+  "en": "Two-step login and a security log",
+  "kind": "html"
+ },
+ "aadf2fc0f980": {
+  "en": "Hourly off-site backups and a standby server",
+  "kind": "html"
+ },
+ "dbafd9b8efc9": {
+  "en": "Download your company data at any time (UK GDPR)",
+  "kind": "html"
+ },
+ "d89888608a3c": {
+  "en": "Aligning with ISO/IEC 27001, not certified (<1>Security &amp; trust</1>)",
+  "kind": "html"
+ },
+ "2284046355ff": {
+  "en": "Help and messages",
+  "kind": "html"
+ },
+ "6ff900ff6b12": {
+  "en": "Team chat with unread badges",
+  "kind": "html"
+ },
+ "8a4025e15f14": {
+  "en": "Costa, the in-app help assistant",
+  "kind": "html"
+ },
+ "a3514fb4d024": {
+  "en": "Guided tutorial with step-by-step chapters",
+  "kind": "html"
+ },
+ "b4e09c9efba5": {
+  "en": "Help Desk to raise a question with the I-Cost team",
+  "kind": "html"
+ },
+ "a5cdb64ffc26": {
+  "en": "Works anywhere",
+  "kind": "html"
+ },
+ "2723c8dd931c": {
+  "en": "Installs like an app on phone, tablet and PC",
+  "kind": "html"
+ },
+ "26894e843776": {
+  "en": "No app store and nothing to download",
+  "kind": "html"
+ },
+ "9d11e9983a47": {
+  "en": "One live system for site and office",
+  "kind": "html"
+ },
+ "8e968e5dddfb": {
+  "en": "\"Log my hours\" on the home screen",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "224c0ea1f6b7": {
+  "en": "Platform questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "489771bbbcec": {
+  "en": "Does I-Cost replace our estimating spreadsheets?",
+  "kind": "json"
+ },
+ "f8ef62c3f5c9": {
+  "en": "Yes. You import the client's BOQ, price it with cost and selling rates, apply the margin and lock the final estimate in I-Cost. The same estimate then drives quotations, orders, timesheets, the programme, carbon and the cost report, so nothing is retyped.",
+  "kind": "json"
+ },
+ "d62f6b6e7299": {
+  "en": "Which BIM files can I import?",
+  "kind": "json"
+ },
+ "e8c91bfae4eb": {
+  "en": "IFC files exported from Revit, ArchiCAD, Vectorworks, Tekla or other BIM programs. From Revit 2023 to 2027 there is no need to export: the free <1>I-Cost Model Link</1> add-in sends the quantities straight from Revit.",
+  "kind": "html"
+ },
+ "f7093cd104a6": {
+  "en": "Do suppliers need an I-Cost licence?",
+  "kind": "json"
+ },
+ "2909d1df932c": {
+  "en": "No. Suppliers use the supplier portal free of charge to receive quotation requests, send prices, accept orders and record deliveries.",
+  "kind": "json"
+ },
+ "9f6b916040d7": {
+  "en": "How is the forecast margin worked out?",
+  "kind": "json"
+ },
+ "9d30ef7e1a03": {
+  "en": "Each area is forecast at its approved cost budget, or at what is already committed if that is more. Committed cost includes orders, invoices, staff hours and site labour. The forecast final cost is compared with the agreed contract sum to give the forecast margin in pounds and per cent.",
+  "kind": "json"
+ },
+ "958e53165e67": {
+  "en": "Can I export reports?",
+  "kind": "json"
+ },
+ "22aa7ac5232a": {
+  "en": "Yes. Reports open on screen and download as CSV for Excel. The project report can also be customised and downloaded as a Word or PDF document with your logo. The programme and the estimate download to Excel.",
+  "kind": "json"
+ },
+ "69e747c695e4": {
+  "en": "What does whole life carbon cover?",
+  "kind": "json"
+ },
+ "f3a29c729d87": {
+  "en": "Whole life carbon assessments (beta) cover life-cycle stages A1 to A5, B1 to B7, C1 to C4 and D, following the RICS Professional Standard (2nd edition) and BS EN 15978, using the quantities already in your estimate.",
+  "kind": "json"
+ },
+ "1133bc568028": {
+  "en": "Is I-Cost construction project management software?",
+  "kind": "json"
+ },
+ "7dcfd8e780f4": {
+  "en": "I-Cost manages the commercial side of construction projects: estimating, client quotations, supplier management and procurement, purchase orders and deliveries, timesheets, the programme, cost and budget tracking, and carbon. It does not replace drawing management, RFI or snagging tools.",
+  "kind": "json"
+ },
+ "629affae60d5": {
+  "en": "Can I manage suppliers and subcontractors in I-Cost?",
+  "kind": "json"
+ },
+ "a086afff61a1": {
+  "en": "Yes. Suppliers and subcontractors receive your quotation requests and purchase orders in a free portal, send prices, accept orders and record deliveries, and I-Cost suggests who to ask from what they supply. Your own site labour is tracked through timesheets.",
+  "kind": "json"
+ },
+ "5f768a17cdee": {
+  "en": "Can I do quantity takeoff in I-Cost?",
+  "kind": "json"
+ },
+ "9c44bbae172a": {
+  "en": "Yes, from a BIM model: import an IFC file, or send the quantities from Revit with the I-Cost Model Link add-in, and I-Cost adds up the quantities, keeping the levels, for your estimate. Working from drawings? Import the bill of quantities you already have from Excel or CSV.",
+  "kind": "json"
+ },
+ "988b9b8c0f71": {
+  "en": "See your own project in I-Cost.",
+  "kind": "html"
+ },
+ "d8a84af1fbd2": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>VIEW PRICING</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "e98aa67182f9": {
+  "en": "Every stage of the job in one place: BOQ and BIM import, estimating, client quotations, supplier quotes, purchase orders, timesheets, programme, cost control and carbon.",
+  "kind": "attr"
+ },
+ "32f3fbb3c9cb": {
+  "en": "Estimating, client quotations, supplier quotes, purchase orders, timesheets, programme, cost control and carbon in one platform for UK contractors.",
+  "kind": "attr"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "0e73f369be06": {
+  "en": "The I-Cost dashboard: projects, contract value, forecast margin, projects by stage and activity",
+  "kind": "attr"
+ },
+ "7e439c353ec8": {
+  "en": "On this page",
+  "kind": "attr"
+ },
+ "15ab4f4d4370": {
+  "en": "An I-Cost project page: where the job is, time, work done, materials and the 3D model",
+  "kind": "attr"
+ },
+ "70d3513486f9": {
+  "en": "An I-Cost estimate with cost rate, selling rate, profit and total on every line",
+  "kind": "attr"
+ },
+ "9b66539401f5": {
+  "en": "I-Cost client quotation: estimate total, agreed contract sum, variations and quotation revisions",
+  "kind": "attr"
+ },
+ "e175842d90bf": {
+  "en": "I-Cost price comparison: suppliers side by side, the lowest price for each item in green and a suggested split order",
+  "kind": "attr"
+ },
+ "b6465f12ca2b": {
+  "en": "I-Cost Item tracker: every material item with its quotation request, order, delivery and invoice",
+  "kind": "attr"
+ },
+ "75b7cf746c25": {
+  "en": "I-Cost project cost report: contract value, cost budget, committed so far, budget remaining and the 3D model",
+  "kind": "attr"
+ },
+ "44eb615902f1": {
+  "en": "I-Cost programme in weeks: the estimate's main codes as Gantt bars, late lines in red, approval diamonds, order-by dates and Send to MS Project",
+  "kind": "attr"
+ },
+ "19c23dbb191a": {
+  "en": "An I-Cost timesheet: hours against estimate lines for the week, sent for approval",
+  "kind": "attr"
+ },
+ "5df7315cf7a0": {
+  "en": "I-Cost Project carbon: each estimate line matched to a carbon material from the library",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "123a7f2fcc9a": {
+  "en": "Platform",
+  "kind": "json"
+ },
+ "fe37726f933d": {
+  "en": "IFC files exported from Revit, ArchiCAD, Vectorworks, Tekla or other BIM programs. From Revit 2023 to 2027 there is no need to export: the free I-Cost Model Link add-in sends the quantities straight from Revit.",
+  "kind": "json"
+ }
+}

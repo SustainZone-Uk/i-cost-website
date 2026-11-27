@@ -1,0 +1,462 @@
+{
+ "fc75e0080e46": {
+  "en": "Construction Cost &amp; Budget Tracking Software | I-Cost",
+  "kind": "html"
+ },
+ "998420933b3a": {
+  "en": "<1>Skip to main content</1>",
+  "kind": "html"
+ },
+ "9dedda3288be": {
+  "en": "<1><2/><3>I-COST</3></1>",
+  "kind": "html"
+ },
+ "ec3e3e8d720f": {
+  "en": "I-Cost home",
+  "kind": "attr"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "kind": "html"
+ },
+ "440ec0fd4373": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6> <7>7 Day Free Trial <8>↗</8></7>",
+  "kind": "html"
+ },
+ "e5eedafb965b": {
+  "en": "<1>Home</1><2>/</2><3>Platform</3><4>/</4><5>Cost tracking</5>",
+  "kind": "html"
+ },
+ "0fc774731fbc": {
+  "en": "<1>Cost tracking</1>",
+  "kind": "html"
+ },
+ "ab3f954b32d0": {
+  "en": "Construction cost &amp; budget tracking",
+  "kind": "html"
+ },
+ "eea5fa89c2b0": {
+  "en": "Construction cost tracking<1>that updates itself.</1>",
+  "kind": "html"
+ },
+ "03f5975c5a84": {
+  "en": "Stop rebuilding the cost tracker every month. In I-Cost, orders, invoices, deliveries and site hours update the committed cost and the forecast margin as they happen, against the budget you locked.",
+  "kind": "html"
+ },
+ "0d9002916e40": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>BOOK A DEMO</3>",
+  "kind": "html"
+ },
+ "d86edaba3372": {
+  "en": "<1></1><2></2><3></3><4>I-Cost &middot; Project cost report</4><5>Live</5>",
+  "kind": "html"
+ },
+ "d962a31cad45": {
+  "en": "Real I-Cost screen &middot; Demonstration project data",
+  "kind": "html"
+ },
+ "8a9400005c3b": {
+  "en": "The problem",
+  "kind": "html"
+ },
+ "de74de363c8c": {
+  "en": "The tracker is always<1/><2>a month behind.</2>",
+  "kind": "html"
+ },
+ "eee57cdfc31e": {
+  "en": "Most construction cost tracking still happens in a spreadsheet that someone updates by hand, so overspends are found when it is too late to fix them.",
+  "kind": "html"
+ },
+ "0293c00afc26": {
+  "en": "The budget sheet and the estimate say different things.",
+  "kind": "html"
+ },
+ "714fe85a74d0": {
+  "en": "The estimate is locked as the approved budget, with every version kept.",
+  "kind": "html"
+ },
+ "3071f7330f40": {
+  "en": "Committed cost is pieced together from orders and invoices at month end.",
+  "kind": "html"
+ },
+ "52c20f0eed83": {
+  "en": "Committed cost updates as orders, invoices, staff hours and labour come in.",
+  "kind": "html"
+ },
+ "b085106e3c88": {
+  "en": "The agreed discount never reaches the cost report.",
+  "kind": "html"
+ },
+ "9f0d149ee3e8": {
+  "en": "The accepted client quotation sets the contract value used in every report.",
+  "kind": "html"
+ },
+ "7339dc420bf5": {
+  "en": "Nobody knows the forecast margin.",
+  "kind": "html"
+ },
+ "171d1e7ffa5a": {
+  "en": "Forecast final cost, cost to complete and forecast margin, in pounds and per cent.",
+  "kind": "html"
+ },
+ "0a66efab9fdb": {
+  "en": "A figure looks wrong and nobody can say why.",
+  "kind": "html"
+ },
+ "1a79e7ffa10e": {
+  "en": "Click any figure to see the orders, invoices and timesheets behind it.",
+  "kind": "html"
+ },
+ "a8f1d72f8bba": {
+  "en": "Reports for the board take a day to build.",
+  "kind": "html"
+ },
+ "789e5d20a7ee": {
+  "en": "Download the project report as Word, PDF or CSV.",
+  "kind": "html"
+ },
+ "466283b1eabc": {
+  "en": "In I-Cost",
+  "kind": "html"
+ },
+ "030868de9f01": {
+  "en": "Budget, committed,<1/><2>forecast. Live.</2>",
+  "kind": "html"
+ },
+ "8957508e023c": {
+  "en": "Lock the estimate and it becomes the approved cost budget. I-Cost then tracks committed cost (orders or invoices, whichever is higher, plus staff and site labour), what has been incurred, and the forecast final cost and margin, by area and by cost type.",
+  "kind": "html"
+ },
+ "ff3eb60ca0c7": {
+  "en": "Approved cost budget, versioned",
+  "kind": "html"
+ },
+ "12d30977fec9": {
+  "en": "Committed and incurred cost",
+  "kind": "html"
+ },
+ "146b31cf4472": {
+  "en": "Forecast final cost and margin",
+  "kind": "html"
+ },
+ "603516c20e5e": {
+  "en": "Cost to complete",
+  "kind": "html"
+ },
+ "7954f28a3a1c": {
+  "en": "By area and cost type",
+  "kind": "html"
+ },
+ "e780e28ef897": {
+  "en": "Goods received and accruals",
+  "kind": "html"
+ },
+ "3beb2f3c748e": {
+  "en": "The records behind every figure",
+  "kind": "html"
+ },
+ "273762ba8e49": {
+  "en": "Word, PDF and CSV reports",
+  "kind": "html"
+ },
+ "c16dfd1733eb": {
+  "en": "Step by step",
+  "kind": "html"
+ },
+ "0322b4b63af9": {
+  "en": "How the forecast margin<1/><2>is worked out.</2>",
+  "kind": "html"
+ },
+ "a178c526f39f": {
+  "en": "Contract value",
+  "kind": "html"
+ },
+ "de09c7b87add": {
+  "en": "The agreed sum from the accepted client quotation.",
+  "kind": "html"
+ },
+ "39eca12dc56d": {
+  "en": "Approved budget",
+  "kind": "html"
+ },
+ "cd16b7aea773": {
+  "en": "The estimate at cost, locked as the budget, by area.",
+  "kind": "html"
+ },
+ "82606b0cf26d": {
+  "en": "Committed",
+  "kind": "html"
+ },
+ "dadb634b7c52": {
+  "en": "For each order, the order value or its invoices, whichever is higher, plus staff and site labour hours at their rates.",
+  "kind": "html"
+ },
+ "528bc4bc3815": {
+  "en": "Forecast",
+  "kind": "html"
+ },
+ "c2647760d370": {
+  "en": "Each area at its budget, or at what is committed if that is more.",
+  "kind": "html"
+ },
+ "792fe4aaafb2": {
+  "en": "Margin",
+  "kind": "html"
+ },
+ "2291c5536154": {
+  "en": "Contract value minus forecast final cost, in pounds and per cent.",
+  "kind": "html"
+ },
+ "75176b5f9a80": {
+  "en": "Spreadsheet or I-Cost",
+  "kind": "html"
+ },
+ "0273fcb515d8": {
+  "en": "Cost tracking spreadsheet<1/><2>vs I-Cost.</2>",
+  "kind": "html"
+ },
+ "cc6fdf1b0963": {
+  "en": "Spreadsheet",
+  "kind": "html"
+ },
+ "b7aef5008827": {
+  "en": "I-Cost",
+  "kind": "attr"
+ },
+ "f2f8570ddd7b": {
+  "en": "Updated",
+  "kind": "html"
+ },
+ "d3bc96822003": {
+  "en": "When someone has time",
+  "kind": "html"
+ },
+ "b47c052e3506": {
+  "en": "As orders, invoices and hours come in",
+  "kind": "html"
+ },
+ "e509c3b7f1d2": {
+  "en": "Committed cost",
+  "kind": "html"
+ },
+ "4613f82ad092": {
+  "en": "Pieced together by hand",
+  "kind": "html"
+ },
+ "3b4c046c13fb": {
+  "en": "From sent orders, invoices, staff and labour",
+  "kind": "html"
+ },
+ "f4da68d55ef7": {
+  "en": "Forecast margin",
+  "kind": "html"
+ },
+ "30ce482025f0": {
+  "en": "Rarely calculated",
+  "kind": "html"
+ },
+ "57f1f47ba342": {
+  "en": "Always shown, in pounds and per cent",
+  "kind": "html"
+ },
+ "a66fed2e8307": {
+  "en": "Checking a figure",
+  "kind": "html"
+ },
+ "935b6b555f57": {
+  "en": "Search through files",
+  "kind": "html"
+ },
+ "7d0403cdecc7": {
+  "en": "Click it to see the records behind it",
+  "kind": "html"
+ },
+ "a239107ef28f": {
+  "en": "Versions",
+  "kind": "html"
+ },
+ "a912c8a22b5b": {
+  "en": "Overwritten",
+  "kind": "html"
+ },
+ "81ba72fd1033": {
+  "en": "Every approved budget kept",
+  "kind": "html"
+ },
+ "9a1fc1731f62": {
+  "en": "Questions",
+  "kind": "html"
+ },
+ "58e4ffda71a7": {
+  "en": "Cost tracking questions",
+  "kind": "html"
+ },
+ "aa5b243d2460": {
+  "en": "Something else? <1>Ask us</1>.",
+  "kind": "html"
+ },
+ "bac62276e3fc": {
+  "en": "How is committed cost calculated?",
+  "kind": "json"
+ },
+ "93a9689da8eb": {
+  "en": "For each sent purchase order, the order value or its invoices, whichever is higher, plus staff hours at their cost rates and site labour at the operatives' rates, with approved hours shown alongside. A closed order counts only what was invoiced.",
+  "kind": "json"
+ },
+ "511d50b49041": {
+  "en": "Can I export cost reports to Excel?",
+  "kind": "json"
+ },
+ "31ee7d558e2c": {
+  "en": "Yes. Reports download as CSV for Excel, and the project report can also be customised and downloaded as a Word or PDF document with your logo.",
+  "kind": "json"
+ },
+ "e4f59805911b": {
+  "en": "Are figures shown before VAT?",
+  "kind": "json"
+ },
+ "7bb7068a6fa1": {
+  "en": "Yes. The project cost report shows all amounts before VAT.",
+  "kind": "json"
+ },
+ "41be9c046274": {
+  "en": "Can I send supplier invoices to my accounts software?",
+  "kind": "json"
+ },
+ "b0d8e7c04249": {
+  "en": "Yes, to Xero. The live Xero connection sends supplier invoices to Xero as draft bills with one click, or as each one is approved, and brings the paid date back to I-Cost; it is &pound;10 a month for your whole company and we switch it on when you ask. Or export a file for Xero's bill import, free. Other accounting packages aren't supported yet.",
+  "kind": "html"
+ },
+ "c5c2a2b2c8cd": {
+  "en": "How is I-Cost better than a construction cost tracking spreadsheet?",
+  "kind": "json"
+ },
+ "9c12e11a656b": {
+  "en": "A spreadsheet only knows what someone typed into it. In I-Cost, orders, invoices, deliveries and site hours update the committed cost and forecast margin as they happen, and every figure links to the records behind it.",
+  "kind": "json"
+ },
+ "60756af26962": {
+  "en": "More of I-Cost",
+  "kind": "html"
+ },
+ "d355d72c40d7": {
+  "en": "One platform for the whole job.",
+  "kind": "html"
+ },
+ "484152f029fe": {
+  "en": "Everything below works together, from the same estimate. <1>See the full platform</1>.",
+  "kind": "html"
+ },
+ "8ab043d6f267": {
+  "en": "<1>Project management<2>Run the commercial side of every job</2></1>",
+  "kind": "html"
+ },
+ "d2bc8b35347b": {
+  "en": "<1>Estimating &amp; BOQ<2>Price the BOQ, quote the client</2></1>",
+  "kind": "html"
+ },
+ "b97ecfa86c94": {
+  "en": "<1>Supplier management<2>Quotes, suppliers and subcontractors</2></1>",
+  "kind": "html"
+ },
+ "750998961ff1": {
+  "en": "<1>Purchase orders<2>Orders, deliveries and invoices</2></1>",
+  "kind": "html"
+ },
+ "dcafb2658217": {
+  "en": "<1>Timesheet app<2>Site hours on a phone</2></1>",
+  "kind": "html"
+ },
+ "99335bd9eb66": {
+  "en": "<1>Carbon calculator<2>Embodied and whole life carbon</2></1>",
+  "kind": "html"
+ },
+ "6523fff263dc": {
+  "en": "Track your next project's cost in I-Cost.",
+  "kind": "html"
+ },
+ "d8a84af1fbd2": {
+  "en": "<1>START FREE TRIAL <2>&#8599;</2></1><3>VIEW PRICING</3>",
+  "kind": "html"
+ },
+ "820832bff7f4": {
+  "en": "<1>Platform</1><2>Who it's for</2><3>Benefits</3><4>How it works</4><5>Pricing</5><6>Insights</6><7>Contact</7><8>7 Day Free Trial</8>",
+  "kind": "html"
+ },
+ "ce157cfc9e54": {
+  "en": "<1>Solutions</1><2>Project management</2><3>Estimating &amp; BOQ</3><4>Supplier management</4><5>Purchase orders</5><6>Cost tracking</6><7>Timesheet app</7><8>Carbon calculator</8><9>Revit add-in</9>",
+  "kind": "html"
+ },
+ "c12663c63c46": {
+  "en": "<1>Find I-Cost on</1><2>G2</2><3>Capterra</3><4>GetApp</4><5>Software Advice</5>",
+  "kind": "html"
+ },
+ "3375344865cd": {
+  "en": "Control the cost. Protect the margin.",
+  "kind": "html"
+ },
+ "c78aaa87acd8": {
+  "en": "© <1>2026</1> I-Cost. All rights reserved.",
+  "kind": "html"
+ },
+ "c0691470d442": {
+  "en": "<1>Privacy policy</1><2>Terms of service</2><3>Security &amp; trust</3>",
+  "kind": "html"
+ },
+ "70bc4e042779": {
+  "en": "I-Cost Ltd · Registered in England and Wales, company number 09789057 · Registered office: Suite 3, 22e West Station Yard, Spital Road, Maldon, England, CM9 6TS",
+  "kind": "html"
+ },
+ "d2086e49e7f3": {
+  "en": "Construction cost tracking that updates itself: approved budget, committed and incurred cost, forecast final cost and margin, by area and cost type.",
+  "kind": "json"
+ },
+ "edaa92443c58": {
+  "en": "Construction Cost & Budget Tracking Software | I-Cost",
+  "kind": "json"
+ },
+ "0f53b30706b1": {
+  "en": "Open navigation",
+  "kind": "attr"
+ },
+ "d36dad20338f": {
+  "en": "Primary navigation",
+  "kind": "attr"
+ },
+ "c766e665183d": {
+  "en": "Breadcrumb",
+  "kind": "attr"
+ },
+ "75b7cf746c25": {
+  "en": "I-Cost project cost report: contract value, cost budget, committed so far, budget remaining and the 3D model",
+  "kind": "attr"
+ },
+ "ba272de6bbd6": {
+  "en": "Commercial team reviewing a project together in the office",
+  "kind": "attr"
+ },
+ "8006eb8dc21a": {
+  "en": "A site team in hard hats and hi-vis reviewing drawings together",
+  "kind": "attr"
+ },
+ "a32d98c0efff": {
+  "en": "Footer navigation",
+  "kind": "attr"
+ },
+ "70f8bb9a8a53": {
+  "en": "Home",
+  "kind": "json"
+ },
+ "123a7f2fcc9a": {
+  "en": "Platform",
+  "kind": "json"
+ },
+ "8756e633179a": {
+  "en": "Cost tracking",
+  "kind": "json"
+ },
+ "ee54241066af": {
+  "en": "Yes, to Xero. The live Xero connection sends supplier invoices to Xero as draft bills with one click, or as each one is approved, and brings the paid date back to I-Cost; it is £10 a month for your whole company and we switch it on when you ask. Or export a file for Xero's bill import, free. Other accounting packages aren't supported yet.",
+  "kind": "json"
+ }
+}
