@@ -25,7 +25,7 @@ quantity surveyors, buyers, project and site managers, finance. The site is mark
   do not convert £).
 - Facts: £35 per user per month; 7-day free trial; no bank card required; "aligning with ISO 27001, not certified"
   must keep its meaning (NOT certified); "UK" stays (the product is made for UK contractors and UK rules: do not swap in
-  Spanish, French or German regulations). The I-Cost app itself is in English: never say it is in the reader's language.
+  Spanish, French or German regulations). The I-Cost app's screens can be shown in Spanish, French, German or Polish by the browser (Chrome or Edge, My Account > Language); emails and reports are in English. Do not promise more than that.
 
 ## Placeholders and markup
 - `<1>…</1>` and `<2/>` stand for formatting, links and icons. Keep **every** placeholder of the segment, the same

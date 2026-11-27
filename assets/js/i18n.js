@@ -5,17 +5,18 @@
 //    German. The choice is remembered on this device (localStorage, no cookie, no location lookup); someone who chose a
 //    language before goes straight to that version of the page.
 // On a translated page: text the page's scripts put on the screen (hero cards, live screens) is swapped from
-// window.ICOST_I18N, and the footer says the page is translated and that the I-Cost app is in English.
+// window.ICOST_I18N, and the footer says the page is translated and that the I-Cost app can show its screens in that
+// language in Chrome or Edge (app v1.484, My Account > Language).
 (() => {
   'use strict';
   const UI = {
     en: { name: 'English', short: 'EN', label: 'Language' },
     es: { name: 'Español', short: 'ES', label: 'Idioma', bar: 'Esta página también está en español.', go: 'Ver en español', stay: 'Seguir en inglés',
-      note: 'Página traducida del inglés. La aplicación I-Cost está en inglés.' },
+      note: 'Página traducida del inglés. La aplicación I-Cost puede mostrar sus pantallas en español en Chrome o Edge (My Account › Language).' },
     fr: { name: 'Français', short: 'FR', label: 'Langue', bar: 'Cette page existe aussi en français.', go: 'Voir en français', stay: 'Rester en anglais',
-      note: 'Page traduite de l’anglais. L’application I-Cost est en anglais.' },
+      note: 'Page traduite de l’anglais. L’application I-Cost peut afficher ses écrans en français dans Chrome ou Edge (My Account › Language).' },
     de: { name: 'Deutsch', short: 'DE', label: 'Sprache', bar: 'Diese Seite gibt es auch auf Deutsch.', go: 'Auf Deutsch ansehen', stay: 'Auf Englisch bleiben',
-      note: 'Aus dem Englischen übersetzte Seite. Die I-Cost-App ist auf Englisch.' },
+      note: 'Aus dem Englischen übersetzte Seite. Die I-Cost-App kann ihre Bildschirme in Chrome oder Edge auf Deutsch anzeigen (My Account › Language).' },
   };
   const root = document.documentElement;
   const cur = (root.getAttribute('lang') || 'en').slice(0, 2).toLowerCase();
